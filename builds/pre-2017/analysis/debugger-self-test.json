@@ -1,0 +1,121 @@
+{
+  "self_test": true,
+  "command": [
+    "C:\\Users\\drgoo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-c",
+    "print(\"trusted-debugger-self-test\")"
+  ],
+  "cwd": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis",
+  "child_pid": 29032,
+  "events": [
+    {
+      "event": 3,
+      "thread": 36248
+    },
+    {
+      "event": 6,
+      "thread": 36248,
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "base": 140720236134400
+    },
+    {
+      "event": 6,
+      "thread": 36248,
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "base": 140720207364096
+    },
+    {
+      "event": 6,
+      "thread": 36248,
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "base": 140720191111168
+    },
+    {
+      "event": 6,
+      "thread": 36248,
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "base": 140720131342336
+    },
+    {
+      "event": 2,
+      "thread": 18132
+    },
+    {
+      "event": 2,
+      "thread": 23152
+    },
+    {
+      "event": 6,
+      "thread": 36248,
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "base": 140720187965440
+    },
+    {
+      "event": 2,
+      "thread": 252
+    },
+    {
+      "event": 6,
+      "thread": 18132,
+      "path": "C:\\Users\\drgoo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll",
+      "base": 140716740182016
+    },
+    {
+      "event": 6,
+      "thread": 23152,
+      "path": "C:\\Users\\drgoo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\vcruntime140.dll",
+      "base": 140718916501504
+    },
+    {
+      "event": 6,
+      "thread": 18132,
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "base": 140720234168320
+    },
+    {
+      "event": 6,
+      "thread": 18132,
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "base": 140720208216064
+    },
+    {
+      "event": 6,
+      "thread": 252,
+      "path": "C:\\Windows\\System32\\version.dll",
+      "base": 140720035725312
+    },
+    {
+      "event": 6,
+      "thread": 252,
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "base": 140720202317824
+    },
+    {
+      "event": 6,
+      "thread": 18132,
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "base": 140720228401152
+    },
+    {
+      "event": 6,
+      "thread": 18132,
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "base": 140720209395712
+    },
+    {
+      "event": 6,
+      "thread": 23152,
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "base": 140720186851328
+    },
+    {
+      "event": 1,
+      "thread": 36248,
+      "exception": 2147483651,
+      "address": 140720237303693,
+      "first_chance": 1
+    }
+  ],
+  "self_test_passed": true,
+  "image_base": 140697172836352
+}

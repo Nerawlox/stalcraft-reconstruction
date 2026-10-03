@@ -1,0 +1,97 @@
+{
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "owned_pid": 24320,
+  "entry_rva": "0xf33409",
+  "mode": "Unicorn arithmetic and snapshot reads; no target memory writes or native helper invocation",
+  "api_calls": [
+    {
+      "name": "GetCurrentThread",
+      "address": "0x7ffbf9fb1c50",
+      "args": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "pc": "0x5b8a3409",
+      "bytes": "90"
+    },
+    {
+      "pc": "0x5b8a340a",
+      "bytes": "480fb7da"
+    },
+    {
+      "pc": "0x5b8a340e",
+      "bytes": "f7d3"
+    },
+    {
+      "pc": "0x5b8a3410",
+      "bytes": "5b"
+    },
+    {
+      "pc": "0x5b8a3411",
+      "bytes": "e9933bc8ff"
+    },
+    {
+      "pc": "0x5b526fa9",
+      "bytes": "48871c24"
+    },
+    {
+      "pc": "0x5b526fad",
+      "bytes": "53"
+    },
+    {
+      "pc": "0x5b526fae",
+      "bytes": "488d1d792b5aff"
+    },
+    {
+      "pc": "0x5b526fb5",
+      "bytes": "e92a1d1800"
+    },
+    {
+      "pc": "0x5b6a8ce4",
+      "bytes": "488b9b837da300"
+    },
+    {
+      "pc": "0x5b6a8ceb",
+      "bytes": "488d9bf601390d"
+    },
+    {
+      "pc": "0x5b6a8cf2",
+      "bytes": "e94d770500"
+    },
+    {
+      "pc": "0x5b700444",
+      "bytes": "48871c24"
+    },
+    {
+      "pc": "0x5b700448",
+      "bytes": "e9bcba2700"
+    },
+    {
+      "pc": "0x5b97bf09",
+      "bytes": "c3"
+    },
+    {
+      "pc": "0x7ffbf9fb1c50",
+      "bytes": "48c7c0feffffff"
+    },
+    {
+      "pc": "0x30300000",
+      "bytes": "0000"
+    }
+  ],
+  "instructions": 17,
+  "jvm_base": 1519845376,
+  "completed": true,
+  "return_rax": "0xfffffffffffffffe",
+  "mapped_pages": 521,
+  "last_pc": "0x30300000"
+}

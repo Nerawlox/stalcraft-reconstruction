@@ -1,0 +1,30 @@
+{
+  "scope": "static parser validation only; no class/JVM execution",
+  "jars_checked": {
+    "jimage-standard.jar": 1,
+    "classes-standard.jar": "all com/stalcraft classes",
+    "libs-standard.jar": 0
+  },
+  "sampled_classes": 56,
+  "code_methods": 316,
+  "instruction_starts": 10393,
+  "branch_targets": 542,
+  "constant_pool_operands": 3268,
+  "tableswitch": 0,
+  "lookupswitch": 0,
+  "wide": 0,
+  "object_constructor": [
+    {
+      "class": "java/lang/Object",
+      "method": "<init>()V",
+      "code_hex": "b1",
+      "first_ops": [
+        177
+      ],
+      "decoded_names": [
+        "return"
+      ]
+    }
+  ],
+  "errors": []
+}

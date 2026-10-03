@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-03T05:52:04.465967+00:00",
+  "public_url": "https://yadi.sk/d/dmYU5l341l_NHg",
+  "request_url": "https://cloud-api.yandex.net/v1/disk/public/resources?public_key=https%3A%2F%2Fyadi.sk%2Fd%2FdmYU5l341l_NHg&limit=100",
+  "status": 429,
+  "error_body": "{\"error\":\"DiskResourceDownloadLimitExceededError\",\"description\":\"Download limit exceeded for resource\",\"message\":\"Превышен лимит скачивания\"}"
+}

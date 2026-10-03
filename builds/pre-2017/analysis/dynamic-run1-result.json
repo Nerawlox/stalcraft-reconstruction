@@ -1,0 +1,356 @@
+{
+  "self_test": false,
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "cwd": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin",
+  "child_pid": 18196,
+  "events": [
+    {
+      "event": 3,
+      "thread": 39692,
+      "breakpoint": 140698147819618
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "base": 140720236134400
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "base": 140720207364096
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "base": 140720191111168
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "base": 140720131342336
+    },
+    {
+      "event": 1,
+      "thread": 39692,
+      "exception": 2147483651,
+      "address": 140720237303693,
+      "first_chance": 1
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll",
+      "base": 1519845376
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "base": 140720218570752
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "base": 140720190193664
+    },
+    {
+      "event": 2,
+      "thread": 29128
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "base": 140720202055680
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "base": 140720196747264
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "base": 140720190390272
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "base": 140720187965440
+    },
+    {
+      "event": 2,
+      "thread": 34532
+    },
+    {
+      "event": 2,
+      "thread": 36880
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\comdlg32.dll",
+      "base": 140720210640896
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "base": 140719614001152
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "base": 140720203038720
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "base": 140720208216064
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "base": 140720201007104
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "base": 140720183115776
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "base": 140720229318656
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "base": 140720220471296
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8972_none_3e0da176e32f9d4b\\comctl32.dll",
+      "base": 140719812182016
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "base": 140720228401152
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "base": 140720202317824
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "base": 140720209395712
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "base": 140720212082688
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "base": 140720233250816
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "base": 140720235544576
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\wsock32.dll",
+      "base": 140720072753152
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "base": 140719886827520
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\version.dll",
+      "base": 140720035725312
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "base": 1892209262592
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "base": 140720234168320
+    },
+    {
+      "event": 7,
+      "thread": 34532
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "base": 140720054272000
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\dsound.dll",
+      "base": 140718130593792
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\System32\\opengl32.dll",
+      "base": 140718037991424
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\msvcr120.dll",
+      "base": 140718196129792
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\d2d1.dll",
+      "base": 140720110698496
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\glu32.dll",
+      "base": 140719203811328
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\msvcp120.dll",
+      "base": 140718362722304
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "base": 140720131145728
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "base": 140720197992448
+    },
+    {
+      "event": 6,
+      "thread": 29128,
+      "path": "C:\\Windows\\System32\\RESAMPLEDMO.DLL",
+      "base": 140717731086336
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "base": 1892209262592
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "base": 140720186261504
+    },
+    {
+      "event": 7,
+      "thread": 34532
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\winmmbase.dll",
+      "base": 140718367047680
+    },
+    {
+      "event": 6,
+      "thread": 34532,
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "base": 140720170532864
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\msdmo.dll",
+      "base": 140719826206720
+    },
+    {
+      "event": 6,
+      "thread": 36880,
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "base": 140720134422528
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "base": 140720235610112
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "base": 140720185409536
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\TextShaping.dll",
+      "base": 140719574810624
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "base": 140720133373952
+    },
+    {
+      "event": 6,
+      "thread": 39692,
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "base": 140720231743488
+    }
+  ],
+  "error": "Timed out before diagnostic stop point"
+}

@@ -1,0 +1,155 @@
+{
+  "scope": "bounded Unicorn instruction emulation over captured mapped code and synthetic memory; no target process/DLL/OS loading",
+  "image_sha256": "e65dd250be4dab717ba635cb5d6dd4746442abc94da2f4e5360dc6d9d47b3896",
+  "table_rva": "0xa2fd40",
+  "table_hex": "04bccaa83d737cadcaad5633735bc7da",
+  "jimage_record": {
+    "name": "/java.base/c14f5b29590d12e945cb0f3a42112a91",
+    "offset": 43797169,
+    "compressed_size": 0,
+    "uncompressed_size": 1552,
+    "sha256": "02e39a36fd7e13fd93a9c0a74dc0a47f8a3cbf39fabfe6a3323796dcfa3e1c16"
+  },
+  "native_cipher_and_stream_variants": [
+    {
+      "variant": "alias_md5",
+      "native_cipher_sha256": "76c1b97741be08a13cd54ad907695a2b613a306aec46921c60542815d523d462",
+      "native_cipher_tail_7_hex": "00000000000000",
+      "parser_marker_u2": "e629",
+      "parser_marker_value": "0xe629",
+      "minor_major_raw": "00000035",
+      "tail_preview": "00520700340a000100350a001100360a003700380a0001003908003a0a001100",
+      "candidate_sha256": "aec4d791c355225ef0759ac61019cd2cb53424f58a500246d5d5d80d0f3ab2fe",
+      "candidate_prefix": "cafebabe0000003500520700340a000100350a001100360a003700380a000100",
+      "strict_class_identity": {
+        "minor": 0,
+        "major": 53,
+        "cp_count": 82,
+        "this_class": "java/lang/Object",
+        "fields": 0,
+        "methods": 14,
+        "attributes": 0,
+        "bytes_consumed": 1545
+      },
+      "strict_parse_error": null,
+      "zero_padding_bytes_removed": 7,
+      "early_utf8_candidates": [
+        "registerNatives",
+        "()V",
+        "<init>",
+        "Code",
+        "RuntimeVisibleAnnotations",
+        "Ljdk/internal/HotSpotIntrinsicCandidate;",
+        "getClass",
+        "()Ljava/lang/Class;",
+        "Signature",
+        "()Ljava/lang/Class<*>;",
+        "hashCode",
+        "()I",
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        "StackMapTable",
+        "clone",
+        "()Ljava/lang/Object;",
+        "Exceptions",
+        "toString",
+        "()Ljava/lang/String;",
+        "notify",
+        "notifyAll",
+        "wait",
+        "(J)V",
+        "(JI)V",
+        "finalize",
+        "Deprecated",
+        "Ljava/lang/Deprecated;",
+        "since",
+        "9",
+        "<clinit>",
+        "java/lang/StringBuilder",
+        "@",
+        "java/lang/IllegalArgumentException",
+        "timeout value is negative",
+        "nanosecond timeout value out of range",
+        "java/lang/Object",
+        "java/lang/CloneNotSupportedException",
+        "java/lang/InterruptedException",
+        "java/lang/Throwable"
+      ],
+      "getter_cursor_offsets": [
+        4,
+        4,
+        8
+      ],
+      "getter_instruction_counts": [
+        26,
+        85,
+        24725
+      ]
+    },
+    {
+      "variant": "internal_path",
+      "native_cipher_sha256": "1c6ebadb6dc27688950bb2b68d6952608f70ad32d401a379854820e87422ac3a",
+      "native_cipher_tail_7_hex": "00000000000000",
+      "parser_marker_u2": "df97",
+      "parser_marker_value": "0xdf97",
+      "minor_major_raw": "1124c9b5",
+      "tail_preview": "c2cce8073f4c23d5da9d0a001100360a003700380a0001003908003a0a001100",
+      "candidate_sha256": "6958d832492f79e4396d6a3b093d203fb2babe786cc3df944b1b1ed85d833d5f",
+      "candidate_prefix": "cafebabe1124c9b5c2cce8073f4c23d5da9d0a001100360a003700380a000100",
+      "strict_class_identity": null,
+      "strict_parse_error": "CP tag 232 at #1",
+      "zero_padding_bytes_removed": null,
+      "early_utf8_candidates": [],
+      "getter_cursor_offsets": [
+        4,
+        4,
+        8
+      ],
+      "getter_instruction_counts": [
+        26,
+        85,
+        24725
+      ]
+    }
+  ],
+  "synthetic_formula_checks": [
+    {
+      "kind": "synthetic_formula_check",
+      "reader": "get_u1",
+      "match": true,
+      "expected": "0e",
+      "actual": "0e",
+      "new_cursor_offset": 3,
+      "instructions": 15
+    },
+    {
+      "kind": "synthetic_formula_check",
+      "reader": "get_u2",
+      "match": true,
+      "expected": "0e26",
+      "actual": "0e26",
+      "new_cursor_offset": 4,
+      "instructions": 26
+    },
+    {
+      "kind": "synthetic_formula_check",
+      "reader": "get_u4",
+      "match": true,
+      "expected": "0e262ea6",
+      "actual": "0e262ea6",
+      "new_cursor_offset": 6,
+      "instructions": 58
+    },
+    {
+      "kind": "synthetic_formula_check",
+      "reader": "get_bytes",
+      "match": true,
+      "expected": "0e262ea65bb8e5101323358db095802df40c4090a58eab46",
+      "actual": "0e262ea65bb8e5101323358db095802df40c4090a58eab46",
+      "new_cursor_offset": 2,
+      "instructions": 405
+    }
+  ],
+  "valid_java_lang_Object_recovered": true,
+  "recovered_path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\recovered-stream\\java\\lang\\Object.class"
+}

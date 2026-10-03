@@ -1,0 +1,47 @@
+[
+  {
+    "name": "JIMAGE_Open",
+    "hash": "4b93b9bf922a6b070bbb36e6efcd3d50",
+    "export_rva": "0x60e04"
+  },
+  {
+    "name": "JIMAGE_Close",
+    "hash": "408ec40fc5b0284593a98fa532594716",
+    "export_rva": "0x60cfc"
+  },
+  {
+    "name": "JIMAGE_PackageToModule",
+    "hash": "92699eb1eede769a23e62fd460236d3a",
+    "export_rva": "0x60e10"
+  },
+  {
+    "name": "JIMAGE_FindResource",
+    "hash": "cce091d3317c55e25151bb1df44bcd6e",
+    "export_rva": "0x60d04"
+  },
+  {
+    "name": "JIMAGE_GetResource",
+    "hash": "4327cf92ac3c1d62a94b069d13e2e3bb",
+    "export_rva": "0x60dec"
+  },
+  {
+    "name": "JIMAGE_ResourceIterator",
+    "hash": "53bfd0c85fb3f719d2226ee4d02d963f",
+    "export_rva": "0x60e30"
+  },
+  {
+    "name": "JIMAGE_ResourcePath",
+    "hash": "8f54873df1b7e06283ed06647036ca6b",
+    "export_rva": "0x60f70"
+  },
+  {
+    "name": "JVM_DefineClass",
+    "hash": "6d02aa790487a042337f368f9f4cf70f",
+    "export_rva": null
+  },
+  {
+    "name": "JVM_FindClassFromBootLoader",
+    "hash": "1e14369611640b035078d24a1784a1b0",
+    "export_rva": null
+  }
+]

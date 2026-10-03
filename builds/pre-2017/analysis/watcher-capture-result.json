@@ -1,0 +1,302 @@
+{
+  "self_test": false,
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "child_pid": 22400,
+  "mode": "memory observation without debugger",
+  "error": "Timed out before populated text/rdata sections were observed",
+  "partial_capture": {
+    "image_base": 1519845376,
+    "size": 31301632,
+    "memory_holes": [],
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-watcher-timeout-image-1791041749501302600.bin",
+    "sha256": "c7dc70812282d1ac80aab1fb88fe378c056cb5e963da41ec74ff305f2a9428fb",
+    "stage": "watcher-timeout",
+    "layout": "Mapped virtual addresses, not a directly runnable raw PE file"
+  },
+  "diagnostic_strings": {
+    "read_private_bytes": 778240,
+    "selected_error_strings": [
+      {
+        "address": 103587766816,
+        "text": "Sorry, this application cannot run under a Virtual Machine."
+      },
+      {
+        "address": 1782385415958,
+        "text": "Sorry, this application cannot run under a Virtual Machine."
+      },
+      {
+        "address": 1782385619718,
+        "text": "his application cannot run under a Virtual Machine."
+      }
+    ]
+  },
+  "thread_contexts": [
+    {
+      "tid": 26312,
+      "rip": 140720190198788,
+      "rsp": 103587764232,
+      "jvm_stack_addresses": [
+        {
+          "stack_offset": 1024,
+          "jvm_rva": 30715461
+        },
+        {
+          "stack_offset": 1360,
+          "jvm_rva": 29538493
+        },
+        {
+          "stack_offset": 1416,
+          "jvm_rva": 30715461
+        },
+        {
+          "stack_offset": 1424,
+          "jvm_rva": 19457776
+        },
+        {
+          "stack_offset": 1624,
+          "jvm_rva": 11814837
+        },
+        {
+          "stack_offset": 1720,
+          "jvm_rva": 11814271
+        },
+        {
+          "stack_offset": 1784,
+          "jvm_rva": 11814271
+        },
+        {
+          "stack_offset": 1816,
+          "jvm_rva": 19458182
+        },
+        {
+          "stack_offset": 1984,
+          "jvm_rva": 25540821
+        },
+        {
+          "stack_offset": 2392,
+          "jvm_rva": 11865472
+        },
+        {
+          "stack_offset": 2400,
+          "jvm_rva": 19357068
+        },
+        {
+          "stack_offset": 2416,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 2456,
+          "jvm_rva": 29393968
+        },
+        {
+          "stack_offset": 2464,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 2472,
+          "jvm_rva": 31213260
+        },
+        {
+          "stack_offset": 2504,
+          "jvm_rva": 11865472
+        },
+        {
+          "stack_offset": 2512,
+          "jvm_rva": 19357068
+        },
+        {
+          "stack_offset": 2576,
+          "jvm_rva": 29393696
+        },
+        {
+          "stack_offset": 2824,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 2840,
+          "jvm_rva": 19405513
+        },
+        {
+          "stack_offset": 2888,
+          "jvm_rva": 19392825
+        },
+        {
+          "stack_offset": 3016,
+          "jvm_rva": 19392825
+        },
+        {
+          "stack_offset": 3048,
+          "jvm_rva": 19405513
+        },
+        {
+          "stack_offset": 3096,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 3120,
+          "jvm_rva": 29393968
+        },
+        {
+          "stack_offset": 3992,
+          "jvm_rva": 25770169
+        },
+        {
+          "stack_offset": 4064,
+          "jvm_rva": 30777865
+        },
+        {
+          "stack_offset": 4304,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 4328,
+          "jvm_rva": 11814264
+        },
+        {
+          "stack_offset": 4512,
+          "jvm_rva": 25609839
+        },
+        {
+          "stack_offset": 4632,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 4672,
+          "jvm_rva": 19649329
+        },
+        {
+          "stack_offset": 4712,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 4832,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 4864,
+          "jvm_rva": 19306586
+        },
+        {
+          "stack_offset": 5016,
+          "jvm_rva": 11948032
+        },
+        {
+          "stack_offset": 5072,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6072,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6080,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6096,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6120,
+          "jvm_rva": 11815757
+        },
+        {
+          "stack_offset": 6152,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6216,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6288,
+          "jvm_rva": 19681726
+        },
+        {
+          "stack_offset": 6312,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6328,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6384,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6416,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 6448,
+          "jvm_rva": 19481533
+        },
+        {
+          "stack_offset": 6456,
+          "jvm_rva": 19333376
+        },
+        {
+          "stack_offset": 6480,
+          "jvm_rva": 19392825
+        },
+        {
+          "stack_offset": 6536,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6648,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6800,
+          "jvm_rva": 0
+        },
+        {
+          "stack_offset": 6816,
+          "jvm_rva": 128
+        },
+        {
+          "stack_offset": 7256,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 7344,
+          "jvm_rva": 19373418
+        },
+        {
+          "stack_offset": 7392,
+          "jvm_rva": 19373418
+        }
+      ]
+    },
+    {
+      "tid": 5544,
+      "rip": 140720237592628,
+      "rsp": 103588820216,
+      "jvm_stack_addresses": []
+    },
+    {
+      "tid": 37204,
+      "rip": 140720237592628,
+      "rsp": 103589869976,
+      "jvm_stack_addresses": []
+    },
+    {
+      "tid": 37760,
+      "rip": 140720237592628,
+      "rsp": 103590918216,
+      "jvm_stack_addresses": []
+    }
+  ],
+  "loaded_target": {
+    "base": 1519845376,
+    "size": 31301632,
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll"
+  },
+  "stdout": "",
+  "stderr": ""
+}

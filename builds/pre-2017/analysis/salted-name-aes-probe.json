@@ -1,0 +1,14 @@
+{
+  "scope": "Every 32-hex payload in classes.jar, libs.jar, and indexed JIMAGE; AES ECB/CBC first-block probes with fixed name+observed-salt key derivations; no unknown-key search",
+  "salt": "2G5teW9TkteWdMSx",
+  "adjacent_string": "nUHDjbS59e4wF8Pr",
+  "source_counts": {
+    "classes.jar": 6975,
+    "libs.jar": 8094,
+    "jimage": 15646
+  },
+  "unique_key_derivations_per_name_example": 24,
+  "attempted_first_block_decryptions": 12948768,
+  "first_block_class_magic_hits": [],
+  "validated_classes": []
+}

@@ -1,0 +1,26 @@
+{
+  "self_test": false,
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "child_pid": 27472,
+  "mode": "memory observation without debugger",
+  "capture": {
+    "image_base": 1519845376,
+    "size": 31301632,
+    "memory_holes": [],
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-watch-image-1791040961345929000.bin",
+    "sha256": "7dbf906bfbcf0fe47372a235456307b34d178b2ed745fed00eb3f78c48b234ba",
+    "stage": "watcher-text-populated",
+    "layout": "Mapped virtual addresses, not a directly runnable raw PE file"
+  },
+  "snapshot_note": "Section population detected, not proof of complete unpacking or recovered classes",
+  "loaded_target": {
+    "base": 1519845376,
+    "size": 31301632,
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll"
+  },
+  "stdout": "",
+  "stderr": ""
+}

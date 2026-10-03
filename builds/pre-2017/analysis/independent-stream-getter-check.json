@@ -1,0 +1,77 @@
+{
+  "table_rva": "0xa2fd40",
+  "table_hex": "04bccaa83d737cadcaad5633735bc7da",
+  "formula_checks": [
+    {
+      "reader": "get_u1",
+      "match": true,
+      "expected": "0e",
+      "actual": "0e",
+      "cursor_after": 3,
+      "instructions": 15
+    },
+    {
+      "reader": "get_u2",
+      "match": true,
+      "expected": "0e26",
+      "actual": "0e26",
+      "cursor_after": 4,
+      "instructions": 26
+    },
+    {
+      "reader": "get_u4",
+      "match": true,
+      "expected": "0e262ea6",
+      "actual": "0e262ea6",
+      "cursor_after": 6,
+      "instructions": 58
+    },
+    {
+      "reader": "get_bytes",
+      "match": true,
+      "expected": "0e262ea65bb8e5101323358db095802df40c4090a58eab46",
+      "actual": "0e262ea65bb8e5101323358db095802df40c4090a58eab46",
+      "cursor_after": 2,
+      "instructions": 405
+    }
+  ],
+  "marker": "e629",
+  "candidate_first32": "cafebabe0000003500520700340a000100350a001100360a003700380a000100",
+  "candidate_minor": 0,
+  "candidate_major": 53,
+  "candidate_cp_count": 82,
+  "class_identity": null,
+  "error": "end 1545 of 1552",
+  "body_ascii_strings": [
+    "registerNatives",
+    "RuntimeVisibleAnnotations",
+    "Ljdk/internal/HotSpotIntrinsicCandidate;",
+    "getClass",
+    "Ljava/lang/Class;",
+    "Signature",
+    "Ljava/lang/Class<",
+    "hashCode",
+    "Ljava/lang/Object;)Z",
+    "StackMapTable",
+    "Ljava/lang/Object;",
+    "Exceptions",
+    "toString",
+    "Ljava/lang/String;",
+    "notifyAll",
+    "finalize",
+    "Deprecated",
+    "Ljava/lang/Deprecated;",
+    "java/lang/StringBuilder",
+    "java/lang/IllegalArgumentException",
+    "negative",
+    "nanosecond",
+    "java/lang/Object",
+    "$java/lang/CloneNotSupportedException",
+    "java/lang/InterruptedException",
+    "java/lang/Throwable",
+    "java/lang/Class",
+    "Ljava/lang/String;)Ljava/lang/StringBuilder;",
+    "java/lang/Integer",
+    "toHexString"
+  ]
+}

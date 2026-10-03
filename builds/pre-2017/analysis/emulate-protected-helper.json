@@ -1,0 +1,189 @@
+{
+  "scope": "offline bounded Unicorn emulation of captured mapped bytes only",
+  "snapshot": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-stack-synchronized.bin",
+  "snapshot_sha256": "e85a5ac5179589cbe0fe9768c338bbc79a19f0a814136c6f58ce780977a6a23c",
+  "image_base": "0x5a970000",
+  "entry_rva": "0x3ab210",
+  "entry_static_bytes": "4883ec28b9dec0e71ee898413c0033c0eb05b8010000004883c428c3cccccccc",
+  "capture_stage": "stack-synchronized",
+  "static_os_export_resolution": {
+    "module_path": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "captured_module_base": "0x7ffbfbb00000",
+    "export": "NtClose",
+    "export_rva": "0x160550",
+    "export_va": "0x7ffbfbc60550",
+    "method": "pefile read-only parse of on-disk export directory; no module execution"
+  },
+  "synthetic_memory": {
+    "stack": "0x20000000",
+    "heap": "0x21000000",
+    "teb": "0x22000000",
+    "peb": "0x22001000",
+    "sentinel": "0x23000000",
+    "ntdll_api_page": "synthetic INT3 page with NtClose intercepted at the exact export address"
+  },
+  "limits": {
+    "instructions": 20000,
+    "timeout_us": 1000000,
+    "stop_before_host_api_execution": true,
+    "stop_on_cpuid_syscall_interrupt_and_unmapped_access": true
+  },
+  "instructions": 24,
+  "calls": [
+    {
+      "rva": "0x3ab219",
+      "operands": "0x5b0df3b6"
+    },
+    {
+      "rva": "0x76f3b7",
+      "operands": "0x5b904949"
+    }
+  ],
+  "returns": 2,
+  "synthetic_api_calls": [
+    {
+      "api": "ntdll!NtClose",
+      "va": "0x7ffbfbc60550",
+      "rva": "0x160550",
+      "argument_handle": "0x1ee7c0de",
+      "synthetic_return_ntstatus": "0xc0000008",
+      "return_address": "0x5ad1b21e",
+      "behavior": "hook sets EAX=STATUS_INVALID_HANDLE and returns; no DLL/API body executed"
+    }
+  ],
+  "reason": "helper_returned_to_synthetic_sentinel",
+  "fault": null,
+  "fault_pc": null,
+  "final_registers": {
+    "RIP": "0x23000000",
+    "RSP": "0x20100010",
+    "RAX": "0x0",
+    "RCX": "0x1ee7c0de",
+    "RDX": "0x0",
+    "R8": "0x0",
+    "R9": "0x0"
+  },
+  "trace": [
+    {
+      "rva": "0x3ab210",
+      "mnemonic": "sub",
+      "operands": "rsp, 0x28"
+    },
+    {
+      "rva": "0x3ab214",
+      "mnemonic": "mov",
+      "operands": "ecx, 0x1ee7c0de"
+    },
+    {
+      "rva": "0x3ab219",
+      "mnemonic": "call",
+      "operands": "0x5b0df3b6"
+    },
+    {
+      "rva": "0x76f3b6",
+      "mnemonic": "push",
+      "operands": "rbp"
+    },
+    {
+      "rva": "0x76f3b7",
+      "mnemonic": "call",
+      "operands": "0x5b904949"
+    },
+    {
+      "rva": "0xf94949",
+      "mnemonic": "nop",
+      "operands": ""
+    },
+    {
+      "rva": "0xf9494a",
+      "mnemonic": "movsx",
+      "operands": "bp, r13b"
+    },
+    {
+      "rva": "0xf9494f",
+      "mnemonic": "not",
+      "operands": "bpl"
+    },
+    {
+      "rva": "0xf94952",
+      "mnemonic": "mov",
+      "operands": "ebp, 0x69e278f8"
+    },
+    {
+      "rva": "0xf94957",
+      "mnemonic": "pop",
+      "operands": "rbp"
+    },
+    {
+      "rva": "0xf94958",
+      "mnemonic": "xchg",
+      "operands": "qword ptr [rsp], rbp"
+    },
+    {
+      "rva": "0xf9495c",
+      "mnemonic": "push",
+      "operands": "rbp"
+    },
+    {
+      "rva": "0xf9495d",
+      "mnemonic": "movzx",
+      "operands": "rbp, r11w"
+    },
+    {
+      "rva": "0xf94961",
+      "mnemonic": "lea",
+      "operands": "rbp, [rip - 0x9d844e]"
+    },
+    {
+      "rva": "0xf94968",
+      "mnemonic": "mov",
+      "operands": "rbp, qword ptr [rbp + 0x9e46ba]"
+    },
+    {
+      "rva": "0xf9496f",
+      "mnemonic": "jmp",
+      "operands": "0x5b54c738"
+    },
+    {
+      "rva": "0xbdc738",
+      "mnemonic": "lea",
+      "operands": "rbp, [rbp + 0x6f0a3996]"
+    },
+    {
+      "rva": "0xbdc73f",
+      "mnemonic": "jmp",
+      "operands": "0x5b6d5575"
+    },
+    {
+      "rva": "0xd65575",
+      "mnemonic": "xchg",
+      "operands": "qword ptr [rsp], rbp"
+    },
+    {
+      "rva": "0xd65579",
+      "mnemonic": "ret",
+      "operands": "8"
+    },
+    {
+      "rva": "0x3ab21e",
+      "mnemonic": "xor",
+      "operands": "eax, eax"
+    },
+    {
+      "rva": "0x3ab220",
+      "mnemonic": "jmp",
+      "operands": "0x5ad1b227"
+    },
+    {
+      "rva": "0x3ab227",
+      "mnemonic": "add",
+      "operands": "rsp, 0x28"
+    },
+    {
+      "rva": "0x3ab22b",
+      "mnemonic": "ret",
+      "operands": ""
+    }
+  ],
+  "interpretation": "The path reaches ntdll!NtClose with synthetic handle 0x1ee7c0de. The hook returns a chosen STATUS_INVALID_HANDLE and continues; no real API body executes. This supports an invalid-handle/anti-analysis check hypothesis, but does not establish intended semantics or test the real OS response."
+}

@@ -1,0 +1,49 @@
+{
+  "Unable to fully structure code": [
+    {
+      "path": "decompiled-standard\\classes\\cpw\\mods\\fml\\common\\asm\\FMLSanityChecker.java",
+      "line": 41
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\core\\entity\\jxtc.java",
+      "line": 245
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\physics\\core\\client\\world\\DefaultCollisionManager.java",
+      "line": 19
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\physics\\ragdolls\\client\\ragdoll\\SkeletonPreset.java",
+      "line": 202
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\stalker\\mobs\\client\\gui\\GuiMutantSpawnerSettings.java",
+      "line": 818
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\stalker\\mobs\\client\\tuning\\EditorPropertyGroup.java",
+      "line": 96
+    }
+  ],
+  "Could not resolve type clashes": [
+    {
+      "path": "decompiled-standard\\classes\\cpw\\mods\\fml\\common\\asm\\FMLSanityChecker.java",
+      "line": 40
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\physics\\ragdolls\\client\\ragdoll\\SkeletonPreset.java",
+      "line": 201
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\stalker\\mobs\\client\\gui\\GuiMutantSpawnerSettings.java",
+      "line": 817
+    },
+    {
+      "path": "decompiled-standard\\classes\\gloomyfolken\\mods\\stalker\\mobs\\client\\tuning\\EditorPropertyGroup.java",
+      "line": 97
+    }
+  ],
+  "Could not decompile": [],
+  "Exception decompiling": [],
+  "Decompilation failed": []
+}

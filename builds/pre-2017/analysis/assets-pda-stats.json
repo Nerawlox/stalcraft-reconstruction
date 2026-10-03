@@ -1,0 +1,52 @@
+{
+  "decoder": "sc-file 5.2.1 (onejeuu/sc-file)",
+  "python": "3.12",
+  "source": "E:\\Stalcraft project\\stalcraft_pre\\stalcraft\\modassets\\assets\\pda\\map",
+  "files": 223,
+  "decoded": 223,
+  "failures": [],
+  "source_bytes": 23081385,
+  "tile_dimensions": [
+    512,
+    512
+  ],
+  "x_index_range": [
+    -13,
+    3
+  ],
+  "z_index_range": [
+    -7,
+    9
+  ],
+  "x_column_counts": {
+    "-13": 17,
+    "-12": 17,
+    "-11": 17,
+    "-10": 17,
+    "-9": 17,
+    "-8": 17,
+    "-7": 17,
+    "-6": 17,
+    "-5": 17,
+    "-3": 10,
+    "-2": 10,
+    "-1": 10,
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "formats": {
+    "DXT1": 223
+  },
+  "mipmap_counts": {
+    "10": 223
+  },
+  "overview": "assets-pda-overview.png",
+  "overview_dimensions": [
+    1760,
+    1764
+  ],
+  "overview_bytes": 2658552,
+  "limitations": "only bundled PDA tiles; blank grid cells indicate missing tile files; no world save or terrain height data represented"
+}

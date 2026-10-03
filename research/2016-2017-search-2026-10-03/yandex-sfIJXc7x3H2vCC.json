@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-03T05:52:04.465443+00:00",
+  "public_url": "https://yadi.sk/d/sfIJXc7x3H2vCC",
+  "request_url": "https://cloud-api.yandex.net/v1/disk/public/resources?public_key=https%3A%2F%2Fyadi.sk%2Fd%2FsfIJXc7x3H2vCC&limit=100",
+  "status": 404,
+  "error_body": "{\"error\":\"DiskNotFoundError\",\"description\":\"Resource not found.\",\"message\":\"Не удалось найти запрошенный ресурс.\"}"
+}

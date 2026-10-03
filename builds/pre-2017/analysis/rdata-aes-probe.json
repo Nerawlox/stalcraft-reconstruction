@@ -1,0 +1,31 @@
+{
+  "scope": "Fixed key bytes from first 16/32 bytes of captured JVM .rdata and explicitly observed 16-character rdata salt strings; no key search; AES ECB/CBC hypotheses against every JAR and JIMAGE 32-hex payload",
+  "rdata_rva": "0x778000",
+  "salt_rvas": {
+    "JLI_shared_salt": "0x89abc0",
+    "adjacent_16char_rdata_string": "0x89abd8"
+  },
+  "image_base": "0x5a970000",
+  "candidate_keys": {
+    "rdata_first16_AES128": "9bffa377b84b7f54553d07f480a83ec0",
+    "rdata_first32_AES256": "9bffa377b84b7f54553d07f480a83ec0b72c808d876edfdfc12745f049ab9942",
+    "JLI_shared_salt_raw_AES128": "32473574655739546b746557644d5378",
+    "JLI_shared_salt_MD5_AES128": "19c141039055709955f5f6a3c563c205",
+    "JLI_shared_salt_SHA256_first16_AES128": "9a1d55e54edce4353bec5e4e83192542",
+    "JLI_shared_salt_SHA256_AES256": "9a1d55e54edce4353bec5e4e8319254235f3c6d642377a01aaecfb651e73b6f3",
+    "adjacent_16char_rdata_string_raw_AES128": "6e5548446a6253353965347746385072",
+    "adjacent_16char_rdata_string_MD5_AES128": "7a84200fcbaac7000fd383efa77619c6",
+    "adjacent_16char_rdata_string_SHA256_first16_AES128": "1e77c7c7581a102513a01932f40d9dab",
+    "adjacent_16char_rdata_string_SHA256_AES256": "1e77c7c7581a102513a01932f40d9dabe20903b1798fcab89cbc2bfa92563978",
+    "two_adjacent_strings_concat_AES256": "32473574655739546b746557644d53786e5548446a6253353965347746385072",
+    "two_adjacent_strings_reverse_concat_AES256": "6e5548446a625335396534774638507232473574655739546b746557644d5378"
+  },
+  "source_counts": {
+    "classes.jar": 6975,
+    "libs.jar": 8094,
+    "jimage": 15646
+  },
+  "attempted_first_block_decryptions": 4054380,
+  "class_magic_hits": [],
+  "validated_classes": []
+}

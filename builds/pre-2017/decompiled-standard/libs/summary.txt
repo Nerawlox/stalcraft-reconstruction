@@ -1,0 +1,254 @@
+Summary for E:\Stalcraft project\builds\stalcraft-pre-vk-2017-candidate\recovered-bytecode\libs-standard.jar
+Decompiled with CFR 0.152
+
+
+kotlin.reflect.jvm.internal.KFunctionImpl
+----------------------------
+
+invoke()
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationDescriptor
+----------------------------
+
+<init>(kotlin.reflect.jvm.internal.impl.load.java.lazy.LazyJavaResolverContext kotlin.reflect.jvm.internal.impl.load.java.structure.JavaAnnotation kotlin.reflect.jvm.internal.impl.descriptors.ClassDescriptor )
+  Unable to fully structure code
+
+
+org.apache.commons.io.filefilter.MagicNumberFileFilter
+----------------------------
+
+accept(java.io.File )
+  Loose catch block
+
+
+com.google.common.util.concurrent.Futures
+----------------------------
+
+setOneValue(int java.util.concurrent.Future<? extends V> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+run()
+  Loose catch block
+
+
+kotlin.reflect.jvm.internal.KCallableImpl
+----------------------------
+
+compare(java.lang.Object java.lang.Object )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+org.lwjgl.opengl.LinuxCanvasImplementation
+----------------------------
+
+findVisualIDFromFormat(int org.lwjgl.opengl.PixelFormat )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+org.bouncycastle.crypto.modes.gcm.Tables64kGCMMultiplier
+----------------------------
+
+init(byte[] )
+  Unable to fully structure code
+
+
+kotlin.reflect.full.KClassifiers
+----------------------------
+
+createKotlinType(kotlin.reflect.jvm.internal.impl.descriptors.annotations.Annotations kotlin.reflect.jvm.internal.impl.types.TypeConstructor java.util.List<kotlin.reflect.KTypeProjection> boolean )
+  Unable to fully structure code
+
+
+kotlin.jvm.JvmClassMappingKt
+----------------------------
+
+getJavaPrimitiveType(kotlin.reflect.KClass<T> )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.TypeQualifiersKt
+----------------------------
+
+computeIndexedQualifiersForOverride(kotlin.reflect.jvm.internal.impl.types.KotlinType java.util.Collection<? extends kotlin.reflect.jvm.internal.impl.types.KotlinType> boolean )
+  Unable to fully structure code
+computeQualifiersForOverride(kotlin.reflect.jvm.internal.impl.types.KotlinType java.util.Collection<? extends kotlin.reflect.jvm.internal.impl.types.KotlinType> boolean )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+kotlin.reflect.jvm.internal.impl.builtins.FunctionTypesKt
+----------------------------
+
+createFunctionType(kotlin.reflect.jvm.internal.impl.builtins.KotlinBuiltIns kotlin.reflect.jvm.internal.impl.descriptors.annotations.Annotations kotlin.reflect.jvm.internal.impl.types.KotlinType java.util.List<? extends kotlin.reflect.jvm.internal.impl.types.KotlinType> java.util.List<kotlin.reflect.jvm.internal.impl.name.Name> kotlin.reflect.jvm.internal.impl.types.KotlinType boolean )
+  Unable to fully structure code
+
+
+paulscode.sound.codecs.CodecJOrbis
+----------------------------
+
+readBytes(paulscode.sound.codecs.CodecJOrbis$ByteArrayOStream )
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.JvmFunctionSignature
+----------------------------
+
+compare(java.lang.Object java.lang.Object )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+org.bouncycastle.crypto.generators.DSAParametersGenerator
+----------------------------
+
+generateParameters_FIPS186_2()
+  Unable to fully structure code
+generateParameters_FIPS186_3()
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.load.kotlin.PackageParts
+----------------------------
+
+compare(java.lang.Object java.lang.Object )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+kotlin.reflect.jvm.internal.impl.serialization.deserialization.MemberDeserializer
+----------------------------
+
+loadProperty(kotlin.reflect.jvm.internal.impl.serialization.ProtoBuf$Property )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+kotlin.text.DelimitedRangesSequence
+----------------------------
+
+calcNext()
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.builtins.functions.FunctionInvokeDescriptor
+----------------------------
+
+createValueParameter(kotlin.reflect.jvm.internal.impl.builtins.functions.FunctionInvokeDescriptor int kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterDescriptor )
+  Unable to fully structure code
+
+
+org.lwjgl.opengl.LinuxDisplay
+----------------------------
+
+getGammaRampLength()
+  Loose catch block
+setIcon(java.nio.ByteBuffer[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [10[FORLOOP]], but top level block is 3[TRYBLOCK]
+
+
+kotlin.reflect.jvm.internal.impl.load.kotlin.JvmBuiltInsSettings
+----------------------------
+
+getConstructors(kotlin.reflect.jvm.internal.impl.serialization.deserialization.descriptors.DeserializedClassDescriptor )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.text.ExtendedMessageFormat
+----------------------------
+
+readArgumentIndex(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+
+
+org.bouncycastle.crypto.generators.GOST3410ParametersGenerator
+----------------------------
+
+procedure_B(int int java.math.BigInteger[] )
+  Unable to fully structure code
+procedure_Bb(long long java.math.BigInteger[] )
+  Unable to fully structure code
+
+
+javax.crypto.SunJCE_b
+----------------------------
+
+b(java.security.Provider )
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScopeKt
+----------------------------
+
+getDescriptorsFiltered(kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindFilter kotlin.jvm.functions.Function1<? super kotlin.reflect.jvm.internal.impl.name.Name, java.lang.Boolean> )
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.serialization.deserialization.AnnotationDeserializer
+----------------------------
+
+resolveValue(kotlin.reflect.jvm.internal.impl.types.KotlinType kotlin.reflect.jvm.internal.impl.serialization.ProtoBuf$Annotation$Argument$Value kotlin.reflect.jvm.internal.impl.serialization.deserialization.NameResolver )
+  Unable to fully structure code
+
+
+org.objectweb.asm.Type
+----------------------------
+
+getReturnType(java.lang.String )
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancementKt
+----------------------------
+
+enhanceSignature(D )
+  Unable to fully structure code
+
+
+com.sun.crypto.provider.SunJCE_h
+----------------------------
+
+a(byte[] int int byte[] int )
+  Unable to fully structure code
+b(byte[] int int byte[] int )
+  Unable to fully structure code
+
+
+org.bouncycastle.crypto.modes.gcm.Tables8kGCMMultiplier
+----------------------------
+
+init(byte[] )
+  Unable to fully structure code
+
+
+com.sun.crypto.provider.SunJCE_i
+----------------------------
+
+a(byte[] int int byte[] int )
+  Unable to fully structure code
+b(byte[] int int byte[] int )
+  Unable to fully structure code
+
+
+kotlin.io.FilesKt__UtilsKt
+----------------------------
+
+normalize$FilesKt__UtilsKt(java.util.List<? extends java.io.File> )
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+com.jcraft.jorbis.Drft
+----------------------------
+
+dradfg(int int int int float[] float[] float[] float[] float[] float[] int )
+  Unable to fully structure code
+dradbg(int int int int float[] float[] float[] float[] float[] float[] int )
+  Unable to fully structure code
+
+
+kotlin.reflect.jvm.internal.AnnotationConstructorCallerKt
+----------------------------
+
+invoke(java.lang.Object java.lang.reflect.Method java.lang.Object[] )
+  Unable to fully structure code
+  Could not resolve type clashes

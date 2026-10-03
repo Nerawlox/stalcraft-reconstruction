@@ -1,0 +1,10 @@
+{
+  "error": "Timeout10s",
+  "stdout": "",
+  "stderr": "",
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "elapsed_seconds": 10.047
+}

@@ -1,0 +1,17 @@
+{
+  "id": "stalcraft-pre-vk-2017-candidate",
+  "provided_by": "user",
+  "source_post": "https://vk.com/wall-2677092_317761",
+  "source_claim": "User reports downloading from an official VK group; official origin and exact downloadable attachment URL not independently verified.",
+  "input_directory": "E:\\Stalcraft project\\stalcraft_pre",
+  "archive_path": "E:\\Stalcraft project\\stalcraft_pre.rar",
+  "received_at_utc": "2026-10-03T14:06:23.371146+00:00",
+  "executed": false,
+  "input_modified": false,
+  "provided_readme_encoding": "cp1251",
+  "provided_readme_text": "Инструкция:\r\n1. Разархивировать данный архив\r\n2. Папку \"stalcraft\" переместить в папку* с игрой \r\n*как найти папку с игрой указано на картинке (Вот что откроет, прям туда и суй)\r\n3. Дождатся открытия ОФТ\r\n4. Играть\r\n\r\nВНИМАНИЕ!\r\nЭто не релиз ОФТ, а возможность ранней загрузки.",
+  "directory_file_count": 11949,
+  "directory_total_size": 1709325043,
+  "archive_size": 1494905537,
+  "archive_sha256": "51e494c07c2d78e2963515b720e4165deda6174f97d744f85c298a07e0a49534"
+}

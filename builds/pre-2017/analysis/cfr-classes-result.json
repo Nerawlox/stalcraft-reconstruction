@@ -1,0 +1,23 @@
+{
+  "command": [
+    "E:\\Stalcraft project\\stalcraft-decompiled\\.cache\\runtime\\java\\bin\\java.exe",
+    "-Xmx2g",
+    "-jar",
+    "C:\\Users\\drgoo\\Documents\\Codex\\2026-10-03\\new-chat\\work\\tools\\cfr-0.152.jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\recovered-bytecode\\classes-recovered.jar",
+    "--extraclasspath",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\recovered-bytecode\\libs-recovered.jar",
+    "--outputdir",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\decompiled\\classes",
+    "--silent",
+    "true",
+    "--outputencoding",
+    "UTF-8"
+  ],
+  "cfr_sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2",
+  "input_sha256": "e2652584b30330b9255784a0d31c339b61d87f6f51879cae3d877f526c5559f6",
+  "exit_code": 1,
+  "elapsed_seconds": 0.89,
+  "java_source_count": 8,
+  "scope": "trusted CFR static decompilation; recovered classes not executed"
+}

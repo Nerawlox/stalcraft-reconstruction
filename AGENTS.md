@@ -1,34 +1,30 @@
-# Работа в репозитории текущего билда STALCRAFT
+# Working on STALCRAFT Reconstruction
 
-Этот checkout — часть общего проекта E:\Stalcraft project.
-Перед задачей прочитать ../AGENTS.md: там цели, источники, текущие результаты,
-ограничения датировки, поиск других билдов и правила сравнения.
+This repository contains research on multiple historical clients. Read `README.md`, each build's README, and `docs/restoration-journal.md` before making changes. If the local shared project file `../AGENTS.md` exists, read it as well; it records machine-specific originals, runtime locations, and user instructions. It is not included in the public repository.
 
-Общий контекст: E:\Stalcraft project\AGENTS.md.
-Если checkout перенесён и этот файл недоступен, сообщить об отсутствии общего
-контекста и использовать проверенные локальные документы ниже; не придумывать
-историю и не считать этот билд полным официальным клиентом.
+## Build identity and dating
 
-## Локальные ориентиры
+- `client212` is identified by `stalker_client212.jar`, not by an author or release year. Its client and map dates are unknown. JAR ZIP timestamps and world `LastPlayed` are metadata, not release or creation dates.
+- `pre-2017` is the OFT preload linked in the official STALCRAFT VK post dated 3 November 2017, supplied and confirmed by the user. Its 29 October file timestamps are distinct from the post publication date. Keep this later clarification separate from older preserved analysis records.
+- Historical distributor labels and filenames are evidence of where files were obtained, not proof of authorship. Preserve original provenance records without promoting those labels to build identity.
 
-- Исходная сборка: ../Сборка STALKRAFT от Алекса/ (не изменять).
-- src/ и resource-configs/ — первоначальный снимок CFR/config.
-- provenance.json, verification.json, snapshot-sha256.json — источник и проверки.
-- docs/environment-check.md — актуальное окружение и известные несовместимости.
-- docs/mod-guide.md — инвентарь, оружие, торговля и диалоги.
-- docs/item-catalog.json — каталог предметов.
-- .cache/runtime/ — изолированная копия; пользователь запускает start-local.cmd
-  и мир TheZone-test.
+## Paths and preservation
 
-Читать git status перед изменениями. Не перезаписывать исходный снимок
-результатом новой декомпиляции. scripts/verify_snapshot.py проверяет 751 файл
-первоначального снимка; изменения кода оформлять отдельно и обоснованно.
-Java/config снимка сохраняют исходные байты через .gitattributes.
+- `src/` and `resource-configs/` are the immutable client212 CFR/config snapshot. Check it with `scripts/verify_snapshot.py`.
+- `builds/pre-2017/decompiled-standard/` is the immutable CFR snapshot for the preload client.
+- `builds/pre-2017/decompiled-alternatives/` preserves separate Procyon results, including some failed methods. Do not replace successful CFR output automatically.
+- `builds/pre-2017/analysis/` and `research/` contain exact historical text imports. Read the current status when older reports conflict.
+- Verify both preserved snapshots using `scripts/verify_research_snapshots.py`. Its execution is limited to hashes and inventories.
+- New source fixes belong in a separate `reconstruction/` directory for their build. Record evidence and validation; do not silently modify preserved snapshots.
 
-README.md и docs/stalkraft-audit.md частично описывают ранний этап.
-Игра уже запускалась, ресурс-пак исправлен. Кириллическое расширение регионов
-.mса намеренное; читать актуальное уточнение в docs/environment-check.md.
-Проблемы NPC/квестов ещё не исправлены. Дата карты и официальность билда неизвестны.
+Run `git status` before editing. Keep builds, assets, worlds, and runtimes separate. Do not move existing local launch paths merely to make the directory tree symmetric. Write new public-facing documentation in English unless the user requests otherwise; historical research may remain in its original language.
 
-Другие билды исследовать отдельно в общем проекте; не подменять ими этот checkout.
-Не запускать неизвестные EXE. Не завершать игровую сессию пользователя.
+## Execution and publication
+
+Original client archives, JARs, DLLs, EXEs, memory dumps, full worlds, and downloaded tools remain outside Git. Never modify the originals. Existing local runtime and game sessions must not be interrupted.
+
+Unknown executables and launchers must not be run automatically. The user's earlier authorization covered a diagnostic Java `-version` run, not gameplay or account login. Following a reported Windows crash, protected-JVM launches and memory experiments remain stopped; the crash cause has not been established. Continue static analysis unless later user instructions authorize more.
+
+Full source compilation has not succeeded for either build. Original client212 gameplay was launched locally; pre-2017 gameplay and recovered game classes have not been executed. Do not equate a structural check or an error-free decompiler exit with a successful rebuild.
+
+The user selected the public GitHub repository name `stalcraft-reconstruction`, reviewed and expanded the README, and explicitly authorized publication on 4 October 2026. The target repository is `https://github.com/Nerawlox/stalcraft-reconstruction`. This authorization covers the prepared code, tools, and research text; excluded original binaries and memory captures remain local.

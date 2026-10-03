@@ -1,0 +1,1056 @@
+{
+  "scope": "static class/Code reads, opcode operands, CP types, locals and exception boundaries; no Java execution or verifier",
+  "classes_checked": 8,
+  "methods_checked": 111,
+  "cp_operand_checks": 1594,
+  "failure_count": 0,
+  "classes": [
+    {
+      "source": "classes",
+      "name": "com/stalcraft/StalcraftMod.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "getSTALCRAFT",
+          "descriptor": "()Lcom/stalcraft/StalcraftMod;",
+          "instructions": 2,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 0
+        },
+        {
+          "name": "preLoad",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPreInitializationEvent;)V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 2
+        },
+        {
+          "name": "load",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLInitializationEvent;)V",
+          "instructions": 126,
+          "cp_operand_checks": 115,
+          "exception_handlers": 0,
+          "maxstack": 5,
+          "maxlocals": 2
+        },
+        {
+          "name": "postLoad",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPostInitializationEvent;)V",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "instructions": 152,
+          "cp_operand_checks": 116,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 0
+        }
+      ]
+    },
+    {
+      "source": "classes",
+      "name": "com/stalcraft/ClientProxy.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "preload",
+          "descriptor": "()V",
+          "instructions": 158,
+          "cp_operand_checks": 98,
+          "exception_handlers": 0,
+          "maxstack": 6,
+          "maxlocals": 6
+        },
+        {
+          "name": "load",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLInitializationEvent;)V",
+          "instructions": 4,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "postload",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPostInitializationEvent;)V",
+          "instructions": 4,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        }
+      ]
+    },
+    {
+      "source": "classes",
+      "name": "com/stalcraft/ServerProxy.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "preload",
+          "descriptor": "()V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 1
+        },
+        {
+          "name": "load",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLInitializationEvent;)V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 2
+        },
+        {
+          "name": "postload",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPostInitializationEvent;)V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 2
+        }
+      ]
+    },
+    {
+      "source": "classes",
+      "name": "gloomyfolken/mods/core/main/GloomyCore.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 33,
+          "cp_operand_checks": 19,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 1
+        },
+        {
+          "name": "preInit",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPreInitializationEvent;)V",
+          "instructions": 261,
+          "cp_operand_checks": 169,
+          "exception_handlers": 0,
+          "maxstack": 8,
+          "maxlocals": 4
+        },
+        {
+          "name": "init",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLInitializationEvent;)V",
+          "instructions": 66,
+          "cp_operand_checks": 42,
+          "exception_handlers": 1,
+          "maxstack": 5,
+          "maxlocals": 5
+        },
+        {
+          "name": "readLocationAchievements",
+          "descriptor": "()V",
+          "instructions": 51,
+          "cp_operand_checks": 27,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 8
+        },
+        {
+          "name": "makeSpecialLog",
+          "descriptor": "(Ljava/lang/String;)Ljava/util/logging/Logger;",
+          "instructions": 53,
+          "cp_operand_checks": 27,
+          "exception_handlers": 1,
+          "maxstack": 4,
+          "maxlocals": 5
+        },
+        {
+          "name": "installGCMonitoring",
+          "descriptor": "(Ljava/util/logging/Logger;)V",
+          "instructions": 30,
+          "cp_operand_checks": 11,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 6
+        },
+        {
+          "name": "loadComplete",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLLoadCompleteEvent;)V",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 2
+        },
+        {
+          "name": "postInit",
+          "descriptor": "(Lcpw/mods/fml/common/event/FMLPostInitializationEvent;)V",
+          "instructions": 46,
+          "cp_operand_checks": 33,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 2
+        },
+        {
+          "name": "loadAchievementsMeta",
+          "descriptor": "()V",
+          "instructions": 89,
+          "cp_operand_checks": 44,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 11
+        },
+        {
+          "name": "addTeleportationTest",
+          "descriptor": "(Ljava/util/function/Predicate;)V",
+          "instructions": 7,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "canTeleport",
+          "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;)Z",
+          "instructions": 19,
+          "cp_operand_checks": 6,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 3
+        },
+        {
+          "name": "isSuperUser",
+          "descriptor": "(Ljava/lang/String;)Z",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "isSuperUser",
+          "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;)Z",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "getBooleanOption",
+          "descriptor": "(Ljava/lang/String;)Z",
+          "instructions": 13,
+          "cp_operand_checks": 5,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "getIntOption",
+          "descriptor": "(Ljava/lang/String;)I",
+          "instructions": 13,
+          "cp_operand_checks": 5,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "lambda$postInit$8",
+          "descriptor": "()V",
+          "instructions": 6,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 0
+        },
+        {
+          "name": "lambda$null$7",
+          "descriptor": "()V",
+          "instructions": 8,
+          "cp_operand_checks": 6,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 0
+        },
+        {
+          "name": "lambda$postInit$6",
+          "descriptor": "(Lturb;)Z",
+          "instructions": 11,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "lambda$postInit$5",
+          "descriptor": "()V",
+          "instructions": 4,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 0
+        },
+        {
+          "name": "lambda$init$4",
+          "descriptor": "()V",
+          "instructions": 5,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 0
+        },
+        {
+          "name": "lambda$preInit$3",
+          "descriptor": "()V",
+          "instructions": 20,
+          "cp_operand_checks": 19,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 0
+        },
+        {
+          "name": "lambda$static$2",
+          "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/jxtc;)Z",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 2
+        },
+        {
+          "name": "lambda$static$1",
+          "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/jxtc;)Z",
+          "instructions": 12,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "lambda$static$0",
+          "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/jxtc;)Z",
+          "instructions": 10,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 2
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "instructions": 344,
+          "cp_operand_checks": 283,
+          "exception_handlers": 0,
+          "maxstack": 7,
+          "maxlocals": 0
+        }
+      ]
+    },
+    {
+      "source": "classes",
+      "name": "net/minecraft/launchwrapper/Launch.class",
+      "methods": [
+        {
+          "name": "main",
+          "descriptor": "([Ljava/lang/String;)V",
+          "instructions": 6,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 14,
+          "cp_operand_checks": 9,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "launch",
+          "descriptor": "([Ljava/lang/String;)V",
+          "instructions": 324,
+          "cp_operand_checks": 158,
+          "exception_handlers": 2,
+          "maxstack": 6,
+          "maxlocals": 21
+        }
+      ]
+    },
+    {
+      "source": "classes",
+      "name": "net/minecraft/launchwrapper/LaunchClassLoader.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Ljava/lang/ClassLoader;)V",
+          "instructions": 125,
+          "cp_operand_checks": 68,
+          "exception_handlers": 1,
+          "maxstack": 7,
+          "maxlocals": 3
+        },
+        {
+          "name": "loadClass",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "loadClass",
+          "descriptor": "(Ljava/lang/String;Z)Ljava/lang/Class;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 3
+        },
+        {
+          "name": "getClassLoadingLock",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/Object;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "getResource",
+          "descriptor": "(Ljava/lang/String;)Ljava/net/URL;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "getResources",
+          "descriptor": "(Ljava/lang/String;)Ljava/util/Enumeration;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "definePackage",
+          "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;)Ljava/lang/Package;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 9
+        },
+        {
+          "name": "getPackage",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/Package;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "getPackages",
+          "descriptor": "()[Ljava/lang/Package;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "findLibrary",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "setDefaultAssertionStatus",
+          "descriptor": "(Z)V",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "setPackageAssertionStatus",
+          "descriptor": "(Ljava/lang/String;Z)V",
+          "instructions": 6,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 3
+        },
+        {
+          "name": "setClassAssertionStatus",
+          "descriptor": "(Ljava/lang/String;Z)V",
+          "instructions": 6,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 3
+        },
+        {
+          "name": "clearAssertionStatus",
+          "descriptor": "()V",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "getResourceAsStream",
+          "descriptor": "(Ljava/lang/String;)Ljava/io/InputStream;",
+          "instructions": 15,
+          "cp_operand_checks": 3,
+          "exception_handlers": 2,
+          "maxstack": 2,
+          "maxlocals": 3
+        },
+        {
+          "name": "close",
+          "descriptor": "()V",
+          "instructions": 4,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "getURLs",
+          "descriptor": "()[Ljava/net/URL;",
+          "instructions": 6,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "definePackage",
+          "descriptor": "(Ljava/lang/String;Ljava/util/jar/Manifest;Ljava/net/URL;)Ljava/lang/Package;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 4
+        },
+        {
+          "name": "findResource",
+          "descriptor": "(Ljava/lang/String;)Ljava/net/URL;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "findResources",
+          "descriptor": "(Ljava/lang/String;)Ljava/util/Enumeration;",
+          "instructions": 9,
+          "cp_operand_checks": 5,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 2
+        },
+        {
+          "name": "getPermissions",
+          "descriptor": "(Ljava/security/CodeSource;)Ljava/security/PermissionCollection;",
+          "instructions": 5,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "findClass",
+          "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+          "instructions": 26,
+          "cp_operand_checks": 10,
+          "exception_handlers": 1,
+          "maxstack": 6,
+          "maxlocals": 3
+        },
+        {
+          "name": "addURL",
+          "descriptor": "(Ljava/net/URL;)V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 2
+        },
+        {
+          "name": "getSources",
+          "descriptor": "()Ljava/util/List;",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "getTransformers",
+          "descriptor": "()Ljava/util/List;",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "addClassLoaderExclusion",
+          "descriptor": "(Ljava/lang/String;)V",
+          "instructions": 6,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "addTransformerExclusion",
+          "descriptor": "(Ljava/lang/String;)V",
+          "instructions": 6,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "getClassBytes",
+          "descriptor": "(Ljava/lang/String;)[B",
+          "instructions": 15,
+          "cp_operand_checks": 3,
+          "exception_handlers": 2,
+          "maxstack": 2,
+          "maxlocals": 3
+        },
+        {
+          "name": "clearNegativeEntries",
+          "descriptor": "(Ljava/util/Set;)V",
+          "instructions": 6,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "registerTransformer",
+          "descriptor": "(Ljava/lang/String;)V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 2
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "instructions": 125,
+          "cp_operand_checks": 45,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 0
+        }
+      ]
+    },
+    {
+      "source": "libs",
+      "name": "com/google/common/util/concurrent/Futures.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 3,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 1,
+          "maxlocals": 1
+        },
+        {
+          "name": "makeChecked",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/base/Function;)Lcom/google/common/util/concurrent/CheckedFuture;",
+          "instructions": 8,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 2
+        },
+        {
+          "name": "immediateFuture",
+          "descriptor": "(Ljava/lang/Object;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "immediateCheckedFuture",
+          "descriptor": "(Ljava/lang/Object;)Lcom/google/common/util/concurrent/CheckedFuture;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "immediateFailedFuture",
+          "descriptor": "(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 8,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "immediateCancelledFuture",
+          "descriptor": "()Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 0
+        },
+        {
+          "name": "immediateFailedCheckedFuture",
+          "descriptor": "(Ljava/lang/Exception;)Lcom/google/common/util/concurrent/CheckedFuture;",
+          "instructions": 8,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "withFallback",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/FutureFallback;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "withFallback",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/FutureFallback;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 10,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 5,
+          "maxlocals": 3
+        },
+        {
+          "name": "transform",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/AsyncFunction;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "transform",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/AsyncFunction;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 13,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 5,
+          "maxlocals": 4
+        },
+        {
+          "name": "transform",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/base/Function;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "transform",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/base/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 13,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 4
+        },
+        {
+          "name": "lazyTransform",
+          "descriptor": "(Ljava/util/concurrent/Future;Lcom/google/common/base/Function;)Ljava/util/concurrent/Future;",
+          "instructions": 12,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 2
+        },
+        {
+          "name": "dereference",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "allAsList",
+          "descriptor": "([Lcom/google/common/util/concurrent/ListenableFuture;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 6,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "allAsList",
+          "descriptor": "(Ljava/lang/Iterable;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 6,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "successfulAsList",
+          "descriptor": "([Lcom/google/common/util/concurrent/ListenableFuture;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 6,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "successfulAsList",
+          "descriptor": "(Ljava/lang/Iterable;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 6,
+          "cp_operand_checks": 3,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "addCallback",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/FutureCallback;)V",
+          "instructions": 5,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "addCallback",
+          "descriptor": "(Lcom/google/common/util/concurrent/ListenableFuture;Lcom/google/common/util/concurrent/FutureCallback;Ljava/util/concurrent/Executor;)V",
+          "instructions": 14,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 4
+        },
+        {
+          "name": "get",
+          "descriptor": "(Ljava/util/concurrent/Future;Ljava/lang/Class;)Ljava/lang/Object;",
+          "instructions": 37,
+          "cp_operand_checks": 14,
+          "exception_handlers": 2,
+          "maxstack": 6,
+          "maxlocals": 3
+        },
+        {
+          "name": "get",
+          "descriptor": "(Ljava/util/concurrent/Future;JLjava/util/concurrent/TimeUnit;Ljava/lang/Class;)Ljava/lang/Object;",
+          "instructions": 47,
+          "cp_operand_checks": 16,
+          "exception_handlers": 3,
+          "maxstack": 6,
+          "maxlocals": 6
+        },
+        {
+          "name": "wrapAndThrowExceptionOrError",
+          "descriptor": "(Ljava/lang/Throwable;Ljava/lang/Class;)V",
+          "instructions": 21,
+          "cp_operand_checks": 8,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 2
+        },
+        {
+          "name": "getUnchecked",
+          "descriptor": "(Ljava/util/concurrent/Future;)Ljava/lang/Object;",
+          "instructions": 14,
+          "cp_operand_checks": 6,
+          "exception_handlers": 1,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "wrapAndThrowUnchecked",
+          "descriptor": "(Ljava/lang/Throwable;)V",
+          "instructions": 14,
+          "cp_operand_checks": 6,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "newWithCause",
+          "descriptor": "(Ljava/lang/Class;Ljava/lang/Throwable;)Ljava/lang/Exception;",
+          "instructions": 47,
+          "cp_operand_checks": 21,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 6
+        },
+        {
+          "name": "preferringStrings",
+          "descriptor": "(Ljava/util/List;)Ljava/util/List;",
+          "instructions": 4,
+          "cp_operand_checks": 2,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "newFromConstructor",
+          "descriptor": "(Ljava/lang/reflect/Constructor;Ljava/lang/Throwable;)Ljava/lang/Object;",
+          "instructions": 56,
+          "cp_operand_checks": 8,
+          "exception_handlers": 4,
+          "maxstack": 3,
+          "maxlocals": 6
+        },
+        {
+          "name": "listFuture",
+          "descriptor": "(Lcom/google/common/collect/ImmutableList;ZLjava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;",
+          "instructions": 10,
+          "cp_operand_checks": 4,
+          "exception_handlers": 0,
+          "maxstack": 7,
+          "maxlocals": 3
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "instructions": 12,
+          "cp_operand_checks": 9,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 0
+        }
+      ]
+    },
+    {
+      "source": "jimage",
+      "name": "java/lang/Object.class",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 1
+        },
+        {
+          "name": "equals",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "instructions": 7,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 2
+        },
+        {
+          "name": "toString",
+          "descriptor": "()Ljava/lang/String;",
+          "instructions": 15,
+          "cp_operand_checks": 11,
+          "exception_handlers": 0,
+          "maxstack": 2,
+          "maxlocals": 1
+        },
+        {
+          "name": "wait",
+          "descriptor": "(JI)V",
+          "instructions": 29,
+          "cp_operand_checks": 8,
+          "exception_handlers": 0,
+          "maxstack": 4,
+          "maxlocals": 4
+        },
+        {
+          "name": "wait",
+          "descriptor": "()V",
+          "instructions": 4,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 3,
+          "maxlocals": 1
+        },
+        {
+          "name": "finalize",
+          "descriptor": "()V",
+          "instructions": 1,
+          "cp_operand_checks": 0,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 1
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "instructions": 2,
+          "cp_operand_checks": 1,
+          "exception_handlers": 0,
+          "maxstack": 0,
+          "maxlocals": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "scope": "alternate decompiler only; input classes never executed; CFR snapshot unchanged",
+  "input_class_count": 42,
+  "input_classes": [
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$nameField$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$5.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$6.class",
+    "gloomyfolken/mods/core/entity/jxtc$eidj.class",
+    "gloomyfolken/mods/core/entity/jxtc$zwat.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$$inlined$forEachIndexed$lambda$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$8.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$4.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$10.class",
+    "gloomyfolken/mods/stalker/mobs/client/tuning/EditorPropertyGroup.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$parseSuitableBlocks$1.class",
+    "gloomyfolken/mods/core/entity/jxtc$pidb.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$7.class",
+    "gloomyfolken/mods/core/entity/jxtc$kjui.class",
+    "cpw/mods/fml/common/asm/FMLSanityChecker.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$8.class",
+    "gloomyfolken/mods/core/entity/jxtc.class",
+    "gloomyfolken/mods/core/entity/jxtc$ezey.class",
+    "gloomyfolken/mods/core/entity/jxtc$zwaw.class",
+    "gloomyfolken/mods/physics/ragdolls/client/ragdoll/SkeletonPreset.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$3.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$parseConfigurationsStrings$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$loadDataFromTile$4.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$$inlined$forEachIndexed$lambda$3.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$loadDataFromTile$2.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$3.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$2.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$2.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$$inlined$forEachIndexed$lambda$2.class",
+    "cpw/mods/fml/common/asm/FMLSanityChecker$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/tuning/EditorPropertyGroup$Companion.class",
+    "gloomyfolken/mods/physics/ragdolls/client/ragdoll/SkeletonPreset$setupCorpse$3$rayTest$1.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$12.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$5.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$9.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$initGui$11.class",
+    "cpw/mods/fml/common/asm/FMLSanityChecker$MLDetectorClassVisitor.class",
+    "gloomyfolken/mods/physics/core/client/world/DefaultCollisionManager.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$7.class",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings$validateInputs$4.class"
+  ],
+  "command": [
+    "E:\\Stalcraft project\\stalcraft-decompiled\\.cache\\runtime\\java\\bin\\java.exe",
+    "-Xmx512m",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\procyon-decompiler-0.6.0.jar",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\cfr-core-warnings-input.jar",
+    "-o",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\decompiled-alternatives\\procyon-core"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.81,
+  "sources": [
+    {
+      "path": "decompiled-alternatives\\procyon-core\\cpw\\mods\\fml\\common\\asm\\FMLSanityChecker.java",
+      "bytes": 9123,
+      "sha256": "2136fc9d6ca42fd8341b00fc2fddcf061f682a6734d1dd987eada704e6d69640",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-core\\gloomyfolken\\mods\\core\\entity\\jxtc.java",
+      "bytes": 24724,
+      "sha256": "07ff540e629b3d82899db24a1e554827d155034c7b19a848b69aa6710cbbc185",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-core\\gloomyfolken\\mods\\physics\\core\\client\\world\\DefaultCollisionManager.java",
+      "bytes": 3557,
+      "sha256": "9dd565e0ca031d838d794d88d815259f077054cfb82acf3d7196b987911e646e",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-core\\gloomyfolken\\mods\\physics\\ragdolls\\client\\ragdoll\\SkeletonPreset.java",
+      "bytes": 39318,
+      "sha256": "d561b688f185ed5ec9e4dfbd06419f97e4a2efba6e98271faf64e5f90b428b0b",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-core\\gloomyfolken\\mods\\stalker\\mobs\\client\\gui\\GuiMutantSpawnerSettings.java",
+      "bytes": 41895,
+      "sha256": "77fc0589a0b8366860691a46669aeb991d4e577054d353a6cd2dbce9d830985b",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-core\\gloomyfolken\\mods\\stalker\\mobs\\client\\tuning\\EditorPropertyGroup.java",
+      "bytes": 14486,
+      "sha256": "adbdd576d36f0584e9bc3cc2b68417a0aac8b981845816ae6bd6d4192b8e6e74",
+      "decompilation_error_markers": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "Capstone static disassembly of captured jvm-static-view.pe; not emulated or executed",
+  "entries": [
+    {
+      "mnemonic": "aload_0",
+      "name_string_rva": "0x883f60",
+      "initializer_name_slot_rva": "0xa734a8",
+      "native_opcode": 63,
+      "standard_opcode": 42,
+      "evidence_rva": [
+        "0x2fe465",
+        "0x2fe484",
+        "0x2fe48e"
+      ],
+      "kind": "inlined name/opcode/table stores"
+    },
+    {
+      "mnemonic": "return",
+      "name_string_rva": "0x884440",
+      "native_opcode": 100,
+      "standard_opcode": 177,
+      "evidence_rva": [
+        "0x300148",
+        "0x30015c"
+      ],
+      "kind": "def-helper setup and name pointer"
+    },
+    {
+      "mnemonic": "invokespecial",
+      "name_string_rva": "0x8844a0",
+      "native_opcode": 194,
+      "standard_opcode": 183,
+      "evidence_rva": [
+        "0x300288",
+        "0x30029c"
+      ],
+      "kind": "def-helper setup and name pointer"
+    },
+    {
+      "mnemonic": "wide",
+      "name_string_rva": "0x88456c",
+      "native_opcode": 87,
+      "standard_opcode": 196,
+      "evidence_rva": [
+        "0x300549",
+        "0x300550"
+      ],
+      "kind": "def-helper code/name arguments"
+    },
+    {
+      "mnemonic": "tableswitch",
+      "name_string_rva": "0x8843f8",
+      "native_opcode": 189,
+      "standard_opcode": 170,
+      "evidence_rva": [
+        "0x2fffd9",
+        "0x2fffe3"
+      ],
+      "kind": "def-helper code/name arguments"
+    },
+    {
+      "mnemonic": "lookupswitch",
+      "name_string_rva": "0x884408",
+      "native_opcode": 191,
+      "standard_opcode": 171,
+      "evidence_rva": [
+        "0x300010",
+        "0x30001a"
+      ],
+      "kind": "def-helper code/name arguments"
+    }
+  ]
+}

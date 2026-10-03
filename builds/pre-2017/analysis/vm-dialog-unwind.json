@@ -1,0 +1,547 @@
+{
+  "capture_dir": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\diagnostic-stack-capture-31860-1791046301",
+  "capture_sha256_context": "b957ec3d56966f5d0f1a6e39ff6ddce3f95c025468cb440fe3d5c128efa5ccda",
+  "capture_sha256_stack": "84da877438027586808e9af60631bfd17392826c7575d52e08d56c10492d5b82",
+  "primary_tid": 2900,
+  "process_id": 31860,
+  "process_terminated_before_analysis": true,
+  "thread_rip": "0x7ffbf8f31404",
+  "thread_rsp": "0x33ef6fdc18",
+  "modules": [
+    {
+      "base": 140694678274048,
+      "size": 143360,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe"
+    },
+    {
+      "base": 140720236134400,
+      "size": 2514944,
+      "path": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll"
+    },
+    {
+      "base": 140720207364096,
+      "size": 823296,
+      "path": "C:\\WINDOWS\\System32\\KERNEL32.DLL"
+    },
+    {
+      "base": 140720191111168,
+      "size": 4190208,
+      "path": "C:\\WINDOWS\\System32\\KERNELBASE.dll"
+    },
+    {
+      "base": 140720131342336,
+      "size": 651264,
+      "path": "C:\\WINDOWS\\SYSTEM32\\apphelp.dll"
+    },
+    {
+      "base": 1519845376,
+      "size": 31301632,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll"
+    },
+    {
+      "base": 140720218570752,
+      "size": 1859584,
+      "path": "C:\\WINDOWS\\System32\\USER32.dll"
+    },
+    {
+      "base": 140720190193664,
+      "size": 159744,
+      "path": "C:\\WINDOWS\\System32\\win32u.dll"
+    },
+    {
+      "base": 140720202055680,
+      "size": 176128,
+      "path": "C:\\WINDOWS\\System32\\GDI32.dll"
+    },
+    {
+      "base": 140720196747264,
+      "size": 1216512,
+      "path": "C:\\WINDOWS\\System32\\gdi32full.dll"
+    },
+    {
+      "base": 140720190390272,
+      "size": 667648,
+      "path": "C:\\WINDOWS\\System32\\msvcp_win.dll"
+    },
+    {
+      "base": 140720187965440,
+      "size": 1359872,
+      "path": "C:\\WINDOWS\\System32\\ucrtbase.dll"
+    },
+    {
+      "base": 140720210640896,
+      "size": 1003520,
+      "path": "C:\\WINDOWS\\System32\\COMDLG32.dll"
+    },
+    {
+      "base": 140720203038720,
+      "size": 3690496,
+      "path": "C:\\WINDOWS\\System32\\combase.dll"
+    },
+    {
+      "base": 140720208216064,
+      "size": 1146880,
+      "path": "C:\\WINDOWS\\System32\\RPCRT4.dll"
+    },
+    {
+      "base": 140719614001152,
+      "size": 716800,
+      "path": "C:\\WINDOWS\\SYSTEM32\\WINSPOOL.DRV"
+    },
+    {
+      "base": 140720201007104,
+      "size": 1019904,
+      "path": "C:\\WINDOWS\\System32\\shcore.dll"
+    },
+    {
+      "base": 140720229318656,
+      "size": 417792,
+      "path": "C:\\WINDOWS\\System32\\SHLWAPI.dll"
+    },
+    {
+      "base": 140720183115776,
+      "size": 335872,
+      "path": "C:\\WINDOWS\\SYSTEM32\\cfgmgr32.dll"
+    },
+    {
+      "base": 140720220471296,
+      "size": 7897088,
+      "path": "C:\\WINDOWS\\System32\\SHELL32.dll"
+    },
+    {
+      "base": 140719812182016,
+      "size": 2691072,
+      "path": "C:\\WINDOWS\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8972_none_3e0da176e32f9d4b\\COMCTL32.dll"
+    },
+    {
+      "base": 140720228401152,
+      "size": 770048,
+      "path": "C:\\WINDOWS\\System32\\ADVAPI32.dll"
+    },
+    {
+      "base": 140720202317824,
+      "size": 692224,
+      "path": "C:\\WINDOWS\\System32\\msvcrt.dll"
+    },
+    {
+      "base": 140720209395712,
+      "size": 696320,
+      "path": "C:\\WINDOWS\\System32\\sechost.dll"
+    },
+    {
+      "base": 140720212082688,
+      "size": 1675264,
+      "path": "C:\\WINDOWS\\System32\\ole32.dll"
+    },
+    {
+      "base": 140720233250816,
+      "size": 888832,
+      "path": "C:\\WINDOWS\\System32\\OLEAUT32.dll"
+    },
+    {
+      "base": 140720235544576,
+      "size": 32768,
+      "path": "C:\\WINDOWS\\System32\\PSAPI.DLL"
+    },
+    {
+      "base": 140720234168320,
+      "size": 532480,
+      "path": "C:\\WINDOWS\\System32\\WS2_32.dll"
+    },
+    {
+      "base": 140719886827520,
+      "size": 221184,
+      "path": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll"
+    },
+    {
+      "base": 140720035725312,
+      "size": 45056,
+      "path": "C:\\WINDOWS\\SYSTEM32\\VERSION.dll"
+    },
+    {
+      "base": 140720072753152,
+      "size": 40960,
+      "path": "C:\\WINDOWS\\SYSTEM32\\WSOCK32.dll"
+    },
+    {
+      "base": 140718037991424,
+      "size": 1097728,
+      "path": "C:\\WINDOWS\\SYSTEM32\\OPENGL32.dll"
+    },
+    {
+      "base": 140720054272000,
+      "size": 1212416,
+      "path": "C:\\WINDOWS\\SYSTEM32\\WINHTTP.dll"
+    },
+    {
+      "base": 140718130593792,
+      "size": 606208,
+      "path": "C:\\WINDOWS\\SYSTEM32\\DSOUND.dll"
+    },
+    {
+      "base": 140717193953280,
+      "size": 978944,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\MSVCR120.dll"
+    },
+    {
+      "base": 140718195277824,
+      "size": 679936,
+      "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\MSVCP120.dll"
+    },
+    {
+      "base": 140720110698496,
+      "size": 6529024,
+      "path": "C:\\WINDOWS\\SYSTEM32\\d2d1.dll"
+    },
+    {
+      "base": 140720131145728,
+      "size": 167936,
+      "path": "C:\\WINDOWS\\SYSTEM32\\WTSAPI32.dll"
+    },
+    {
+      "base": 140719203811328,
+      "size": 184320,
+      "path": "C:\\WINDOWS\\SYSTEM32\\GLU32.dll"
+    },
+    {
+      "base": 140720197992448,
+      "size": 1564672,
+      "path": "C:\\WINDOWS\\System32\\CRYPT32.dll"
+    },
+    {
+      "base": 140717731086336,
+      "size": 749568,
+      "path": "C:\\WINDOWS\\SYSTEM32\\ResampleDmo.DLL"
+    },
+    {
+      "base": 140720186261504,
+      "size": 385024,
+      "path": "C:\\WINDOWS\\SYSTEM32\\powrprof.dll"
+    },
+    {
+      "base": 140718367047680,
+      "size": 225280,
+      "path": "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll"
+    },
+    {
+      "base": 140719826206720,
+      "size": 57344,
+      "path": "C:\\WINDOWS\\SYSTEM32\\msdmo.dll"
+    },
+    {
+      "base": 140720170532864,
+      "size": 299008,
+      "path": "C:\\WINDOWS\\SYSTEM32\\SspiCli.dll"
+    },
+    {
+      "base": 140720134422528,
+      "size": 282624,
+      "path": "C:\\WINDOWS\\SYSTEM32\\dxcore.dll"
+    },
+    {
+      "base": 140720235610112,
+      "size": 204800,
+      "path": "C:\\WINDOWS\\System32\\IMM32.DLL"
+    },
+    {
+      "base": 140720185409536,
+      "size": 86016,
+      "path": "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll"
+    },
+    {
+      "base": 140720173547520,
+      "size": 442368,
+      "path": "C:\\WINDOWS\\SYSTEM32\\MSWSOCK.DLL"
+    },
+    {
+      "base": 140719574810624,
+      "size": 745472,
+      "path": "C:\\WINDOWS\\SYSTEM32\\TextShaping.dll"
+    },
+    {
+      "base": 140720133373952,
+      "size": 688128,
+      "path": "C:\\WINDOWS\\system32\\uxtheme.dll"
+    },
+    {
+      "base": 140720231743488,
+      "size": 1429504,
+      "path": "C:\\WINDOWS\\System32\\MSCTF.dll"
+    }
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "pc": "0x7ffbf8f31404",
+      "rsp": "0x33ef6fdc18",
+      "module": "C:\\WINDOWS\\System32\\win32u.dll",
+      "module_rva": "0x1404",
+      "method": "pdata/unwind-info",
+      "rva": "0x1404",
+      "function_range": [
+        "0x13f0",
+        "0x1408"
+      ],
+      "unwind_info_rva": "0xf250",
+      "version": 1,
+      "flags": 0,
+      "prolog_size": 0,
+      "control_offset": 20,
+      "in_prolog": false,
+      "actions": [],
+      "return_slot": "0x33ef6fdc18",
+      "return": "0x7ffbfaa5329a"
+    },
+    {
+      "index": 1,
+      "pc": "0x7ffbfaa5329a",
+      "rsp": "0x33ef6fdc20",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x1329a",
+      "method": "pdata/unwind-info",
+      "rva": "0x1329a",
+      "function_range": [
+        "0x13054",
+        "0x13507"
+      ],
+      "unwind_info_rva": "0xb7b80",
+      "version": 1,
+      "flags": 0,
+      "prolog_size": 31,
+      "control_offset": 582,
+      "in_prolog": false,
+      "actions": [
+        "SAVE_NONVOL rsi @ 0x33ef6fdce8",
+        "SAVE_NONVOL rbp @ 0x33ef6fdce0",
+        "SAVE_NONVOL rbx @ 0x33ef6fdcd8",
+        "ALLOC_SMALL 0x80",
+        "PUSH_NONVOL r15",
+        "PUSH_NONVOL r14",
+        "PUSH_NONVOL r13",
+        "PUSH_NONVOL r12",
+        "PUSH_NONVOL rdi"
+      ],
+      "return_slot": "0x33ef6fdcc8",
+      "return": "0x7ffbfaa70a97"
+    },
+    {
+      "index": 2,
+      "pc": "0x7ffbfaa70a97",
+      "rsp": "0x33ef6fdcd0",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x30a97",
+      "method": "pdata/unwind-info",
+      "rva": "0x30a97",
+      "function_range": [
+        "0x30a08",
+        "0x30b81"
+      ],
+      "unwind_info_rva": "0xb7a38",
+      "version": 1,
+      "flags": 0,
+      "prolog_size": 29,
+      "control_offset": 143,
+      "in_prolog": false,
+      "actions": [
+        "SAVE_NONVOL rdi @ 0x33ef6fdd48",
+        "SAVE_NONVOL rsi @ 0x33ef6fdd40",
+        "SAVE_NONVOL rbp @ 0x33ef6fdd38",
+        "SAVE_NONVOL rbx @ 0x33ef6fdd30",
+        "ALLOC_SMALL 0x40",
+        "PUSH_NONVOL r15",
+        "PUSH_NONVOL r14",
+        "PUSH_NONVOL r12"
+      ],
+      "return_slot": "0x33ef6fdd28",
+      "return": "0x7ffbfaa72396"
+    },
+    {
+      "index": 3,
+      "pc": "0x7ffbfaa72396",
+      "rsp": "0x33ef6fdd30",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x32396",
+      "method": "pdata/unwind-info",
+      "rva": "0x32396",
+      "function_range": [
+        "0x31de0",
+        "0x32595"
+      ],
+      "unwind_info_rva": "0xb9680",
+      "version": 1,
+      "flags": 0,
+      "prolog_size": 33,
+      "control_offset": 1462,
+      "in_prolog": false,
+      "actions": [
+        "SAVE_XMM128 XMM6 (ignored for integer unwind)",
+        "ALLOC_LARGE 0x108",
+        "PUSH_NONVOL r15",
+        "PUSH_NONVOL r14",
+        "PUSH_NONVOL r13",
+        "PUSH_NONVOL r12",
+        "PUSH_NONVOL rdi",
+        "PUSH_NONVOL rsi",
+        "PUSH_NONVOL rbx",
+        "PUSH_NONVOL rbp"
+      ],
+      "return_slot": "0x33ef6fde78",
+      "return": "0x7ffbfaa9eb12"
+    },
+    {
+      "index": 4,
+      "pc": "0x7ffbfaa9eb12",
+      "rsp": "0x33ef6fde80",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x5eb12",
+      "method": "pdata/unwind-info",
+      "rva": "0x5eb12",
+      "function_range": [
+        "0x5e7c4",
+        "0x5eb7a"
+      ],
+      "unwind_info_rva": "0xb6c2c",
+      "version": 1,
+      "flags": 3,
+      "prolog_size": 50,
+      "control_offset": 846,
+      "in_prolog": false,
+      "actions": [
+        "SAVE_NONVOL rdi @ 0x33ef6fe048",
+        "SAVE_NONVOL rsi @ 0x33ef6fe040",
+        "SAVE_NONVOL rbx @ 0x33ef6fe038",
+        "ALLOC_LARGE 0x180",
+        "PUSH_NONVOL r15",
+        "PUSH_NONVOL r14",
+        "PUSH_NONVOL r13",
+        "PUSH_NONVOL r12",
+        "PUSH_NONVOL rbp"
+      ],
+      "return_slot": "0x33ef6fe028",
+      "return": "0x7ffbfaa9e56f"
+    },
+    {
+      "index": 5,
+      "pc": "0x7ffbfaa9e56f",
+      "rsp": "0x33ef6fe030",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x5e56f",
+      "method": "pdata/unwind-info",
+      "rva": "0x5e56f",
+      "function_range": [
+        "0x5e3e0",
+        "0x5e59f"
+      ],
+      "unwind_info_rva": "0xbb9cc",
+      "version": 1,
+      "flags": 3,
+      "prolog_size": 32,
+      "control_offset": 399,
+      "in_prolog": false,
+      "actions": [
+        "ALLOC_LARGE 0xd0",
+        "PUSH_NONVOL r14",
+        "PUSH_NONVOL rdi",
+        "PUSH_NONVOL rsi",
+        "PUSH_NONVOL rbp",
+        "PUSH_NONVOL rbx"
+      ],
+      "return_slot": "0x33ef6fe128",
+      "return": "0x7ffbfaa9e3c5"
+    },
+    {
+      "index": 6,
+      "pc": "0x7ffbfaa9e3c5",
+      "rsp": "0x33ef6fe130",
+      "module": "C:\\WINDOWS\\System32\\USER32.dll",
+      "module_rva": "0x5e3c5",
+      "method": "pdata/unwind-info",
+      "rva": "0x5e3c5",
+      "function_range": [
+        "0x5e380",
+        "0x5e3cb"
+      ],
+      "unwind_info_rva": "0xb6984",
+      "version": 1,
+      "flags": 0,
+      "prolog_size": 4,
+      "control_offset": 69,
+      "in_prolog": false,
+      "actions": [
+        "ALLOC_SMALL 0x38"
+      ],
+      "return_slot": "0x33ef6fe168",
+      "return": "0x5c59b8bd"
+    },
+    {
+      "index": 7,
+      "pc": "0x5c59b8bd",
+      "rsp": "0x33ef6fe170",
+      "module": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll",
+      "module_rva": "0x1c2b8bd",
+      "boundary": "first JVM address; stopped before trusting JVM .pdata",
+      "caller_context": {
+        "rip": "0x5c59b8bd",
+        "rsp": "0x33ef6fe170",
+        "rbx": "0x0",
+        "rbp": "0x33ef6fe3a8",
+        "rsi": "0x33ef6fe2f0",
+        "rdi": "0xfffffffffff4c7f1",
+        "r12": "0x5c6bae45",
+        "r13": "0x33ef6fe338",
+        "r14": "0x5c",
+        "r15": "0x33ef6fe3a8"
+      },
+      "caller_instruction": {
+        "rva": "0x1c2b8bb",
+        "return_rva": "0x1c2b8bd",
+        "bytes": "ffd0",
+        "decoded": "call rax"
+      },
+      "synchronized_image_sha256_actual": "e85a5ac5179589cbe0fe9768c338bbc79a19f0a814136c6f58ce780977a6a23c",
+      "synchronized_image_sha256_declared": "e85a5ac5179589cbe0fe9768c338bbc79a19f0a814136c6f58ce780977a6a23c"
+    }
+  ],
+  "interpretation": "The caller JVM return RVA is recovered by system unwind, not guessed from a stack qword. At the RVA immediately preceding it, the synchronized mapped JVM snapshot contains FF D0 (call rax). The unwound USER32 frame return PC at RVA 0x5E3C5 lies in exported MessageBoxW (entry RVA 0x5E380), immediately after its direct call at 0x5E3C0 to MessageBoxTimeoutW (exported at 0x5E3E0). This proves the dialog chain reached MessageBoxW and returned to this JVM call site; the pre-call value of RAX itself is not captured, so target identity rests on this call-chain evidence.",
+  "caller_nonvolatile_registers": {
+    "rip": "0x5c59b8bd",
+    "rsp": "0x33ef6fe170",
+    "rbx": "0x0",
+    "rbp": "0x33ef6fe3a8",
+    "rsi": "0x33ef6fe2f0",
+    "rdi": "0xfffffffffff4c7f1",
+    "r12": "0x5c6bae45",
+    "r13": "0x33ef6fe338",
+    "r14": "0x5c",
+    "r15": "0x33ef6fe3a8"
+  },
+  "system_dll_disk_checks": [
+    {
+      "path": "C:\\WINDOWS\\System32\\USER32.dll",
+      "loaded_base": "0x7ffbfaa40000",
+      "loaded_size": "0x1c6000",
+      "disk_size_of_image": "0x1c6000",
+      "size_matches": true,
+      "pe_timestamp": "0x5d257817",
+      "pe_checksum": "0x1d1e86",
+      "disk_sha256": "87ae7cca2cb9f368f265faa59ed5e421eb9ec8ee07cf60244ed913ce2ba2e0d4"
+    },
+    {
+      "path": "C:\\WINDOWS\\System32\\win32u.dll",
+      "loaded_base": "0x7ffbf8f30000",
+      "loaded_size": "0x27000",
+      "disk_size_of_image": "0x27000",
+      "size_matches": true,
+      "pe_timestamp": "0xaa060f44",
+      "pe_checksum": "0x2b270",
+      "disk_sha256": "a8cfcbaf6c3f855f5ba5fb16c91df9ecac65db35a93c8d48da4400466a759388"
+    }
+  ],
+  "stop_reason": "first JVM frame reached; intentionally stopped",
+  "limits": [
+    "Only on-disk Windows system DLL .pdata is used.",
+    "Stops at first JVM address; does not decode JVM .pdata or treat unvalidated stack qwords as frames.",
+    "No remote process access or execution occurs.",
+    "No frame-pointer heuristic is used."
+  ]
+}

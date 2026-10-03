@@ -1,0 +1,162 @@
+{
+  "source": "E:\\Stalcraft project\\stalcraft_pre\\stalcraft\\win64\\java",
+  "destination": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java",
+  "purpose": "Unexecuted diagnostic copy; no game resources or credentials; source untouched",
+  "files": [
+    {
+      "path": "bin/freetype.dll",
+      "size": 518656,
+      "sha256": "c63a99744b003b64499612457eba0243c0f07ff8039ef28e4f88426cc4da7490"
+    },
+    {
+      "path": "bin/java.dll",
+      "size": 7680,
+      "sha256": "a86832fa5b172d3f5c9d330a47cdc340f96c7aeba84b383a631419767cf227f9"
+    },
+    {
+      "path": "bin/java.exe",
+      "size": 120320,
+      "sha256": "9aa9222df7c91946b2e8267c67e852fd2841f6fe1c57b2bf9d843f3ca34ec6b3"
+    },
+    {
+      "path": "bin/msvcp120.dll",
+      "size": 660128,
+      "sha256": "2abf0aab5a3c5ae9424b64e9d19d9d6d4aebc67814d7e92e4927b9798fef2848"
+    },
+    {
+      "path": "bin/msvcr120.dll",
+      "size": 963232,
+      "sha256": "ad32240bb1de55c3f5fcac8789f583a17057f9d14914c538c2a7a5ad346b341c"
+    },
+    {
+      "path": "bin/OpenAL64.dll",
+      "size": 382464,
+      "sha256": "9261b66010a845ddef9f61d5e4266fe2f08a53f3605da002e9e8f8d202bdbc5e"
+    },
+    {
+      "path": "bin/server/jvm.dll",
+      "size": 12961792,
+      "sha256": "e562abec12f92d83222cff05625ef0efab1162547ec4bc48716d6df1fb8dd875"
+    },
+    {
+      "path": "conf/logging.properties",
+      "size": 2731,
+      "sha256": "0b1694de493964ba46593003e5ce0a5e5f8724355cb33cc1bc415f9bdf9b09ac"
+    },
+    {
+      "path": "conf/net.properties",
+      "size": 4464,
+      "sha256": "b91666dea77b7a2feb1ca8c7e113f887e73a1f4e962e205d06a4194c2ba6580b"
+    },
+    {
+      "path": "conf/security/java.policy",
+      "size": 2180,
+      "sha256": "f2a00a1dec3b7a097f0815f338a84717ba1017d5d7aae96d842d2188d67c3250"
+    },
+    {
+      "path": "conf/security/java.security",
+      "size": 39604,
+      "sha256": "184207547d72c1a903f35a64387a8b3e6c554fc410c56ecf5f33ea4aa1a888c9"
+    },
+    {
+      "path": "conf/security/policy/limited/default_local.policy",
+      "size": 647,
+      "sha256": "2b2627548e61316150d47ffc3e6cad465ca05b3cccd4785eb7d21aa7baa0f441"
+    },
+    {
+      "path": "conf/security/policy/limited/default_US_export.policy",
+      "size": 146,
+      "sha256": "758b930a526fc670ab7537f8c26321527050a31f5f42149a2dda623c56a0a1a9"
+    },
+    {
+      "path": "conf/security/policy/limited/exempt_local.policy",
+      "size": 566,
+      "sha256": "8c3d7648abcd95a272ce12db870082937f4d7f6878d730d83cb7fbb31eb8b2c9"
+    },
+    {
+      "path": "conf/security/policy/README.txt",
+      "size": 1490,
+      "sha256": "174dbf0e967add21d0a21c1edb537b47a352dcf6a1cbbd4f0c2b0551056d960c"
+    },
+    {
+      "path": "conf/security/policy/unlimited/default_local.policy",
+      "size": 193,
+      "sha256": "8d8a318e6d90dfd7e26612d2b6385aa704f686ca6134c551f8928418d92b851a"
+    },
+    {
+      "path": "conf/security/policy/unlimited/default_US_export.policy",
+      "size": 146,
+      "sha256": "758b930a526fc670ab7537f8c26321527050a31f5f42149a2dda623c56a0a1a9"
+    },
+    {
+      "path": "conf/sound.properties",
+      "size": 1210,
+      "sha256": "299c2360b6155eb28990ec49cd21753f97e43442fe8fab03e04f3e213df43a66"
+    },
+    {
+      "path": "lib/fontconfig.bfc",
+      "size": 3852,
+      "sha256": "fd8cb77f48ee640d14f798dc26cc85a17d9796865f65c5d3ca4d6ebf3c9d0289"
+    },
+    {
+      "path": "lib/fontconfig.properties.src",
+      "size": 11641,
+      "sha256": "3440966c48b2dbece9c51c5125bc62d6eb2ee7f2136448cb8fa8fd74014af2b3"
+    },
+    {
+      "path": "lib/jvm.cfg",
+      "size": 1618,
+      "sha256": "aae187919a30b10f86823a39fda1b9f63577dad36358b6f661b8b2a7bd7c3edc"
+    },
+    {
+      "path": "lib/modules",
+      "size": 48833265,
+      "sha256": "b05051c562bec55a2d904d27629aaaff88a7259174e833cd2cf679c57e75809c"
+    },
+    {
+      "path": "lib/psfont.properties.ja",
+      "size": 3793,
+      "sha256": "5a4bd51b969bf187ff86d94f4a71fdfbfa602762975fa3c73d264b4575f7c78f"
+    },
+    {
+      "path": "lib/psfontj2d.properties",
+      "size": 11390,
+      "sha256": "780c565d5af3ee6f68b887b75c041cdf46a0592f67012f12eeb691283e92630a"
+    },
+    {
+      "path": "lib/security/blacklisted.certs",
+      "size": 1273,
+      "sha256": "1fbea394e634630894cf72de02df1846f32f3bb2067b3cb596700e4dd923f4b5"
+    },
+    {
+      "path": "lib/security/cacerts",
+      "size": 32,
+      "sha256": "09754edeef3ef6906c67e7ed4d41d9c32bdd840f10f45748b215d050fe198db8"
+    },
+    {
+      "path": "lib/security/default.policy",
+      "size": 8312,
+      "sha256": "93a3a8ac849caa62211d127eb853baf94499c4041e1010511dd363a6bff03ea9"
+    },
+    {
+      "path": "lib/server/Xusage.txt",
+      "size": 1383,
+      "sha256": "1cb30b4ee76d7a4c4a50f951e85fda1ebf51ec07fea7bc6d2f04b672eb2282a7"
+    },
+    {
+      "path": "lib/tzdb.dat",
+      "size": 105500,
+      "sha256": "6621dc04c054bdf8de07a41c193caf7bc6bb039ad153f31af6d7e3b50435dd53"
+    },
+    {
+      "path": "lib/tzmappings",
+      "size": 9577,
+      "sha256": "83755efbcb24476f61b7b57bcf54707161678431347e5de2d7b894d022a0089a"
+    },
+    {
+      "path": "release",
+      "size": 308,
+      "sha256": "ac824b65e8ffaf4ecf6ba97fab259bb228bbb4d678ba96aa203c2994d10d189d"
+    }
+  ]
+}

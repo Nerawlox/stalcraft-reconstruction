@@ -1,0 +1,133 @@
+{
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "owned_pid": 5012,
+  "entry_rva": "0x3ab210",
+  "mode": "Unicorn arithmetic and snapshot reads; no target memory writes or native helper invocation",
+  "api_calls": [
+    {
+      "name": "ZwClose",
+      "address": "0x7ffbfbc60550",
+      "args": [
+        "0x1ee7c0de",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "pc": "0x5ad1b210",
+      "bytes": "4883ec28"
+    },
+    {
+      "pc": "0x5ad1b214",
+      "bytes": "b9dec0e71e"
+    },
+    {
+      "pc": "0x5ad1b219",
+      "bytes": "e898413c00"
+    },
+    {
+      "pc": "0x5b0df3b6",
+      "bytes": "55"
+    },
+    {
+      "pc": "0x5b0df3b7",
+      "bytes": "e88d558200"
+    },
+    {
+      "pc": "0x5b904949",
+      "bytes": "90"
+    },
+    {
+      "pc": "0x5b90494a",
+      "bytes": "66410fbeed"
+    },
+    {
+      "pc": "0x5b90494f",
+      "bytes": "40f6d5"
+    },
+    {
+      "pc": "0x5b904952",
+      "bytes": "bdf878e269"
+    },
+    {
+      "pc": "0x5b904957",
+      "bytes": "5d"
+    },
+    {
+      "pc": "0x5b904958",
+      "bytes": "48872c24"
+    },
+    {
+      "pc": "0x5b90495c",
+      "bytes": "55"
+    },
+    {
+      "pc": "0x5b90495d",
+      "bytes": "490fb7eb"
+    },
+    {
+      "pc": "0x5b904961",
+      "bytes": "488d2db27b62ff"
+    },
+    {
+      "pc": "0x5b904968",
+      "bytes": "488badba469e00"
+    },
+    {
+      "pc": "0x5b90496f",
+      "bytes": "e9c47dc4ff"
+    },
+    {
+      "pc": "0x5b54c738",
+      "bytes": "488dad96390a6f"
+    },
+    {
+      "pc": "0x5b54c73f",
+      "bytes": "e9318e1800"
+    },
+    {
+      "pc": "0x5b6d5575",
+      "bytes": "48872c24"
+    },
+    {
+      "pc": "0x5b6d5579",
+      "bytes": "c20800"
+    },
+    {
+      "pc": "0x7ffbfbc60550",
+      "bytes": "4c8bd1"
+    },
+    {
+      "pc": "0x5ad1b21e",
+      "bytes": "33c0"
+    },
+    {
+      "pc": "0x5ad1b220",
+      "bytes": "eb05"
+    },
+    {
+      "pc": "0x5ad1b227",
+      "bytes": "4883c428"
+    },
+    {
+      "pc": "0x5ad1b22b",
+      "bytes": "c3"
+    },
+    {
+      "pc": "0x30300000",
+      "bytes": "0000"
+    }
+  ],
+  "instructions": 26,
+  "jvm_base": 1519845376,
+  "completed": true,
+  "return_rax": "0x0",
+  "mapped_pages": 521,
+  "last_pc": "0x30300000"
+}

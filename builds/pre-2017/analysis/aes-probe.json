@@ -1,0 +1,11 @@
+{
+  "sample_count": 497,
+  "samples_by_source": {
+    "classes.jar": 199,
+    "libs.jar": 199,
+    "jimage": 99
+  },
+  "first_block_attempts": 274344,
+  "valid_classes": [],
+  "scope": "AES-128/256 ECB/CBC, offsets0/16/32, named filename-derived and small common-word key hypotheses; no unknown-key brute force; negative result does not disprove AES"
+}

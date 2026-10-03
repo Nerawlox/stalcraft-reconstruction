@@ -1,0 +1,1171 @@
+{
+  "scope": "static mapped-image inspection and pure-Python transform probes only",
+  "image_sha256": "e65dd250be4dab717ba635cb5d6dd4746442abc94da2f4e5360dc6d9d47b3896",
+  "table_rva": "0xa2fd40",
+  "table_hex": "04bccaa83d737cadcaad5633735bc7da",
+  "table_sha256": "ee3d514ecd014f181a4bd4d481371a12393b0eb1eb91744c48a745bc2a3e7672",
+  "jimage_entry": {
+    "name": "/java.base/c14f5b29590d12e945cb0f3a42112a91",
+    "offset": 43797169,
+    "compressed_size": 0,
+    "uncompressed_size": 1552,
+    "sha256": "02e39a36fd7e13fd93a9c0a74dc0a47f8a3cbf39fabfe6a3323796dcfa3e1c16"
+  },
+  "cipher_sha256": "02e39a36fd7e13fd93a9c0a74dc0a47f8a3cbf39fabfe6a3323796dcfa3e1c16",
+  "native_output_sha256": "76c1b97741be08a13cd54ad907695a2b613a306aec46921c60542815d523d462",
+  "native_output_prefix": "2cab386fafd0892b99fd9982c001c29d03bb314af03a2ce5de26dfaa8d030c53",
+  "class_parser_evidence": {
+    "constructor_rva": "0x3aa240",
+    "bulk_transform_rva": "0x3aa420",
+    "get_u1_rva": "0x3aa4c0",
+    "get_u2_rva": "0x3aa620",
+    "get_u4_rva": "0x3aa680",
+    "parse_stream_rva": "0x3a6ed0",
+    "direct_parser_get_u1_callsite": "0x3a34ac",
+    "direct_parser_get_u2_callsites": [
+      "0x3a6f11",
+      "0x3a6f60",
+      "0x3a6f6f"
+    ],
+    "parser_skips_two_bytes_before_magic": true,
+    "magic_u2_expected": "0xe629",
+    "magic_error_string_rva": "0x89a340",
+    "magic_error_xref": "0x3a6f20",
+    "standard_cafebabe_check_at_this_path": false
+  },
+  "transform_formula": "out[i] = input[pos+i] XOR ROR8(input[pos+i-2],3) XOR table[(input[pos+i-1]+base_offset+i)&15]",
+  "bounded_probe_offsets": [
+    2,
+    32
+  ],
+  "transform_matches_for_sample": [
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 2,
+      "base_offset": 2,
+      "decoded_first_u2": "e629",
+      "decoded_first4": "e6290000",
+      "matches_parser_magic_e629": true,
+      "matches_standard_magic_cafebabe": false
+    }
+  ],
+  "tested_count": 124,
+  "probes": [
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 2,
+      "base_offset": 0,
+      "decoded_first_u2": "d9a3",
+      "decoded_first4": "d9a30dff",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 2,
+      "base_offset": 2,
+      "decoded_first_u2": "6da3",
+      "decoded_first4": "6da3d37e",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 3,
+      "base_offset": 0,
+      "decoded_first_u2": "7243",
+      "decoded_first4": "7243d76d",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 3,
+      "base_offset": 3,
+      "decoded_first_u2": "a3d3",
+      "decoded_first4": "a3d37e96",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 4,
+      "base_offset": 0,
+      "decoded_first_u2": "d697",
+      "decoded_first4": "d697bca9",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 4,
+      "base_offset": 4,
+      "decoded_first_u2": "d37e",
+      "decoded_first4": "d37e9610",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 5,
+      "base_offset": 0,
+      "decoded_first_u2": "f2b3",
+      "decoded_first4": "f2b3ce11",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 5,
+      "base_offset": 5,
+      "decoded_first_u2": "7e96",
+      "decoded_first4": "7e9610de",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 6,
+      "base_offset": 0,
+      "decoded_first_u2": "fd1f",
+      "decoded_first4": "fd1f510a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 6,
+      "base_offset": 6,
+      "decoded_first_u2": "9610",
+      "decoded_first4": "9610de0f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 7,
+      "base_offset": 0,
+      "decoded_first_u2": "1034",
+      "decoded_first4": "1034687a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 7,
+      "base_offset": 7,
+      "decoded_first_u2": "10de",
+      "decoded_first4": "10de0fd3",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 8,
+      "base_offset": 0,
+      "decoded_first_u2": "cf1e",
+      "decoded_first4": "cf1ea487",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 8,
+      "base_offset": 8,
+      "decoded_first_u2": "de0f",
+      "decoded_first4": "de0fd3f0",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 9,
+      "base_offset": 0,
+      "decoded_first_u2": "a6b9",
+      "decoded_first4": "a6b9561a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 9,
+      "base_offset": 9,
+      "decoded_first_u2": "0fd3",
+      "decoded_first4": "0fd3f01a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 10,
+      "base_offset": 0,
+      "decoded_first_u2": "2559",
+      "decoded_first4": "25595ab2",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 10,
+      "base_offset": 10,
+      "decoded_first_u2": "d3f0",
+      "decoded_first4": "d3f01ab2",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 11,
+      "base_offset": 0,
+      "decoded_first_u2": "173f",
+      "decoded_first4": "173fd575",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 11,
+      "base_offset": 11,
+      "decoded_first_u2": "f01a",
+      "decoded_first4": "f01ab21f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 12,
+      "base_offset": 0,
+      "decoded_first_u2": "c404",
+      "decoded_first4": "c404e963",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 12,
+      "base_offset": 12,
+      "decoded_first_u2": "1ab2",
+      "decoded_first4": "1ab21f84",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 13,
+      "base_offset": 0,
+      "decoded_first_u2": "0bc1",
+      "decoded_first4": "0bc1dbfe",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 13,
+      "base_offset": 13,
+      "decoded_first_u2": "b21f",
+      "decoded_first4": "b21f842f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 14,
+      "base_offset": 0,
+      "decoded_first_u2": "8105",
+      "decoded_first4": "81059926",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 14,
+      "base_offset": 14,
+      "decoded_first_u2": "1f84",
+      "decoded_first4": "1f842ffd",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 15,
+      "base_offset": 0,
+      "decoded_first_u2": "18fe",
+      "decoded_first4": "18fe688b",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 15,
+      "base_offset": 15,
+      "decoded_first_u2": "842f",
+      "decoded_first4": "842ffd84",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 16,
+      "base_offset": 0,
+      "decoded_first_u2": "2ffd",
+      "decoded_first4": "2ffd8498",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 16,
+      "base_offset": 16,
+      "decoded_first_u2": "2ffd",
+      "decoded_first4": "2ffd8498",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 17,
+      "base_offset": 0,
+      "decoded_first_u2": "9fca",
+      "decoded_first4": "9fcaff76",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 17,
+      "base_offset": 17,
+      "decoded_first_u2": "fd84",
+      "decoded_first4": "fd849879",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 18,
+      "base_offset": 0,
+      "decoded_first_u2": "5f2e",
+      "decoded_first4": "5f2e3839",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 18,
+      "base_offset": 18,
+      "decoded_first_u2": "8498",
+      "decoded_first4": "84987978",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 19,
+      "base_offset": 0,
+      "decoded_first_u2": "21ad",
+      "decoded_first4": "21adac1f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 19,
+      "base_offset": 19,
+      "decoded_first_u2": "9879",
+      "decoded_first4": "987978cb",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 20,
+      "base_offset": 0,
+      "decoded_first_u2": "cfce",
+      "decoded_first4": "cfce7d2e",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 20,
+      "base_offset": 20,
+      "decoded_first_u2": "7978",
+      "decoded_first4": "7978cbd9",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 21,
+      "base_offset": 0,
+      "decoded_first_u2": "b80b",
+      "decoded_first4": "b80bbbc8",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 21,
+      "base_offset": 21,
+      "decoded_first_u2": "78cb",
+      "decoded_first4": "78cbd9a7",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 22,
+      "base_offset": 0,
+      "decoded_first_u2": "b3d9",
+      "decoded_first4": "b3d954b4",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 22,
+      "base_offset": 22,
+      "decoded_first_u2": "cbd9",
+      "decoded_first4": "cbd9a7b4",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 23,
+      "base_offset": 0,
+      "decoded_first_u2": "af7c",
+      "decoded_first4": "af7cc257",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 23,
+      "base_offset": 23,
+      "decoded_first_u2": "d9a7",
+      "decoded_first4": "d9a7b4fe",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 24,
+      "base_offset": 0,
+      "decoded_first_u2": "3c7a",
+      "decoded_first4": "3c7a89d7",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 24,
+      "base_offset": 24,
+      "decoded_first_u2": "a7b4",
+      "decoded_first4": "a7b4fea0",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 25,
+      "base_offset": 0,
+      "decoded_first_u2": "a494",
+      "decoded_first4": "a49406e5",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 25,
+      "base_offset": 25,
+      "decoded_first_u2": "b4fe",
+      "decoded_first4": "b4fea0e5",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 26,
+      "base_offset": 0,
+      "decoded_first_u2": "0809",
+      "decoded_first4": "0809a5bc",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 26,
+      "base_offset": 26,
+      "decoded_first_u2": "fea0",
+      "decoded_first4": "fea0e54f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 27,
+      "base_offset": 0,
+      "decoded_first_u2": "47c0",
+      "decoded_first4": "47c0de6f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 27,
+      "base_offset": 27,
+      "decoded_first_u2": "a0e5",
+      "decoded_first4": "a0e54ffe",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 28,
+      "base_offset": 0,
+      "decoded_first_u2": "3ba8",
+      "decoded_first4": "3ba8196e",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 28,
+      "base_offset": 28,
+      "decoded_first_u2": "e54f",
+      "decoded_first4": "e54ffe99",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 29,
+      "base_offset": 0,
+      "decoded_first_u2": "10a1",
+      "decoded_first4": "10a10908",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 29,
+      "base_offset": 29,
+      "decoded_first_u2": "4ffe",
+      "decoded_first4": "4ffe9989",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 30,
+      "base_offset": 0,
+      "decoded_first_u2": "7fd8",
+      "decoded_first4": "7fd89d78",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 30,
+      "base_offset": 30,
+      "decoded_first_u2": "fe99",
+      "decoded_first4": "fe99898f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 31,
+      "base_offset": 0,
+      "decoded_first_u2": "d7ff",
+      "decoded_first4": "d7ffed4d",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 31,
+      "base_offset": 31,
+      "decoded_first_u2": "9989",
+      "decoded_first4": "99898f93",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 32,
+      "base_offset": 0,
+      "decoded_first_u2": "898f",
+      "decoded_first4": "898f937b",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "raw_jimage_ciphertext",
+      "stream_start_offset": 32,
+      "base_offset": 32,
+      "decoded_first_u2": "898f",
+      "decoded_first4": "898f937b",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 2,
+      "base_offset": 0,
+      "decoded_first_u2": "8eb7",
+      "decoded_first4": "8eb714f7",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 2,
+      "base_offset": 2,
+      "decoded_first_u2": "e629",
+      "decoded_first4": "e6290000",
+      "matches_parser_magic_e629": true,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 3,
+      "base_offset": 0,
+      "decoded_first_u2": "d0ac",
+      "decoded_first4": "d0ac81d4",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 3,
+      "base_offset": 3,
+      "decoded_first_u2": "2900",
+      "decoded_first4": "29000000",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 4,
+      "base_offset": 0,
+      "decoded_first_u2": "7239",
+      "decoded_first4": "7239b642",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 4,
+      "base_offset": 4,
+      "decoded_first_u2": "0000",
+      "decoded_first4": "00000035",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 5,
+      "base_offset": 0,
+      "decoded_first_u2": "e7c0",
+      "decoded_first4": "e7c0026f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 5,
+      "base_offset": 5,
+      "decoded_first_u2": "0000",
+      "decoded_first4": "00003500",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 6,
+      "base_offset": 0,
+      "decoded_first_u2": "7867",
+      "decoded_first4": "7867f3eb",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 6,
+      "base_offset": 6,
+      "decoded_first_u2": "0035",
+      "decoded_first4": "00350052",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 7,
+      "base_offset": 0,
+      "decoded_first_u2": "9cdb",
+      "decoded_first4": "9cdbabae",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 7,
+      "base_offset": 7,
+      "decoded_first_u2": "3500",
+      "decoded_first4": "35005207",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 8,
+      "base_offset": 0,
+      "decoded_first_u2": "9bce",
+      "decoded_first4": "9bce704e",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 8,
+      "base_offset": 8,
+      "decoded_first_u2": "0052",
+      "decoded_first4": "00520700",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 9,
+      "base_offset": 0,
+      "decoded_first_u2": "356d",
+      "decoded_first4": "356d0e80",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 9,
+      "base_offset": 9,
+      "decoded_first_u2": "5207",
+      "decoded_first4": "52070034",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 10,
+      "base_offset": 0,
+      "decoded_first_u2": "f16b",
+      "decoded_first4": "f16bcef9",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 10,
+      "base_offset": 10,
+      "decoded_first_u2": "0700",
+      "decoded_first4": "0700340a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 11,
+      "base_offset": 0,
+      "decoded_first_u2": "905b",
+      "decoded_first4": "905b9be7",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 11,
+      "base_offset": 11,
+      "decoded_first_u2": "0034",
+      "decoded_first4": "00340a00",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 12,
+      "base_offset": 0,
+      "decoded_first_u2": "39ed",
+      "decoded_first4": "39ed72ce",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 12,
+      "base_offset": 12,
+      "decoded_first_u2": "340a",
+      "decoded_first4": "340a0001",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 13,
+      "base_offset": 0,
+      "decoded_first_u2": "5510",
+      "decoded_first4": "5510805f",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 13,
+      "base_offset": 13,
+      "decoded_first_u2": "0a00",
+      "decoded_first4": "0a000100",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 14,
+      "base_offset": 0,
+      "decoded_first_u2": "6615",
+      "decoded_first4": "66158174",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 14,
+      "base_offset": 14,
+      "decoded_first_u2": "0001",
+      "decoded_first4": "00010035",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 15,
+      "base_offset": 0,
+      "decoded_first_u2": "779c",
+      "decoded_first4": "779c7b96",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 15,
+      "base_offset": 15,
+      "decoded_first_u2": "0100",
+      "decoded_first4": "0100350a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 16,
+      "base_offset": 0,
+      "decoded_first_u2": "0035",
+      "decoded_first4": "00350a00",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 16,
+      "base_offset": 16,
+      "decoded_first_u2": "0035",
+      "decoded_first4": "00350a00",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 17,
+      "base_offset": 0,
+      "decoded_first_u2": "a022",
+      "decoded_first4": "a022958d",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 17,
+      "base_offset": 17,
+      "decoded_first_u2": "350a",
+      "decoded_first4": "350a0011",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 18,
+      "base_offset": 0,
+      "decoded_first_u2": "62f7",
+      "decoded_first4": "62f7a5db",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 18,
+      "base_offset": 18,
+      "decoded_first_u2": "0a00",
+      "decoded_first4": "0a001100",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 19,
+      "base_offset": 0,
+      "decoded_first_u2": "81e5",
+      "decoded_first4": "81e5b969",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 19,
+      "base_offset": 19,
+      "decoded_first_u2": "0011",
+      "decoded_first4": "00110036",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 20,
+      "base_offset": 0,
+      "decoded_first_u2": "80cf",
+      "decoded_first4": "80cf4178",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 20,
+      "base_offset": 20,
+      "decoded_first_u2": "1100",
+      "decoded_first4": "1100360a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 21,
+      "base_offset": 0,
+      "decoded_first_u2": "7701",
+      "decoded_first4": "77016591",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 21,
+      "base_offset": 21,
+      "decoded_first_u2": "0036",
+      "decoded_first4": "00360a00",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 22,
+      "base_offset": 0,
+      "decoded_first_u2": "64f9",
+      "decoded_first4": "64f9f626",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 22,
+      "base_offset": 22,
+      "decoded_first_u2": "360a",
+      "decoded_first4": "360a0037",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 23,
+      "base_offset": 0,
+      "decoded_first_u2": "d127",
+      "decoded_first4": "d1279ea9",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 23,
+      "base_offset": 23,
+      "decoded_first_u2": "0a00",
+      "decoded_first4": "0a003700",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 24,
+      "base_offset": 0,
+      "decoded_first_u2": "2840",
+      "decoded_first4": "2840cea4",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 24,
+      "base_offset": 24,
+      "decoded_first_u2": "0037",
+      "decoded_first4": "00370038",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 25,
+      "base_offset": 0,
+      "decoded_first_u2": "5da9",
+      "decoded_first4": "5da9d22d",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 25,
+      "base_offset": 25,
+      "decoded_first_u2": "3700",
+      "decoded_first4": "3700380a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 26,
+      "base_offset": 0,
+      "decoded_first_u2": "786a",
+      "decoded_first4": "786a0552",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 26,
+      "base_offset": 26,
+      "decoded_first_u2": "0038",
+      "decoded_first4": "00380a00",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 27,
+      "base_offset": 0,
+      "decoded_first_u2": "b445",
+      "decoded_first4": "b4458cc1",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 27,
+      "base_offset": 27,
+      "decoded_first_u2": "380a",
+      "decoded_first4": "380a0001",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 28,
+      "base_offset": 0,
+      "decoded_first_u2": "2091",
+      "decoded_first4": "2091cee9",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 28,
+      "base_offset": 28,
+      "decoded_first_u2": "0a00",
+      "decoded_first4": "0a000100",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 29,
+      "base_offset": 0,
+      "decoded_first_u2": "0d80",
+      "decoded_first4": "0d80f4ed",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 29,
+      "base_offset": 29,
+      "decoded_first_u2": "0001",
+      "decoded_first4": "00010039",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 30,
+      "base_offset": 0,
+      "decoded_first_u2": "1568",
+      "decoded_first4": "1568e21c",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 30,
+      "base_offset": 30,
+      "decoded_first_u2": "0100",
+      "decoded_first4": "01003908",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 31,
+      "base_offset": 0,
+      "decoded_first_u2": "40ac",
+      "decoded_first4": "40ac7eb8",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 31,
+      "base_offset": 31,
+      "decoded_first_u2": "0039",
+      "decoded_first4": "00390800",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 32,
+      "base_offset": 0,
+      "decoded_first_u2": "3908",
+      "decoded_first4": "3908003a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    },
+    {
+      "input": "native_cipher_output",
+      "stream_start_offset": 32,
+      "base_offset": 32,
+      "decoded_first_u2": "3908",
+      "decoded_first4": "3908003a",
+      "matches_parser_magic_e629": false,
+      "matches_standard_magic_cafebabe": false
+    }
+  ]
+}

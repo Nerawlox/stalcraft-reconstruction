@@ -1,0 +1,76 @@
+{
+  "scope": "alternate decompiler only; input library classes never executed; CFR snapshot unchanged",
+  "tool_sha256": "821da96012fc69244fa1ea298c90455ee4e021434bc796d3b9546ab24601b779",
+  "input_class_count": 37,
+  "input_classes": [
+    "com/google/common/util/concurrent/Futures$ImmediateFailedCheckedFuture.class",
+    "com/google/common/util/concurrent/Futures$ImmediateSuccessfulFuture.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation$1.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1$2.class",
+    "com/google/common/util/concurrent/Futures$6.class",
+    "com/google/common/util/concurrent/Futures.class",
+    "com/google/common/util/concurrent/Futures$FutureCombiner.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation.class",
+    "org/lwjgl/opengl/LinuxDisplay$1.class",
+    "com/google/common/util/concurrent/Futures$ImmediateCancelledFuture.class",
+    "com/google/common/util/concurrent/Futures$ChainingListenableFuture$1.class",
+    "com/google/common/util/concurrent/Futures$1.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation$2.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$2.class",
+    "org/lwjgl/opengl/LinuxDisplay$2.class",
+    "com/google/common/util/concurrent/Futures$ImmediateFailedFuture.class",
+    "org/lwjgl/opengl/LinuxDisplay$3.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture.class",
+    "com/google/common/util/concurrent/Futures$ChainingListenableFuture.class",
+    "com/google/common/util/concurrent/Futures$2.class",
+    "org/lwjgl/opengl/LinuxDisplay.class",
+    "com/google/common/util/concurrent/Futures$ImmediateSuccessfulCheckedFuture.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$4.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture$1$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1.class",
+    "com/google/common/util/concurrent/Futures$MappingCheckedFuture.class",
+    "com/google/common/util/concurrent/Futures$5.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$Provider.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture$2.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture.class",
+    "com/google/common/util/concurrent/Futures$4.class",
+    "com/google/common/util/concurrent/Futures$ImmediateFuture.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1$1.class",
+    "com/google/common/util/concurrent/Futures$3.class"
+  ],
+  "command": [
+    "E:\\Stalcraft project\\stalcraft-decompiled\\.cache\\runtime\\java\\bin\\java.exe",
+    "-Xmx512m",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\procyon-decompiler-0.6.0.jar",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\cfr-library-failures-input.jar",
+    "-o",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\decompiled-alternatives\\procyon-libs"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.64,
+  "sources": [
+    {
+      "path": "decompiled-alternatives\\procyon-libs\\com\\google\\common\\util\\concurrent\\Futures.java",
+      "bytes": 31335,
+      "sha256": "fca90e5304334c28a7bb1584f65fa3b28b7c5a962e3942ef32d64b4d900d7726",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs\\org\\lwjgl\\opengl\\LinuxCanvasImplementation.java",
+      "bytes": 3802,
+      "sha256": "65c234bc8057e1e35f88ced69995c7cf61226bf72d22f46a77f0a448fe405c02",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs\\org\\lwjgl\\opengl\\LinuxDisplay.java",
+      "bytes": 57791,
+      "sha256": "12c7b26d20849984c79be58741d64076a7c5eef0e8e494f7b0c9923f12785d76",
+      "decompilation_error_markers": []
+    }
+  ]
+}

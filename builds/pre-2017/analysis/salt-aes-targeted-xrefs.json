@@ -1,0 +1,12 @@
+[
+  {
+    "target": "0x89abd8",
+    "rva": "0x3ac3de",
+    "instruction": "movups xmm0, xmmword ptr [rip + 0x4ee7f3]"
+  },
+  {
+    "target": "0x89abd8",
+    "rva": "0x3ad6dd",
+    "instruction": "movups xmm0, xmmword ptr [rip + 0x4ed4f4]"
+  }
+]

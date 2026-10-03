@@ -1,0 +1,2908 @@
+{
+  "image": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-static-view.pe",
+  "image_base": "0x5a970000",
+  "range": [
+    "0x2fd500",
+    "0x305000"
+  ],
+  "records": [
+    {
+      "init_rva": 3134737,
+      "name": "nop",
+      "name_rva": 8928644,
+      "stores": [
+        {
+          "dst_rva": 10959984,
+          "width": 4,
+          "value": 14,
+          "insn_rva": 3134758,
+          "src": "dword ptr [rip + 0x776740], 0xe"
+        },
+        {
+          "dst_rva": 10960512,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3134768,
+          "src": "byte ptr [rip + 0x776949], 0"
+        },
+        {
+          "dst_rva": 10958640,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3134775,
+          "src": "qword ptr [rip + 0x7761f2], rax"
+        },
+        {
+          "dst_rva": 10960752,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3134782,
+          "src": "byte ptr [rip + 0x776a2b], 1"
+        },
+        {
+          "dst_rva": 10961424,
+          "width": 4,
+          "value": 144,
+          "insn_rva": 3134789,
+          "src": "dword ptr [rip + 0x776cc1], 0x90"
+        },
+        {
+          "dst_rva": 10962976,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3134799,
+          "src": "byte ptr [rip + 0x7772ca], 0"
+        },
+        {
+          "dst_rva": 10962096,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3134815,
+          "src": "word ptr [rip + 0x776f4a], ax"
+        },
+        {
+          "dst_rva": 10962608,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3134836,
+          "src": "word ptr [rip + 0x777135], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3134843,
+      "name": "aconst_null",
+      "name_rva": 8928648,
+      "stores": [
+        {
+          "dst_rva": 10960108,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3134850,
+          "src": "dword ptr [rip + 0x776760], 0xc"
+        },
+        {
+          "dst_rva": 10960543,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3134860,
+          "src": "byte ptr [rip + 0x77690c], 1"
+        },
+        {
+          "dst_rva": 10960783,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3134867,
+          "src": "byte ptr [rip + 0x7769f5], 1"
+        },
+        {
+          "dst_rva": 10961548,
+          "width": 4,
+          "value": 175,
+          "insn_rva": 3134874,
+          "src": "dword ptr [rip + 0x776ce8], 0xaf"
+        },
+        {
+          "dst_rva": 10958888,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3134884,
+          "src": "qword ptr [rip + 0x77627d], rax"
+        },
+        {
+          "dst_rva": 10963007,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3134891,
+          "src": "byte ptr [rip + 0x77728d], 0"
+        },
+        {
+          "dst_rva": 10962158,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3134907,
+          "src": "word ptr [rip + 0x776f2c], ax"
+        },
+        {
+          "dst_rva": 10962670,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3134928,
+          "src": "word ptr [rip + 0x777117], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3134935,
+      "name": "iconst_m1",
+      "name_rva": 8928664,
+      "stores": [
+        {
+          "dst_rva": 10959736,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3134942,
+          "src": "dword ptr [rip + 0x776590], 0xa"
+        },
+        {
+          "dst_rva": 10960450,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3134952,
+          "src": "byte ptr [rip + 0x776853], 1"
+        },
+        {
+          "dst_rva": 10960690,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3134959,
+          "src": "byte ptr [rip + 0x77693c], 1"
+        },
+        {
+          "dst_rva": 10961176,
+          "width": 4,
+          "value": 82,
+          "insn_rva": 3134966,
+          "src": "dword ptr [rip + 0x776b18], 0x52"
+        },
+        {
+          "dst_rva": 10958144,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3134976,
+          "src": "qword ptr [rip + 0x775f39], rax"
+        },
+        {
+          "dst_rva": 10962914,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3134983,
+          "src": "byte ptr [rip + 0x7771d4], 0"
+        },
+        {
+          "dst_rva": 10961972,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3134999,
+          "src": "word ptr [rip + 0x776e16], ax"
+        },
+        {
+          "dst_rva": 10962484,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135020,
+          "src": "word ptr [rip + 0x777001], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135027,
+      "name": "iconst_0",
+      "name_rva": 8928680,
+      "stores": [
+        {
+          "dst_rva": 10959420,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135034,
+          "src": "dword ptr [rip + 0x7763f8], 0xa"
+        },
+        {
+          "dst_rva": 10960371,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135044,
+          "src": "byte ptr [rip + 0x7767a8], 1"
+        },
+        {
+          "dst_rva": 10960611,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135051,
+          "src": "byte ptr [rip + 0x776891], 1"
+        },
+        {
+          "dst_rva": 10960860,
+          "width": 4,
+          "value": 3,
+          "insn_rva": 3135058,
+          "src": "dword ptr [rip + 0x776980], 3"
+        },
+        {
+          "dst_rva": 10957512,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135068,
+          "src": "qword ptr [rip + 0x775c65], rax"
+        },
+        {
+          "dst_rva": 10962835,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135075,
+          "src": "byte ptr [rip + 0x777129], 0"
+        },
+        {
+          "dst_rva": 10961814,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135091,
+          "src": "word ptr [rip + 0x776d1c], ax"
+        },
+        {
+          "dst_rva": 10962326,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135112,
+          "src": "word ptr [rip + 0x776f07], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135119,
+      "name": "iconst_1",
+      "name_rva": 8928696,
+      "stores": [
+        {
+          "dst_rva": 10959424,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135126,
+          "src": "dword ptr [rip + 0x7763a0], 0xa"
+        },
+        {
+          "dst_rva": 10960372,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135136,
+          "src": "byte ptr [rip + 0x77674d], 1"
+        },
+        {
+          "dst_rva": 10960612,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135143,
+          "src": "byte ptr [rip + 0x776836], 1"
+        },
+        {
+          "dst_rva": 10960864,
+          "width": 4,
+          "value": 4,
+          "insn_rva": 3135150,
+          "src": "dword ptr [rip + 0x776928], 4"
+        },
+        {
+          "dst_rva": 10957520,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135160,
+          "src": "qword ptr [rip + 0x775c11], rax"
+        },
+        {
+          "dst_rva": 10962836,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135167,
+          "src": "byte ptr [rip + 0x7770ce], 0"
+        },
+        {
+          "dst_rva": 10961816,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135183,
+          "src": "word ptr [rip + 0x776cc2], ax"
+        },
+        {
+          "dst_rva": 10959428,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135195,
+          "src": "dword ptr [rip + 0x77635f], 0xa"
+        },
+        {
+          "dst_rva": 10960373,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135205,
+          "src": "byte ptr [rip + 0x776709], 1"
+        },
+        {
+          "dst_rva": 10962328,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135212,
+          "src": "word ptr [rip + 0x776ea5], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135219,
+      "name": "iconst_2",
+      "name_rva": 8928712,
+      "stores": [
+        {
+          "dst_rva": 10960613,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135226,
+          "src": "byte ptr [rip + 0x7767e4], 1"
+        },
+        {
+          "dst_rva": 10957528,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135233,
+          "src": "qword ptr [rip + 0x775bd0], rax"
+        },
+        {
+          "dst_rva": 10960868,
+          "width": 4,
+          "value": 5,
+          "insn_rva": 3135249,
+          "src": "dword ptr [rip + 0x7768c9], 5"
+        },
+        {
+          "dst_rva": 10962837,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135259,
+          "src": "byte ptr [rip + 0x777073], 0"
+        },
+        {
+          "dst_rva": 10961818,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135275,
+          "src": "word ptr [rip + 0x776c68], ax"
+        },
+        {
+          "dst_rva": 10962330,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135296,
+          "src": "word ptr [rip + 0x776e53], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135303,
+      "name": "iconst_3",
+      "name_rva": 8928728,
+      "stores": [
+        {
+          "dst_rva": 10959432,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135310,
+          "src": "dword ptr [rip + 0x7762f0], 0xa"
+        },
+        {
+          "dst_rva": 10960374,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135320,
+          "src": "byte ptr [rip + 0x776697], 1"
+        },
+        {
+          "dst_rva": 10960614,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135327,
+          "src": "byte ptr [rip + 0x776780], 1"
+        },
+        {
+          "dst_rva": 10960872,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3135334,
+          "src": "dword ptr [rip + 0x776878], 6"
+        },
+        {
+          "dst_rva": 10957536,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135344,
+          "src": "qword ptr [rip + 0x775b69], rax"
+        },
+        {
+          "dst_rva": 10962838,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135351,
+          "src": "byte ptr [rip + 0x777018], 0"
+        },
+        {
+          "dst_rva": 10961820,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135367,
+          "src": "word ptr [rip + 0x776c0e], ax"
+        },
+        {
+          "dst_rva": 10962332,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135388,
+          "src": "word ptr [rip + 0x776df9], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135395,
+      "name": "iconst_4",
+      "name_rva": 8928744,
+      "stores": [
+        {
+          "dst_rva": 10959436,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135402,
+          "src": "dword ptr [rip + 0x776298], 0xa"
+        },
+        {
+          "dst_rva": 10960375,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135412,
+          "src": "byte ptr [rip + 0x77663c], 1"
+        },
+        {
+          "dst_rva": 10960615,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135419,
+          "src": "byte ptr [rip + 0x776725], 1"
+        },
+        {
+          "dst_rva": 10960876,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3135426,
+          "src": "dword ptr [rip + 0x776820], 7"
+        },
+        {
+          "dst_rva": 10957544,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135436,
+          "src": "qword ptr [rip + 0x775b15], rax"
+        },
+        {
+          "dst_rva": 10962839,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135443,
+          "src": "byte ptr [rip + 0x776fbd], 0"
+        },
+        {
+          "dst_rva": 10961822,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135459,
+          "src": "word ptr [rip + 0x776bb4], ax"
+        },
+        {
+          "dst_rva": 10962334,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135480,
+          "src": "word ptr [rip + 0x776d9f], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135487,
+      "name": "iconst_5",
+      "name_rva": 8928760,
+      "stores": [
+        {
+          "dst_rva": 10959440,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3135494,
+          "src": "dword ptr [rip + 0x776240], 0xa"
+        },
+        {
+          "dst_rva": 10960376,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135504,
+          "src": "byte ptr [rip + 0x7765e1], 1"
+        },
+        {
+          "dst_rva": 10960616,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135511,
+          "src": "byte ptr [rip + 0x7766ca], 1"
+        },
+        {
+          "dst_rva": 10960880,
+          "width": 4,
+          "value": 8,
+          "insn_rva": 3135518,
+          "src": "dword ptr [rip + 0x7767c8], 8"
+        },
+        {
+          "dst_rva": 10957552,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135528,
+          "src": "qword ptr [rip + 0x775ac1], rax"
+        },
+        {
+          "dst_rva": 10962840,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135535,
+          "src": "byte ptr [rip + 0x776f62], 0"
+        },
+        {
+          "dst_rva": 10961824,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135551,
+          "src": "word ptr [rip + 0x776b5a], ax"
+        },
+        {
+          "dst_rva": 10962336,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135572,
+          "src": "word ptr [rip + 0x776d45], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135579,
+      "name": "lconst_0",
+      "name_rva": 8928776,
+      "stores": [
+        {
+          "dst_rva": 10959464,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3135586,
+          "src": "dword ptr [rip + 0x7761fc], 0xb"
+        },
+        {
+          "dst_rva": 10960382,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3135596,
+          "src": "byte ptr [rip + 0x77658b], 2"
+        },
+        {
+          "dst_rva": 10960622,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135603,
+          "src": "byte ptr [rip + 0x776674], 1"
+        },
+        {
+          "dst_rva": 10960904,
+          "width": 4,
+          "value": 14,
+          "insn_rva": 3135610,
+          "src": "dword ptr [rip + 0x776784], 0xe"
+        },
+        {
+          "dst_rva": 10957600,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135620,
+          "src": "qword ptr [rip + 0x775a95], rax"
+        },
+        {
+          "dst_rva": 10962846,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135627,
+          "src": "byte ptr [rip + 0x776f0c], 0"
+        },
+        {
+          "dst_rva": 10961836,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135643,
+          "src": "word ptr [rip + 0x776b0a], ax"
+        },
+        {
+          "dst_rva": 10962348,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135664,
+          "src": "word ptr [rip + 0x776cf5], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135671,
+      "name": "lconst_1",
+      "name_rva": 8928792,
+      "stores": [
+        {
+          "dst_rva": 10959468,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3135678,
+          "src": "dword ptr [rip + 0x7761a4], 0xb"
+        },
+        {
+          "dst_rva": 10960383,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3135688,
+          "src": "byte ptr [rip + 0x776530], 2"
+        },
+        {
+          "dst_rva": 10960623,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135695,
+          "src": "byte ptr [rip + 0x776619], 1"
+        },
+        {
+          "dst_rva": 10960908,
+          "width": 4,
+          "value": 15,
+          "insn_rva": 3135702,
+          "src": "dword ptr [rip + 0x77672c], 0xf"
+        },
+        {
+          "dst_rva": 10957608,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135712,
+          "src": "qword ptr [rip + 0x775a41], rax"
+        },
+        {
+          "dst_rva": 10962847,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135719,
+          "src": "byte ptr [rip + 0x776eb1], 0"
+        },
+        {
+          "dst_rva": 10961838,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135731,
+          "src": "word ptr [rip + 0x776ab4], ax"
+        },
+        {
+          "dst_rva": 10962350,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135756,
+          "src": "word ptr [rip + 0x776c9b], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135763,
+      "name": "fconst_0",
+      "name_rva": 8928808,
+      "stores": [
+        {
+          "dst_rva": 10959452,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3135770,
+          "src": "dword ptr [rip + 0x776138], 6"
+        },
+        {
+          "dst_rva": 10960379,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135780,
+          "src": "byte ptr [rip + 0x7764d0], 1"
+        },
+        {
+          "dst_rva": 10960619,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135787,
+          "src": "byte ptr [rip + 0x7765b9], 1"
+        },
+        {
+          "dst_rva": 10960892,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3135794,
+          "src": "dword ptr [rip + 0x7766c0], 0xb"
+        },
+        {
+          "dst_rva": 10957576,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135804,
+          "src": "qword ptr [rip + 0x7759c5], rax"
+        },
+        {
+          "dst_rva": 10962843,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135811,
+          "src": "byte ptr [rip + 0x776e51], 0"
+        },
+        {
+          "dst_rva": 10961830,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135827,
+          "src": "word ptr [rip + 0x776a4c], ax"
+        },
+        {
+          "dst_rva": 10962342,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135848,
+          "src": "word ptr [rip + 0x776c37], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135855,
+      "name": "fconst_1",
+      "name_rva": 8928824,
+      "stores": [
+        {
+          "dst_rva": 10959456,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3135862,
+          "src": "dword ptr [rip + 0x7760e0], 6"
+        },
+        {
+          "dst_rva": 10960380,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135872,
+          "src": "byte ptr [rip + 0x776475], 1"
+        },
+        {
+          "dst_rva": 10960620,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135879,
+          "src": "byte ptr [rip + 0x77655e], 1"
+        },
+        {
+          "dst_rva": 10960896,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3135886,
+          "src": "dword ptr [rip + 0x776668], 0xc"
+        },
+        {
+          "dst_rva": 10957584,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135896,
+          "src": "qword ptr [rip + 0x775971], rax"
+        },
+        {
+          "dst_rva": 10962844,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135903,
+          "src": "byte ptr [rip + 0x776df6], 0"
+        },
+        {
+          "dst_rva": 10961832,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135919,
+          "src": "word ptr [rip + 0x7769f2], ax"
+        },
+        {
+          "dst_rva": 10962344,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3135940,
+          "src": "word ptr [rip + 0x776bdd], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3135947,
+      "name": "fconst_2",
+      "name_rva": 8928840,
+      "stores": [
+        {
+          "dst_rva": 10959460,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3135954,
+          "src": "dword ptr [rip + 0x776088], 6"
+        },
+        {
+          "dst_rva": 10960381,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135964,
+          "src": "byte ptr [rip + 0x77641a], 1"
+        },
+        {
+          "dst_rva": 10960621,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3135971,
+          "src": "byte ptr [rip + 0x776503], 1"
+        },
+        {
+          "dst_rva": 10960900,
+          "width": 4,
+          "value": 13,
+          "insn_rva": 3135978,
+          "src": "dword ptr [rip + 0x776610], 0xd"
+        },
+        {
+          "dst_rva": 10957592,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3135988,
+          "src": "qword ptr [rip + 0x77591d], rax"
+        },
+        {
+          "dst_rva": 10962845,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3135995,
+          "src": "byte ptr [rip + 0x776d9b], 0"
+        },
+        {
+          "dst_rva": 10961834,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136011,
+          "src": "word ptr [rip + 0x776998], ax"
+        },
+        {
+          "dst_rva": 10962346,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136032,
+          "src": "word ptr [rip + 0x776b83], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136039,
+      "name": "dconst_0",
+      "name_rva": 8928856,
+      "stores": [
+        {
+          "dst_rva": 10959444,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3136046,
+          "src": "dword ptr [rip + 0x77601c], 7"
+        },
+        {
+          "dst_rva": 10960377,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136056,
+          "src": "byte ptr [rip + 0x7763ba], 2"
+        },
+        {
+          "dst_rva": 10960617,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136063,
+          "src": "byte ptr [rip + 0x7764a3], 1"
+        },
+        {
+          "dst_rva": 10960884,
+          "width": 4,
+          "value": 9,
+          "insn_rva": 3136070,
+          "src": "dword ptr [rip + 0x7765a4], 9"
+        },
+        {
+          "dst_rva": 10957560,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136080,
+          "src": "qword ptr [rip + 0x7758a1], rax"
+        },
+        {
+          "dst_rva": 10962841,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136087,
+          "src": "byte ptr [rip + 0x776d3b], 0"
+        },
+        {
+          "dst_rva": 10961826,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136103,
+          "src": "word ptr [rip + 0x776934], ax"
+        },
+        {
+          "dst_rva": 10962338,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136124,
+          "src": "word ptr [rip + 0x776b1f], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136131,
+      "name": "dconst_1",
+      "name_rva": 8928872,
+      "stores": [
+        {
+          "dst_rva": 10959448,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3136138,
+          "src": "dword ptr [rip + 0x775fc4], 7"
+        },
+        {
+          "dst_rva": 10960378,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136148,
+          "src": "byte ptr [rip + 0x77635f], 2"
+        },
+        {
+          "dst_rva": 10960618,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136155,
+          "src": "byte ptr [rip + 0x776448], 1"
+        },
+        {
+          "dst_rva": 10960888,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3136162,
+          "src": "dword ptr [rip + 0x77654c], 0xa"
+        },
+        {
+          "dst_rva": 10957568,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136172,
+          "src": "qword ptr [rip + 0x77584d], rax"
+        },
+        {
+          "dst_rva": 10962842,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136179,
+          "src": "byte ptr [rip + 0x776ce0], 0"
+        },
+        {
+          "dst_rva": 10961828,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136195,
+          "src": "word ptr [rip + 0x7768da], ax"
+        },
+        {
+          "dst_rva": 10962340,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136207,
+          "src": "word ptr [rip + 0x776ace], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136214,
+      "name": "bipush",
+      "name_rva": 8928888,
+      "stores": [
+        {
+          "dst_rva": 10958376,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136221,
+          "src": "qword ptr [rip + 0x775b44], rax"
+        },
+        {
+          "dst_rva": 10959852,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3136237,
+          "src": "dword ptr [rip + 0x7760f5], 0xa"
+        },
+        {
+          "dst_rva": 10960479,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136247,
+          "src": "byte ptr [rip + 0x776361], 1"
+        },
+        {
+          "dst_rva": 10960719,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136254,
+          "src": "byte ptr [rip + 0x77644a], 2"
+        },
+        {
+          "dst_rva": 10961292,
+          "width": 4,
+          "value": 111,
+          "insn_rva": 3136261,
+          "src": "dword ptr [rip + 0x77667d], 0x6f"
+        },
+        {
+          "dst_rva": 10962943,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136271,
+          "src": "byte ptr [rip + 0x776ce9], 0"
+        },
+        {
+          "dst_rva": 10962030,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136287,
+          "src": "word ptr [rip + 0x776948], ax"
+        },
+        {
+          "dst_rva": 10962542,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136308,
+          "src": "word ptr [rip + 0x776b33], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136315,
+      "name": "sipush",
+      "name_rva": 8928900,
+      "stores": [
+        {
+          "dst_rva": 10959892,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3136322,
+          "src": "dword ptr [rip + 0x7760c8], 0xa"
+        },
+        {
+          "dst_rva": 10960489,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136332,
+          "src": "byte ptr [rip + 0x776316], 1"
+        },
+        {
+          "dst_rva": 10960729,
+          "width": 1,
+          "value": 3,
+          "insn_rva": 3136339,
+          "src": "byte ptr [rip + 0x7763ff], 3"
+        },
+        {
+          "dst_rva": 10961332,
+          "width": 4,
+          "value": 121,
+          "insn_rva": 3136346,
+          "src": "dword ptr [rip + 0x776650], 0x79"
+        },
+        {
+          "dst_rva": 10958456,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136356,
+          "src": "qword ptr [rip + 0x775b0d], rax"
+        },
+        {
+          "dst_rva": 10962953,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136363,
+          "src": "byte ptr [rip + 0x776c97], 0"
+        },
+        {
+          "dst_rva": 10962050,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136379,
+          "src": "word ptr [rip + 0x776900], ax"
+        },
+        {
+          "dst_rva": 10962562,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136403,
+          "src": "word ptr [rip + 0x776ae8], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136410,
+      "name": "ldc",
+      "name_rva": 8928912,
+      "stores": [
+        {
+          "dst_rva": 10959768,
+          "width": 4,
+          "value": 99,
+          "insn_rva": 3136417,
+          "src": "dword ptr [rip + 0x775fed], 0x63"
+        },
+        {
+          "dst_rva": 10960458,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136427,
+          "src": "byte ptr [rip + 0x776298], 1"
+        },
+        {
+          "dst_rva": 10960698,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136434,
+          "src": "byte ptr [rip + 0x776381], 2"
+        },
+        {
+          "dst_rva": 10961208,
+          "width": 4,
+          "value": 90,
+          "insn_rva": 3136441,
+          "src": "dword ptr [rip + 0x776575], 0x5a"
+        },
+        {
+          "dst_rva": 10958208,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136451,
+          "src": "qword ptr [rip + 0x7759b6], rax"
+        },
+        {
+          "dst_rva": 10962922,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136458,
+          "src": "byte ptr [rip + 0x776c19], 0"
+        },
+        {
+          "dst_rva": 10961988,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136477,
+          "src": "word ptr [rip + 0x776860], ax"
+        },
+        {
+          "dst_rva": 10962500,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136501,
+          "src": "word ptr [rip + 0x776a48], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136508,
+      "name": "ldc_w",
+      "name_rva": 8928920,
+      "stores": [
+        {
+          "dst_rva": 10960160,
+          "width": 4,
+          "value": 99,
+          "insn_rva": 3136515,
+          "src": "dword ptr [rip + 0x776113], 0x63"
+        },
+        {
+          "dst_rva": 10960556,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136525,
+          "src": "byte ptr [rip + 0x776298], 1"
+        },
+        {
+          "dst_rva": 10960796,
+          "width": 1,
+          "value": 3,
+          "insn_rva": 3136532,
+          "src": "byte ptr [rip + 0x776381], 3"
+        },
+        {
+          "dst_rva": 10961600,
+          "width": 4,
+          "value": 188,
+          "insn_rva": 3136539,
+          "src": "dword ptr [rip + 0x77669b], 0xbc"
+        },
+        {
+          "dst_rva": 10958992,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136549,
+          "src": "qword ptr [rip + 0x775c64], rax"
+        },
+        {
+          "dst_rva": 10963020,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136556,
+          "src": "byte ptr [rip + 0x776c19], 0"
+        },
+        {
+          "dst_rva": 10962184,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136575,
+          "src": "word ptr [rip + 0x7768c2], ax"
+        },
+        {
+          "dst_rva": 10962696,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136599,
+          "src": "word ptr [rip + 0x776aaa], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136606,
+      "name": "ldc2_w",
+      "name_rva": 8928928,
+      "stores": [
+        {
+          "dst_rva": 10959932,
+          "width": 4,
+          "value": 99,
+          "insn_rva": 3136613,
+          "src": "dword ptr [rip + 0x775fcd], 0x63"
+        },
+        {
+          "dst_rva": 10960499,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136623,
+          "src": "byte ptr [rip + 0x7761fd], 2"
+        },
+        {
+          "dst_rva": 10960739,
+          "width": 1,
+          "value": 3,
+          "insn_rva": 3136630,
+          "src": "byte ptr [rip + 0x7762e6], 3"
+        },
+        {
+          "dst_rva": 10961372,
+          "width": 4,
+          "value": 131,
+          "insn_rva": 3136637,
+          "src": "dword ptr [rip + 0x776555], 0x83"
+        },
+        {
+          "dst_rva": 10958536,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136647,
+          "src": "qword ptr [rip + 0x775a3a], rax"
+        },
+        {
+          "dst_rva": 10962963,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136654,
+          "src": "byte ptr [rip + 0x776b7e], 0"
+        },
+        {
+          "dst_rva": 10962070,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136673,
+          "src": "word ptr [rip + 0x7767ee], ax"
+        },
+        {
+          "dst_rva": 10960080,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3136685,
+          "src": "dword ptr [rip + 0x776019], 0xa"
+        },
+        {
+          "dst_rva": 10960536,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136695,
+          "src": "byte ptr [rip + 0x7761da], 1"
+        },
+        {
+          "dst_rva": 10962582,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136702,
+          "src": "word ptr [rip + 0x7769d1], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136709,
+      "name": "iload",
+      "name_rva": 8928948,
+      "stores": [
+        {
+          "dst_rva": 10960776,
+          "width": 1,
+          "value": 66,
+          "insn_rva": 3136716,
+          "src": "byte ptr [rip + 0x7762b5], 0x42"
+        },
+        {
+          "dst_rva": 10961520,
+          "width": 4,
+          "value": 168,
+          "insn_rva": 3136723,
+          "src": "dword ptr [rip + 0x776593], 0xa8"
+        },
+        {
+          "dst_rva": 10963000,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136733,
+          "src": "byte ptr [rip + 0x776b54], 0"
+        },
+        {
+          "dst_rva": 10958832,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136742,
+          "src": "qword ptr [rip + 0x775b03], rax"
+        },
+        {
+          "dst_rva": 10962144,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136770,
+          "src": "word ptr [rip + 0x7767d7], ax"
+        },
+        {
+          "dst_rva": 10962656,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136789,
+          "src": "word ptr [rip + 0x7769c4], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136796,
+      "name": "lload",
+      "name_rva": 8928956,
+      "stores": [
+        {
+          "dst_rva": 10959412,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3136805,
+          "src": "dword ptr [rip + 0x775d05], 0xb"
+        },
+        {
+          "dst_rva": 10960369,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3136815,
+          "src": "byte ptr [rip + 0x7760bb], 2"
+        },
+        {
+          "dst_rva": 10960609,
+          "width": 1,
+          "value": 66,
+          "insn_rva": 3136822,
+          "src": "byte ptr [rip + 0x7761a4], 0x42"
+        },
+        {
+          "dst_rva": 10957496,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136829,
+          "src": "qword ptr [rip + 0x775574], rax"
+        },
+        {
+          "dst_rva": 10960852,
+          "width": 4,
+          "value": 1,
+          "insn_rva": 3136836,
+          "src": "dword ptr [rip + 0x776286], 1"
+        },
+        {
+          "dst_rva": 10962833,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136846,
+          "src": "byte ptr [rip + 0x776a3c], 0"
+        },
+        {
+          "dst_rva": 10961810,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136867,
+          "src": "word ptr [rip + 0x776628], ax"
+        },
+        {
+          "dst_rva": 10962322,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136886,
+          "src": "word ptr [rip + 0x776815], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136893,
+      "name": "fload",
+      "name_rva": 8928964,
+      "stores": [
+        {
+          "dst_rva": 10960060,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3136902,
+          "src": "dword ptr [rip + 0x775f2c], 6"
+        },
+        {
+          "dst_rva": 10960531,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3136912,
+          "src": "byte ptr [rip + 0x7760fc], 1"
+        },
+        {
+          "dst_rva": 10960771,
+          "width": 1,
+          "value": 66,
+          "insn_rva": 3136919,
+          "src": "byte ptr [rip + 0x7761e5], 0x42"
+        },
+        {
+          "dst_rva": 10958792,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3136926,
+          "src": "qword ptr [rip + 0x775a23], rax"
+        },
+        {
+          "dst_rva": 10961500,
+          "width": 4,
+          "value": 163,
+          "insn_rva": 3136933,
+          "src": "dword ptr [rip + 0x7764ad], 0xa3"
+        },
+        {
+          "dst_rva": 10962995,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3136943,
+          "src": "byte ptr [rip + 0x776a7d], 0"
+        },
+        {
+          "dst_rva": 10962134,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136964,
+          "src": "word ptr [rip + 0x77670b], ax"
+        },
+        {
+          "dst_rva": 10962646,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3136983,
+          "src": "word ptr [rip + 0x7768f8], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3136990,
+      "name": "dload",
+      "name_rva": 8928972,
+      "stores": [
+        {
+          "dst_rva": 10959504,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3136999,
+          "src": "dword ptr [rip + 0x775c9f], 7"
+        },
+        {
+          "dst_rva": 10960392,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3137009,
+          "src": "byte ptr [rip + 0x776010], 2"
+        },
+        {
+          "dst_rva": 10960632,
+          "width": 1,
+          "value": 66,
+          "insn_rva": 3137016,
+          "src": "byte ptr [rip + 0x7760f9], 0x42"
+        },
+        {
+          "dst_rva": 10957680,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137023,
+          "src": "qword ptr [rip + 0x77556a], rax"
+        },
+        {
+          "dst_rva": 10960944,
+          "width": 4,
+          "value": 24,
+          "insn_rva": 3137030,
+          "src": "dword ptr [rip + 0x776220], 0x18"
+        },
+        {
+          "dst_rva": 10962856,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137040,
+          "src": "byte ptr [rip + 0x776991], 0"
+        },
+        {
+          "dst_rva": 10961856,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137061,
+          "src": "word ptr [rip + 0x776594], ax"
+        },
+        {
+          "dst_rva": 10962368,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137080,
+          "src": "word ptr [rip + 0x776781], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137087,
+      "name": "aload",
+      "name_rva": 8928980,
+      "stores": [
+        {
+          "dst_rva": 10960136,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3137096,
+          "src": "dword ptr [rip + 0x775eb6], 0xc"
+        },
+        {
+          "dst_rva": 10960550,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137106,
+          "src": "byte ptr [rip + 0x77604d], 1"
+        },
+        {
+          "dst_rva": 10960790,
+          "width": 1,
+          "value": 66,
+          "insn_rva": 3137113,
+          "src": "byte ptr [rip + 0x776136], 0x42"
+        },
+        {
+          "dst_rva": 10958944,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137120,
+          "src": "qword ptr [rip + 0x7759f9], rax"
+        },
+        {
+          "dst_rva": 10961576,
+          "width": 4,
+          "value": 182,
+          "insn_rva": 3137127,
+          "src": "dword ptr [rip + 0x776437], 0xb6"
+        },
+        {
+          "dst_rva": 10963014,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137137,
+          "src": "byte ptr [rip + 0x7769ce], 0"
+        },
+        {
+          "dst_rva": 10962172,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137158,
+          "src": "word ptr [rip + 0x77666f], ax"
+        },
+        {
+          "dst_rva": 10962684,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137177,
+          "src": "word ptr [rip + 0x77685c], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137184,
+      "name": "iload_0",
+      "name_rva": 8928992,
+      "stores": [
+        {
+          "dst_rva": 10959560,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3137193,
+          "src": "dword ptr [rip + 0x775c15], 0xa"
+        },
+        {
+          "dst_rva": 10960406,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137203,
+          "src": "byte ptr [rip + 0x775f5c], 1"
+        },
+        {
+          "dst_rva": 10960646,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137210,
+          "src": "byte ptr [rip + 0x776045], 1"
+        },
+        {
+          "dst_rva": 10957792,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137217,
+          "src": "qword ptr [rip + 0x775518], rax"
+        },
+        {
+          "dst_rva": 10961000,
+          "width": 4,
+          "value": 38,
+          "insn_rva": 3137224,
+          "src": "dword ptr [rip + 0x776196], 0x26"
+        },
+        {
+          "dst_rva": 10962870,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137234,
+          "src": "byte ptr [rip + 0x7768dd], 0"
+        },
+        {
+          "dst_rva": 10961884,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137250,
+          "src": "word ptr [rip + 0x7764f3], ax"
+        },
+        {
+          "dst_rva": 10962396,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137262,
+          "src": "word ptr [rip + 0x7766e7], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137269,
+      "name": "iload_1",
+      "name_rva": 8929000,
+      "stores": [
+        {
+          "dst_rva": 10959564,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3137285,
+          "src": "dword ptr [rip + 0x775bbd], 0xa"
+        },
+        {
+          "dst_rva": 10960407,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137295,
+          "src": "byte ptr [rip + 0x775f01], 1"
+        },
+        {
+          "dst_rva": 10957800,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137302,
+          "src": "qword ptr [rip + 0x7754cb], rax"
+        },
+        {
+          "dst_rva": 10960647,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137309,
+          "src": "byte ptr [rip + 0x775fe3], 1"
+        },
+        {
+          "dst_rva": 10961004,
+          "width": 4,
+          "value": 39,
+          "insn_rva": 3137316,
+          "src": "dword ptr [rip + 0x77613e], 0x27"
+        },
+        {
+          "dst_rva": 10962871,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137326,
+          "src": "byte ptr [rip + 0x776882], 0"
+        },
+        {
+          "dst_rva": 10961886,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137342,
+          "src": "word ptr [rip + 0x776499], ax"
+        },
+        {
+          "dst_rva": 10962398,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137363,
+          "src": "word ptr [rip + 0x776684], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137370,
+      "name": "iload_2",
+      "name_rva": 8929008,
+      "stores": [
+        {
+          "dst_rva": 10959568,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3137377,
+          "src": "dword ptr [rip + 0x775b65], 0xa"
+        },
+        {
+          "dst_rva": 10960408,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137387,
+          "src": "byte ptr [rip + 0x775ea6], 1"
+        },
+        {
+          "dst_rva": 10960648,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137394,
+          "src": "byte ptr [rip + 0x775f8f], 1"
+        },
+        {
+          "dst_rva": 10961008,
+          "width": 4,
+          "value": 40,
+          "insn_rva": 3137401,
+          "src": "dword ptr [rip + 0x7760ed], 0x28"
+        },
+        {
+          "dst_rva": 10957808,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137411,
+          "src": "qword ptr [rip + 0x775466], rax"
+        },
+        {
+          "dst_rva": 10962872,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137418,
+          "src": "byte ptr [rip + 0x776827], 0"
+        },
+        {
+          "dst_rva": 10961888,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137434,
+          "src": "word ptr [rip + 0x77643f], ax"
+        },
+        {
+          "dst_rva": 10962400,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137455,
+          "src": "word ptr [rip + 0x77662a], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137462,
+      "name": "iload_3",
+      "name_rva": 8929016,
+      "stores": [
+        {
+          "dst_rva": 10959572,
+          "width": 4,
+          "value": 10,
+          "insn_rva": 3137469,
+          "src": "dword ptr [rip + 0x775b0d], 0xa"
+        },
+        {
+          "dst_rva": 10960409,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137479,
+          "src": "byte ptr [rip + 0x775e4b], 1"
+        },
+        {
+          "dst_rva": 10960649,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137486,
+          "src": "byte ptr [rip + 0x775f34], 1"
+        },
+        {
+          "dst_rva": 10961012,
+          "width": 4,
+          "value": 41,
+          "insn_rva": 3137493,
+          "src": "dword ptr [rip + 0x776095], 0x29"
+        },
+        {
+          "dst_rva": 10957816,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137503,
+          "src": "qword ptr [rip + 0x775412], rax"
+        },
+        {
+          "dst_rva": 10962873,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137510,
+          "src": "byte ptr [rip + 0x7767cc], 0"
+        },
+        {
+          "dst_rva": 10961890,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137526,
+          "src": "word ptr [rip + 0x7763e5], ax"
+        },
+        {
+          "dst_rva": 10962402,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137547,
+          "src": "word ptr [rip + 0x7765d0], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137554,
+      "name": "lload_0",
+      "name_rva": 8929024,
+      "stores": [
+        {
+          "dst_rva": 10959512,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3137561,
+          "src": "dword ptr [rip + 0x775a75], 0xb"
+        },
+        {
+          "dst_rva": 10960394,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3137571,
+          "src": "byte ptr [rip + 0x775de0], 2"
+        },
+        {
+          "dst_rva": 10960634,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137578,
+          "src": "byte ptr [rip + 0x775ec9], 1"
+        },
+        {
+          "dst_rva": 10960952,
+          "width": 4,
+          "value": 26,
+          "insn_rva": 3137585,
+          "src": "dword ptr [rip + 0x775ffd], 0x1a"
+        },
+        {
+          "dst_rva": 10957696,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137595,
+          "src": "qword ptr [rip + 0x77533e], rax"
+        },
+        {
+          "dst_rva": 10962858,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137602,
+          "src": "byte ptr [rip + 0x776761], 0"
+        },
+        {
+          "dst_rva": 10961860,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137618,
+          "src": "word ptr [rip + 0x77636b], ax"
+        },
+        {
+          "dst_rva": 10962372,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137639,
+          "src": "word ptr [rip + 0x776556], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137646,
+      "name": "lload_1",
+      "name_rva": 8929032,
+      "stores": [
+        {
+          "dst_rva": 10959516,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3137653,
+          "src": "dword ptr [rip + 0x775a1d], 0xb"
+        },
+        {
+          "dst_rva": 10960395,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3137663,
+          "src": "byte ptr [rip + 0x775d85], 2"
+        },
+        {
+          "dst_rva": 10960635,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137670,
+          "src": "byte ptr [rip + 0x775e6e], 1"
+        },
+        {
+          "dst_rva": 10960956,
+          "width": 4,
+          "value": 27,
+          "insn_rva": 3137677,
+          "src": "dword ptr [rip + 0x775fa5], 0x1b"
+        },
+        {
+          "dst_rva": 10957704,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137687,
+          "src": "qword ptr [rip + 0x7752ea], rax"
+        },
+        {
+          "dst_rva": 10962859,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137694,
+          "src": "byte ptr [rip + 0x776706], 0"
+        },
+        {
+          "dst_rva": 10961862,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137710,
+          "src": "word ptr [rip + 0x776311], ax"
+        },
+        {
+          "dst_rva": 10959520,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3137722,
+          "src": "dword ptr [rip + 0x7759dc], 0xb"
+        },
+        {
+          "dst_rva": 10960396,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3137732,
+          "src": "byte ptr [rip + 0x775d41], 2"
+        },
+        {
+          "dst_rva": 10962374,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137739,
+          "src": "word ptr [rip + 0x7764f4], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137746,
+      "name": "lload_2",
+      "name_rva": 8929040,
+      "stores": [
+        {
+          "dst_rva": 10960636,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137753,
+          "src": "byte ptr [rip + 0x775e1c], 1"
+        },
+        {
+          "dst_rva": 10957712,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137760,
+          "src": "qword ptr [rip + 0x7752a9], rax"
+        },
+        {
+          "dst_rva": 10960960,
+          "width": 4,
+          "value": 28,
+          "insn_rva": 3137776,
+          "src": "dword ptr [rip + 0x775f46], 0x1c"
+        },
+        {
+          "dst_rva": 10962860,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137786,
+          "src": "byte ptr [rip + 0x7766ab], 0"
+        },
+        {
+          "dst_rva": 10961864,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137802,
+          "src": "word ptr [rip + 0x7762b7], ax"
+        },
+        {
+          "dst_rva": 10962376,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137823,
+          "src": "word ptr [rip + 0x7764a2], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137830,
+      "name": "lload_3",
+      "name_rva": 8929048,
+      "stores": [
+        {
+          "dst_rva": 10959524,
+          "width": 4,
+          "value": 11,
+          "insn_rva": 3137837,
+          "src": "dword ptr [rip + 0x77596d], 0xb"
+        },
+        {
+          "dst_rva": 10960397,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3137847,
+          "src": "byte ptr [rip + 0x775ccf], 2"
+        },
+        {
+          "dst_rva": 10960637,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137854,
+          "src": "byte ptr [rip + 0x775db8], 1"
+        },
+        {
+          "dst_rva": 10960964,
+          "width": 4,
+          "value": 29,
+          "insn_rva": 3137861,
+          "src": "dword ptr [rip + 0x775ef5], 0x1d"
+        },
+        {
+          "dst_rva": 10957720,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137871,
+          "src": "qword ptr [rip + 0x775242], rax"
+        },
+        {
+          "dst_rva": 10962861,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137878,
+          "src": "byte ptr [rip + 0x776650], 0"
+        },
+        {
+          "dst_rva": 10961866,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137894,
+          "src": "word ptr [rip + 0x77625d], ax"
+        },
+        {
+          "dst_rva": 10962378,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137915,
+          "src": "word ptr [rip + 0x776448], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3137922,
+      "name": "fload_0",
+      "name_rva": 8929056,
+      "stores": [
+        {
+          "dst_rva": 10959544,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3137929,
+          "src": "dword ptr [rip + 0x775925], 6"
+        },
+        {
+          "dst_rva": 10960402,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137939,
+          "src": "byte ptr [rip + 0x775c78], 1"
+        },
+        {
+          "dst_rva": 10960642,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3137946,
+          "src": "byte ptr [rip + 0x775d61], 1"
+        },
+        {
+          "dst_rva": 10960984,
+          "width": 4,
+          "value": 34,
+          "insn_rva": 3137953,
+          "src": "dword ptr [rip + 0x775ead], 0x22"
+        },
+        {
+          "dst_rva": 10957760,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3137963,
+          "src": "qword ptr [rip + 0x77520e], rax"
+        },
+        {
+          "dst_rva": 10962866,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3137970,
+          "src": "byte ptr [rip + 0x7765f9], 0"
+        },
+        {
+          "dst_rva": 10961876,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3137986,
+          "src": "word ptr [rip + 0x77620b], ax"
+        },
+        {
+          "dst_rva": 10962388,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138007,
+          "src": "word ptr [rip + 0x7763f6], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138014,
+      "name": "fload_1",
+      "name_rva": 8929064,
+      "stores": [
+        {
+          "dst_rva": 10959548,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3138021,
+          "src": "dword ptr [rip + 0x7758cd], 6"
+        },
+        {
+          "dst_rva": 10960403,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138031,
+          "src": "byte ptr [rip + 0x775c1d], 1"
+        },
+        {
+          "dst_rva": 10960643,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138038,
+          "src": "byte ptr [rip + 0x775d06], 1"
+        },
+        {
+          "dst_rva": 10960988,
+          "width": 4,
+          "value": 35,
+          "insn_rva": 3138045,
+          "src": "dword ptr [rip + 0x775e55], 0x23"
+        },
+        {
+          "dst_rva": 10957768,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138055,
+          "src": "qword ptr [rip + 0x7751ba], rax"
+        },
+        {
+          "dst_rva": 10962867,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138062,
+          "src": "byte ptr [rip + 0x77659e], 0"
+        },
+        {
+          "dst_rva": 10961878,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138078,
+          "src": "word ptr [rip + 0x7761b1], ax"
+        },
+        {
+          "dst_rva": 10962390,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138099,
+          "src": "word ptr [rip + 0x77639c], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138106,
+      "name": "fload_2",
+      "name_rva": 8929072,
+      "stores": [
+        {
+          "dst_rva": 10959552,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3138113,
+          "src": "dword ptr [rip + 0x775875], 6"
+        },
+        {
+          "dst_rva": 10960404,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138123,
+          "src": "byte ptr [rip + 0x775bc2], 1"
+        },
+        {
+          "dst_rva": 10960644,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138130,
+          "src": "byte ptr [rip + 0x775cab], 1"
+        },
+        {
+          "dst_rva": 10960992,
+          "width": 4,
+          "value": 36,
+          "insn_rva": 3138137,
+          "src": "dword ptr [rip + 0x775dfd], 0x24"
+        },
+        {
+          "dst_rva": 10957776,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138147,
+          "src": "qword ptr [rip + 0x775166], rax"
+        },
+        {
+          "dst_rva": 10962868,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138154,
+          "src": "byte ptr [rip + 0x776543], 0"
+        },
+        {
+          "dst_rva": 10961880,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138170,
+          "src": "word ptr [rip + 0x776157], ax"
+        },
+        {
+          "dst_rva": 10962392,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138191,
+          "src": "word ptr [rip + 0x776342], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138198,
+      "name": "fload_3",
+      "name_rva": 8929080,
+      "stores": [
+        {
+          "dst_rva": 10959556,
+          "width": 4,
+          "value": 6,
+          "insn_rva": 3138205,
+          "src": "dword ptr [rip + 0x77581d], 6"
+        },
+        {
+          "dst_rva": 10960405,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138215,
+          "src": "byte ptr [rip + 0x775b67], 1"
+        },
+        {
+          "dst_rva": 10960645,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138222,
+          "src": "byte ptr [rip + 0x775c50], 1"
+        },
+        {
+          "dst_rva": 10960996,
+          "width": 4,
+          "value": 37,
+          "insn_rva": 3138229,
+          "src": "dword ptr [rip + 0x775da5], 0x25"
+        },
+        {
+          "dst_rva": 10957784,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138239,
+          "src": "qword ptr [rip + 0x775112], rax"
+        },
+        {
+          "dst_rva": 10962869,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138246,
+          "src": "byte ptr [rip + 0x7764e8], 0"
+        },
+        {
+          "dst_rva": 10961882,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138258,
+          "src": "word ptr [rip + 0x776101], ax"
+        },
+        {
+          "dst_rva": 10962394,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138283,
+          "src": "word ptr [rip + 0x7762e8], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138290,
+      "name": "dload_0",
+      "name_rva": 8929088,
+      "stores": [
+        {
+          "dst_rva": 10959692,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3138297,
+          "src": "dword ptr [rip + 0x775849], 7"
+        },
+        {
+          "dst_rva": 10960439,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3138307,
+          "src": "byte ptr [rip + 0x775b2d], 2"
+        },
+        {
+          "dst_rva": 10960679,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138314,
+          "src": "byte ptr [rip + 0x775c16], 1"
+        },
+        {
+          "dst_rva": 10961132,
+          "width": 4,
+          "value": 71,
+          "insn_rva": 3138321,
+          "src": "dword ptr [rip + 0x775dd1], 0x47"
+        },
+        {
+          "dst_rva": 10958056,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138331,
+          "src": "qword ptr [rip + 0x7751c6], rax"
+        },
+        {
+          "dst_rva": 10962903,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138338,
+          "src": "byte ptr [rip + 0x7764ae], 0"
+        },
+        {
+          "dst_rva": 10961950,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138354,
+          "src": "word ptr [rip + 0x7760e5], ax"
+        },
+        {
+          "dst_rva": 10962462,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138375,
+          "src": "word ptr [rip + 0x7762d0], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138382,
+      "name": "dload_1",
+      "name_rva": 8929096,
+      "stores": [
+        {
+          "dst_rva": 10959696,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3138389,
+          "src": "dword ptr [rip + 0x7757f1], 7"
+        },
+        {
+          "dst_rva": 10960440,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3138399,
+          "src": "byte ptr [rip + 0x775ad2], 2"
+        },
+        {
+          "dst_rva": 10960680,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138406,
+          "src": "byte ptr [rip + 0x775bbb], 1"
+        },
+        {
+          "dst_rva": 10961136,
+          "width": 4,
+          "value": 72,
+          "insn_rva": 3138413,
+          "src": "dword ptr [rip + 0x775d79], 0x48"
+        },
+        {
+          "dst_rva": 10958064,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138423,
+          "src": "qword ptr [rip + 0x775172], rax"
+        },
+        {
+          "dst_rva": 10962904,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138430,
+          "src": "byte ptr [rip + 0x776453], 0"
+        },
+        {
+          "dst_rva": 10961952,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138446,
+          "src": "word ptr [rip + 0x77608b], ax"
+        },
+        {
+          "dst_rva": 10962464,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138467,
+          "src": "word ptr [rip + 0x776276], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138474,
+      "name": "dload_2",
+      "name_rva": 8929104,
+      "stores": [
+        {
+          "dst_rva": 10959700,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3138481,
+          "src": "dword ptr [rip + 0x775799], 7"
+        },
+        {
+          "dst_rva": 10960441,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3138491,
+          "src": "byte ptr [rip + 0x775a77], 2"
+        },
+        {
+          "dst_rva": 10960681,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138498,
+          "src": "byte ptr [rip + 0x775b60], 1"
+        },
+        {
+          "dst_rva": 10961140,
+          "width": 4,
+          "value": 73,
+          "insn_rva": 3138505,
+          "src": "dword ptr [rip + 0x775d21], 0x49"
+        },
+        {
+          "dst_rva": 10958072,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138515,
+          "src": "qword ptr [rip + 0x77511e], rax"
+        },
+        {
+          "dst_rva": 10962905,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138522,
+          "src": "byte ptr [rip + 0x7763f8], 0"
+        },
+        {
+          "dst_rva": 10961954,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138538,
+          "src": "word ptr [rip + 0x776031], ax"
+        },
+        {
+          "dst_rva": 10962466,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138559,
+          "src": "word ptr [rip + 0x77621c], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138566,
+      "name": "dload_3",
+      "name_rva": 8929112,
+      "stores": [
+        {
+          "dst_rva": 10959704,
+          "width": 4,
+          "value": 7,
+          "insn_rva": 3138573,
+          "src": "dword ptr [rip + 0x775741], 7"
+        },
+        {
+          "dst_rva": 10960442,
+          "width": 1,
+          "value": 2,
+          "insn_rva": 3138583,
+          "src": "byte ptr [rip + 0x775a1c], 2"
+        },
+        {
+          "dst_rva": 10960682,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138590,
+          "src": "byte ptr [rip + 0x775b05], 1"
+        },
+        {
+          "dst_rva": 10961144,
+          "width": 4,
+          "value": 74,
+          "insn_rva": 3138597,
+          "src": "dword ptr [rip + 0x775cc9], 0x4a"
+        },
+        {
+          "dst_rva": 10958080,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138607,
+          "src": "qword ptr [rip + 0x7750ca], rax"
+        },
+        {
+          "dst_rva": 10962906,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138614,
+          "src": "byte ptr [rip + 0x77639d], 0"
+        },
+        {
+          "dst_rva": 10961956,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138630,
+          "src": "word ptr [rip + 0x775fd7], ax"
+        },
+        {
+          "dst_rva": 10962468,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138654,
+          "src": "word ptr [rip + 0x7761bf], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138661,
+      "name": "aload_0",
+      "name_rva": 8929120,
+      "stores": [
+        {
+          "dst_rva": 10959660,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3138668,
+          "src": "dword ptr [rip + 0x7756b6], 0xc"
+        },
+        {
+          "dst_rva": 10960431,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138678,
+          "src": "byte ptr [rip + 0x7759b2], 1"
+        },
+        {
+          "dst_rva": 10960671,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138685,
+          "src": "byte ptr [rip + 0x775a9b], 1"
+        },
+        {
+          "dst_rva": 10961100,
+          "width": 4,
+          "value": 63,
+          "insn_rva": 3138692,
+          "src": "dword ptr [rip + 0x775c3e], 0x3f"
+        },
+        {
+          "dst_rva": 10957992,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138702,
+          "src": "qword ptr [rip + 0x775013], rax"
+        },
+        {
+          "dst_rva": 10962895,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138709,
+          "src": "byte ptr [rip + 0x776333], 0"
+        },
+        {
+          "dst_rva": 10961934,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138728,
+          "src": "word ptr [rip + 0x775f5f], ax"
+        },
+        {
+          "dst_rva": 10962446,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138740,
+          "src": "word ptr [rip + 0x776153], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138747,
+      "name": "aload_1",
+      "name_rva": 8929128,
+      "stores": [
+        {
+          "dst_rva": 10958000,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138754,
+          "src": "qword ptr [rip + 0x774fe7], rax"
+        },
+        {
+          "dst_rva": 10959664,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3138770,
+          "src": "dword ptr [rip + 0x775654], 0xc"
+        },
+        {
+          "dst_rva": 10960432,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138780,
+          "src": "byte ptr [rip + 0x77594d], 1"
+        },
+        {
+          "dst_rva": 10960672,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138787,
+          "src": "byte ptr [rip + 0x775a36], 1"
+        },
+        {
+          "dst_rva": 10961104,
+          "width": 4,
+          "value": 64,
+          "insn_rva": 3138794,
+          "src": "dword ptr [rip + 0x775bdc], 0x40"
+        },
+        {
+          "dst_rva": 10962896,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138804,
+          "src": "byte ptr [rip + 0x7762d5], 0"
+        },
+        {
+          "dst_rva": 10961936,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138820,
+          "src": "word ptr [rip + 0x775f05], ax"
+        },
+        {
+          "dst_rva": 10962448,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138841,
+          "src": "word ptr [rip + 0x7760f0], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138848,
+      "name": "aload_2",
+      "name_rva": 8929136,
+      "stores": [
+        {
+          "dst_rva": 10959668,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3138855,
+          "src": "dword ptr [rip + 0x775603], 0xc"
+        },
+        {
+          "dst_rva": 10960433,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138865,
+          "src": "byte ptr [rip + 0x7758f9], 1"
+        },
+        {
+          "dst_rva": 10960673,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138872,
+          "src": "byte ptr [rip + 0x7759e2], 1"
+        },
+        {
+          "dst_rva": 10961108,
+          "width": 4,
+          "value": 65,
+          "insn_rva": 3138879,
+          "src": "dword ptr [rip + 0x775b8b], 0x41"
+        },
+        {
+          "dst_rva": 10958008,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138889,
+          "src": "qword ptr [rip + 0x774f68], rax"
+        },
+        {
+          "dst_rva": 10962897,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138896,
+          "src": "byte ptr [rip + 0x77627a], 0"
+        },
+        {
+          "dst_rva": 10961938,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138912,
+          "src": "word ptr [rip + 0x775eab], ax"
+        },
+        {
+          "dst_rva": 10962450,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3138933,
+          "src": "word ptr [rip + 0x776096], ax"
+        }
+      ]
+    },
+    {
+      "init_rva": 3138940,
+      "name": "aload_3",
+      "name_rva": 8929144,
+      "stores": [
+        {
+          "dst_rva": 10959672,
+          "width": 4,
+          "value": 12,
+          "insn_rva": 3138947,
+          "src": "dword ptr [rip + 0x7755ab], 0xc"
+        },
+        {
+          "dst_rva": 10960434,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138957,
+          "src": "byte ptr [rip + 0x77589e], 1"
+        },
+        {
+          "dst_rva": 10960674,
+          "width": 1,
+          "value": 1,
+          "insn_rva": 3138964,
+          "src": "byte ptr [rip + 0x775987], 1"
+        },
+        {
+          "dst_rva": 10961112,
+          "width": 4,
+          "value": 66,
+          "insn_rva": 3138971,
+          "src": "dword ptr [rip + 0x775b33], 0x42"
+        },
+        {
+          "dst_rva": 10958016,
+          "width": 8,
+          "value": null,
+          "insn_rva": 3138981,
+          "src": "qword ptr [rip + 0x774f14], rax"
+        },
+        {
+          "dst_rva": 10962898,
+          "width": 1,
+          "value": 0,
+          "insn_rva": 3138988,
+          "src": "byte ptr [rip + 0x77621f], 0"
+        },
+        {
+          "dst_rva": 10961940,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3139004,
+          "src": "word ptr [rip + 0x775e51], ax"
+        },
+        {
+          "dst_rva": 10962452,
+          "width": 2,
+          "value": null,
+          "insn_rva": 3139059,
+          "src": "word ptr [rip + 0x77601a], ax"
+        }
+      ]
+    }
+  ]
+}

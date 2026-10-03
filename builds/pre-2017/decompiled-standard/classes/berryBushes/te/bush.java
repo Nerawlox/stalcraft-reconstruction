@@ -1,0 +1,230 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package berryBushes.te;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class bush
+extends ModelBase {
+    ModelRenderer Shape1;
+    ModelRenderer Shape2;
+    ModelRenderer Shape3;
+    ModelRenderer Shape4;
+    ModelRenderer Shape5;
+    ModelRenderer Shape6;
+    ModelRenderer Shape7;
+    ModelRenderer Shape8;
+    ModelRenderer Shape9;
+    ModelRenderer Shape10;
+    ModelRenderer Shape11;
+    ModelRenderer Shape12;
+    ModelRenderer Shape13;
+    ModelRenderer Shape15;
+    ModelRenderer Shape16;
+    ModelRenderer Shape14;
+    ModelRenderer Shape17;
+    ModelRenderer Shape18;
+    ModelRenderer Shape19;
+    ModelRenderer Shape20;
+    ModelRenderer Shape21;
+    ModelRenderer Shape22;
+
+    public bush() {
+        this.field_78090_t = 30;
+        this.field_78089_u = 16;
+        this.Shape1 = new ModelRenderer(this, 0, 0);
+        this.Shape1.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 2);
+        this.Shape1.func_78793_a(0.0f, 23.0f, 0.0f);
+        this.Shape1.func_78787_b(60, 32);
+        this.Shape1.field_78809_i = true;
+        this.setRotation(this.Shape1, 0.0f, 0.0f, 0.0f);
+        this.Shape2 = new ModelRenderer(this, 0, 0);
+        this.Shape2.func_78789_a(0.0f, 0.0f, 0.0f, 2, 2, 2);
+        this.Shape2.func_78793_a(-1.0f, 21.0f, 0.0f);
+        this.Shape2.func_78787_b(60, 32);
+        this.Shape2.field_78809_i = true;
+        this.setRotation(this.Shape2, 0.0f, 0.0f, 0.0f);
+        this.Shape3 = new ModelRenderer(this, 0, 0);
+        this.Shape3.func_78789_a(0.0f, 0.0f, 0.0f, 2, 2, 2);
+        this.Shape3.func_78793_a(0.0f, 19.0f, 0.0f);
+        this.Shape3.func_78787_b(60, 32);
+        this.Shape3.field_78809_i = true;
+        this.setRotation(this.Shape3, 0.0f, 0.0f, 0.0f);
+        this.Shape4 = new ModelRenderer(this, 0, 0);
+        this.Shape4.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape4.func_78793_a(0.0f, 23.0f, -1.0f);
+        this.Shape4.func_78787_b(60, 32);
+        this.Shape4.field_78809_i = true;
+        this.setRotation(this.Shape4, 0.0f, 0.0f, 0.0f);
+        this.Shape5 = new ModelRenderer(this, 0, 0);
+        this.Shape5.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape5.func_78793_a(2.0f, 23.0f, 0.0f);
+        this.Shape5.func_78787_b(60, 32);
+        this.Shape5.field_78809_i = true;
+        this.setRotation(this.Shape5, 0.0f, 0.0f, 0.0f);
+        this.Shape6 = new ModelRenderer(this, 0, 0);
+        this.Shape6.func_78789_a(1.0f, 0.0f, 2.0f, 1, 1, 1);
+        this.Shape6.func_78793_a(0.0f, 23.0f, 0.0f);
+        this.Shape6.func_78787_b(60, 32);
+        this.Shape6.field_78809_i = true;
+        this.setRotation(this.Shape6, 0.0f, 0.0f, 0.0f);
+        this.Shape7 = new ModelRenderer(this, 0, 0);
+        this.Shape7.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 1);
+        this.Shape7.func_78793_a(-2.0f, 23.0f, 0.0f);
+        this.Shape7.func_78787_b(60, 32);
+        this.Shape7.field_78809_i = true;
+        this.setRotation(this.Shape7, 0.0f, 0.0f, 0.0f);
+        this.Shape8 = new ModelRenderer(this, 0, 0);
+        this.Shape8.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape8.func_78793_a(-2.0f, 23.0f, 2.0f);
+        this.Shape8.func_78787_b(60, 32);
+        this.Shape8.field_78809_i = true;
+        this.setRotation(this.Shape8, 0.0f, 0.0f, 0.0f);
+        this.Shape9 = new ModelRenderer(this, 0, 4);
+        this.Shape9.func_78789_a(-2.0f, 0.0f, -1.0f, 7, 6, 4);
+        this.Shape9.func_78793_a(0.0f, 13.0f, 0.0f);
+        this.Shape9.func_78787_b(60, 32);
+        this.Shape9.field_78809_i = true;
+        this.setRotation(this.Shape9, 0.0f, 0.0f, 0.0f);
+        this.Shape10 = new ModelRenderer(this, 0, 4);
+        this.Shape10.func_78789_a(-4.0f, 0.05f, -5.0f, 5, 6, 6);
+        this.Shape10.func_78793_a(3.0f, 13.0f, 3.0f);
+        this.Shape10.func_78787_b(60, 32);
+        this.Shape10.field_78809_i = true;
+        this.setRotation(this.Shape10, 0.0f, 0.0f, 0.0f);
+        this.Shape11 = new ModelRenderer(this, 0, 4);
+        this.Shape11.func_78789_a(0.0f, 0.0f, 0.0f, 7, 4, 6);
+        this.Shape11.func_78793_a(-2.0f, 14.0f, -2.0f);
+        this.Shape11.func_78787_b(60, 32);
+        this.Shape11.field_78809_i = true;
+        this.setRotation(this.Shape11, 0.0f, 0.0f, 0.0f);
+        this.Shape12 = new ModelRenderer(this, 0, 4);
+        this.Shape12.func_78789_a(-1.0f, 0.0f, -3.0f, 5, 4, 8);
+        this.Shape12.func_78793_a(0.0f, 14.0f, 0.0f);
+        this.Shape12.func_78787_b(60, 32);
+        this.Shape12.field_78809_i = true;
+        this.setRotation(this.Shape12, 0.0f, 0.0f, 0.0f);
+        this.Shape13 = new ModelRenderer(this, 0, 4);
+        this.Shape13.func_78789_a(-3.0f, -3.0f, -1.0f, 9, 4, 4);
+        this.Shape13.func_78793_a(0.0f, 17.0f, 0.0f);
+        this.Shape13.func_78787_b(60, 32);
+        this.Shape13.field_78809_i = true;
+        this.setRotation(this.Shape13, 0.0f, 0.0f, 0.0f);
+        this.Shape15 = new ModelRenderer(this, 0, 4);
+        this.Shape15.func_78789_a(-10.0f, 0.0f, 0.0f, 11, 2, 4);
+        this.Shape15.func_78793_a(6.0f, 15.0f, -1.0f);
+        this.Shape15.func_78787_b(60, 32);
+        this.Shape15.field_78809_i = true;
+        this.setRotation(this.Shape15, 0.0f, 0.0f, 0.0f);
+        this.Shape16 = new ModelRenderer(this, 0, 4);
+        this.Shape16.func_78789_a(0.0f, 0.0f, -4.0f, 5, 2, 10);
+        this.Shape16.func_78793_a(-1.0f, 15.0f, 0.0f);
+        this.Shape16.func_78787_b(60, 32);
+        this.Shape16.field_78809_i = true;
+        this.setRotation(this.Shape16, 0.0f, 0.0f, 0.0f);
+        this.Shape14 = new ModelRenderer(this, 0, 5);
+        this.Shape14.func_78789_a(0.0f, 0.0f, -5.0f, 9, 2, 6);
+        this.Shape14.func_78793_a(-3.0f, 15.0f, 3.0f);
+        this.Shape14.func_78787_b(60, 32);
+        this.Shape14.field_78809_i = true;
+        this.setRotation(this.Shape14, 0.0f, 0.0f, 0.0f);
+        this.Shape17 = new ModelRenderer(this, 0, 4);
+        this.Shape17.func_78789_a(0.0f, 0.0f, -7.0f, 7, 2, 8);
+        this.Shape17.func_78793_a(-2.0f, 15.0f, 4.0f);
+        this.Shape17.func_78787_b(60, 32);
+        this.Shape17.field_78809_i = true;
+        this.setRotation(this.Shape17, 0.0f, 0.0f, 0.0f);
+        this.Shape18 = new ModelRenderer(this, 0, 0);
+        this.Shape18.func_78789_a(1.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape18.func_78793_a(0.0f, 20.0f, -1.0f);
+        this.Shape18.func_78787_b(60, 32);
+        this.Shape18.field_78809_i = true;
+        this.setRotation(this.Shape18, 0.0f, 0.0f, 0.0f);
+        this.Shape19 = new ModelRenderer(this, 0, 0);
+        this.Shape19.func_78789_a(-1.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape19.func_78793_a(3.0f, 19.0f, -2.0f);
+        this.Shape19.func_78787_b(60, 32);
+        this.Shape19.field_78809_i = true;
+        this.setRotation(this.Shape19, 0.0f, 0.0f, 0.0f);
+        this.Shape20 = new ModelRenderer(this, 0, 0);
+        this.Shape20.func_78789_a(-1.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.Shape20.func_78793_a(0.0f, 19.0f, 2.0f);
+        this.Shape20.func_78787_b(60, 32);
+        this.Shape20.field_78809_i = true;
+        this.setRotation(this.Shape20, 0.0f, 0.0f, 0.0f);
+        this.Shape21 = new ModelRenderer(this, 0, 0);
+        this.Shape21.func_78789_a(2.0f, 0.0f, 1.0f, 1, 1, 1);
+        this.Shape21.func_78793_a(0.0f, 20.0f, 0.0f);
+        this.Shape21.func_78787_b(60, 32);
+        this.Shape21.field_78809_i = true;
+        this.setRotation(this.Shape21, 0.0f, 0.0f, 0.0f);
+        this.Shape22 = new ModelRenderer(this, 0, 0);
+        this.Shape22.func_78789_a(2.0f, 0.0f, 1.0f, 1, 1, 1);
+        this.Shape22.func_78793_a(0.0f, 19.0f, 1.0f);
+        this.Shape22.func_78787_b(60, 32);
+        this.Shape22.field_78809_i = true;
+        this.setRotation(this.Shape22, 0.0f, 0.0f, 0.0f);
+    }
+
+    @Override
+    public void func_78088_a(Entity entity, float f, float f2, float f3, float f4, float f5, float f6) {
+        super.func_78088_a(entity, f, f2, f3, f4, f5, f6);
+        this.Shape1.func_78785_a(f6);
+        this.Shape2.func_78785_a(f6);
+        this.Shape3.func_78785_a(f6);
+        this.Shape4.func_78785_a(f6);
+        this.Shape5.func_78785_a(f6);
+        this.Shape6.func_78785_a(f6);
+        this.Shape7.func_78785_a(f6);
+        this.Shape8.func_78785_a(f6);
+        this.Shape9.func_78785_a(f6);
+        this.Shape10.func_78785_a(f6);
+        this.Shape11.func_78785_a(f6);
+        this.Shape12.func_78785_a(f6);
+        this.Shape13.func_78785_a(f6);
+        this.Shape15.func_78785_a(f6);
+        this.Shape16.func_78785_a(f6);
+        this.Shape14.func_78785_a(f6);
+        this.Shape17.func_78785_a(f6);
+        this.Shape18.func_78785_a(f6);
+        this.Shape19.func_78785_a(f6);
+        this.Shape20.func_78785_a(f6);
+        this.Shape21.func_78785_a(f6);
+        this.Shape22.func_78785_a(f6);
+    }
+
+    public void render(float f) {
+        this.Shape1.func_78785_a(f);
+        this.Shape2.func_78785_a(f);
+        this.Shape3.func_78785_a(f);
+        this.Shape4.func_78785_a(f);
+        this.Shape5.func_78785_a(f);
+        this.Shape6.func_78785_a(f);
+        this.Shape7.func_78785_a(f);
+        this.Shape8.func_78785_a(f);
+        this.Shape9.func_78785_a(f);
+        this.Shape10.func_78785_a(f);
+        this.Shape11.func_78785_a(f);
+        this.Shape12.func_78785_a(f);
+        this.Shape13.func_78785_a(f);
+        this.Shape15.func_78785_a(f);
+        this.Shape16.func_78785_a(f);
+        this.Shape14.func_78785_a(f);
+        this.Shape17.func_78785_a(f);
+        this.Shape18.func_78785_a(f);
+        this.Shape19.func_78785_a(f);
+        this.Shape20.func_78785_a(f);
+        this.Shape21.func_78785_a(f);
+        this.Shape22.func_78785_a(f);
+    }
+
+    private void setRotation(ModelRenderer modelRenderer, float f, float f2, float f3) {
+        modelRenderer.field_78795_f = f;
+        modelRenderer.field_78796_g = f2;
+        modelRenderer.field_78808_h = f3;
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+  "tool": "Procyon",
+  "source": "https://github.com/mstrobel/procyon/releases/download/v0.6.0/procyon-decompiler-0.6.0.jar",
+  "sha256": "821da96012fc69244fa1ea298c90455ee4e021434bc796d3b9546ab24601b779",
+  "main_class": "com.strobel.decompiler.DecompilerDriver",
+  "major_version": 51,
+  "bytes": 2004704,
+  "earlier_errors": [
+    {
+      "url": "https://repo.maven.apache.org/maven2/org/bitbucket/mstrobel/procyon-decompiler/0.6.0/procyon-decompiler-0.6.0.jar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ]
+}

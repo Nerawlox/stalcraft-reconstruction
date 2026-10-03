@@ -1,0 +1,28 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.intellij.uiDesigner.lw;
+
+import javax.swing.Icon;
+
+public class IconDescriptor {
+    private final String myIconPath;
+    private Icon myIcon;
+
+    public IconDescriptor(String iconPath) {
+        this.myIconPath = iconPath;
+    }
+
+    public String getIconPath() {
+        return this.myIconPath;
+    }
+
+    public Icon getIcon() {
+        return this.myIcon;
+    }
+
+    public void setIcon(Icon icon) {
+        this.myIcon = icon;
+    }
+}
+

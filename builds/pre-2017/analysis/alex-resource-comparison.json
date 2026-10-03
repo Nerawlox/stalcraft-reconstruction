@@ -1,0 +1,256 @@
+{
+  "baseline_jar": "E:\\Stalcraft project\\Сборка STALKRAFT от Алекса\\Моды\\stalker_client212.jar",
+  "candidate_modassets": "E:\\Stalcraft project\\stalcraft_pre\\stalcraft\\modassets",
+  "method": "Match exact assets-relative paths, also png/mic extension alternatives. Compare complete bytes and, for PNG-like payloads with IHDR at offset12, bytes after signature. Does not prove common code or date.",
+  "baseline_resource_entries": 1583,
+  "matched_pairs": 24,
+  "exact_identical_pairs": 4,
+  "png_body_identical_pairs": 5,
+  "matched_extensions": {
+    ".ogg": 6,
+    ".mic": 17,
+    ".txt": 1
+  },
+  "pairs": [
+    {
+      "baseline": "assets/stalker/sound/biological.ogg",
+      "candidate": "assets/stalker/sound/biological.ogg",
+      "baseline_size": 9682,
+      "candidate_size": 9682,
+      "exact_bytes": true,
+      "png_body_identical": false,
+      "baseline_sha256": "c610ef822efbbec65f64ca5c8c19a1c3a0458a5d62cc4593e12c8b33c9eb5708",
+      "candidate_sha256": "c610ef822efbbec65f64ca5c8c19a1c3a0458a5d62cc4593e12c8b33c9eb5708"
+    },
+    {
+      "baseline": "assets/stalker/sound/chemical.ogg",
+      "candidate": "assets/stalker/sound/chemical.ogg",
+      "baseline_size": 12095,
+      "candidate_size": 12095,
+      "exact_bytes": true,
+      "png_body_identical": false,
+      "baseline_sha256": "2e8c66f4deb5d80cc1e2fb1aacfe795561eca3b96d409efaf1289993409b94ba",
+      "candidate_sha256": "2e8c66f4deb5d80cc1e2fb1aacfe795561eca3b96d409efaf1289993409b94ba"
+    },
+    {
+      "baseline": "assets/stalker/sound/machinegun_hit.ogg",
+      "candidate": "assets/stalker/sound/machinegun_hit.ogg",
+      "baseline_size": 7697,
+      "candidate_size": 7697,
+      "exact_bytes": true,
+      "png_body_identical": false,
+      "baseline_sha256": "4b3f58d06852879c196fd906be4aa78c92dd479887d5f437698073068d2b8bbd",
+      "candidate_sha256": "4b3f58d06852879c196fd906be4aa78c92dd479887d5f437698073068d2b8bbd"
+    },
+    {
+      "baseline": "assets/stalker/sound/machinegun_reload.ogg",
+      "candidate": "assets/stalker/sound/machinegun_reload.ogg",
+      "baseline_size": 27483,
+      "candidate_size": 80897,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "0a818d929d0f323a8e052128dfd82495b7d65e6a51905f2a45d92d7e601f126c",
+      "candidate_sha256": "a3ba6ce229435cf81f5859c7e041112e40b646a248451e074d4eeb293405689c"
+    },
+    {
+      "baseline": "assets/stalker/sound/machinegun_shoot.ogg",
+      "candidate": "assets/stalker/sound/machinegun_shoot.ogg",
+      "baseline_size": 9101,
+      "candidate_size": 28263,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "c1fe27fa0c2605a99cee40bb6229e747c3af063acff51e3849eb0965a8a592e5",
+      "candidate_sha256": "453ca52c16734fba44b463d330a2b68052540d502faf460709feef6fbaed5f7a"
+    },
+    {
+      "baseline": "assets/stalker/sound/radiation.ogg",
+      "candidate": "assets/stalker/sound/radiation.ogg",
+      "baseline_size": 7288,
+      "candidate_size": 7288,
+      "exact_bytes": true,
+      "png_body_identical": false,
+      "baseline_sha256": "167b884d7012e7043f899b2b1dde502be0c1b4dbe560ebfa879032aee15c3ae3",
+      "candidate_sha256": "167b884d7012e7043f899b2b1dde502be0c1b4dbe560ebfa879032aee15c3ae3"
+    },
+    {
+      "baseline": "assets/stalker/textures/armor/empty.png",
+      "candidate": "assets/stalker/textures/armor/empty.mic",
+      "baseline_size": 218,
+      "candidate_size": 218,
+      "exact_bytes": false,
+      "png_body_identical": true,
+      "baseline_sha256": "9f106ffec31411e12670d81b8cecc8b511a2f774416228e86123790940b90b84",
+      "candidate_sha256": "7a9d3858f1138aacc3e4826c9c72e0e2022439d5d35711c00b9894b3c0f7d855"
+    },
+    {
+      "baseline": "assets/stalker/textures/backpack_big.png",
+      "candidate": "assets/stalker/textures/backpack_big.mic",
+      "baseline_size": 431849,
+      "candidate_size": 431849,
+      "exact_bytes": false,
+      "png_body_identical": true,
+      "baseline_sha256": "e7d46f123d843203c8676a88cf8f54e9c2d11d6eecb5fe600fd23ebda7bda2f9",
+      "candidate_sha256": "3f417bb32a544c1a715c3c71e5aa42c37a9b238decdecb06ea54341447eb91d3"
+    },
+    {
+      "baseline": "assets/stalker/textures/backpack_medium.png",
+      "candidate": "assets/stalker/textures/backpack_medium.mic",
+      "baseline_size": 488366,
+      "candidate_size": 488366,
+      "exact_bytes": false,
+      "png_body_identical": true,
+      "baseline_sha256": "76e55f077360ba38159accb8729bf29a75e00fb85ecb0c35819140456b706a92",
+      "candidate_sha256": "d07d69d7f5d2518bed0dcad4816537dd3797e86f7a56478a9ceea011e9aa0b23"
+    },
+    {
+      "baseline": "assets/stalker/textures/backpack_small.png",
+      "candidate": "assets/stalker/textures/backpack_small.mic",
+      "baseline_size": 461899,
+      "candidate_size": 461899,
+      "exact_bytes": false,
+      "png_body_identical": true,
+      "baseline_sha256": "a6658123acb4338026f31b267a8c9fb05ed11939d3398ae773162492e3838a1b",
+      "candidate_sha256": "9c63fea73af04d6fd603944123c3e1ffb0cfc5da4940e19118d1e92b5f1efef4"
+    },
+    {
+      "baseline": "assets/stalker/textures/blocks/transparent.png",
+      "candidate": "assets/stalker/textures/blocks/transparent.mic",
+      "baseline_size": 206,
+      "candidate_size": 206,
+      "exact_bytes": false,
+      "png_body_identical": true,
+      "baseline_sha256": "58a1efab6022a219cab934358979ace491f0ade5e203bb48a09cd82bbafca9cb",
+      "candidate_sha256": "1bffbbb0ba8e8c37d37089e9222fe3f4501f1cdbdc787b2370fbf67dded6b0be"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/biological_detector.png",
+      "candidate": "assets/stalker/textures/items/biological_detector.mic",
+      "baseline_size": 49642,
+      "candidate_size": 15204,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "cf0a71dbd0663ece4e48494b739acbb40d5f45b807c4f2ed20ad65c7d310e725",
+      "candidate_sha256": "d4fe2354da6628e96469343c712cd7864003d367613f409b1773c6031c8fe380"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/chemical_detector.png",
+      "candidate": "assets/stalker/textures/items/chemical_detector.mic",
+      "baseline_size": 36355,
+      "candidate_size": 17877,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "25ac863885107393eaf180800d23028d05e43e5d7008f52da63b83127c287df7",
+      "candidate_sha256": "045cecbe0f991b03e1fb4ff9444581f1506ca647490632f987f87ada9b26c7c4"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/empty_bottle.png",
+      "candidate": "assets/stalker/textures/items/empty_bottle.mic",
+      "baseline_size": 67061,
+      "candidate_size": 5485,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "97a6d3d3bdd4ae30143a11b9461e25fe2b7559a396cd9f3350a61da0ba79c6fe",
+      "candidate_sha256": "7f46c07b6672abe700079eda0e65cdcff8e9f96fc296fe5af0d49d79055783e0"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/machinegun.png",
+      "candidate": "assets/stalker/textures/items/machinegun.mic",
+      "baseline_size": 39624,
+      "candidate_size": 3507,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "1f1f367ac0afa6b3316e8426a916ab4026860badfc9101d1061c4a143d153d17",
+      "candidate_sha256": "e24c1d3785c75fa9eea46a3ffb3a95c96a8bbd413a8e8e820ad42eb6e34a14e7"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/machinegun_shell.png",
+      "candidate": "assets/stalker/textures/items/machinegun_shell.mic",
+      "baseline_size": 5566,
+      "candidate_size": 6532,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "99771078ab13eace4ff6b33491db5c9fd4054c0476315f5a239813a82084667e",
+      "candidate_sha256": "3e38a9a7c1bb6d952e6e59bfccecab8ebcb4296120d117de9833205ccc3de0ff"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/radiation_detector.png",
+      "candidate": "assets/stalker/textures/items/radiation_detector.mic",
+      "baseline_size": 50640,
+      "candidate_size": 15943,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "225442edf13aee9d9c2bc680489f7fc5b79a94e1db523f1dd8fdb138be8a5f5f",
+      "candidate_sha256": "ad465e4a3a3e60387ecaa91a8bca8ea71dddb9274d6acae2d60734b19d5a6d24"
+    },
+    {
+      "baseline": "assets/stalker/textures/items/vodka.png",
+      "candidate": "assets/stalker/textures/items/vodka.mic",
+      "baseline_size": 7651,
+      "candidate_size": 4541,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "3b895e80d327b4b1603202cef5bd0a565c3704bcf352ce1609516fd81946179c",
+      "candidate_sha256": "85bf86dd63f7ed7567e6808fa8ca416c46c044d9f79b7f6d52331cba43cabaed"
+    },
+    {
+      "baseline": "assets/stalker/textures/particles/bubble.png",
+      "candidate": "assets/stalker/textures/particles/bubble.mic",
+      "baseline_size": 9574,
+      "candidate_size": 120630,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "b929624a938a66edb79f759375b3da4b0688e19540f5993d17e2b141080573b1",
+      "candidate_sha256": "a3a4cc9de01698b84ae39166d395a113999eec0bcdc389ba93742ca5ba5f4286"
+    },
+    {
+      "baseline": "assets/stalker/textures/particles/smoke/smoke1.png",
+      "candidate": "assets/stalker/textures/particles/smoke/smoke1.mic",
+      "baseline_size": 4456,
+      "candidate_size": 4173,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "a064f8f3e6618f356160cab7a5de54a64b18a15df77072a8a1507348df43b3e2",
+      "candidate_sha256": "4f8817f0ff674018670f7809882371b1f3755e61a314e72e38c6111da07d5d66"
+    },
+    {
+      "baseline": "assets/stalker/textures/particles/smoke/smoke2.png",
+      "candidate": "assets/stalker/textures/particles/smoke/smoke2.mic",
+      "baseline_size": 4658,
+      "candidate_size": 4347,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "d29610f43bf5aca103d9b6bb18073da603f7e1f03a2c7965f22165d05b3eafae",
+      "candidate_sha256": "188e4f9fe39ec5e598c0a35e39b95c9b5f946dc20121eac465f66b0bf7791aad"
+    },
+    {
+      "baseline": "assets/stalker/textures/particles/smoke/smoke3.png",
+      "candidate": "assets/stalker/textures/particles/smoke/smoke3.mic",
+      "baseline_size": 4723,
+      "candidate_size": 4404,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "6bf323394108d8354346a1ecf924a0e18783edd001104deff4e0562ae0c7d1f1",
+      "candidate_sha256": "47e58c26d26abf28b0552a6239d64da1e4fd25253b619aa96f15c87d2ac5afd1"
+    },
+    {
+      "baseline": "assets/stalker/textures/particles/smoke/smoke4.png",
+      "candidate": "assets/stalker/textures/particles/smoke/smoke4.mic",
+      "baseline_size": 4626,
+      "candidate_size": 4374,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "e074cc4b72d793d21d71fe8345d8f8ad707ccbc151bb91dfff146bdead6d0b83",
+      "candidate_sha256": "cb6af2df7a83a80b291363c2c0ca7e5e83ccc2328110b496bf29c29a9f3a2f5a"
+    },
+    {
+      "baseline": "assets/stalker/weight.txt",
+      "candidate": "assets/stalker/weight.txt",
+      "baseline_size": 2198,
+      "candidate_size": 4047,
+      "exact_bytes": false,
+      "png_body_identical": false,
+      "baseline_sha256": "751893b9c4bb94b5c53255bfcf4b2d16a8adb9f804bf3e075086e9d890d07e25",
+      "candidate_sha256": "b4fe6c0dc804cece1f384f7f35a34aa9343b033adebe07c07c384837f241922f"
+    }
+  ]
+}

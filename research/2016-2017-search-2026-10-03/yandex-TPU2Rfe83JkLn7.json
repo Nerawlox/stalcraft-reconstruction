@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-03T05:54:23.035675+00:00",
+  "public_url": "https://yadi.sk/d/TPU2Rfe83JkLn7",
+  "request_url": "https://cloud-api.yandex.net/v1/disk/public/resources?public_key=https%3A%2F%2Fyadi.sk%2Fd%2FTPU2Rfe83JkLn7&limit=100",
+  "status": 200,
+  "data": {
+    "path": "/",
+    "type": "file",
+    "name": "TheZone.zip",
+    "created": "2017-06-02T01:25:55+00:00",
+    "modified": "2017-06-02T01:25:55+00:00",
+    "size": 543203637,
+    "mime_type": "application/x-zip-compressed",
+    "md5": "35bb1c11dede1ada5000ef87d88533e6",
+    "sha256": "bce3b4c3ca045ffea75fa8567807f77b51dfb28bec64d5cdcaaef81025330815",
+    "public_key": "FMl1mC7wq/KaF0JZST1A/X3l4ewC7htyJs840tnnTtU=",
+    "public_url": "https://yadi.sk/d/TPU2Rfe83JkLn7",
+    "media_type": "compressed",
+    "resource_id": "501502774:b4b00913722eec49d42855c1393be96d0f5e021e47c474dea71d3b229fc01d22",
+    "revision": 1496403005059741,
+    "comment_ids": {
+      "public_resource": "501502774:b4b00913722eec49d42855c1393be96d0f5e021e47c474dea71d3b229fc01d22",
+      "private_resource": "501502774:b4b00913722eec49d42855c1393be96d0f5e021e47c474dea71d3b229fc01d22"
+    },
+    "exif": {},
+    "antivirus_status": "clean",
+    "file": "https://downloader.disk.yandex.ru/disk/a803ecdfb17e48510b1c5d61daa1e5c9848c78016d52602359c9d6032d3ce1ad/6ac0d0d0/f0857KYeJKihmtAgSo6RVUw7d-OuDd4eKeFHl2MCrkGnX9NXKs_5aIrXkWOVlqYvcq2RE5F1iPSkJr1VQ4TLsw%3D%3D?uid=0&filename=TheZone.zip&disposition=attachment&hash=&limit=0&content_type=application%2Fx-zip-compressed&owner_uid=0&fsize=543203637&hid=5cb21ac92276e7ce0e6d700d65a6a717&media_type=compressed&tknv=v3&is_direct_zip_experiment=1&etag=35bb1c11dede1ada5000ef87d88533e6",
+    "views_count": 1357
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "self_test": true,
+  "command": [
+    "C:\\Users\\drgoo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-c",
+    "import time;time.sleep(5)"
+  ],
+  "child_pid": 35880,
+  "mode": "memory observation without debugger",
+  "self_test_passed": true,
+  "loaded_target": null,
+  "stdout": "",
+  "stderr": ""
+}

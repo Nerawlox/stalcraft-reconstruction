@@ -1,0 +1,1460 @@
+{
+  "schema": 1,
+  "inputs": {
+    "static_view": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-static-view.pe",
+    "static_view_sha256": "e65dd250be4dab717ba635cb5d6dd4746442abc94da2f4e5360dc6d9d47b3896",
+    "stage": "watcher-text-populated",
+    "image_base": 1519845376,
+    "layout": "Mapped virtual addresses, not a directly runnable raw PE file",
+    "watch_string_rows": 80456,
+    "unique_watch_strings": 66066,
+    "unique_native_string_candidate_forms": 590798,
+    "native_exports": 3551,
+    "hex32_native_exports": 3551,
+    "jimage_hex32_names": 15646,
+    "portable_jvm_import_dlls": 23,
+    "portable_jvm_import_symbols": 35,
+    "native_salt_candidates": 18319
+  },
+  "checks": {
+    "candidate_hash_checks": 3544788,
+    "candidate_checks_by_algorithm_encoding": [
+      {
+        "algorithm": "md5",
+        "encoding": "utf-8",
+        "checks": 590798,
+        "hits": 0
+      },
+      {
+        "algorithm": "md5",
+        "encoding": "utf-16le",
+        "checks": 590798,
+        "hits": 0
+      },
+      {
+        "algorithm": "sha1",
+        "encoding": "utf-8",
+        "checks": 590798,
+        "hits": 0
+      },
+      {
+        "algorithm": "sha1",
+        "encoding": "utf-16le",
+        "checks": 590798,
+        "hits": 0
+      },
+      {
+        "algorithm": "sha256",
+        "encoding": "utf-8",
+        "checks": 590798,
+        "hits": 0
+      },
+      {
+        "algorithm": "sha256",
+        "encoding": "utf-16le",
+        "checks": 590798,
+        "hits": 0
+      }
+    ],
+    "jli_salt_checks": 10551744,
+    "direct_native_string_hits": [],
+    "jli_salt_hits": [
+      {
+        "name": "JLI_InitArgProcessing",
+        "target": "137bc867174a904f42a8efa61d836687",
+        "algorithm": "md5",
+        "case": "JLI_InitArgProcessing",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      },
+      {
+        "name": "JLI_CmdToArgs",
+        "target": "c37c45bdb56ed218e567719525bfad0e",
+        "algorithm": "md5",
+        "case": "JLI_CmdToArgs",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      },
+      {
+        "name": "JLI_GetStdArgc",
+        "target": "0e507ffc4f5371b5271f03ac97484fe0",
+        "algorithm": "md5",
+        "case": "JLI_GetStdArgc",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      },
+      {
+        "name": "JLI_MemAlloc",
+        "target": "1ee12e87292680737f1c121af6cabfe0",
+        "algorithm": "md5",
+        "case": "JLI_MemAlloc",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      },
+      {
+        "name": "JLI_GetStdArgs",
+        "target": "f5199c4078a19150bc6c85942e593153",
+        "algorithm": "md5",
+        "case": "JLI_GetStdArgs",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      },
+      {
+        "name": "JLI_Launch",
+        "target": "9b490ffc0189e74ef6ca6c1079e09043",
+        "algorithm": "md5",
+        "case": "JLI_Launch",
+        "salt": "2G5teW9TkteWdMSx",
+        "separator": "",
+        "order": "name+salt"
+      }
+    ]
+  },
+  "target_counts": {
+    "jvm_exports": 3551,
+    "java9_jimage": 15646,
+    "jli_pairs": 6
+  },
+  "xref_observations": {
+    "pointer_cells_to_selected_strings": [
+      {
+        "string_rva": 7841504,
+        "string": "()Ljava/lang/String;",
+        "pointer_cell_rva": 10567688
+      },
+      {
+        "string_rva": 7841504,
+        "string": "()Ljava/lang/String;",
+        "pointer_cell_rva": 10568048
+      },
+      {
+        "string_rva": 7841504,
+        "string": "()Ljava/lang/String;",
+        "pointer_cell_rva": 10568072
+      },
+      {
+        "string_rva": 7841504,
+        "string": "()Ljava/lang/String;",
+        "pointer_cell_rva": 10785864
+      },
+      {
+        "string_rva": 7841544,
+        "string": "()Ljava/lang/Class;",
+        "pointer_cell_rva": 10567712
+      },
+      {
+        "string_rva": 7841544,
+        "string": "()Ljava/lang/Class;",
+        "pointer_cell_rva": 10568024
+      },
+      {
+        "string_rva": 7841584,
+        "string": "()[Ljava/lang/Class;",
+        "pointer_cell_rva": 10567736
+      },
+      {
+        "string_rva": 7841584,
+        "string": "()[Ljava/lang/Class;",
+        "pointer_cell_rva": 10568000
+      },
+      {
+        "string_rva": 7841640,
+        "string": "()[Ljava/lang/Object;",
+        "pointer_cell_rva": 10567784
+      },
+      {
+        "string_rva": 7841640,
+        "string": "()[Ljava/lang/Object;",
+        "pointer_cell_rva": 10568168
+      },
+      {
+        "string_rva": 7841680,
+        "string": "([Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10567808
+      },
+      {
+        "string_rva": 7841776,
+        "string": "(Z)[Ljava/lang/reflect/Field;",
+        "pointer_cell_rva": 10567904
+      },
+      {
+        "string_rva": 7841832,
+        "string": "(Z)[Ljava/lang/reflect/Method;",
+        "pointer_cell_rva": 10567928
+      },
+      {
+        "string_rva": 7841896,
+        "string": "(Z)[Ljava/lang/reflect/Constructor;",
+        "pointer_cell_rva": 10567952
+      },
+      {
+        "string_rva": 7842208,
+        "string": "(Ljava/lang/Class;)Z",
+        "pointer_cell_rva": 10568144
+      },
+      {
+        "string_rva": 7842208,
+        "string": "(Ljava/lang/Class;)Z",
+        "pointer_cell_rva": 10782568
+      },
+      {
+        "string_rva": 7842208,
+        "string": "(Ljava/lang/Class;)Z",
+        "pointer_cell_rva": 10786608
+      },
+      {
+        "string_rva": 7842304,
+        "string": "()Ljava/lang/AssertionStatusDirectives;",
+        "pointer_cell_rva": 10568216
+      },
+      {
+        "string_rva": 7843216,
+        "string": "hashCode",
+        "pointer_cell_rva": 10569968
+      },
+      {
+        "string_rva": 7843216,
+        "string": "hashCode",
+        "pointer_cell_rva": 10696792
+      },
+      {
+        "string_rva": 7843280,
+        "string": "()Ljava/lang/Object;",
+        "pointer_cell_rva": 10570072
+      },
+      {
+        "string_rva": 7844320,
+        "string": "(Ljava/lang/Object;ILjava/lang/Object;II)V",
+        "pointer_cell_rva": 10570152
+      },
+      {
+        "string_rva": 7844512,
+        "string": "(Ljava/lang/String;)Ljava/lang/String;",
+        "pointer_cell_rva": 10785624
+      },
+      {
+        "string_rva": 7845584,
+        "string": "(Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10570208
+      },
+      {
+        "string_rva": 7845584,
+        "string": "(Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10782424
+      },
+      {
+        "string_rva": 7845696,
+        "string": "()Ljava/lang/Thread;",
+        "pointer_cell_rva": 10570376
+      },
+      {
+        "string_rva": 7845800,
+        "string": "(Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10570472
+      },
+      {
+        "string_rva": 7845800,
+        "string": "(Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10783992
+      },
+      {
+        "string_rva": 7845800,
+        "string": "(Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10784400
+      },
+      {
+        "string_rva": 7845800,
+        "string": "(Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10786296
+      },
+      {
+        "string_rva": 7845800,
+        "string": "(Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10786584
+      },
+      {
+        "string_rva": 7845840,
+        "string": "()[Ljava/lang/Thread;",
+        "pointer_cell_rva": 10570496
+      },
+      {
+        "string_rva": 7845880,
+        "string": "([Ljava/lang/Thread;)[[Ljava/lang/StackTraceElement;",
+        "pointer_cell_rva": 10570520
+      },
+      {
+        "string_rva": 7845952,
+        "string": "(Ljava/lang/String;)V",
+        "pointer_cell_rva": 10570544
+      },
+      {
+        "string_rva": 7845952,
+        "string": "(Ljava/lang/String;)V",
+        "pointer_cell_rva": 10784208
+      },
+      {
+        "string_rva": 7845952,
+        "string": "(Ljava/lang/String;)V",
+        "pointer_cell_rva": 10784232
+      },
+      {
+        "string_rva": 7846920,
+        "string": "(Ljava/lang/String;Ljava/lang/String;)V",
+        "pointer_cell_rva": 10785408
+      },
+      {
+        "string_rva": 7848608,
+        "string": "(Ljava/lang/String;)Z",
+        "pointer_cell_rva": 10784160
+      },
+      {
+        "string_rva": 7848608,
+        "string": "(Ljava/lang/String;)Z",
+        "pointer_cell_rva": 10785168
+      },
+      {
+        "string_rva": 7848608,
+        "string": "(Ljava/lang/String;)Z",
+        "pointer_cell_rva": 10785192
+      },
+      {
+        "string_rva": 7848608,
+        "string": "(Ljava/lang/String;)Z",
+        "pointer_cell_rva": 10785648
+      },
+      {
+        "string_rva": 7853232,
+        "string": "CLASSPATH",
+        "pointer_cell_rva": 10783120
+      },
+      {
+        "string_rva": 7963128,
+        "string": "(Ljava/lang/Object;JJ)V",
+        "pointer_cell_rva": 10781656
+      },
+      {
+        "string_rva": 7963128,
+        "string": "(Ljava/lang/Object;JJ)V",
+        "pointer_cell_rva": 10781704
+      },
+      {
+        "string_rva": 8003328,
+        "string": "(Ljava/lang/String;Z)V",
+        "pointer_cell_rva": 10785216
+      },
+      {
+        "string_rva": 8011768,
+        "string": "(J)Ljava/lang/Object;",
+        "pointer_cell_rva": 10781128
+      },
+      {
+        "string_rva": 8315760,
+        "string": "(Ljava/lang/String;)I",
+        "pointer_cell_rva": 10786680
+      },
+      {
+        "string_rva": 8900008,
+        "string": "TraceClassPaths",
+        "pointer_cell_rva": 8899408
+      },
+      {
+        "string_rva": 8901624,
+        "string": "LazyBootClassLoader",
+        "pointer_cell_rva": 10680128
+      },
+      {
+        "string_rva": 9035032,
+        "string": "InitialBootClassLoaderMetaspaceSize",
+        "pointer_cell_rva": 10705880
+      },
+      {
+        "string_rva": 9035768,
+        "string": "SharedReadWriteSize",
+        "pointer_cell_rva": 10687184
+      },
+      {
+        "string_rva": 9035768,
+        "string": "SharedReadWriteSize",
+        "pointer_cell_rva": 10718712
+      },
+      {
+        "string_rva": 9035792,
+        "string": "SharedReadOnlySize",
+        "pointer_cell_rva": 10687176
+      },
+      {
+        "string_rva": 9035792,
+        "string": "SharedReadOnlySize",
+        "pointer_cell_rva": 10718744
+      },
+      {
+        "string_rva": 9035816,
+        "string": "SharedMiscDataSize",
+        "pointer_cell_rva": 10687192
+      },
+      {
+        "string_rva": 9035816,
+        "string": "SharedMiscDataSize",
+        "pointer_cell_rva": 10718776
+      },
+      {
+        "string_rva": 9035840,
+        "string": "SharedMiscCodeSize",
+        "pointer_cell_rva": 10687200
+      },
+      {
+        "string_rva": 9035840,
+        "string": "SharedMiscCodeSize",
+        "pointer_cell_rva": 10718808
+      },
+      {
+        "string_rva": 9049000,
+        "string": "StackShadowPages",
+        "pointer_cell_rva": 10714072
+      },
+      {
+        "string_rva": 9050672,
+        "string": "SharedBaseAddress",
+        "pointer_cell_rva": 10718840
+      },
+      {
+        "string_rva": 9050696,
+        "string": "SharedSymbolTableBucketSize",
+        "pointer_cell_rva": 10718872
+      },
+      {
+        "string_rva": 9085472,
+        "string": "shared read only space",
+        "pointer_cell_rva": 10687144
+      },
+      {
+        "string_rva": 9085496,
+        "string": "shared read write space",
+        "pointer_cell_rva": 10687152
+      },
+      {
+        "string_rva": 9085520,
+        "string": "shared miscellaneous data space",
+        "pointer_cell_rva": 10687160
+      },
+      {
+        "string_rva": 9085552,
+        "string": "shared miscellaneous code space",
+        "pointer_cell_rva": 10687168
+      },
+      {
+        "string_rva": 9155576,
+        "string": "CICrashAt",
+        "pointer_cell_rva": 10715544
+      },
+      {
+        "string_rva": 9156272,
+        "string": "PerfDisableSharedMem",
+        "pointer_cell_rva": 10718072
+      },
+      {
+        "string_rva": 9156536,
+        "string": "UseSharedSpaces",
+        "pointer_cell_rva": 10718488
+      },
+      {
+        "string_rva": 9156552,
+        "string": "VerifySharedSpaces",
+        "pointer_cell_rva": 10718520
+      },
+      {
+        "string_rva": 9156576,
+        "string": "RequireSharedSpaces",
+        "pointer_cell_rva": 10718552
+      },
+      {
+        "string_rva": 9156600,
+        "string": "DumpSharedSpaces",
+        "pointer_cell_rva": 10718584
+      },
+      {
+        "string_rva": 9156624,
+        "string": "PrintSharedSpaces",
+        "pointer_cell_rva": 10718616
+      },
+      {
+        "string_rva": 9156648,
+        "string": "PrintSharedArchiveAndExit",
+        "pointer_cell_rva": 10718648
+      },
+      {
+        "string_rva": 9156680,
+        "string": "PrintSharedDictionary",
+        "pointer_cell_rva": 10718680
+      },
+      {
+        "string_rva": 9157152,
+        "string": "StringDeduplicationRehashALot",
+        "pointer_cell_rva": 10719576
+      },
+      {
+        "string_rva": 9157248,
+        "string": "SharedClassListFile",
+        "pointer_cell_rva": 10719736
+      },
+      {
+        "string_rva": 9157272,
+        "string": "SharedArchiveFile",
+        "pointer_cell_rva": 10719768
+      },
+      {
+        "string_rva": 9157296,
+        "string": "ExtraSharedClassListFile",
+        "pointer_cell_rva": 10719800
+      },
+      {
+        "string_rva": 9160360,
+        "string": "UseSHA",
+        "pointer_cell_rva": 10691576
+      },
+      {
+        "string_rva": 9160384,
+        "string": "UseGHASHIntrinsics",
+        "pointer_cell_rva": 10691608
+      },
+      {
+        "string_rva": 9161040,
+        "string": "InlineObjectHash",
+        "pointer_cell_rva": 10692280
+      },
+      {
+        "string_rva": 9161432,
+        "string": "UseSHA1Intrinsics",
+        "pointer_cell_rva": 10692600
+      },
+      {
+        "string_rva": 9161480,
+        "string": "UseSHA256Intrinsics",
+        "pointer_cell_rva": 10692632
+      },
+      {
+        "string_rva": 9161528,
+        "string": "UseSHA512Intrinsics",
+        "pointer_cell_rva": 10692664
+      },
+      {
+        "string_rva": 9163272,
+        "string": "VerifyHashTableKeys",
+        "pointer_cell_rva": 10727064
+      },
+      {
+        "string_rva": 9164416,
+        "string": "VerifyAdapterSharing",
+        "pointer_cell_rva": 10695064
+      },
+      {
+        "string_rva": 9165736,
+        "string": "AlwaysLockClassLoader",
+        "pointer_cell_rva": 10696280
+      },
+      {
+        "string_rva": 9166584,
+        "string": "ShareVtableStubs",
+        "pointer_cell_rva": 10697016
+      },
+      {
+        "string_rva": 9172088,
+        "string": "IgnoreEmptyClassPaths",
+        "pointer_cell_rva": 10705848
+      },
+      {
+        "string_rva": 9227648,
+        "string": "hashtables",
+        "pointer_cell_rva": 10745296
+      },
+      {
+        "string_rva": 9250760,
+        "string": "(Ljava/lang/invoke/MemberName;Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10773096
+      },
+      {
+        "string_rva": 9250824,
+        "string": "(Ljava/lang/invoke/MemberName;)V",
+        "pointer_cell_rva": 10773120
+      },
+      {
+        "string_rva": 9250864,
+        "string": "(Ljava/lang/invoke/MemberName;Ljava/lang/Class;)Ljava/lang/invoke/MemberName;",
+        "pointer_cell_rva": 10773144
+      },
+      {
+        "string_rva": 9250960,
+        "string": "(I[Ljava/lang/Object;)I",
+        "pointer_cell_rva": 10773168
+      },
+      {
+        "string_rva": 9251008,
+        "string": "(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Class;I[Ljava/lang/invoke/MemberName;)I",
+        "pointer_cell_rva": 10773192
+      },
+      {
+        "string_rva": 9251144,
+        "string": "(Ljava/lang/invoke/MemberName;)J",
+        "pointer_cell_rva": 10773216
+      },
+      {
+        "string_rva": 9251144,
+        "string": "(Ljava/lang/invoke/MemberName;)J",
+        "pointer_cell_rva": 10773312
+      },
+      {
+        "string_rva": 9251208,
+        "string": "(Ljava/lang/invoke/CallSite;Ljava/lang/invoke/MethodHandle;)V",
+        "pointer_cell_rva": 10773240
+      },
+      {
+        "string_rva": 9251208,
+        "string": "(Ljava/lang/invoke/CallSite;Ljava/lang/invoke/MethodHandle;)V",
+        "pointer_cell_rva": 10773264
+      },
+      {
+        "string_rva": 9251328,
+        "string": "(Ljava/lang/invoke/MethodHandleNatives$CallSiteContext;)V",
+        "pointer_cell_rva": 10773288
+      },
+      {
+        "string_rva": 9251432,
+        "string": "(Ljava/lang/invoke/MemberName;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10773336
+      },
+      {
+        "string_rva": 9251432,
+        "string": "(Ljava/lang/invoke/MemberName;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10773360
+      },
+      {
+        "string_rva": 9251512,
+        "string": "([Ljava/lang/Object;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10773384
+      },
+      {
+        "string_rva": 9251512,
+        "string": "([Ljava/lang/Object;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10773408
+      },
+      {
+        "string_rva": 9262168,
+        "string": "Java_jdk_jfr_internal_JVM_registerNatives",
+        "pointer_cell_rva": 10773536
+      },
+      {
+        "string_rva": 9303104,
+        "string": "(Ljava/lang/String;II)Ljava/nio/ByteBuffer;",
+        "pointer_cell_rva": 10776712
+      },
+      {
+        "string_rva": 9303176,
+        "string": "(Ljava/lang/String;IIJ)Ljava/nio/ByteBuffer;",
+        "pointer_cell_rva": 10776760
+      },
+      {
+        "string_rva": 9303240,
+        "string": "(Ljava/lang/String;II[BI)Ljava/nio/ByteBuffer;",
+        "pointer_cell_rva": 10776784
+      },
+      {
+        "string_rva": 9364632,
+        "string": "(Ljava/lang/Object;J)Ljava/lang/Object;",
+        "pointer_cell_rva": 10781032
+      },
+      {
+        "string_rva": 9364632,
+        "string": "(Ljava/lang/Object;J)Ljava/lang/Object;",
+        "pointer_cell_rva": 10781080
+      },
+      {
+        "string_rva": 9364688,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;)V",
+        "pointer_cell_rva": 10781056
+      },
+      {
+        "string_rva": 9364688,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;)V",
+        "pointer_cell_rva": 10781104
+      },
+      {
+        "string_rva": 9364808,
+        "string": "(Ljava/lang/Object;J)Z",
+        "pointer_cell_rva": 10781152
+      },
+      {
+        "string_rva": 9364808,
+        "string": "(Ljava/lang/Object;J)Z",
+        "pointer_cell_rva": 10781200
+      },
+      {
+        "string_rva": 9364848,
+        "string": "(Ljava/lang/Object;JZ)V",
+        "pointer_cell_rva": 10781176
+      },
+      {
+        "string_rva": 9364848,
+        "string": "(Ljava/lang/Object;JZ)V",
+        "pointer_cell_rva": 10781224
+      },
+      {
+        "string_rva": 9364928,
+        "string": "(Ljava/lang/Object;J)B",
+        "pointer_cell_rva": 10781248
+      },
+      {
+        "string_rva": 9364928,
+        "string": "(Ljava/lang/Object;J)B",
+        "pointer_cell_rva": 10781296
+      },
+      {
+        "string_rva": 9364960,
+        "string": "(Ljava/lang/Object;JB)V",
+        "pointer_cell_rva": 10781272
+      },
+      {
+        "string_rva": 9364960,
+        "string": "(Ljava/lang/Object;JB)V",
+        "pointer_cell_rva": 10781320
+      },
+      {
+        "string_rva": 9365032,
+        "string": "(Ljava/lang/Object;J)S",
+        "pointer_cell_rva": 10781344
+      },
+      {
+        "string_rva": 9365032,
+        "string": "(Ljava/lang/Object;J)S",
+        "pointer_cell_rva": 10781392
+      },
+      {
+        "string_rva": 9365072,
+        "string": "(Ljava/lang/Object;JS)V",
+        "pointer_cell_rva": 10781368
+      },
+      {
+        "string_rva": 9365072,
+        "string": "(Ljava/lang/Object;JS)V",
+        "pointer_cell_rva": 10781416
+      },
+      {
+        "string_rva": 9365152,
+        "string": "(Ljava/lang/Object;J)C",
+        "pointer_cell_rva": 10781440
+      },
+      {
+        "string_rva": 9365152,
+        "string": "(Ljava/lang/Object;J)C",
+        "pointer_cell_rva": 10781488
+      },
+      {
+        "string_rva": 9365184,
+        "string": "(Ljava/lang/Object;JC)V",
+        "pointer_cell_rva": 10781464
+      },
+      {
+        "string_rva": 9365184,
+        "string": "(Ljava/lang/Object;JC)V",
+        "pointer_cell_rva": 10781512
+      },
+      {
+        "string_rva": 9365248,
+        "string": "(Ljava/lang/Object;J)I",
+        "pointer_cell_rva": 10781536
+      },
+      {
+        "string_rva": 9365248,
+        "string": "(Ljava/lang/Object;J)I",
+        "pointer_cell_rva": 10781584
+      },
+      {
+        "string_rva": 9365280,
+        "string": "(Ljava/lang/Object;JI)V",
+        "pointer_cell_rva": 10781560
+      },
+      {
+        "string_rva": 9365280,
+        "string": "(Ljava/lang/Object;JI)V",
+        "pointer_cell_rva": 10781608
+      },
+      {
+        "string_rva": 9365344,
+        "string": "(Ljava/lang/Object;J)J",
+        "pointer_cell_rva": 10781632
+      },
+      {
+        "string_rva": 9365344,
+        "string": "(Ljava/lang/Object;J)J",
+        "pointer_cell_rva": 10781680
+      },
+      {
+        "string_rva": 9365424,
+        "string": "(Ljava/lang/Object;J)F",
+        "pointer_cell_rva": 10781728
+      },
+      {
+        "string_rva": 9365424,
+        "string": "(Ljava/lang/Object;J)F",
+        "pointer_cell_rva": 10781776
+      },
+      {
+        "string_rva": 9365464,
+        "string": "(Ljava/lang/Object;JF)V",
+        "pointer_cell_rva": 10781752
+      },
+      {
+        "string_rva": 9365464,
+        "string": "(Ljava/lang/Object;JF)V",
+        "pointer_cell_rva": 10781800
+      },
+      {
+        "string_rva": 9365552,
+        "string": "(Ljava/lang/Object;J)D",
+        "pointer_cell_rva": 10781824
+      },
+      {
+        "string_rva": 9365552,
+        "string": "(Ljava/lang/Object;J)D",
+        "pointer_cell_rva": 10781872
+      },
+      {
+        "string_rva": 9365592,
+        "string": "(Ljava/lang/Object;JD)V",
+        "pointer_cell_rva": 10781848
+      },
+      {
+        "string_rva": 9365592,
+        "string": "(Ljava/lang/Object;JD)V",
+        "pointer_cell_rva": 10781896
+      },
+      {
+        "string_rva": 9365744,
+        "string": "(Ljava/lang/reflect/Field;)J",
+        "pointer_cell_rva": 10781992
+      },
+      {
+        "string_rva": 9365744,
+        "string": "(Ljava/lang/reflect/Field;)J",
+        "pointer_cell_rva": 10782016
+      },
+      {
+        "string_rva": 9365824,
+        "string": "(Ljava/lang/reflect/Field;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10782040
+      },
+      {
+        "string_rva": 9365896,
+        "string": "(Ljava/lang/Class;)V",
+        "pointer_cell_rva": 10782064
+      },
+      {
+        "string_rva": 9365944,
+        "string": "(Ljava/lang/Class;)I",
+        "pointer_cell_rva": 10782088
+      },
+      {
+        "string_rva": 9365944,
+        "string": "(Ljava/lang/Class;)I",
+        "pointer_cell_rva": 10782112
+      },
+      {
+        "string_rva": 9365944,
+        "string": "(Ljava/lang/Class;)I",
+        "pointer_cell_rva": 10786392
+      },
+      {
+        "string_rva": 9366048,
+        "string": "(Ljava/lang/String;[BIILjava/lang/ClassLoader;Ljava/security/ProtectionDomain;)Ljava/lang/Class;",
+        "pointer_cell_rva": 10782184
+      },
+      {
+        "string_rva": 9366176,
+        "string": "(Ljava/lang/Class;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10782208
+      },
+      {
+        "string_rva": 9366232,
+        "string": "(Ljava/lang/Throwable;)V",
+        "pointer_cell_rva": 10782232
+      },
+      {
+        "string_rva": 9366288,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z",
+        "pointer_cell_rva": 10782256
+      },
+      {
+        "string_rva": 9366376,
+        "string": "(Ljava/lang/Object;JII)Z",
+        "pointer_cell_rva": 10782280
+      },
+      {
+        "string_rva": 9366432,
+        "string": "(Ljava/lang/Object;JJJ)Z",
+        "pointer_cell_rva": 10782304
+      },
+      {
+        "string_rva": 9366496,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10782328
+      },
+      {
+        "string_rva": 9366600,
+        "string": "(Ljava/lang/Object;JII)I",
+        "pointer_cell_rva": 10782352
+      },
+      {
+        "string_rva": 9366656,
+        "string": "(Ljava/lang/Object;JJJ)J",
+        "pointer_cell_rva": 10782376
+      },
+      {
+        "string_rva": 9366752,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;JJ)V",
+        "pointer_cell_rva": 10782472
+      },
+      {
+        "string_rva": 9366816,
+        "string": "(Ljava/lang/Object;JLjava/lang/Object;JJJ)V",
+        "pointer_cell_rva": 10782496
+      },
+      {
+        "string_rva": 9366880,
+        "string": "(Ljava/lang/Object;JJB)V",
+        "pointer_cell_rva": 10782520
+      },
+      {
+        "string_rva": 9366936,
+        "string": "(Ljava/lang/Class;[B[Ljava/lang/Object;)Ljava/lang/Class;",
+        "pointer_cell_rva": 10782544
+      },
+      {
+        "string_rva": 9394768,
+        "string": "_hashCode",
+        "pointer_cell_rva": 10783312
+      },
+      {
+        "string_rva": 9422952,
+        "string": "PopulateDumpSharedSpace",
+        "pointer_cell_rva": 10783616
+      },
+      {
+        "string_rva": 9423536,
+        "string": "ClassLoaderStatsOperation",
+        "pointer_cell_rva": 10783832
+      },
+      {
+        "string_rva": 9423568,
+        "string": "DumpHashtable",
+        "pointer_cell_rva": 10783840
+      },
+      {
+        "string_rva": 9429200,
+        "string": "(Ljava/lang/Object;)J",
+        "pointer_cell_rva": 10783944
+      },
+      {
+        "string_rva": 9429200,
+        "string": "(Ljava/lang/Object;)J",
+        "pointer_cell_rva": 10783968
+      },
+      {
+        "string_rva": 9429440,
+        "string": "(Ljava/lang/String;C[Lsun/hotspot/parser/DiagnosticCommand;)[Ljava/lang/Object;",
+        "pointer_cell_rva": 10784184
+      },
+      {
+        "string_rva": 9429520,
+        "string": "addToBootstrapClassLoaderSearch0",
+        "pointer_cell_rva": 10784200
+      },
+      {
+        "string_rva": 9429560,
+        "string": "addToSystemClassLoaderSearch0",
+        "pointer_cell_rva": 10784224
+      },
+      {
+        "string_rva": 9429928,
+        "string": "()Ljava/lang/management/MemoryUsage;",
+        "pointer_cell_rva": 10784568
+      },
+      {
+        "string_rva": 9430128,
+        "string": "(Ljava/lang/reflect/Executable;Z)I",
+        "pointer_cell_rva": 10784712
+      },
+      {
+        "string_rva": 9430128,
+        "string": "(Ljava/lang/reflect/Executable;Z)I",
+        "pointer_cell_rva": 10784880
+      },
+      {
+        "string_rva": 9430192,
+        "string": "(Ljava/lang/reflect/Executable;Z)Z",
+        "pointer_cell_rva": 10784736
+      },
+      {
+        "string_rva": 9430192,
+        "string": "(Ljava/lang/reflect/Executable;Z)Z",
+        "pointer_cell_rva": 10784856
+      },
+      {
+        "string_rva": 9430192,
+        "string": "(Ljava/lang/reflect/Executable;Z)Z",
+        "pointer_cell_rva": 10784952
+      },
+      {
+        "string_rva": 9430256,
+        "string": "(Ljava/lang/reflect/Executable;IZ)Z",
+        "pointer_cell_rva": 10784760
+      },
+      {
+        "string_rva": 9430328,
+        "string": "(Ljava/lang/reflect/Executable;)Z",
+        "pointer_cell_rva": 10784784
+      },
+      {
+        "string_rva": 9430400,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/reflect/Executable;I)Z",
+        "pointer_cell_rva": 10784808
+      },
+      {
+        "string_rva": 9430504,
+        "string": "(Ljava/lang/reflect/Executable;IZ)V",
+        "pointer_cell_rva": 10784832
+      },
+      {
+        "string_rva": 9430632,
+        "string": "(Ljava/lang/reflect/Executable;)I",
+        "pointer_cell_rva": 10784904
+      },
+      {
+        "string_rva": 9430760,
+        "string": "(Ljava/lang/reflect/Executable;II)Z",
+        "pointer_cell_rva": 10784976
+      },
+      {
+        "string_rva": 9430840,
+        "string": "(Ljava/lang/Class;I)Z",
+        "pointer_cell_rva": 10785000
+      },
+      {
+        "string_rva": 9430888,
+        "string": "(Ljava/lang/reflect/Executable;)V",
+        "pointer_cell_rva": 10785024
+      },
+      {
+        "string_rva": 9430984,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)I",
+        "pointer_cell_rva": 10785096
+      },
+      {
+        "string_rva": 9430984,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)I",
+        "pointer_cell_rva": 10785120
+      },
+      {
+        "string_rva": 9431080,
+        "string": "(Ljava/lang/reflect/Executable;I)Z",
+        "pointer_cell_rva": 10785144
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785240
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785264
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785288
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785312
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785336
+      },
+      {
+        "string_rva": 9431200,
+        "string": "(Ljava/lang/String;J)V",
+        "pointer_cell_rva": 10785360
+      },
+      {
+        "string_rva": 9431320,
+        "string": "(Ljava/lang/String;D)V",
+        "pointer_cell_rva": 10785384
+      },
+      {
+        "string_rva": 9431384,
+        "string": "(Ljava/lang/String;)Ljava/lang/Boolean;",
+        "pointer_cell_rva": 10785432
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785456
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785480
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785504
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785528
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785552
+      },
+      {
+        "string_rva": 9431440,
+        "string": "(Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10785576
+      },
+      {
+        "string_rva": 9431576,
+        "string": "(Ljava/lang/String;)Ljava/lang/Double;",
+        "pointer_cell_rva": 10785600
+      },
+      {
+        "string_rva": 9431712,
+        "string": "(Ljava/lang/ClassLoader;J)J",
+        "pointer_cell_rva": 10785744
+      },
+      {
+        "string_rva": 9431760,
+        "string": "(Ljava/lang/ClassLoader;JJ)V",
+        "pointer_cell_rva": 10785768
+      },
+      {
+        "string_rva": 9431928,
+        "string": "(Ljava/lang/reflect/Executable;Z)[Ljava/lang/Object;",
+        "pointer_cell_rva": 10785888
+      },
+      {
+        "string_rva": 9432080,
+        "string": "(I)[Ljava/lang/Object;",
+        "pointer_cell_rva": 10785984
+      },
+      {
+        "string_rva": 9432152,
+        "string": "(Ljava/lang/reflect/Executable;)J",
+        "pointer_cell_rva": 10786032
+      },
+      {
+        "string_rva": 9432208,
+        "string": "(J)[Ljava/lang/Object;",
+        "pointer_cell_rva": 10786056
+      },
+      {
+        "string_rva": 9432304,
+        "string": "(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10786128
+      },
+      {
+        "string_rva": 9432408,
+        "string": "(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10786152
+      },
+      {
+        "string_rva": 9432488,
+        "string": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+        "pointer_cell_rva": 10786176
+      },
+      {
+        "string_rva": 9432552,
+        "string": "(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;",
+        "pointer_cell_rva": 10786200
+      },
+      {
+        "string_rva": 9432648,
+        "string": "(Ljava/lang/Object;Ljava/lang/String;)V",
+        "pointer_cell_rva": 10786224
+      },
+      {
+        "string_rva": 9432648,
+        "string": "(Ljava/lang/Object;Ljava/lang/String;)V",
+        "pointer_cell_rva": 10786248
+      },
+      {
+        "string_rva": 9432816,
+        "string": "(Ljava/lang/Class;)J",
+        "pointer_cell_rva": 10786344
+      },
+      {
+        "string_rva": 9432944,
+        "string": "(Ljava/lang/Class;I)I",
+        "pointer_cell_rva": 10786416
+      },
+      {
+        "string_rva": 9433024,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)Ljava/lang/Boolean;",
+        "pointer_cell_rva": 10786464
+      },
+      {
+        "string_rva": 9433120,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10786488
+      },
+      {
+        "string_rva": 9433120,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)Ljava/lang/Long;",
+        "pointer_cell_rva": 10786512
+      },
+      {
+        "string_rva": 9433248,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)Ljava/lang/Double;",
+        "pointer_cell_rva": 10786536
+      },
+      {
+        "string_rva": 9433344,
+        "string": "(Ljava/lang/reflect/Executable;Ljava/lang/String;)Ljava/lang/String;",
+        "pointer_cell_rva": 10786560
+      },
+      {
+        "string_rva": 9433416,
+        "string": "isShared",
+        "pointer_cell_rva": 10786576
+      },
+      {
+        "string_rva": 9433432,
+        "string": "isSharedClass",
+        "pointer_cell_rva": 10786600
+      },
+      {
+        "string_rva": 9433448,
+        "string": "areSharedStringsIgnored",
+        "pointer_cell_rva": 10786624
+      }
+    ],
+    "note": "Pointer cells are static VA references in the mapped view; code xrefs into protected/virtualized regions are not claimed from this scan."
+  },
+  "imports": {
+    "dlls": {
+      "KERNEL32.dll": [
+        "LocalAlloc",
+        "LocalFree",
+        "GetModuleFileNameW",
+        "GetProcessAffinityMask",
+        "SetProcessAffinityMask",
+        "SetThreadAffinityMask",
+        "Sleep",
+        "ExitProcess",
+        "FreeLibrary",
+        "LoadLibraryA",
+        "GetModuleHandleA",
+        "GetProcAddress"
+      ],
+      "USER32.dll": [
+        "GetProcessWindowStation",
+        "GetUserObjectInformationW"
+      ],
+      "GDI32.dll": [
+        "SelectPalette"
+      ],
+      "WINSPOOL.DRV": [
+        "EnumPrintersW"
+      ],
+      "COMDLG32.dll": [
+        "CommDlgExtendedError"
+      ],
+      "ADVAPI32.dll": [
+        "GetSecurityDescriptorOwner"
+      ],
+      "ole32.dll": [
+        "CoInitialize"
+      ],
+      "OLEAUT32.dll": [
+        "SysAllocString"
+      ],
+      "WSOCK32.dll": [
+        "accept"
+      ],
+      "WINMM.dll": [
+        "midiInClose"
+      ],
+      "VERSION.dll": [
+        "GetFileVersionInfoSizeW"
+      ],
+      "PSAPI.DLL": [
+        "GetModuleInformation"
+      ],
+      "WS2_32.dll": [
+        "WSARecv"
+      ],
+      "WINHTTP.dll": [
+        "WinHttpGetIEProxyConfigForCurrentUser"
+      ],
+      "COMCTL32.dll": [
+        "InitCommonControlsEx"
+      ],
+      "SHLWAPI.dll": [
+        "SHCreateStreamOnFileW"
+      ],
+      "OPENGL32.dll": [
+        "wglDeleteContext"
+      ],
+      "DSOUND.dll": [
+        "ordinal:2"
+      ],
+      "MSVCR120.dll": [
+        "fabs"
+      ],
+      "MSVCP120.dll": [
+        "?_Xbad_alloc@std@@YAXXZ"
+      ],
+      "d2d1.dll": [
+        "ordinal:1"
+      ],
+      "ntdll.dll": [
+        "NtSetInformationThread"
+      ],
+      "WTSAPI32.dll": [
+        "WTSSendMessageW"
+      ]
+    },
+    "relevant_symbols": [
+      "getprocaddress",
+      "loadlibrarya"
+    ]
+  },
+  "md5_ascii_observation": [
+    {
+      "rva": 7833964,
+      "text": "j)Md5o",
+      "context_hex": "ef4d82fe1593b4946a294d64356fbe067a70f80b2867d3824dc705384e3e8640",
+      "nul_terminated": false
+    },
+    {
+      "rva": 13254428,
+      "text": "V;/v=md5H\"",
+      "context_hex": "b901ab58a9297111563b2f763d6d64354822aa6b46310a055309362e4122597c",
+      "nul_terminated": false
+    }
+  ],
+  "code_evidence": {
+    "jli_salt": {
+      "literal": "2G5teW9TkteWdMSx",
+      "rva": "0x89abc0",
+      "xref_rva": "0x633dd0",
+      "function_rva": "0x633d50",
+      "call_md5_helper_rva": "0x5f0b00",
+      "formula": "MD5(UTF-8(name + salt))",
+      "operation_summary": "copies input name, appends 16-byte literal and NUL, calls helper"
+    },
+    "classpath_salt": {
+      "literal": "nUHDjbS59e4wF8Pr",
+      "rva": "0x89abd8",
+      "function_rva": "0x3ad680",
+      "additional_xref_rva": "0x3ac3de",
+      "tailjump_md5_helper_rva": "0x5f0b00",
+      "formula": "MD5(UTF-8(classpath + salt))",
+      "class_suffix_handling_rva": "0x3ab230",
+      "class_suffix_removed": ".class (6 bytes)",
+      "operation_summary": "computes strlen(name), allocates length+0x11, copies name, movups-appends 16-byte salt, NUL-terminates, tail-jumps to helper"
+    },
+    "md5_helper": {
+      "rva": "0x5f0b00",
+      "state_constants": [
+        "0x67452301",
+        "0xefcdab89",
+        "0x98badcfe",
+        "0x10325476"
+      ],
+      "basis": "canonical MD5 initial state and transform constants in mapped machine code",
+      "state_constant_rvas": [
+        "0x5f0b25",
+        "0x5f0b2d",
+        "0x5f0b35",
+        "0x5f0b42"
+      ]
+    }
+  },
+  "confirmed_salted_matches": {
+    "jli": [
+      {
+        "name": "JLI_InitArgProcessing",
+        "target": "137bc867174a904f42a8efa61d836687",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "137bc867174a904f42a8efa61d836687",
+        "verified": true
+      },
+      {
+        "name": "JLI_CmdToArgs",
+        "target": "c37c45bdb56ed218e567719525bfad0e",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "c37c45bdb56ed218e567719525bfad0e",
+        "verified": true
+      },
+      {
+        "name": "JLI_GetStdArgc",
+        "target": "0e507ffc4f5371b5271f03ac97484fe0",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "0e507ffc4f5371b5271f03ac97484fe0",
+        "verified": true
+      },
+      {
+        "name": "JLI_MemAlloc",
+        "target": "1ee12e87292680737f1c121af6cabfe0",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "1ee12e87292680737f1c121af6cabfe0",
+        "verified": true
+      },
+      {
+        "name": "JLI_GetStdArgs",
+        "target": "f5199c4078a19150bc6c85942e593153",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "f5199c4078a19150bc6c85942e593153",
+        "verified": true
+      },
+      {
+        "name": "JLI_Launch",
+        "target": "9b490ffc0189e74ef6ca6c1079e09043",
+        "salt": "2G5teW9TkteWdMSx",
+        "formula": "MD5(UTF-8(name + salt))",
+        "computed": "9b490ffc0189e74ef6ca6c1079e09043",
+        "verified": true
+      }
+    ],
+    "jli_all_verified": true,
+    "classpath_jimage": {
+      "name": "java/lang/Object",
+      "target": "c14f5b29590d12e945cb0f3a42112a91",
+      "salt": "nUHDjbS59e4wF8Pr",
+      "formula": "MD5(UTF-8(name + salt))",
+      "computed": "c14f5b29590d12e945cb0f3a42112a91"
+    }
+  },
+  "interpretation": [
+    "This scan tested candidate hash inputs extracted from native-image ASCII strings and common path/class spellings against the observed native/JIMAGE/JLI 32-hex targets. It found no direct matches.",
+    "Unsalted candidates failed; independently, all six JLI pairs exactly validate MD5(name + 2G5teW9TkteWdMSx), and java/lang/Object validates against JIMAGE as MD5(classpath + nUHDjbS59e4wF8Pr).",
+    "Code evidence: salt literals at RVA 0x89abc0 and 0x89abd8; JLI append/xref at 0x633dd0 then call to MD5 helper 0x5f0b00; classpath function 0x3ad680 appends the second salt and hashes via the same helper. The helper has canonical MD5 state constants. RVA 0x3ab230 strips .class (6 bytes). The lone ASCII fragment `j)Md5o` is junk and unrelated.",
+    "The capture is an in-memory mapped image, and `.vmp0`/`.vmp1` plus `.pdata` remain partly virtualized/high entropy. Missing xrefs are not proof of no runtime reference."
+  ]
+}

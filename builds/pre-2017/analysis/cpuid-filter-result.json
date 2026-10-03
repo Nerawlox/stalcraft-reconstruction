@@ -1,0 +1,850 @@
+{
+  "child_pid": 27828,
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "patches": [
+    {
+      "rva": 12009570,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12011966,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12051914,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12053880,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12077569,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12079686,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12088448,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12098700,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12139337,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12161212,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12201320,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12202170,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12210915,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12212681,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12220265,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12243775,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12245200,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12255285,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12265619,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12268953,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12302898,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12308247,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12317306,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12321971,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12337625,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12338605,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12345961,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12365156,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12391432,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12393869,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12414980,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12416747,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12437774,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12445599,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12446269,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 12466858,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13830457,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13853555,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13864214,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13906841,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13949427,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13950982,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13969452,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 13977071,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14063852,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14066803,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14085253,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14086715,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14093144,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14113535,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14131337,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14142230,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14147005,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14158956,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14159083,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14182910,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14220725,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14234159,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14296478,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14339979,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14394764,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 14401014,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 16665133,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 16902072,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 16990223,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17042460,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17050185,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17145121,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17304895,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17329962,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17338842,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17355668,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17386733,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17547496,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17551104,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17553980,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17582297,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17636815,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17651137,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17685342,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17701912,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17715637,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17753329,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17764230,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17874545,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17899195,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17951708,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17963839,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 17973641,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 18038493,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 18038703,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 18141419,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 18182878,
+      "status": "byte mismatch; unchanged"
+    },
+    {
+      "rva": 29409571,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954240
+    },
+    {
+      "rva": 29411231,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954304
+    },
+    {
+      "rva": 29416843,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954368
+    },
+    {
+      "rva": 29481625,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954432
+    },
+    {
+      "rva": 29516803,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954496
+    },
+    {
+      "rva": 29533525,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954560
+    },
+    {
+      "rva": 29582794,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954624
+    },
+    {
+      "rva": 29611701,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954688
+    },
+    {
+      "rva": 29621566,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954752
+    },
+    {
+      "rva": 29626976,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954816
+    },
+    {
+      "rva": 29637266,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954880
+    },
+    {
+      "rva": 29642224,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586954944
+    },
+    {
+      "rva": 29646161,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955008
+    },
+    {
+      "rva": 29659419,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955072
+    },
+    {
+      "rva": 29667322,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955136
+    },
+    {
+      "rva": 29672253,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955200
+    },
+    {
+      "rva": 29676939,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955264
+    },
+    {
+      "rva": 29680982,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955328
+    },
+    {
+      "rva": 29681344,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955392
+    },
+    {
+      "rva": 29725976,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955456
+    },
+    {
+      "rva": 29737703,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955520
+    },
+    {
+      "rva": 29738957,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955584
+    },
+    {
+      "rva": 29741381,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955648
+    },
+    {
+      "rva": 29760285,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955712
+    },
+    {
+      "rva": 29828912,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955776
+    },
+    {
+      "rva": 29837213,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955840
+    },
+    {
+      "rva": 29841732,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955904
+    },
+    {
+      "rva": 29844104,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586955968
+    },
+    {
+      "rva": 29857076,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956032
+    },
+    {
+      "rva": 29894114,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956096
+    },
+    {
+      "rva": 29897742,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956160
+    },
+    {
+      "rva": 29914530,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956224
+    },
+    {
+      "rva": 29923543,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956288
+    },
+    {
+      "rva": 29943354,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956352
+    },
+    {
+      "rva": 29975606,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956416
+    },
+    {
+      "rva": 29990698,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956480
+    },
+    {
+      "rva": 29995389,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956544
+    },
+    {
+      "rva": 29997412,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956608
+    },
+    {
+      "rva": 30027219,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956672
+    },
+    {
+      "rva": 30029736,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956736
+    },
+    {
+      "rva": 30033807,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956800
+    },
+    {
+      "rva": 30040419,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956864
+    },
+    {
+      "rva": 30080393,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956928
+    },
+    {
+      "rva": 30090065,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586956992
+    },
+    {
+      "rva": 30090251,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957056
+    },
+    {
+      "rva": 30099817,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957120
+    },
+    {
+      "rva": 30101074,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957184
+    },
+    {
+      "rva": 30136746,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957248
+    },
+    {
+      "rva": 30156133,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957312
+    },
+    {
+      "rva": 30156239,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957376
+    },
+    {
+      "rva": 30170457,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957440
+    },
+    {
+      "rva": 30179641,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957504
+    },
+    {
+      "rva": 30186432,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957568
+    },
+    {
+      "rva": 30191690,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957632
+    },
+    {
+      "rva": 30215274,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957696
+    },
+    {
+      "rva": 30237401,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957760
+    },
+    {
+      "rva": 30258399,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957824
+    },
+    {
+      "rva": 30260353,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957888
+    },
+    {
+      "rva": 30266983,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586957952
+    },
+    {
+      "rva": 30271792,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958016
+    },
+    {
+      "rva": 30281348,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958080
+    },
+    {
+      "rva": 30307705,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958144
+    },
+    {
+      "rva": 30328924,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958208
+    },
+    {
+      "rva": 30340514,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958272
+    },
+    {
+      "rva": 30349593,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958336
+    },
+    {
+      "rva": 30356566,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958400
+    },
+    {
+      "rva": 30371414,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958464
+    },
+    {
+      "rva": 30373699,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958528
+    },
+    {
+      "rva": 30382639,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958592
+    },
+    {
+      "rva": 30398706,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958656
+    },
+    {
+      "rva": 30410206,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958720
+    },
+    {
+      "rva": 30414457,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958784
+    },
+    {
+      "rva": 30419531,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958848
+    },
+    {
+      "rva": 30438569,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958912
+    },
+    {
+      "rva": 30459734,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586958976
+    },
+    {
+      "rva": 30523032,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959040
+    },
+    {
+      "rva": 30536775,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959104
+    },
+    {
+      "rva": 30574899,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959168
+    },
+    {
+      "rva": 30581248,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959232
+    },
+    {
+      "rva": 30586928,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959296
+    },
+    {
+      "rva": 30636434,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959360
+    },
+    {
+      "rva": 30641103,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959424
+    },
+    {
+      "rva": 30642696,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959488
+    },
+    {
+      "rva": 30652690,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959552
+    },
+    {
+      "rva": 30681587,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959616
+    },
+    {
+      "rva": 30694404,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959680
+    },
+    {
+      "rva": 30700399,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959744
+    },
+    {
+      "rva": 30722578,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959808
+    },
+    {
+      "rva": 30724832,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959872
+    },
+    {
+      "rva": 30742860,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586959936
+    },
+    {
+      "rva": 30752314,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586960000
+    },
+    {
+      "rva": 30762325,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586960064
+    },
+    {
+      "rva": 30771286,
+      "status": "patched diagnostic memory only",
+      "trampoline": 1586960128
+    }
+  ],
+  "trampoline_base": 1586954240,
+  "early_exit_code": 3221225477,
+  "stdout": "",
+  "stderr": ""
+}

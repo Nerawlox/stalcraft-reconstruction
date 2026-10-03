@@ -1,0 +1,246 @@
+[
+  {
+    "architecture": "win32",
+    "aliases": [
+      {
+        "original": "JLI_InitArgProcessing",
+        "alias": "137bc867174a904f42a8efa61d836687",
+        "export_rva": 339973,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_CmdToArgs",
+        "alias": "c37c45bdb56ed218e567719525bfad0e",
+        "export_rva": 341510,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_GetStdArgc",
+        "alias": "0e507ffc4f5371b5271f03ac97484fe0",
+        "export_rva": 341872,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_MemAlloc",
+        "alias": "1ee12e87292680737f1c121af6cabfe0",
+        "export_rva": 366779,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_GetStdArgs",
+        "alias": "f5199c4078a19150bc6c85942e593153",
+        "export_rva": 341878,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_Launch",
+        "alias": "9b490ffc0189e74ef6ca6c1079e09043",
+        "export_rva": 354109,
+        "referenced_by_launcher": true
+      }
+    ],
+    "strings": [
+      {
+        "address": 4198437,
+        "string_va": 4247948,
+        "string": "server\\jvm.dll"
+      },
+      {
+        "address": 4198483,
+        "string_va": 4247992,
+        "string": "137bc867174a904f42a8efa61d836687"
+      },
+      {
+        "address": 4198488,
+        "string_va": 4248028,
+        "string": "JLI_InitArgProcessing"
+      },
+      {
+        "address": 4198515,
+        "string_va": 4248052,
+        "string": "c37c45bdb56ed218e567719525bfad0e"
+      },
+      {
+        "address": 4198520,
+        "string_va": 4248088,
+        "string": "JLI_CmdToArgs"
+      },
+      {
+        "address": 4198547,
+        "string_va": 4248104,
+        "string": "0e507ffc4f5371b5271f03ac97484fe0"
+      },
+      {
+        "address": 4198552,
+        "string_va": 4248140,
+        "string": "JLI_GetStdArgc"
+      },
+      {
+        "address": 4198572,
+        "string_va": 4248156,
+        "string": "1ee12e87292680737f1c121af6cabfe0"
+      },
+      {
+        "address": 4198577,
+        "string_va": 4248192,
+        "string": "JLI_MemAlloc"
+      },
+      {
+        "address": 4198599,
+        "string_va": 4248208,
+        "string": "f5199c4078a19150bc6c85942e593153"
+      },
+      {
+        "address": 4198604,
+        "string_va": 4248244,
+        "string": "JLI_GetStdArgs"
+      },
+      {
+        "address": 4198615,
+        "string_va": 4248260,
+        "string": "9b490ffc0189e74ef6ca6c1079e09043"
+      },
+      {
+        "address": 4198620,
+        "string_va": 4248296,
+        "string": "JLI_Launch"
+      },
+      {
+        "address": 4198815,
+        "string_va": 4248388,
+        "string": "9-internal+0-adhoc.Folken.jdk9"
+      }
+    ],
+    "function_ranges": [
+      [
+        4198309,
+        4199071
+      ]
+    ],
+    "limitation": "symbol aliases/function ranges statically recovered; JVM code at exported RVAs has no raw backing before unpacking"
+  },
+  {
+    "architecture": "win64",
+    "aliases": [
+      {
+        "original": "JLI_InitArgProcessing",
+        "alias": "137bc867174a904f42a8efa61d836687",
+        "export_rva": 398304,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_CmdToArgs",
+        "alias": "c37c45bdb56ed218e567719525bfad0e",
+        "export_rva": 400212,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_GetStdArgc",
+        "alias": "0e507ffc4f5371b5271f03ac97484fe0",
+        "export_rva": 400716,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_MemAlloc",
+        "alias": "1ee12e87292680737f1c121af6cabfe0",
+        "export_rva": 428968,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_GetStdArgs",
+        "alias": "f5199c4078a19150bc6c85942e593153",
+        "export_rva": 400724,
+        "referenced_by_launcher": true
+      },
+      {
+        "original": "JLI_Launch",
+        "alias": "9b490ffc0189e74ef6ca6c1079e09043",
+        "export_rva": 413000,
+        "referenced_by_launcher": true
+      }
+    ],
+    "strings": [
+      {
+        "address": 5368713301,
+        "string_va": 5368767216,
+        "string": "server\\jvm.dll"
+      },
+      {
+        "address": 5368713351,
+        "string_va": 5368767264,
+        "string": "137bc867174a904f42a8efa61d836687"
+      },
+      {
+        "address": 5368713358,
+        "string_va": 5368767304,
+        "string": "JLI_InitArgProcessing"
+      },
+      {
+        "address": 5368713391,
+        "string_va": 5368767328,
+        "string": "c37c45bdb56ed218e567719525bfad0e"
+      },
+      {
+        "address": 5368713398,
+        "string_va": 5368767368,
+        "string": "JLI_CmdToArgs"
+      },
+      {
+        "address": 5368713421,
+        "string_va": 5368767384,
+        "string": "0e507ffc4f5371b5271f03ac97484fe0"
+      },
+      {
+        "address": 5368713428,
+        "string_va": 5368767424,
+        "string": "JLI_GetStdArgc"
+      },
+      {
+        "address": 5368713451,
+        "string_va": 5368767440,
+        "string": "1ee12e87292680737f1c121af6cabfe0"
+      },
+      {
+        "address": 5368713458,
+        "string_va": 5368767480,
+        "string": "JLI_MemAlloc"
+      },
+      {
+        "address": 5368713481,
+        "string_va": 5368767496,
+        "string": "f5199c4078a19150bc6c85942e593153"
+      },
+      {
+        "address": 5368713488,
+        "string_va": 5368767536,
+        "string": "JLI_GetStdArgs"
+      },
+      {
+        "address": 5368713503,
+        "string_va": 5368767552,
+        "string": "9b490ffc0189e74ef6ca6c1079e09043"
+      },
+      {
+        "address": 5368713510,
+        "string_va": 5368767592,
+        "string": "JLI_Launch"
+      },
+      {
+        "address": 5368713785,
+        "string_va": 5368767688,
+        "string": "9-internal+0-adhoc.Folken.jdk9"
+      }
+    ],
+    "function_ranges": [
+      [
+        5368713272,
+        5368713847
+      ],
+      [
+        5368713216,
+        5368713269
+      ]
+    ],
+    "limitation": "symbol aliases/function ranges statically recovered; JVM code at exported RVAs has no raw backing before unpacking"
+  }
+]

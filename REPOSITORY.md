@@ -1,43 +1,31 @@
-# Локальный репозиторий Stalcraft
+# Repository preparation
 
-Корень Git — каталог, в котором находится этот файл. Сетевых remotes нет; репозиторий существует только на этом компьютере.
+The intended GitHub repository is `stalcraft-reconstruction`, containing separate research for `client212` and `pre-2017`. The local checkout remains at its existing path, `E:\Stalcraft project\stalcraft-decompiled`, to preserve launch tools and Git history.
 
-Первый коммит сохраняет исходный результат CFR, конфигурации и материалы проверки. Java-файлы не исправлялись. Их исходные байты и окончания строк сохраняются через `.gitattributes`.
+The user reviewed and expanded `README.md`, then authorized publication on 4 October 2026. The public repository is `https://github.com/Nerawlox/stalcraft-reconstruction`; `origin` uses that repository. The user's bilingual project introduction is retained.
 
-## Структура
+## Preserved history
 
-- `src/` — декомпилированный основной JAR, включая встроенные классы Minecraft и сторонних компонентов.
-- `resource-configs/` — конфигурации и манифест из оригинального JAR.
-- `docs/` — первоначальный разбор сборки и примеры текстур интерфейса.
-- `scripts/` — инструменты повторной декомпиляции и проверки снимка.
-- `provenance.json`, `verification.json`, `mic-format-verification.json` — происхождение, хеши и результаты проверки.
-- `README.md` — описание декомпиляции, ключевые классы и ограничения.
+Existing commits record client212 decompilation, resource-pack configuration, intentional Cyrillic region extensions, and gameplay research. Completed pre-2017 work is imported as a text snapshot with a retrospective journal. Historical experiments are not assigned invented backdated commits.
 
-Оригинальная сборка хранится в `E:\Stalcraft project\Сборка STALKRAFT от Алекса`. Она не перемещалась и не изменялась. Тяжёлые архивы и исполняемые инструменты исключены из Git. Локальная копия `bytecode.jar` также исключена; это входной материал декомпилятора без ассетов.
+The client212 identifier comes from a filename, not a distributor name. Its client and map dates remain unknown. The preload's source VK post was published on 3 November 2017, confirmed by the contributor; its October file timestamps describe a separate event.
 
-## Проверка исходного снимка
+## Snapshot checks
 
-```powershell
-python scripts/verify_snapshot.py
+```sh
+python scripts/verify_research_snapshots.py
 ```
 
-Проверка сравнивает текущие Java-файлы и конфигурации с `snapshot-sha256.json`. После намеренных изменений она закономерно сообщит о расхождениях; первоначальные файлы доступны через первый Git-коммит.
+This validates both preserved source snapshots and imported research files. It does not execute Java, the game, or diagnostic scripts. Exact imported bytes are protected by `.gitattributes` so recorded hashes remain valid after cloning.
 
-## Повторная декомпиляция
+New source fixes should be separate from the preserved decompiler output. Research scripts may require separately acquired originals, tools, libraries, and local path configuration.
 
-`scripts/decompile.py` требует Python 3.9+, путь к Java, CFR 0.152 и оригинальному JAR. Java и CFR загружаются отдельно с официальных источников; этот скрипт ничего не скачивает и не запускает игру.
+## Excluded material
 
-```powershell
-python scripts/decompile.py --input "E:\Stalcraft project\Сборка STALKRAFT от Алекса\Моды\stalker_client212.jar" --java "ПУТЬ\java.exe" --cfr "ПУТЬ\cfr-0.152.jar"
-```
+Client archives, executable binaries, runtime environments, full worlds, memory captures, and downloaded tools stay on the research machine. Input hashes, inventories, recovery results, and relevant text logs document those artifacts without uploading them.
 
-Результат по умолчанию записывается в `.cache/redecompiled/`, чтобы не перезаписать рабочие исходники. Это восстановление текста для исследования, а не сборка игры.
+Original source ownership is not reassigned by this research, and the repository does not apply a blanket open-source license to recovered third-party code.
 
-Краткие команды для работы в этом каталоге: `git status`, `git diff`, `git log --oneline`.
+## Windows path length
 
-## Место в общем проекте
-
-Этот репозиторий — исследование текущего билда внутри общего проекта `E:\Stalcraft project`.
-Поиск других билдов и восстановление этой сборки ведутся как связанные задачи.
-Общий контекст находится в `..\AGENTS.md`, инструкции checkout — в `AGENTS.md`.
-Другие билды сохраняются отдельно; исходники, ресурсы и runtime между ними не смешиваются.
+Some generated Forge event class names create very long paths. This checkout uses the repository-local setting `core.longpaths=true`; no Windows system settings were changed. For a future clone with Git for Windows, use `git -c core.longpaths=true clone <repository-url>` and set `git config core.longpaths true` inside the resulting checkout. Other tools may have their own path-length limits.

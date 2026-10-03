@@ -1,0 +1,33 @@
+{
+  "capture": {
+    "path": "analysis/dynamic-capture/jvm-static-view.pe",
+    "sha256": "e65dd250be4dab717ba635cb5d6dd4746442abc94da2f4e5360dc6d9d47b3896",
+    "image_base": "0x5A970000",
+    "mode": "read-only static analysis of mapped image"
+  },
+  "strings": [
+    {"rva":"0x89ABC0","value":"2G5teW9TkteWdMSx","uses":[{"at":"0x633DD0","instruction":"lea rdx,[rip+0x266DE9]","next":"append to input then MD5 at 0x5F0B00"}]},
+    {"rva":"0x89ABD8","value":"nUHDjbS59e4wF8Pr","effective_referenced_bytes":{"rva":"0x89ABD8","length":16,"ascii":"nUHDjbS59e4wF8Pr","hex":"6e 55 48 44 6a 62 53 35 39 65 34 77 46 38 50 72"},"uses":[{"at":"0x3AD6DD","instruction":"movups xmm0,[rip+0x4ED4F4]","target":"0x89ABD8","next":"MD5 helper tail-jump at 0x3AD701"},{"at":"0x3AC3DE","instruction":"movups xmm0,[rip+0x4EE7F3]","target":"0x89ABD8","next":"MD5 at 0x3AC3FC, cipher call at 0x3AC40F"}]},
+    {"rva":"0x89ABEC","value":".class","uses":[{"at":"0x3AB306","instruction":"lea r9,[rip+0x4EF8DF]","next":"suffix comparison and subtract 6 from length"}]},
+    {"rva":"0x89ABF8","value":"jimage file is null","uses":[],"note":"No direct readable-code xref found in targeted sweep; proximity is not evidence of class-cipher use."}
+  ],
+  "digest_and_cipher": {
+    "md5_helper_rva":"0x5F0B00",
+    "salt2_digest_to_cipher":{"at":"0x3AC3FC","cipher_call":"0x3AC40F","cipher_rva":"0x3AB230","digest_arg":"R9 points to [rsp+0x20] hexdigest; cipher copies its final 16 ASCII bytes into its IV/name local state"},
+    "cipher_tables":{
+      "custom_sbox_rva":"0x89A6F0",
+      "inverse_sbox_rva":"0x89A7F0",
+      "gf_exp_rva":"0x89A8F0",
+      "gf_log_rva":"0x89A9F0",
+      "rcon_rva":"0x89AAF1",
+      "note":"S-box pair are mutually inverse permutations, not the standard AES S-box pair. Observed inverse/mix constants in code order: FD, 86, EE, 7C. Cipher mode and direction not asserted here."
+    }
+  },
+  "confidence": {
+    "salt1_to_md5":"high",
+    "salt2_append_and_md5":"high",
+    "salt2_digest_passed_as_cipher_key":"high",
+    "custom_rijndael_like_structure":"high",
+    "exact_cipher_mode_or_payload_scope":"not established"
+  }
+}

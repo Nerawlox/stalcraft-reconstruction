@@ -1,0 +1,43 @@
+{
+  "self_test": false,
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "child_pid": 39284,
+  "mode": "memory observation without debugger",
+  "error": "Timed out before populated text/rdata sections were observed",
+  "partial_capture": {
+    "image_base": 1519845376,
+    "size": 31301632,
+    "memory_holes": [],
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-watcher-timeout-image.bin",
+    "sha256": "1fab0471aba56de64ae18b52388021c3ac8c986affba4532f69e10f15a179641",
+    "stage": "watcher-timeout",
+    "layout": "Mapped virtual addresses, not a directly runnable raw PE file"
+  },
+  "diagnostic_strings": {
+    "read_private_bytes": 802816,
+    "selected_error_strings": [
+      {
+        "address": 683727905056,
+        "text": "Sorry, this application cannot run under a Virtual Machine."
+      },
+      {
+        "address": 2574080222696,
+        "text": "Sorry, this application cannot run under a Virtual Machine."
+      },
+      {
+        "address": 2574080435588,
+        "text": "his application cannot run under a Virtual Machine."
+      }
+    ]
+  },
+  "loaded_target": {
+    "base": 1519845376,
+    "size": 31301632,
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\server\\jvm.dll"
+  },
+  "stdout": "",
+  "stderr": ""
+}

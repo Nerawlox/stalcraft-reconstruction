@@ -1,0 +1,14 @@
+[
+  {
+    "rva": "0x3ab306",
+    "target": ".class",
+    "target_rva": "0x89abec",
+    "instruction": "lea r9, [rip + 0x4ef8df]"
+  },
+  {
+    "rva": "0x633dd0",
+    "target": "salt1",
+    "target_rva": "0x89abc0",
+    "instruction": "lea rdx, [rip + 0x266de9]"
+  }
+]

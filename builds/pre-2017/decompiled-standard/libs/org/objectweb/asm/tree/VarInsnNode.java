@@ -1,0 +1,40 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.objectweb.asm.tree;
+
+import java.util.Map;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.tree.AbstractInsnNode;
+import org.objectweb.asm.tree.LabelNode;
+
+public class VarInsnNode
+extends AbstractInsnNode {
+    public int var;
+
+    public VarInsnNode(int opcode, int var) {
+        super(opcode);
+        this.var = var;
+    }
+
+    public void setOpcode(int opcode) {
+        this.opcode = opcode;
+    }
+
+    @Override
+    public int getType() {
+        return 2;
+    }
+
+    @Override
+    public void accept(MethodVisitor mv) {
+        mv.visitVarInsn(this.opcode, this.var);
+        this.acceptAnnotations(mv);
+    }
+
+    @Override
+    public AbstractInsnNode clone(Map<LabelNode, LabelNode> labels) {
+        return new VarInsnNode(this.opcode, this.var).cloneAnnotations(this);
+    }
+}
+

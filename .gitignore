@@ -21,3 +21,18 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Client archives, memory captures, and diagnostic environments stay local.
+*.rar
+*.bin
+*.dmp
+*.pe
+runtime-diagnostic/
+original/
+dynamic-capture/
+diagnostic-stack-capture-*/
+python-tools/
+decompiler-tools/*.jar
+
+# Small imported decompiler logs document successful and failed experiments.
+!builds/pre-2017/analysis/*.log

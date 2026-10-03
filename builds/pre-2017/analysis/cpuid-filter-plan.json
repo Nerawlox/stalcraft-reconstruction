@@ -1,0 +1,2826 @@
+{
+  "source_capture": {
+    "image_base": 1519845376,
+    "size": 31301632,
+    "memory_holes": [],
+    "path": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\dynamic-capture\\jvm-watcher-timeout-image-1791041749501302600.bin",
+    "sha256": "c7dc70812282d1ac80aab1fb88fe378c056cb5e963da41ec74ff305f2a9428fb",
+    "stage": "watcher-timeout",
+    "layout": "Mapped virtual addresses, not a directly runnable raw PE file"
+  },
+  "recognized_handlers": [
+    {
+      "rva": 12009570,
+      "length": 6,
+      "original": "0fa26641d3f8",
+      "tail": "6641d3f8",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sar r8w, cl"
+      ]
+    },
+    {
+      "rva": 12011966,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 12051914,
+      "length": 6,
+      "original": "0fa2664123f5",
+      "tail": "664123f5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "and si, r13w"
+      ]
+    },
+    {
+      "rva": 12053880,
+      "length": 6,
+      "original": "0fa2664113fd",
+      "tail": "664113fd",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "adc di, r13w"
+      ]
+    },
+    {
+      "rva": 12077569,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 12079686,
+      "length": 8,
+      "original": "0fa2664181fa990c",
+      "tail": "664181fa990c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp r10w, 0xc99"
+      ]
+    },
+    {
+      "rva": 12088448,
+      "length": 8,
+      "original": "0fa2664181c50e1c",
+      "tail": "664181c50e1c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "add r13w, 0x1c0e"
+      ]
+    },
+    {
+      "rva": 12098700,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 12139337,
+      "length": 5,
+      "original": "0fa241d2f5",
+      "tail": "41d2f5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sal r13b, cl"
+      ]
+    },
+    {
+      "rva": 12161212,
+      "length": 6,
+      "original": "0fa2490fabf7",
+      "tail": "490fabf7",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r15, rsi"
+      ]
+    },
+    {
+      "rva": 12201320,
+      "length": 10,
+      "original": "0fa2f84981ed0c000000",
+      "tail": "f84981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 12202170,
+      "length": 9,
+      "original": "0fa24981ec0c000000",
+      "tail": "4981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 12210915,
+      "length": 6,
+      "original": "0fa2f840d2ee",
+      "tail": "f840d2ee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "shr sil, cl"
+      ]
+    },
+    {
+      "rva": 12212681,
+      "length": 7,
+      "original": "0fa26641c1daa0",
+      "tail": "6641c1daa0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcr r10w, 0xa0"
+      ]
+    },
+    {
+      "rva": 12220265,
+      "length": 5,
+      "original": "0fa24403ed",
+      "tail": "4403ed",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "add r13d, ebp"
+      ]
+    },
+    {
+      "rva": 12243775,
+      "length": 6,
+      "original": "0fa2410fabe5",
+      "tail": "410fabe5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13d, esp"
+      ]
+    },
+    {
+      "rva": 12245200,
+      "length": 6,
+      "original": "0fa2440fbfef",
+      "tail": "440fbfef",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r13d, di"
+      ]
+    },
+    {
+      "rva": 12255285,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 12265619,
+      "length": 5,
+      "original": "0fa24533d2",
+      "tail": "4533d2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r10d, r10d"
+      ]
+    },
+    {
+      "rva": 12268953,
+      "length": 6,
+      "original": "0fa24180ead8",
+      "tail": "4180ead8",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10b, 0xd8"
+      ]
+    },
+    {
+      "rva": 12302898,
+      "length": 7,
+      "original": "0fa266410fb6fb",
+      "tail": "66410fb6fb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx di, r11b"
+      ]
+    },
+    {
+      "rva": 12308247,
+      "length": 7,
+      "original": "0fa266440fb6c6",
+      "tail": "66440fb6c6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx r8w, sil"
+      ]
+    },
+    {
+      "rva": 12317306,
+      "length": 9,
+      "original": "0fa24881ef0c000000",
+      "tail": "4881ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0xc"
+      ]
+    },
+    {
+      "rva": 12321971,
+      "length": 7,
+      "original": "0fa2490fa4e26b",
+      "tail": "490fa4e26b",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shld r10, rsp, 0x6b"
+      ]
+    },
+    {
+      "rva": 12337625,
+      "length": 8,
+      "original": "0fa266410fbae50e",
+      "tail": "66410fbae50e",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bt r13w, 0xe"
+      ]
+    },
+    {
+      "rva": 12338605,
+      "length": 7,
+      "original": "0fa2660fbae70f",
+      "tail": "660fbae70f",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bt di, 0xf"
+      ]
+    },
+    {
+      "rva": 12345961,
+      "length": 6,
+      "original": "0fa2410fb3c5",
+      "tail": "410fb3c5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr r13d, eax"
+      ]
+    },
+    {
+      "rva": 12365156,
+      "length": 9,
+      "original": "0fa24981ef0c000000",
+      "tail": "4981ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r15, 0xc"
+      ]
+    },
+    {
+      "rva": 12391432,
+      "length": 6,
+      "original": "0fa26641ffc5",
+      "tail": "6641ffc5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "inc r13w"
+      ]
+    },
+    {
+      "rva": 12393869,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 12414980,
+      "length": 10,
+      "original": "0fa2f84981ec0c000000",
+      "tail": "f84981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 12416747,
+      "length": 8,
+      "original": "0fa2664181cf7b01",
+      "tail": "664181cf7b01",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "or r15w, 0x17b"
+      ]
+    },
+    {
+      "rva": 12437774,
+      "length": 7,
+      "original": "0fa266450fb3c2",
+      "tail": "66450fb3c2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr r10w, r8w"
+      ]
+    },
+    {
+      "rva": 12445599,
+      "length": 6,
+      "original": "0fa24180f5e9",
+      "tail": "4180f5e9",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r13b, 0xe9"
+      ]
+    },
+    {
+      "rva": 12446269,
+      "length": 6,
+      "original": "0fa2f84412ee",
+      "tail": "f84412ee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "adc r13b, sil"
+      ]
+    },
+    {
+      "rva": 12466858,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 13830457,
+      "length": 6,
+      "original": "0fa26641d3df",
+      "tail": "6641d3df",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcr r15w, cl"
+      ]
+    },
+    {
+      "rva": 13853555,
+      "length": 6,
+      "original": "0fa24c0fb7da",
+      "tail": "4c0fb7da",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx r11, dx"
+      ]
+    },
+    {
+      "rva": 13864214,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 13906841,
+      "length": 5,
+      "original": "0fa26633fd",
+      "tail": "6633fd",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor di, bp"
+      ]
+    },
+    {
+      "rva": 13949427,
+      "length": 8,
+      "original": "0fa26641f7c0bc5a",
+      "tail": "6641f7c0bc5a",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test r8w, 0x5abc"
+      ]
+    },
+    {
+      "rva": 13950982,
+      "length": 9,
+      "original": "0fa2f96641f7c6be6d",
+      "tail": "f96641f7c6be6d",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "test r14w, 0x6dbe"
+      ]
+    },
+    {
+      "rva": 13969452,
+      "length": 9,
+      "original": "0fa24981e80c000000",
+      "tail": "4981e80c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r8, 0xc"
+      ]
+    },
+    {
+      "rva": 13977071,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 14063852,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 14066803,
+      "length": 6,
+      "original": "0fa2450fbdfb",
+      "tail": "450fbdfb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bsr r15d, r11d"
+      ]
+    },
+    {
+      "rva": 14085253,
+      "length": 7,
+      "original": "0fa266450fabf5",
+      "tail": "66450fabf5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13w, r14w"
+      ]
+    },
+    {
+      "rva": 14086715,
+      "length": 6,
+      "original": "0fa2480fabfe",
+      "tail": "480fabfe",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts rsi, rdi"
+      ]
+    },
+    {
+      "rva": 14093144,
+      "length": 7,
+      "original": "0fa266410fabc5",
+      "tail": "66410fabc5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13w, ax"
+      ]
+    },
+    {
+      "rva": 14113535,
+      "length": 6,
+      "original": "0fa24d0fbff9",
+      "tail": "4d0fbff9",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r15, r9w"
+      ]
+    },
+    {
+      "rva": 14131337,
+      "length": 5,
+      "original": "0fa2451bfc",
+      "tail": "451bfc",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sbb r15d, r12d"
+      ]
+    },
+    {
+      "rva": 14142230,
+      "length": 6,
+      "original": "0fa24d0fbfd1",
+      "tail": "4d0fbfd1",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r10, r9w"
+      ]
+    },
+    {
+      "rva": 14147005,
+      "length": 6,
+      "original": "0fa26641d3c3",
+      "tail": "6641d3c3",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rol r11w, cl"
+      ]
+    },
+    {
+      "rva": 14158956,
+      "length": 8,
+      "original": "0fa266410fa4f569",
+      "tail": "66410fa4f569",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shld r13w, si, 0x69"
+      ]
+    },
+    {
+      "rva": 14159083,
+      "length": 11,
+      "original": "0fa2f8f948f7c792036919",
+      "tail": "f8f948f7c792036919",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "stc ",
+        "test rdi, 0x19690392"
+      ]
+    },
+    {
+      "rva": 14182910,
+      "length": 6,
+      "original": "0fa2440fbdc3",
+      "tail": "440fbdc3",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bsr r8d, ebx"
+      ]
+    },
+    {
+      "rva": 14220725,
+      "length": 10,
+      "original": "0fa2f94981ef0c000000",
+      "tail": "f94981ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "sub r15, 0xc"
+      ]
+    },
+    {
+      "rva": 14234159,
+      "length": 9,
+      "original": "0fa24881ef531ae76c",
+      "tail": "4881ef531ae76c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0x6ce71a53"
+      ]
+    },
+    {
+      "rva": 14296478,
+      "length": 5,
+      "original": "0fa241feca",
+      "tail": "41feca",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "dec r10b"
+      ]
+    },
+    {
+      "rva": 14339979,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 14394764,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 14401014,
+      "length": 5,
+      "original": "0fa2442aee",
+      "tail": "442aee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13b, sil"
+      ]
+    },
+    {
+      "rva": 16665133,
+      "length": 6,
+      "original": "0fa266413bf7",
+      "tail": "66413bf7",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp si, r15w"
+      ]
+    },
+    {
+      "rva": 16902072,
+      "length": 9,
+      "original": "0fa24981eb0c000000",
+      "tail": "4981eb0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r11, 0xc"
+      ]
+    },
+    {
+      "rva": 16990223,
+      "length": 7,
+      "original": "0fa20fcec1ce4b",
+      "tail": "0fcec1ce4b",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bswap esi",
+        "ror esi, 0x4b"
+      ]
+    },
+    {
+      "rva": 17042460,
+      "length": 6,
+      "original": "0fa24c0fb3ce",
+      "tail": "4c0fb3ce",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr rsi, r9"
+      ]
+    },
+    {
+      "rva": 17050185,
+      "length": 7,
+      "original": "0fa2f966413be2",
+      "tail": "f966413be2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "cmp sp, r10w"
+      ]
+    },
+    {
+      "rva": 17145121,
+      "length": 6,
+      "original": "0fa2480fb3f6",
+      "tail": "480fb3f6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr rsi, rsi"
+      ]
+    },
+    {
+      "rva": 17304895,
+      "length": 6,
+      "original": "0fa24180ff28",
+      "tail": "4180ff28",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp r15b, 0x28"
+      ]
+    },
+    {
+      "rva": 17329962,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 17338842,
+      "length": 9,
+      "original": "0fa24981ec0c000000",
+      "tail": "4981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 17355668,
+      "length": 6,
+      "original": "0fa2660fb3fe",
+      "tail": "660fb3fe",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr si, di"
+      ]
+    },
+    {
+      "rva": 17386733,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 17547496,
+      "length": 6,
+      "original": "0fa2f580fa6a",
+      "tail": "f580fa6a",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmc ",
+        "cmp dl, 0x6a"
+      ]
+    },
+    {
+      "rva": 17551104,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 17553980,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 17582297,
+      "length": 5,
+      "original": "0fa2f6c45c",
+      "tail": "f6c45c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test ah, 0x5c"
+      ]
+    },
+    {
+      "rva": 17636815,
+      "length": 6,
+      "original": "0fa24180f3d0",
+      "tail": "4180f3d0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r11b, 0xd0"
+      ]
+    },
+    {
+      "rva": 17651137,
+      "length": 5,
+      "original": "0fa241d2fb",
+      "tail": "41d2fb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sar r11b, cl"
+      ]
+    },
+    {
+      "rva": 17685342,
+      "length": 5,
+      "original": "0fa241f6d0",
+      "tail": "41f6d0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "not r8b"
+      ]
+    },
+    {
+      "rva": 17701912,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 17715637,
+      "length": 9,
+      "original": "0fa24881efb2690946",
+      "tail": "4881efb2690946",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0x460969b2"
+      ]
+    },
+    {
+      "rva": 17753329,
+      "length": 5,
+      "original": "0fa241b010",
+      "tail": "41b010",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "mov r8b, 0x10"
+      ]
+    },
+    {
+      "rva": 17764230,
+      "length": 5,
+      "original": "0fa241d2eb",
+      "tail": "41d2eb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shr r11b, cl"
+      ]
+    },
+    {
+      "rva": 17874545,
+      "length": 6,
+      "original": "0fa240c0d6b1",
+      "tail": "40c0d6b1",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcl sil, 0xb1"
+      ]
+    },
+    {
+      "rva": 17899195,
+      "length": 6,
+      "original": "0fa24180ebe2",
+      "tail": "4180ebe2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r11b, 0xe2"
+      ]
+    },
+    {
+      "rva": 17951708,
+      "length": 5,
+      "original": "0fa241f6d2",
+      "tail": "41f6d2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "not r10b"
+      ]
+    },
+    {
+      "rva": 17963839,
+      "length": 6,
+      "original": "0fa2410f9ac0",
+      "tail": "410f9ac0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "setp r8b"
+      ]
+    },
+    {
+      "rva": 17973641,
+      "length": 6,
+      "original": "0fa2664185f6",
+      "tail": "664185f6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test r14w, si"
+      ]
+    },
+    {
+      "rva": 18038493,
+      "length": 6,
+      "original": "0fa2410fabd5",
+      "tail": "410fabd5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13d, edx"
+      ]
+    },
+    {
+      "rva": 18038703,
+      "length": 5,
+      "original": "0fa2441afb",
+      "tail": "441afb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sbb r15b, bl"
+      ]
+    },
+    {
+      "rva": 18141419,
+      "length": 6,
+      "original": "0fa241c0c08d",
+      "tail": "41c0c08d",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rol r8b, 0x8d"
+      ]
+    },
+    {
+      "rva": 18182878,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 29409571,
+      "length": 7,
+      "original": "0fa266410fabc5",
+      "tail": "66410fabc5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13w, ax"
+      ]
+    },
+    {
+      "rva": 29411231,
+      "length": 7,
+      "original": "0fa266410fb6fb",
+      "tail": "66410fb6fb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx di, r11b"
+      ]
+    },
+    {
+      "rva": 29416843,
+      "length": 6,
+      "original": "0fa2f840d2ee",
+      "tail": "f840d2ee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "shr sil, cl"
+      ]
+    },
+    {
+      "rva": 29481625,
+      "length": 6,
+      "original": "0fa241c0c08d",
+      "tail": "41c0c08d",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rol r8b, 0x8d"
+      ]
+    },
+    {
+      "rva": 29516803,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 29533525,
+      "length": 6,
+      "original": "0fa2664113fd",
+      "tail": "664113fd",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "adc di, r13w"
+      ]
+    },
+    {
+      "rva": 29582794,
+      "length": 9,
+      "original": "0fa24881ef0c000000",
+      "tail": "4881ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0xc"
+      ]
+    },
+    {
+      "rva": 29611701,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 29621566,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 29626976,
+      "length": 6,
+      "original": "0fa2410fabe5",
+      "tail": "410fabe5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13d, esp"
+      ]
+    },
+    {
+      "rva": 29637266,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 29642224,
+      "length": 6,
+      "original": "0fa2660fb3fe",
+      "tail": "660fb3fe",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr si, di"
+      ]
+    },
+    {
+      "rva": 29646161,
+      "length": 6,
+      "original": "0fa26641d3f8",
+      "tail": "6641d3f8",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sar r8w, cl"
+      ]
+    },
+    {
+      "rva": 29659419,
+      "length": 6,
+      "original": "0fa24180ff28",
+      "tail": "4180ff28",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp r15b, 0x28"
+      ]
+    },
+    {
+      "rva": 29667322,
+      "length": 6,
+      "original": "0fa2410fb3c5",
+      "tail": "410fb3c5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr r13d, eax"
+      ]
+    },
+    {
+      "rva": 29672253,
+      "length": 5,
+      "original": "0fa2442aee",
+      "tail": "442aee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13b, sil"
+      ]
+    },
+    {
+      "rva": 29676939,
+      "length": 7,
+      "original": "0fa266440fb6c6",
+      "tail": "66440fb6c6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx r8w, sil"
+      ]
+    },
+    {
+      "rva": 29680982,
+      "length": 8,
+      "original": "0fa26641f7c0bc5a",
+      "tail": "6641f7c0bc5a",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test r8w, 0x5abc"
+      ]
+    },
+    {
+      "rva": 29681344,
+      "length": 7,
+      "original": "0fa2f966413be2",
+      "tail": "f966413be2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "cmp sp, r10w"
+      ]
+    },
+    {
+      "rva": 29725976,
+      "length": 8,
+      "original": "0fa2664181c50e1c",
+      "tail": "664181c50e1c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "add r13w, 0x1c0e"
+      ]
+    },
+    {
+      "rva": 29737703,
+      "length": 7,
+      "original": "0fa266450fb3c2",
+      "tail": "66450fb3c2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr r10w, r8w"
+      ]
+    },
+    {
+      "rva": 29738957,
+      "length": 9,
+      "original": "0fa24981eb0c000000",
+      "tail": "4981eb0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r11, 0xc"
+      ]
+    },
+    {
+      "rva": 29741381,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 29760285,
+      "length": 9,
+      "original": "0fa24981e80c000000",
+      "tail": "4981e80c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r8, 0xc"
+      ]
+    },
+    {
+      "rva": 29828912,
+      "length": 6,
+      "original": "0fa2664123f5",
+      "tail": "664123f5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "and si, r13w"
+      ]
+    },
+    {
+      "rva": 29837213,
+      "length": 5,
+      "original": "0fa24403ed",
+      "tail": "4403ed",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "add r13d, ebp"
+      ]
+    },
+    {
+      "rva": 29841732,
+      "length": 5,
+      "original": "0fa241f6d0",
+      "tail": "41f6d0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "not r8b"
+      ]
+    },
+    {
+      "rva": 29844104,
+      "length": 9,
+      "original": "0fa24981ef0c000000",
+      "tail": "4981ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r15, 0xc"
+      ]
+    },
+    {
+      "rva": 29857076,
+      "length": 5,
+      "original": "0fa241b010",
+      "tail": "41b010",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "mov r8b, 0x10"
+      ]
+    },
+    {
+      "rva": 29894114,
+      "length": 5,
+      "original": "0fa24533d2",
+      "tail": "4533d2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r10d, r10d"
+      ]
+    },
+    {
+      "rva": 29897742,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 29914530,
+      "length": 5,
+      "original": "0fa241feca",
+      "tail": "41feca",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "dec r10b"
+      ]
+    },
+    {
+      "rva": 29923543,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 29943354,
+      "length": 6,
+      "original": "0fa24180f5e9",
+      "tail": "4180f5e9",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r13b, 0xe9"
+      ]
+    },
+    {
+      "rva": 29975606,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 29990698,
+      "length": 6,
+      "original": "0fa240c0d6b1",
+      "tail": "40c0d6b1",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcl sil, 0xb1"
+      ]
+    },
+    {
+      "rva": 29995389,
+      "length": 6,
+      "original": "0fa26641d3c3",
+      "tail": "6641d3c3",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rol r11w, cl"
+      ]
+    },
+    {
+      "rva": 29997412,
+      "length": 6,
+      "original": "0fa24180ebe2",
+      "tail": "4180ebe2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r11b, 0xe2"
+      ]
+    },
+    {
+      "rva": 30027219,
+      "length": 11,
+      "original": "0fa2f8f948f7c792036919",
+      "tail": "f8f948f7c792036919",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "stc ",
+        "test rdi, 0x19690392"
+      ]
+    },
+    {
+      "rva": 30029736,
+      "length": 10,
+      "original": "0fa2f84981ed0c000000",
+      "tail": "f84981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 30033807,
+      "length": 6,
+      "original": "0fa2480fabfe",
+      "tail": "480fabfe",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts rsi, rdi"
+      ]
+    },
+    {
+      "rva": 30040419,
+      "length": 6,
+      "original": "0fa24d0fbff9",
+      "tail": "4d0fbff9",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r15, r9w"
+      ]
+    },
+    {
+      "rva": 30080393,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 30090065,
+      "length": 6,
+      "original": "0fa2410fabd5",
+      "tail": "410fabd5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13d, edx"
+      ]
+    },
+    {
+      "rva": 30090251,
+      "length": 7,
+      "original": "0fa266450fabf5",
+      "tail": "66450fabf5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r13w, r14w"
+      ]
+    },
+    {
+      "rva": 30099817,
+      "length": 9,
+      "original": "0fa24981ed0c000000",
+      "tail": "4981ed0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r13, 0xc"
+      ]
+    },
+    {
+      "rva": 30101074,
+      "length": 7,
+      "original": "0fa2660fbae70f",
+      "tail": "660fbae70f",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bt di, 0xf"
+      ]
+    },
+    {
+      "rva": 30136746,
+      "length": 6,
+      "original": "0fa2450fbdfb",
+      "tail": "450fbdfb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bsr r15d, r11d"
+      ]
+    },
+    {
+      "rva": 30156133,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 30156239,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 30170457,
+      "length": 8,
+      "original": "0fa2664181cf7b01",
+      "tail": "664181cf7b01",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "or r15w, 0x17b"
+      ]
+    },
+    {
+      "rva": 30179641,
+      "length": 8,
+      "original": "0fa2664181fa990c",
+      "tail": "664181fa990c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp r10w, 0xc99"
+      ]
+    },
+    {
+      "rva": 30186432,
+      "length": 7,
+      "original": "0fa2490fa4e26b",
+      "tail": "490fa4e26b",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shld r10, rsp, 0x6b"
+      ]
+    },
+    {
+      "rva": 30191690,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 30215274,
+      "length": 5,
+      "original": "0fa241d2eb",
+      "tail": "41d2eb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shr r11b, cl"
+      ]
+    },
+    {
+      "rva": 30237401,
+      "length": 6,
+      "original": "0fa24c0fb3ce",
+      "tail": "4c0fb3ce",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr rsi, r9"
+      ]
+    },
+    {
+      "rva": 30258399,
+      "length": 9,
+      "original": "0fa24981ee0c000000",
+      "tail": "4981ee0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r14, 0xc"
+      ]
+    },
+    {
+      "rva": 30260353,
+      "length": 8,
+      "original": "0fa266410fbae50e",
+      "tail": "66410fbae50e",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bt r13w, 0xe"
+      ]
+    },
+    {
+      "rva": 30266983,
+      "length": 6,
+      "original": "0fa2480fb3f6",
+      "tail": "480fb3f6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "btr rsi, rsi"
+      ]
+    },
+    {
+      "rva": 30271792,
+      "length": 10,
+      "original": "0fa2f84981ec0c000000",
+      "tail": "f84981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 30281348,
+      "length": 6,
+      "original": "0fa2490fabf7",
+      "tail": "490fabf7",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bts r15, rsi"
+      ]
+    },
+    {
+      "rva": 30307705,
+      "length": 6,
+      "original": "0fa2440fbdc3",
+      "tail": "440fbdc3",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bsr r8d, ebx"
+      ]
+    },
+    {
+      "rva": 30328924,
+      "length": 5,
+      "original": "0fa241f6d2",
+      "tail": "41f6d2",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "not r10b"
+      ]
+    },
+    {
+      "rva": 30340514,
+      "length": 6,
+      "original": "0fa2f84412ee",
+      "tail": "f84412ee",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "clc ",
+        "adc r13b, sil"
+      ]
+    },
+    {
+      "rva": 30349593,
+      "length": 5,
+      "original": "0fa241d2fb",
+      "tail": "41d2fb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sar r11b, cl"
+      ]
+    },
+    {
+      "rva": 30356566,
+      "length": 9,
+      "original": "0fa24981ec0c000000",
+      "tail": "4981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 30371414,
+      "length": 6,
+      "original": "0fa26641ffc5",
+      "tail": "6641ffc5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "inc r13w"
+      ]
+    },
+    {
+      "rva": 30373699,
+      "length": 6,
+      "original": "0fa24c0fb7da",
+      "tail": "4c0fb7da",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movzx r11, dx"
+      ]
+    },
+    {
+      "rva": 30382639,
+      "length": 5,
+      "original": "0fa2451bfc",
+      "tail": "451bfc",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sbb r15d, r12d"
+      ]
+    },
+    {
+      "rva": 30398706,
+      "length": 5,
+      "original": "0fa26633fd",
+      "tail": "6633fd",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor di, bp"
+      ]
+    },
+    {
+      "rva": 30410206,
+      "length": 9,
+      "original": "0fa2f96641f7c6be6d",
+      "tail": "f96641f7c6be6d",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "test r14w, 0x6dbe"
+      ]
+    },
+    {
+      "rva": 30414457,
+      "length": 5,
+      "original": "0fa2441afb",
+      "tail": "441afb",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sbb r15b, bl"
+      ]
+    },
+    {
+      "rva": 30419531,
+      "length": 6,
+      "original": "0fa24180ead8",
+      "tail": "4180ead8",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10b, 0xd8"
+      ]
+    },
+    {
+      "rva": 30438569,
+      "length": 8,
+      "original": "0fa266410fa4f569",
+      "tail": "66410fa4f569",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "shld r13w, si, 0x69"
+      ]
+    },
+    {
+      "rva": 30459734,
+      "length": 6,
+      "original": "0fa2440fbfef",
+      "tail": "440fbfef",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r13d, di"
+      ]
+    },
+    {
+      "rva": 30523032,
+      "length": 6,
+      "original": "0fa266413bf7",
+      "tail": "66413bf7",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmp si, r15w"
+      ]
+    },
+    {
+      "rva": 30536775,
+      "length": 9,
+      "original": "0fa24881efb2690946",
+      "tail": "4881efb2690946",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0x460969b2"
+      ]
+    },
+    {
+      "rva": 30574899,
+      "length": 6,
+      "original": "0fa26641d3df",
+      "tail": "6641d3df",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcr r15w, cl"
+      ]
+    },
+    {
+      "rva": 30581248,
+      "length": 6,
+      "original": "0fa24d0fbfd1",
+      "tail": "4d0fbfd1",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "movsx r10, r9w"
+      ]
+    },
+    {
+      "rva": 30586928,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 30636434,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    },
+    {
+      "rva": 30641103,
+      "length": 7,
+      "original": "0fa26641c1daa0",
+      "tail": "6641c1daa0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "rcr r10w, 0xa0"
+      ]
+    },
+    {
+      "rva": 30642696,
+      "length": 6,
+      "original": "0fa2f580fa6a",
+      "tail": "f580fa6a",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "cmc ",
+        "cmp dl, 0x6a"
+      ]
+    },
+    {
+      "rva": 30652690,
+      "length": 7,
+      "original": "0fa20fcec1ce4b",
+      "tail": "0fcec1ce4b",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "bswap esi",
+        "ror esi, 0x4b"
+      ]
+    },
+    {
+      "rva": 30681587,
+      "length": 6,
+      "original": "0fa24180f3d0",
+      "tail": "4180f3d0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "xor r11b, 0xd0"
+      ]
+    },
+    {
+      "rva": 30694404,
+      "length": 5,
+      "original": "0fa2f6c45c",
+      "tail": "f6c45c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test ah, 0x5c"
+      ]
+    },
+    {
+      "rva": 30700399,
+      "length": 9,
+      "original": "0fa24881ef531ae76c",
+      "tail": "4881ef531ae76c",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub rdi, 0x6ce71a53"
+      ]
+    },
+    {
+      "rva": 30722578,
+      "length": 6,
+      "original": "0fa2410f9ac0",
+      "tail": "410f9ac0",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "setp r8b"
+      ]
+    },
+    {
+      "rva": 30724832,
+      "length": 6,
+      "original": "0fa2664185f6",
+      "tail": "664185f6",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "test r14w, si"
+      ]
+    },
+    {
+      "rva": 30742860,
+      "length": 9,
+      "original": "0fa24981ec0c000000",
+      "tail": "4981ec0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r12, 0xc"
+      ]
+    },
+    {
+      "rva": 30752314,
+      "length": 5,
+      "original": "0fa241d2f5",
+      "tail": "41d2f5",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sal r13b, cl"
+      ]
+    },
+    {
+      "rva": 30762325,
+      "length": 10,
+      "original": "0fa2f94981ef0c000000",
+      "tail": "f94981ef0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "stc ",
+        "sub r15, 0xc"
+      ]
+    },
+    {
+      "rva": 30771286,
+      "length": 9,
+      "original": "0fa24981ea0c000000",
+      "tail": "4981ea0c000000",
+      "stores": {
+        "eax": 12,
+        "ebx": 8,
+        "ecx": 4,
+        "edx": 0
+      },
+      "copied_instructions": [
+        "sub r10, 0xc"
+      ]
+    }
+  ],
+  "purpose": "Only suppress hypervisor-identifying CPUID outputs in our diagnostic child; other leaves unchanged"
+}

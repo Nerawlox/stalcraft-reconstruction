@@ -1,0 +1,108 @@
+{
+  "command": [
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\runtime-diagnostic\\java\\bin\\java.exe",
+    "-version"
+  ],
+  "owned_pid": 23076,
+  "entry_rva": "0xf35d0a",
+  "mode": "Unicorn arithmetic and snapshot reads; no target memory writes or native helper invocation",
+  "api_calls": [
+    {
+      "name": "ZwSetInformationThread",
+      "address": "0x7ffbfbc60510",
+      "args": [
+        "0xfffffffffffffffe",
+        "0x11",
+        "0x0",
+        "0x0"
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "pc": "0x5b8a5d0a",
+      "bytes": "90"
+    },
+    {
+      "pc": "0x5b8a5d0b",
+      "bytes": "e93b840500"
+    },
+    {
+      "pc": "0x5b8fe14b",
+      "bytes": "51"
+    },
+    {
+      "pc": "0x5b8fe14c",
+      "bytes": "488b4c2408"
+    },
+    {
+      "pc": "0x5b8fe151",
+      "bytes": "e972991800"
+    },
+    {
+      "pc": "0x5ba87ac8",
+      "bytes": "488d4901"
+    },
+    {
+      "pc": "0x5ba87acc",
+      "bytes": "e9ead0e4ff"
+    },
+    {
+      "pc": "0x5b8d4bbb",
+      "bytes": "48894c2408"
+    },
+    {
+      "pc": "0x5b8d4bc0",
+      "bytes": "480fb7cc"
+    },
+    {
+      "pc": "0x5b8d4bc4",
+      "bytes": "408ace"
+    },
+    {
+      "pc": "0x5b8d4bc7",
+      "bytes": "488d0d19e033ff"
+    },
+    {
+      "pc": "0x5b8d4bce",
+      "bytes": "e9ac741200"
+    },
+    {
+      "pc": "0x5b9fc07f",
+      "bytes": "488b8902ffdf00"
+    },
+    {
+      "pc": "0x5b9fc086",
+      "bytes": "e9b5abecff"
+    },
+    {
+      "pc": "0x5b8c6c40",
+      "bytes": "488d89c6285923"
+    },
+    {
+      "pc": "0x5b8c6c47",
+      "bytes": "e9138e0a00"
+    },
+    {
+      "pc": "0x5b96fa5f",
+      "bytes": "48870c24"
+    },
+    {
+      "pc": "0x5b96fa63",
+      "bytes": "e9a4a4f3ff"
+    },
+    {
+      "pc": "0x5b8a9f0c",
+      "bytes": "c3"
+    },
+    {
+      "pc": "0x7ffbfbc60510",
+      "bytes": "4c8bd1"
+    }
+  ],
+  "instructions": 20,
+  "jvm_base": 1519845376,
+  "mapped_pages": 524,
+  "last_pc": "0x30300001",
+  "error": "Bound reached before protected helper returned"
+}

@@ -1,0 +1,371 @@
+{
+  "scope": "alternate decompiler only; input library classes never executed; CFR snapshot unchanged",
+  "tool_sha256": "821da96012fc69244fa1ea298c90455ee4e021434bc796d3b9546ab24601b779",
+  "input_class_count": 120,
+  "input_classes": [
+    "com/google/common/util/concurrent/Futures$ImmediateFailedCheckedFuture.class",
+    "paulscode/sound/codecs/CodecJOrbis$ByteArrayOStream.class",
+    "kotlin/reflect/jvm/internal/KFunctionImpl.class",
+    "com/google/common/util/concurrent/Futures$ImmediateSuccessfulFuture.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation$1.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture$1.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$getAnnotations$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/components/JavaAnnotationDescriptor.class",
+    "kotlin/io/FilesKt__UtilsKt$copyRecursively$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancementKt$enhanceSignature$valueParameterEnhancements$1$1.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$toString$2$1$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1$2.class",
+    "kotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScopeKt$getDescriptorsFiltered$1.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$isTypeOrSubtypeOf$2.class",
+    "kotlin/reflect/full/KClassifiers$createType$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$createMockJavaIoSerializableType$superTypes$1.class",
+    "kotlin/text/DelimitedRangesSequence$iterator$1.class",
+    "com/google/common/util/concurrent/Futures$6.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$2.class",
+    "com/google/common/util/concurrent/Futures.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$extractQualifiersFromAnnotations$2.class",
+    "com/google/common/util/concurrent/Futures$FutureCombiner.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation.class",
+    "org/lwjgl/opengl/LinuxDisplay$1.class",
+    "com/google/common/util/concurrent/Futures$ImmediateCancelledFuture.class",
+    "com/google/common/util/concurrent/Futures$ChainingListenableFuture$1.class",
+    "kotlin/reflect/jvm/internal/KFunctionImpl$caller$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeIndexedQualifiersForOverride$1$1.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$extractParameterNameFromFunctionTypeArgument$name$1.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$loadProperty$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getJdkMethodStatus$1.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationDeserializer$WhenMappings.class",
+    "org/bouncycastle/crypto/modes/gcm/Tables64kGCMMultiplier.class",
+    "kotlin/reflect/jvm/internal/KFunctionImpl$descriptor$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$JDKMemberStatus.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$isMutabilityViolation$1.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$isFunctionTypeOrSubtype$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$Companion.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$1.class",
+    "kotlin/reflect/full/KClassifiers.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$hashCode$2.class",
+    "kotlin/jvm/JvmClassMappingKt.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$isMutabilityViolation$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$extractQualifiersFromAnnotations$3.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$getReceiverParameterAnnotations$1.class",
+    "com/google/common/util/concurrent/Futures$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$cloneableType$2.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer$valueParameters$$inlined$mapIndexed$lambda$1.class",
+    "org/lwjgl/opengl/LinuxCanvasImplementation$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeIndexedQualifiersForOverride$2.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$extractQualifiersFromAnnotations$4.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$createMockJavaIoSerializableType$mockJavaIoPackageFragment$1.class",
+    "kotlin/io/FilesKt__UtilsKt$copyRecursively$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$extractQualifiersFromAnnotations$1.class",
+    "paulscode/sound/codecs/CodecJOrbis.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$hashCode$1.class",
+    "org/bouncycastle/crypto/generators/DSAParametersGenerator.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getFunctions$2.class",
+    "org/lwjgl/opengl/LinuxDisplay$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeIndexedQualifiersForOverride$1.class",
+    "com/google/common/util/concurrent/Futures$ImmediateFailedFuture.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getAdditionalFunctions$fakeJavaClassDescriptor$1.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeQualifiersForOverride$2.class",
+    "org/lwjgl/opengl/LinuxDisplay$3.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeQualifiersForOverride$1.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$toString$1.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/functions/FunctionInvokeDescriptor$Factory.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$isBuiltinFunctionalTypeOrSubtype$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$WhenMappings.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture.class",
+    "com/google/common/util/concurrent/Futures$ChainingListenableFuture.class",
+    "com/google/common/util/concurrent/Futures$2.class",
+    "kotlin/text/DelimitedRangesSequence.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/functions/FunctionInvokeDescriptor.class",
+    "org/lwjgl/opengl/LinuxDisplay.class",
+    "com/google/common/util/concurrent/Futures$ImmediateSuccessfulCheckedFuture.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$isTypeOrSubtypeOf$1.class",
+    "org/apache/commons/lang3/text/ExtendedMessageFormat.class",
+    "kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt$getFunctionTypeArgumentProjections$1$name$1.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$4.class",
+    "org/bouncycastle/crypto/generators/GOST3410ParametersGenerator.class",
+    "com/google/common/util/concurrent/Futures$FallbackFuture$1$1.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1.class",
+    "kotlin/reflect/full/KClassifiers$WhenMappings.class",
+    "com/google/common/util/concurrent/Futures$MappingCheckedFuture.class",
+    "javax/crypto/SunJCE_b.class",
+    "kotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScopeKt.class",
+    "com/google/common/util/concurrent/Futures$5.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$Provider.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture$2.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$notConsideredDeprecation$2.class",
+    "kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationDeserializer.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getJavaAnalogue$fqName$1.class",
+    "org/objectweb/asm/Type.class",
+    "com/google/common/util/concurrent/Futures$CombinedFuture.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancementKt.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt$computeQualifiersForOverride$3.class",
+    "com/sun/crypto/provider/SunJCE_h.class",
+    "kotlin/reflect/jvm/internal/KFunctionImpl$defaultCaller$2.class",
+    "org/bouncycastle/crypto/modes/gcm/Tables8kGCMMultiplier.class",
+    "com/google/common/util/concurrent/Futures$4.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getJdkMethodStatus$2.class",
+    "com/sun/crypto/provider/SunJCE_i.class",
+    "kotlin/io/FilesKt__UtilsKt.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancementKt$enhanceSignature$receiverTypeEnhancement$1.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt$createAnnotationInstance$toString$2.class",
+    "com/jcraft/jorbis/Drft.class",
+    "kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt.class",
+    "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancementKt$enhanceSignature$returnTypeEnhancement$1.class",
+    "kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings$getConstructors$1.class",
+    "com/google/common/util/concurrent/Futures$ImmediateFuture.class",
+    "org/lwjgl/opengl/LinuxDisplay$Compiz$1$1.class",
+    "com/google/common/util/concurrent/Futures$3.class"
+  ],
+  "command": [
+    "E:\\Stalcraft project\\stalcraft-decompiled\\.cache\\runtime\\java\\bin\\java.exe",
+    "-Xmx512m",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\procyon-decompiler-0.6.0.jar",
+    "-jar",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\analysis\\decompiler-tools\\cfr-library-warnings-input.jar",
+    "-o",
+    "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\decompiled-alternatives\\procyon-libs-warnings"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 4.25,
+  "sources": [
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\com\\google\\common\\util\\concurrent\\Futures.java",
+      "bytes": 31335,
+      "sha256": "fca90e5304334c28a7bb1584f65fa3b28b7c5a962e3942ef32d64b4d900d7726",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\com\\jcraft\\jorbis\\Drft.java",
+      "bytes": 49156,
+      "sha256": "6b4c346289b3c87d4b078f8d022dd7cccc7a833c3edd332eec76b14de71ca3d8",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\com\\sun\\crypto\\provider\\SunJCE_h.java",
+      "bytes": 5793,
+      "sha256": "c1c138cc6a65d03fa13146b61549b7abfc84fb2abd3a357a9a08373a6fb9fd2f",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\com\\sun\\crypto\\provider\\SunJCE_i.java",
+      "bytes": 6168,
+      "sha256": "c754be482a861e03c4c73a830878694d16f1694ccf9b0eafcc88a8b144c7c57d",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\javax\\crypto\\SunJCE_b.java",
+      "bytes": 27187,
+      "sha256": "172a368dd8ceee4cbf33f71f7e6ba4ff1dcd53e40786fe2d04810c11b6d4e354",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\io\\FilesKt__UtilsKt.java",
+      "bytes": 43454,
+      "sha256": "099974aebfbe31ad7bb09fede2dda0290305486d5583016e5ae9f8ee73fb5f4b",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\jvm\\JvmClassMappingKt.java",
+      "bytes": 13285,
+      "sha256": "027eda4b74d811fa6eac742292bab3323487fb1fa1868eb0e7ef996859795527",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\text\\DelimitedRangesSequence.java",
+      "bytes": 2924,
+      "sha256": "efb7308b6a0737606f5cbaa25ad9443efa5b0018037fa27c13f2122a4adc1063",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\full\\KClassifiers.java",
+      "bytes": 23765,
+      "sha256": "d7699724e4429c15c69611f2f9da93c216424d4183e3c0f1d3ddf780c5cbfa92",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\AnnotationConstructorCallerKt$createAnnotationInstance$hashCode$1.java",
+      "bytes": 678,
+      "sha256": "8f7da4c77aaddfb5ce4d4cb78a39598cbad092951233f3c04d3b12505669617b",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\AnnotationConstructorCallerKt$createAnnotationInstance$toString$1.java",
+      "bytes": 695,
+      "sha256": "6ce6ccc6604e8ad37c0880f46792d47c0cdacf65e18d8bf818d5cc57ae04d1b1",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\AnnotationConstructorCallerKt.java",
+      "bytes": 17305,
+      "sha256": "593d6ebba878db482ad51ef19c437e44f27e224b9c570b0fd356de7b91b297a2",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\KFunctionImpl.java",
+      "bytes": 24376,
+      "sha256": "e9030d6157d8cab5f2a329900d1385e6957025ebcbccdb148c89c60962770afa",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\builtins\\FunctionTypesKt.java",
+      "bytes": 30390,
+      "sha256": "583c872900bbf13968441fce12d5f46d316fa99af8fb8d2a6f670b044eed95cd",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\builtins\\functions\\FunctionInvokeDescriptor.java",
+      "bytes": 39082,
+      "sha256": "82c45bb824c79d411d311fefd82157cb19d5fedb1d8cff0046be32b7a01dcf4a",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\load\\kotlin\\JvmBuiltInsSettings.java",
+      "bytes": 122778,
+      "sha256": "1543ab085af26a723f184ad2910bdf5392bac640c84a1d556745af36e483d583",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\load\\java\\components\\JavaAnnotationDescriptor.java",
+      "bytes": 4203,
+      "sha256": "b5a10e249c34c49784964f840174f3fe98916d5990a6deb7dd8b99ed2f8d8621",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\load\\java\\typeEnhancement\\SignatureEnhancementKt.java",
+      "bytes": 39421,
+      "sha256": "737eb70b83604fe043bfa6cbe560328400796fbae8952435582fa2e0cb159e10",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\load\\java\\typeEnhancement\\TypeQualifiersKt.java",
+      "bytes": 44743,
+      "sha256": "906aa3e1b42e0785b8c3181361ca6d5c31f4f519b1bc31e779ef3e3ab224afa8",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\resolve\\scopes\\MemberScopeKt.java",
+      "bytes": 7418,
+      "sha256": "3d8b5663e58938531c9678a1b356ae1a44d30bcce9cb51c8ead3e56ceb5cfb0e",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\serialization\\deserialization\\AnnotationDeserializer.java",
+      "bytes": 52222,
+      "sha256": "8db8ac0f50c1fd4f8d6ac74e593665fe38d9a1071883a739eb92ef08b74019a3",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\kotlin\\reflect\\jvm\\internal\\impl\\serialization\\deserialization\\MemberDeserializer.java",
+      "bytes": 64252,
+      "sha256": "e978ac7f618f74bf012ebe546aaff5cbc9a1567baabc393b452123f9a19992e5",
+      "decompilation_error_markers": [
+        "could not be decompiled",
+        "An error occurred",
+        "This method could not"
+      ]
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\apache\\commons\\lang3\\text\\ExtendedMessageFormat.java",
+      "bytes": 12636,
+      "sha256": "b2bd6aaa6d0b5b9bc923d4f856681a222a6a435877c1d8a0f940987e62101137",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\bouncycastle\\crypto\\generators\\DSAParametersGenerator.java",
+      "bytes": 7577,
+      "sha256": "a6396c90bbffe728f5fe6e23f6c6b7e262cda807e122499f7df3edb1b05c1ba9",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\bouncycastle\\crypto\\generators\\GOST3410ParametersGenerator.java",
+      "bytes": 15721,
+      "sha256": "5b9ea1cd6132ec11633908210c3d94092412f7e8b2be53c43cf738e7b2aa85b4",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\bouncycastle\\crypto\\modes\\gcm\\Tables64kGCMMultiplier.java",
+      "bytes": 2142,
+      "sha256": "e1c0435dba34e4494f1a255d575acd8c6152aa9b9389614b5f051de272ab0ddd",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\bouncycastle\\crypto\\modes\\gcm\\Tables8kGCMMultiplier.java",
+      "bytes": 3158,
+      "sha256": "ad8332bc3dd2ab9b1b0e5168ca0e253e127384e9c5beae8982708e55fc43f3e5",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\lwjgl\\opengl\\LinuxCanvasImplementation.java",
+      "bytes": 3802,
+      "sha256": "65c234bc8057e1e35f88ced69995c7cf61226bf72d22f46a77f0a448fe405c02",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\lwjgl\\opengl\\LinuxDisplay.java",
+      "bytes": 57791,
+      "sha256": "12c7b26d20849984c79be58741d64076a7c5eef0e8e494f7b0c9923f12785d76",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\org\\objectweb\\asm\\Type.java",
+      "bytes": 14241,
+      "sha256": "86cef29fb3d5df71ce65d877eca1ec6585a9586d27e3b761e33b9f06bbd464f3",
+      "decompilation_error_markers": []
+    },
+    {
+      "path": "decompiled-alternatives\\procyon-libs-warnings\\paulscode\\sound\\codecs\\CodecJOrbis.java",
+      "bytes": 23283,
+      "sha256": "494674ef630174ec6724b261a43c4b780ef63f2850b399d7b7cd4283882a4030",
+      "decompilation_error_markers": []
+    }
+  ]
+}

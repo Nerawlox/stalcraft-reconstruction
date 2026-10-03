@@ -1,0 +1,78 @@
+{
+  "classes": {
+    "count": 6975,
+    "major_versions": {
+      "52": 4353,
+      "50": 2442,
+      "49": 180
+    },
+    "package_roots": {
+      "<default>": 2747,
+      "net": 1129,
+      "gloomyfolken": 1056,
+      "noppes": 632,
+      "codechicken": 329,
+      "cpw": 298,
+      "mods": 156,
+      "eu": 145,
+      "carpentersblocks": 94,
+      "com": 93,
+      "poersch": 77,
+      "mcoptifine": 58,
+      "api": 31,
+      "znw": 30,
+      "paulscode": 28,
+      "optifine": 21
+    },
+    "methods": 53928,
+    "instructions": 1690079,
+    "zero_failures": true
+  },
+  "libs": {
+    "count": 8094,
+    "major_versions": {
+      "50": 4327,
+      "49": 2928,
+      "45": 133,
+      "48": 301,
+      "51": 392,
+      "47": 13
+    },
+    "package_roots": {
+      "org": 2885,
+      "com": 2352,
+      "kotlin": 2314,
+      "net": 232,
+      "javax": 108,
+      "argo": 78,
+      "joptsimple": 47,
+      "gr": 36,
+      "me": 31,
+      "paulscode": 8,
+      "LZMA": 3
+    },
+    "methods": 60561,
+    "instructions": 1557614,
+    "zero_failures": true
+  },
+  "jimage": {
+    "count": 15646,
+    "major_versions": {
+      "53": 15610,
+      "50": 27,
+      "52": 5,
+      "45": 4
+    },
+    "package_roots": {
+      "java": 4076,
+      "com": 3805,
+      "javax": 3533,
+      "sun": 3520,
+      "jdk": 517,
+      "org": 195
+    },
+    "methods": 131836,
+    "instructions": 4064295,
+    "zero_failures": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "record": "/java.base/c14f5b29590d12e945cb0f3a42112a91",
+  "offset": 43797169,
+  "compressed_size": 0,
+  "cipher_size": 1552,
+  "key": "e7488b845f71f6cccfb8945cc05d1f0d",
+  "iv": "45cb0f3a42112a91",
+  "attempts": [
+    {
+      "inverse_mix": [
+        253,
+        134,
+        238,
+        124
+      ],
+      "valid": false,
+      "error": "bad magic: 682628002deda390602bc8904dd3fd63",
+      "first16": "682628002deda390602bc8904dd3fd63",
+      "native_byte_equal": false
+    },
+    {
+      "inverse_mix": [
+        82,
+        183,
+        13,
+        233
+      ],
+      "valid": false,
+      "error": "bad magic: 2cab386fafd0892b99fd9982c001c29d",
+      "first16": "2cab386fafd0892b99fd9982c001c29d",
+      "native_byte_equal": true
+    }
+  ],
+  "native_emulation": {
+    "instructions": 1299890,
+    "helper_return_zero": true,
+    "completed": true
+  },
+  "sbox_sha256": "2ce7b21430eca4d3c413eb29dd2a5e9c89f82a5ebccbf8778b7eeba56dd200ba",
+  "plaintext_sha256": "76c1b97741be08a13cd54ad907695a2b613a306aec46921c60542815d523d462",
+  "valid_class": null,
+  "output": "none; no valid bytecode recovered"
+}

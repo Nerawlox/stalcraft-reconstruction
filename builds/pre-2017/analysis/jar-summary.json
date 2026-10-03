@@ -1,0 +1,2966 @@
+{
+  "classes.jar": {
+    "size": 30058147,
+    "sha256": "ced5409138b43c716e9fc20901a0c8dbf5e32218c2ed8448024a3bc612c4a61d",
+    "zip_entries": 9383,
+    "class_count": 361,
+    "class_major_versions": {},
+    "bad_class_magic": [
+      {
+        "path": "api/player/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "api/player/forge/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "api/player/model/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "api/player/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "api/player/server/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "atomicstryker/dynamiclights/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "atomicstryker/dynamiclights/common/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "berryBushes/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "berryBushes/proxy/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "berryBushes/te/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/block/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/data/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/item/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/proxy/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/renderer/helper/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/renderer/helper/slope/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/renderer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/renderer/tileentity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/tileentity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/util/handler/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "carpentersblocks/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/commands/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/inventory/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/launch/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/data/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/inventory/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/lang/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/math/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/lib/vec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/api/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/forge/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/nei/recipe/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/obfuscator/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "codechicken/packager/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/basic/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/focusable/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/vanilla/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/guilib/vanilla/sliders/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/paintinggui/forge/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/paintinggui/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/mcf/davidee/paintinggui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/blocks/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/entity/mob/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/renderer/mobs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/renderer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/stalcraft/tile/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/client/modloader/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/client/registry/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/asm/transformers/deobf/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/asm/transformers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/discovery/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/discovery/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/functions/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/launcher/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/modloader/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/network/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/patcher/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/registry/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/toposort/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/common/versioning/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/relauncher/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/repackage/com/nothome/delta/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "cpw/mods/fml/server/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/easy/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/conv/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/engine/implem/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/engine/interfaces/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/game/data/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/game/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/game/mod/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/game/system/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/game/user/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/matmos/requirem/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/convenience/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/haddon/implem/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/haddon/litemod/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/haddon/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/mc/quick/keys/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/util/property/contract/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/util/property/simple/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "eu/ha3/util/property/test/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/bundle/common/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/bundle/common/core/stats/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/hooklib/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/hooklib/minecraft/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/anomaly/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/anomaly/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/anticheat/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/antirelog/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/brushedit/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/bundle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/engine/action/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/engine/component/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/engine/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/engine/style/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/engine/style/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/font/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/client/gui/screens/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/main/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/core/misc/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/customcraft/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/customitem/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/effects/client/main/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/effects/client/mcsa/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/effects/common/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/ejection/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/faction/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/ktcore/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/money/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/options/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/party/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/client/bulletoverride/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/client/utils/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/client/world/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/core/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/client/ragdoll/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/client/ragdoll/test/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/client/ragdoll/world/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/client/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/inventory/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/items/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/physics/ragdolls/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/shop/data/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/shop/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/skinarmor/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/clans/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/hud/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/misc/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/block/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/effect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/render/particle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/render/particlesystems/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/tuning/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/client/tuning/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/animation/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/animation/state/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/mutants/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/entity/pathfind/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/packet/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/player/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/spawn/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/spawn/region/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/mobs/tile/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/player/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/respawn/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/stalker/smplayer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/trade/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/weapon/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/weapon/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gloomyfolken/mods/weapon/trace/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "ibxm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mcoptifine/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/chat/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/chat/client/screen/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/chat/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/command/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/component/dialog/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/component/option/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/component/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/hud/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/map/icon/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/map/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/map/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/minimap/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/news/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/screens/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/screens/tab/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/tab/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/client/waypoint/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/pda/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/regions/block/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/regions/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/regions/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/regions/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/sound/client/environment/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/sound/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/sound/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/sound/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "mods/sound/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/main/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/model/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/particle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/client/settings/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/crash/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/ai/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/boss/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/effect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/item/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/monster/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/passive/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/player/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/entity/projectile/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/launchwrapper/injector/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/launchwrapper/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/src/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraft/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/classloading/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/event/sound/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/model/obj/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/model/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/model/techne/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/common/network/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/common/network/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/common/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/brewing/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/entity/item/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/entity/living/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/entity/minecart/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/entity/player/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/terraingen/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/event/world/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/fluids/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/liquids/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/oredict/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/server/command/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/server/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/minecraftforge/transformers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/bean/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/buffer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/collections/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/html/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/lang/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/net/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/sql/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/test/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/kdgcommons/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/builder/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/converter/bean/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/converter/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/converter/json/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/converter/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/junit/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/xpath/function/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/sf/practicalxml/xpath/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/mod/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/playerapi/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/moving/render/playerapi/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/properties/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/render/mod/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/render/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/render/playerapi/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/render/statistics/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/render/statistics/playerapi/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/smart/utilities/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/ai/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/blocks/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/controllers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/events/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/global/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/mainmenu/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/player/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/questtypes/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/replica/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/roles/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/gui/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/animation/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/part/legs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/part/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/part/tails/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/model/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/pda/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/client/renderer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/commands/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/commands/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/constants/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/containers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/controllers/availability/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/controllers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/controllers/replica/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/events/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/items/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/notification/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/packet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/permissions/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/quests/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "noppes/npcs/roles/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "obf/gloomyfolken/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "obf/gloomyfolken/modlist/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "optifine/json/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "optifine/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "package-info.class",
+        "header": ""
+      },
+      {
+        "path": "Paintings/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "paulscode/sound/codecs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "paulscode/sound/libraries/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "paulscode/sound/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/bettergrassandleaves/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/bettergrassandleaves/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/bettergrassandleaves/interfaces/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/bettergrassandleaves/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/bettergrassandleaves/renderer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/gui/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/keyhandler/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/options/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "poersch/minecraft/util/texture/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "ru/hoshimin/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/auction/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/guimaker/client/component/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/guimaker/client/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/guimaker/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/stalkerguide/client/entity/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "znw/mods/stalkerguide/package-info.class",
+        "header": ""
+      }
+    ],
+    "top_package_prefixes": [
+      [
+        "gloomyfolken/mods",
+        79
+      ],
+      [
+        "noppes/npcs",
+        39
+      ],
+      [
+        "net/minecraftforge",
+        25
+      ],
+      [
+        "cpw/mods",
+        21
+      ],
+      [
+        "net/sf",
+        21
+      ],
+      [
+        "eu/ha3",
+        20
+      ],
+      [
+        "net/minecraft",
+        20
+      ],
+      [
+        "mods/pda",
+        17
+      ],
+      [
+        "net/smart",
+        13
+      ],
+      [
+        "poersch/minecraft",
+        11
+      ],
+      [
+        "codechicken/lib",
+        9
+      ],
+      [
+        "com/mcf",
+        9
+      ],
+      [
+        "codechicken/core",
+        7
+      ],
+      [
+        "codechicken/nei",
+        6
+      ],
+      [
+        "com/stalcraft",
+        6
+      ],
+      [
+        "znw/mods",
+        6
+      ],
+      [
+        "api/player",
+        5
+      ],
+      [
+        "mods/sound",
+        5
+      ],
+      [
+        "carpentersblocks/renderer",
+        4
+      ],
+      [
+        "mods/regions",
+        4
+      ],
+      [
+        "mods/chat",
+        3
+      ],
+      [
+        "paulscode/sound",
+        3
+      ],
+      [
+        "atomicstryker/dynamiclights",
+        2
+      ],
+      [
+        "carpentersblocks/util",
+        2
+      ],
+      [
+        "gloomyfolken/bundle",
+        2
+      ],
+      [
+        "gloomyfolken/hooklib",
+        2
+      ],
+      [
+        "obf/gloomyfolken",
+        2
+      ],
+      [
+        "berryBushes/package-info.class",
+        1
+      ],
+      [
+        "berryBushes/proxy",
+        1
+      ],
+      [
+        "berryBushes/te",
+        1
+      ],
+      [
+        "carpentersblocks/block",
+        1
+      ],
+      [
+        "carpentersblocks/data",
+        1
+      ],
+      [
+        "carpentersblocks/item",
+        1
+      ],
+      [
+        "carpentersblocks/package-info.class",
+        1
+      ],
+      [
+        "carpentersblocks/proxy",
+        1
+      ],
+      [
+        "carpentersblocks/tileentity",
+        1
+      ],
+      [
+        "codechicken/obfuscator",
+        1
+      ],
+      [
+        "codechicken/packager",
+        1
+      ],
+      [
+        "ibxm/package-info.class",
+        1
+      ],
+      [
+        "mcoptifine/package-info.class",
+        1
+      ]
+    ],
+    "class_zip_months": [
+      [
+        "1980-01",
+        361
+      ]
+    ],
+    "metadata": {
+      "mcmod.info": "[\r\n{\r\n  \"modid\": \"GloomyCore\",\r\n  \"name\": \"S.T.A.L.K.E.R.\",\r\n  \"version\": \"0.1.1_[1.6.4]\",\r\n  \"description\": \"Глобальная модификация от проекта STALCRAFT\",\r\n  \"credits\": \"\",\r\n  \"logoFile\": \"\",\r\n  \"url\": \"http://stalcraft.ru\",\r\n  \"updateUrl\": \"\",\r\n  \"authors\": [\"GloomyFolken\", \"Zero no Wing\", \"Nerlied\"],\r\n  \"parent\":\"\",\r\n  \"screenshots\": [],\r\n  \"dependencies\": [\"DynamicLights\",\"EffectsAPI\"]\r\n}\r\n]\r\n",
+      "pack.mcmeta": "{\r\n  \"pack\": {\r\n    \"pack_format\": 1,\r\n    \"description\": \"The default look of Minecraft\"\r\n  },\r\n  \"language\": {\r\n    \"af_ZA\": {\r\n      \"name\": \"Afrikaans\",\r\n      \"region\": \"ZA\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ar_SA\": {\r\n      \"name\": \"\\u0627\\u0644\\u0639\\u0631\\u0628\\u064A\\u0629\",\r\n      \"region\": \"\\u0627\\u0644\\u0639\\u0627\\u0644\\u0645 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064A\",\r\n      \"bidirectional\": true\r\n    },\r\n    \"bg_BG\": {\r\n      \"name\": \"\\u0411\\u044A\\u043B\\u0433\\u0430\\u0440\\u0441\\u043A\\u0438\",\r\n      \"region\": \"BG\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ca_ES\": {\r\n      \"name\": \"Catal\\u00E0\",\r\n      \"region\": \"CAT\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"cs_CZ\": {\r\n      \"name\": \"\\u010Ce\\u0161tina\",\r\n      \"region\": \"CZ\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"cy_GB\": {\r\n      \"name\": \"Cymraeg\",\r\n      \"region\": \"Cymru\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"da_DK\": {\r\n      \"name\": \"Dansk\",\r\n      \"region\": \"DK\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"de_DE\": {\r\n      \"name\": \"Deutsch\",\r\n      \"region\": \"Deutschland\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"el_GR\": {\r\n      \"name\": \"\\u0395\\u03BB\\u03BB\\u03B7\\u03BD\\u03B9\\u03BA\\u03AC\",\r\n      \"region\": \"El\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"en_AU\": {\r\n      \"name\": \"Australian English\",\r\n      \"region\": \"Australia\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"en_CA\": {\r\n      \"name\": \"Canadian English\",\r\n      \"region\": \"CA\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"en_GB\": {\r\n      \"name\": \"English\",\r\n      \"region\": \"UK\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"en_PT\": {\r\n      \"name\": \"Pirate Speak\",\r\n      \"region\": \"PIRATE\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"en_US\": {\r\n      \"name\": \"English\",\r\n      \"region\": \"US\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"eo_UY\": {\r\n      \"name\": \"Esperanto\",\r\n      \"region\": \"Mondo\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"es_AR\": {\r\n      \"name\": \"Espa\\u00F1ol\",\r\n      \"region\": \"Argentina\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"es_ES\": {\r\n      \"name\": \"Espa\\u00F1ol\",\r\n      \"region\": \"Espa\\u00F1a\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"es_MX\": {\r\n      \"name\": \"Espa\\u00F1ol\",\r\n      \"region\": \"M\\u00E9xico\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"es_UY\": {\r\n      \"name\": \"Espa\\u00F1ol\",\r\n      \"region\": \"Uruguay\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"es_VE\": {\r\n      \"name\": \"Espa\\u00F1ol\",\r\n      \"region\": \"Venezuela\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"et_EE\": {\r\n      \"name\": \"Eesti\",\r\n      \"region\": \"ET\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"eu_ES\": {\r\n      \"name\": \"Euskara\",\r\n      \"region\": \"EH\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"fi_FI\": {\r\n      \"name\": \"suomi\",\r\n      \"region\": \"FI\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"fr_CA\": {\r\n      \"name\": \"Fran\\u00E7ais\",\r\n      \"region\": \"CA\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"fr_FR\": {\r\n      \"name\": \"Fran\\u00E7ais\",\r\n      \"region\": \"France\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ga_IE\": {\r\n      \"name\": \"Gaeilge\",\r\n      \"region\": \"\\u00C9ire\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"gl_ES\": {\r\n      \"name\": \"Galego\",\r\n      \"region\": \"Galicia\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"he_IL\": {\r\n      \"name\": \"\\u05D0\\u05E0\\u05D2\\u05DC\\u05D9\\u05EA\",\r\n      \"region\": \"IL\",\r\n      \"bidirectional\": true\r\n    },\r\n    \"hi_IN\": {\r\n      \"name\": \"\\u0905\\u0902\\u0917\\u094D\\u0930\\u0947\\u095B\\u0940\",\r\n      \"region\": \"\\u092D\\u093E\\u0930\\u0924\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"hr_HR\": {\r\n      \"name\": \"Hrvatski\",\r\n      \"region\": \"HR\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"hu_HU\": {\r\n      \"name\": \"Magyar\",\r\n      \"region\": \"HU\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"id_ID\": {\r\n      \"name\": \"Bahasa Indonesia\",\r\n      \"region\": \"ID\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"is_IS\": {\r\n      \"name\": \"\\u00CDslenska\",\r\n      \"region\": \"IS\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"it_IT\": {\r\n      \"name\": \"Italiano\",\r\n      \"region\": \"Italia\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ja_JP\": {\r\n      \"name\": \"\\u65E5\\u672C\\u8A9E\",\r\n      \"region\": \"\\u65E5\\u672C\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ka_GE\": {\r\n      \"name\": \"\\u10E5\\u10D0\\u10E0\\u10D7\\u10E3\\u10DA\\u10D8\",\r\n      \"region\": \"\\u10E1\\u10D0\\u10E5\\u10D0\\u10E0\\u10D7\\u10D5\\u10D4\\u10DA\\u10DD\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ko_KR\": {\r\n      \"name\": \"\\uD55C\\uAD6D\\uC5B4\",\r\n      \"region\": \"KR\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"kw_GB\": {\r\n      \"name\": \"Kernowek\",\r\n      \"region\": \"Cornwall\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ky_KG\": {\r\n      \"name\": \"\\u0905\\u0902\\u0917\\u094D\\u0930\\u0947\\u095B\\u0940\",\r\n      \"region\": \"\\u092D\\u093E\\u0930\\u0924\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"lt_LT\": {\r\n      \"name\": \"Lietuvi\\u0173\",\r\n      \"region\": \"Lietuva\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"lv_LV\": {\r\n      \"name\": \"Latvie\\u0161u\",\r\n      \"region\": \"Latvija\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"mi_NZ\": {\r\n      \"name\": \"Bahasa Melayu\",\r\n      \"region\": \"MS\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ms_MY\": {\r\n      \"name\": \"Bahasa Melayu\",\r\n      \"region\": \"MS\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"mt_MT\": {\r\n      \"name\": \"Malti\",\r\n      \"region\": \"MT\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"nb_NO\": {\r\n      \"name\": \"Norsk\",\r\n      \"region\": \"NO\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"nl_NL\": {\r\n      \"name\": \"Nederlands\",\r\n      \"region\": \"Nederland\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"nn_NO\": {\r\n      \"name\": \"Norsk nynorsk\",\r\n      \"region\": \"Noreg\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"no_NO\": {\r\n      \"name\": \"Norsk\",\r\n      \"region\": \"NO\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"pl_PL\": {\r\n      \"name\": \"Polski\",\r\n      \"region\": \"Polska\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"pt_BR\": {\r\n      \"name\": \"Portugu\\u00EAs\",\r\n      \"region\": \"BR\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"pt_PT\": {\r\n      \"name\": \"Portugu\\u00EAs\",\r\n      \"region\": \"Portugal\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"qya_AA\": {\r\n      \"name\": \"Quenya\",\r\n      \"region\": \"Arda\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ro_RO\": {\r\n      \"name\": \"Rom\\u00E2n\\u0103\",\r\n      \"region\": \"RO\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"ru_RU\": {\r\n      \"name\": \"\\u0420\\u0443\\u0441\\u0441\\u043A\\u0438\\u0439\",\r\n      \"region\": \"\\u0420\\u043E\\u0441\\u0441\\u0438\\u044F\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"sk_SK\": {\r\n      \"name\": \"Sloven\\u010Dina\",\r\n      \"region\": \"SK\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"sl_SI\": {\r\n      \"name\": \"Sloven\\u0161\\u010Dina\",\r\n      \"region\": \"SLO\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"sr_SP\": {\r\n      \"name\": \"\\u0421\\u0440\\u043F\\u0441\\u043A\\u0438\",\r\n      \"region\": \"\\u0421\\u0440\\u0431\\u0438\\u0458\\u0430\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"sv_SE\": {\r\n      \"name\": \"Svenska\",\r\n      \"region\": \"Sverige\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"th_TH\": {\r\n      \"name\": \"\\u0E20\\u0E32\\u0E29\\u0E32\\u0E44\\u0E17\\u0E22\",\r\n      \"region\": \"TH\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"tlh_AA\": {\r\n      \"name\": \"tlhIngan Hol\",\r\n      \"region\": \"US\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"tr_TR\": {\r\n      \"name\": \"T\\u00FCrk\\u00E7e\",\r\n      \"region\": \"TR\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"uk_UA\": {\r\n      \"name\": \"\\u0423\\u043A\\u0440\\u0430\\u0457\\u043D\\u0441\\u044C\\u043A\\u0430\",\r\n      \"region\": \"\\u0423\\u043A\\u0440\\u0430\\u0457\\u043D\\u0430\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"vi_VN\": {\r\n      \"name\": \"Ti\\u1EBFng Vi\\u1EC7t\",\r\n      \"region\": \"VN\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"zh_CN\": {\r\n      \"name\": \"\\u7B80\\u4F53\\u4E2D\\u6587\",\r\n      \"region\": \"\\u4E2D\\u56FD\",\r\n      \"bidirectional\": false\r\n    },\r\n    \"zh_TW\": {\r\n      \"name\": \"\\u7E41\\u9AD4\\u4E2D\\u6587\",\r\n      \"region\": \"\\u53F0\\u7063\",\r\n      \"bidirectional\": false\r\n    }\r\n  }\r\n}\r\n",
+      "version.json": "{\n    \"minecraftArguments\": \"--username ${auth_player_name} --session ${auth_session} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker\",\n    \"libraries\": [\n        {\n            \"url\": \"http://files.minecraftforge.net/maven/\",\n            \"name\": \"net.minecraftforge:minecraftforge:9.11.1.1345\"\n        },\n        {\n            \"serverreq\": true,\n            \"name\": \"net.minecraft:launchwrapper:1.8\"\n        },\n        {\n            \"serverreq\": true,\n            \"name\": \"org.ow2.asm:asm-all:4.1\"\n        },\n        {\n            \"comment\": \"Important for Forge, we add this\",\n            \"serverreq\": true,\n            \"name\": \"org.scala-lang:scala-library:2.10.2\",\n            \"url\": \"http://files.minecraftforge.net/maven/\",\n            \"checksums\": [\n                \"6ba65d12cd09d441083262d6f73d2257fec7c663\",\n                \"65de4339eaed1c3675485fb03a3532fecfd8e8cd\"\n            ],\n            \"clientreq\": true\n        },\n        {\n            \"comment\": \"Important for Forge, we add this\",\n            \"serverreq\": true,\n            \"name\": \"org.scala-lang:scala-compiler:2.10.2\",\n            \"url\": \"http://files.minecraftforge.net/maven/\",\n            \"checksums\": [\n                \"64c8b1380cc53d6850823d6e4e7ae984aa44ef9c\",\n                \"99fd0ffb66f3088b0cd1071315fd5eb2b2b070ff\"\n            ],\n            \"clientreq\": true\n        },\n        {\n            \"serverreq\": true,\n            \"name\": \"lzma:lzma:0.0.1\"\n        },\n        {\n            \"serverreq\": true,\n            \"name\": \"net.sf.jopt-simple:jopt-simple:4.5\"\n        },\n        {\n            \"name\": \"com.paulscode:codecjorbis:20101023\"\n        },\n        {\n            \"name\": \"com.paulscode:codecwav:20101023\"\n        },\n        {\n            \"name\": \"com.paulscode:libraryjavasound:20101123\"\n        },\n        {\n            \"name\": \"com.paulscode:librarylwjglopenal:20100824\"\n        },\n        {\n            \"name\": \"com.paulscode:soundsystem:20120107\"\n        },\n        {\n            \"name\": \"argo:argo:2.25_fixed\"\n        },\n        {\n            \"name\": \"org.bouncycastle:bcprov-jdk15on:1.47\"\n        },\n        {\n            \"name\": \"com.google.guava:guava:14.0\"\n        },\n        {\n            \"name\": \"org.apache.commons:commons-lang3:3.1\"\n        },\n        {\n            \"name\": \"commons-io:commons-io:2.4\"\n        },\n        {\n            \"name\": \"net.java.jinput:jinput:2.0.5\"\n        },\n        {\n            \"name\": \"net.java.jutils:jutils:1.0.0\"\n        },\n        {\n            \"name\": \"com.google.code.gson:gson:2.2.2\"\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\"\n                },\n                {\n                    \"action\": \"disallow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"name\": \"org.lwjgl.lwjgl:lwjgl:2.9.0\"\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\"\n                },\n                {\n                    \"action\": \"disallow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"name\": \"org.lwjgl.lwjgl:lwjgl_util:2.9.0\"\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\"\n                },\n                {\n                    \"action\": \"disallow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"extract\": {\n                \"exclude\": [\n                    \"META-INF/\"\n                ]\n            },\n            \"name\": \"org.lwjgl.lwjgl:lwjgl-platform:2.9.0\",\n            \"natives\": {\n                \"windows\": \"natives-windows\",\n                \"osx\": \"natives-osx\",\n                \"linux\": \"natives-linux\"\n            }\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"name\": \"org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3\"\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"name\": \"org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3\"\n        },\n        {\n            \"rules\": [\n                {\n                    \"action\": \"allow\",\n                    \"os\": {\n                        \"version\": \"^10\\\\.5\\\\.\\\\d$\",\n                        \"name\": \"osx\"\n                    }\n                }\n            ],\n            \"extract\": {\n                \"exclude\": [\n                    \"META-INF/\"\n                ]\n            },\n            \"name\": \"org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3\",\n            \"natives\": {\n                \"windows\": \"natives-windows\",\n                \"osx\": \"natives-osx\",\n                \"linux\": \"natives-linux\"\n            }\n        },\n        {\n            \"extract\": {\n                \"exclude\": [\n                    \"META-INF/\"\n                ]\n            },\n            \"name\": \"net.java.jinput:jinput-platform:2.0.5\",\n            \"natives\": {\n                \"windows\": \"natives-windows\",\n                \"osx\": \"natives-osx\",\n                \"linux\": \"natives-linux\"\n            }\n        }\n    ],\n    \"mainClass\": \"net.minecraft.launchwrapper.Launch\",\n    \"minimumLauncherVersion\": 4,\n    \"time\": \"2015-03-28T20:53:49-0500\",\n    \"id\": \"1.6.4-Forge9.11.1.1345\",\n    \"type\": \"release\",\n    \"processArguments\": \"username_session_version\",\n    \"releaseTime\": \"1960-01-01T00:00:00-0700\"\n}"
+    }
+  },
+  "libs.jar": {
+    "size": 30116661,
+    "sha256": "083923969de251021879359216b358c58a23e75e800d55e2e331b666dd56736a",
+    "zip_entries": 8447,
+    "class_count": 290,
+    "class_major_versions": {},
+    "bad_class_magic": [
+      {
+        "path": "argo/format/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "argo/jdom/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "argo/saj/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "argo/staj/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/collision/broadphase/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/collision/dispatch/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/collision/narrowphase/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/collision/shapes/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/applet/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/basic/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/bsp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/character/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/concave/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/concaveconvexcast/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/dynamiccontrol/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/forklift/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/genericjoint/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/helloworld/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/movingconcave/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/opengl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/demos/vehicle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/dynamics/character/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/dynamics/constraintsolver/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/dynamics/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/dynamics/vehicle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/extras/gimpact/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/linearmath/convexhull/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/linearmath/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/bulletphysics/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/annotations/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/base/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/base/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/cache/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/collect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/eventbus/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/hash/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/math/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/net/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/primitives/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/common/util/concurrent/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/annotations/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/internal/bind/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/google/gson/stream/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/intellij/uiDesigner/compiler/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/intellij/uiDesigner/core/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/intellij/uiDesigner/lw/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/intellij/uiDesigner/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/intellij/uiDesigner/shared/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/jcraft/jogg/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/jcraft/jorbis/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "com/sun/crypto/provider/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gr/zdimensions/jsquish/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "gr/zdimensions/jsquish/test/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "javax/crypto/interfaces/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "javax/crypto/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "javax/crypto/spec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "javax/vecmath/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "joptsimple/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "joptsimple/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "joptsimple/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/annotation/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/collections/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/comparisons/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/concurrent/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/coroutines/experimental/intrinsics/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/coroutines/experimental/jvm/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/coroutines/experimental/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/experimental/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/jvm/functions/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/jvm/internal/markers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/jvm/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/jvm/internal/unsafe/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/jvm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/properties/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/ranges/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/full/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/builtins/functions/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/builtins/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/descriptors/annotations/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/descriptors/impl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/descriptors/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/descriptors/synthetic/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/incremental/components/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/incremental/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/javax/inject/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/components/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/descriptors/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/lazy/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/lazy/types/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/sources/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/structure/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/structure/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/kotlin/header/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/kotlin/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/load/kotlin/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/name/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/platform/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/protobuf/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/renderer/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/calls/inference/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/constants/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/descriptorUtil/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/jvm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/scopes/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/resolve/scopes/receivers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/serialization/builtins/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/serialization/deserialization/descriptors/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/serialization/deserialization/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/serialization/jvm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/serialization/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/storage/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/types/checker/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/types/error/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/types/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/types/typesApproximation/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/types/typeUtil/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/util/capitalizeDecapitalize/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/util/collectionUtils/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/utils/addToStdlib/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/impl/utils/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/internal/pcollections/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/jvm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/sequences/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/system/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "kotlin/text/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "LZMA/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "me/nallar/jdds/internal/compression/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "me/nallar/jdds/internal/ddsutil/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "me/nallar/jdds/internal/jogl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "me/nallar/jdds/internal/model/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "me/nallar/jdds/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/java/games/input/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/java/games/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/java/games/util/plugins/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/jpountz/lz4/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/jpountz/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "net/jpountz/xxhash/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/comparator/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/filefilter/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/input/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/monitor/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/output/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/builder/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/concurrent/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/event/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/exception/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/math/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/mutable/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/reflect/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/text/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/text/translate/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/time/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/apache/commons/lang3/tuple/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/bc/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/cmp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/cms/ecc/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/cms/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/crmf/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/cryptopro/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/eac/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/esf/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/ess/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/gnu/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/iana/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/icao/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/isismtt/ocsp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/isismtt/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/isismtt/x509/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/kisa/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/microsoft/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/misc/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/mozilla/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/nist/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/ntt/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/ocsp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/oiw/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/pkcs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/sec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/smime/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/teletrust/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/tsp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x500/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x500/style/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x509/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x509/qualified/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x509/sigi/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/asn1/x9/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/agreement/kdf/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/agreement/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/agreement/srp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/digests/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/encodings/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/engines/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/examples/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/generators/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/macs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/modes/gcm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/modes/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/paddings/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/params/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/prng/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/signers/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/tls/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/crypto/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/i18n/filter/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/i18n/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/dh/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/dsa/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/ec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/ecgost/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/elgamal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/gost/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/rsa/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/asymmetric/x509/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/config/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/digest/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/symmetric/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/symmetric/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jcajce/provider/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/examples/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/exception/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/interfaces/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/netscape/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/provider/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/jce/spec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/math/ec/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/ocsp/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/util/encoders/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/util/io/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/util/io/pem/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/util/test/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/x509/examples/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/x509/extension/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/x509/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/bouncycastle/x509/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/jetbrains/annotations/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/input/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/openal/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/opencl/api/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/opencl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/opengl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/opengles/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/glu/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/glu/tessellation/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/input/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/jinput/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/mapped/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/lwjgl/util/vector/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/commons/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/signature/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/tree/analysis/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/tree/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/util/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "org/objectweb/asm/xml/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "paulscode/sound/codecs/package-info.class",
+        "header": ""
+      },
+      {
+        "path": "paulscode/sound/libraries/package-info.class",
+        "header": ""
+      }
+    ],
+    "top_package_prefixes": [
+      [
+        "org/bouncycastle",
+        93
+      ],
+      [
+        "kotlin/reflect",
+        56
+      ],
+      [
+        "com/bulletphysics",
+        26
+      ],
+      [
+        "com/google",
+        19
+      ],
+      [
+        "org/apache",
+        18
+      ],
+      [
+        "org/lwjgl",
+        14
+      ],
+      [
+        "org/objectweb",
+        7
+      ],
+      [
+        "com/intellij",
+        5
+      ],
+      [
+        "kotlin/jvm",
+        5
+      ],
+      [
+        "me/nallar",
+        5
+      ],
+      [
+        "javax/crypto",
+        3
+      ],
+      [
+        "kotlin/coroutines",
+        3
+      ],
+      [
+        "net/java",
+        3
+      ],
+      [
+        "net/jpountz",
+        3
+      ],
+      [
+        "com/jcraft",
+        2
+      ],
+      [
+        "gr/zdimensions",
+        2
+      ],
+      [
+        "paulscode/sound",
+        2
+      ],
+      [
+        "argo/format",
+        1
+      ],
+      [
+        "argo/jdom",
+        1
+      ],
+      [
+        "argo/saj",
+        1
+      ],
+      [
+        "argo/staj",
+        1
+      ],
+      [
+        "com/sun",
+        1
+      ],
+      [
+        "javax/vecmath",
+        1
+      ],
+      [
+        "joptsimple/internal",
+        1
+      ],
+      [
+        "joptsimple/package-info.class",
+        1
+      ],
+      [
+        "joptsimple/util",
+        1
+      ],
+      [
+        "kotlin/annotation",
+        1
+      ],
+      [
+        "kotlin/collections",
+        1
+      ],
+      [
+        "kotlin/comparisons",
+        1
+      ],
+      [
+        "kotlin/concurrent",
+        1
+      ],
+      [
+        "kotlin/experimental",
+        1
+      ],
+      [
+        "kotlin/internal",
+        1
+      ],
+      [
+        "kotlin/io",
+        1
+      ],
+      [
+        "kotlin/package-info.class",
+        1
+      ],
+      [
+        "kotlin/properties",
+        1
+      ],
+      [
+        "kotlin/ranges",
+        1
+      ],
+      [
+        "kotlin/sequences",
+        1
+      ],
+      [
+        "kotlin/system",
+        1
+      ],
+      [
+        "kotlin/text",
+        1
+      ],
+      [
+        "LZMA/package-info.class",
+        1
+      ]
+    ],
+    "class_zip_months": [
+      [
+        "1980-01",
+        290
+      ]
+    ],
+    "metadata": {}
+  }
+}

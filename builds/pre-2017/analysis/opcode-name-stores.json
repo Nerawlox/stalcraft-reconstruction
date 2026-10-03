@@ -1,0 +1,373 @@
+{
+  "name_table_rva": "0xa732b0",
+  "rows": [
+    {
+      "name": "nop",
+      "name_rva": "0x883d84",
+      "xref": "0x2fd511",
+      "store": "0x2fd537",
+      "target": 10958640,
+      "protected_opcode": 144
+    },
+    {
+      "name": "aconst_null",
+      "name_rva": "0x883d88",
+      "xref": "0x2fd57b",
+      "store": "0x2fd5a4",
+      "target": 10958888,
+      "protected_opcode": 175
+    },
+    {
+      "name": "iconst_m1",
+      "name_rva": "0x883d98",
+      "xref": "0x2fd5d7",
+      "store": "0x2fd600",
+      "target": 10958144,
+      "protected_opcode": 82
+    },
+    {
+      "name": "iconst_0",
+      "name_rva": "0x883da8",
+      "xref": "0x2fd633",
+      "store": "0x2fd65c",
+      "target": 10957512,
+      "protected_opcode": 3
+    },
+    {
+      "name": "iconst_1",
+      "name_rva": "0x883db8",
+      "xref": "0x2fd68f",
+      "store": "0x2fd6b8",
+      "target": 10957520,
+      "protected_opcode": 4
+    },
+    {
+      "name": "iconst_2",
+      "name_rva": "0x883dc8",
+      "xref": "0x2fd6f3",
+      "store": "0x2fd701",
+      "target": 10957528,
+      "protected_opcode": 5
+    },
+    {
+      "name": "iconst_3",
+      "name_rva": "0x883dd8",
+      "xref": "0x2fd747",
+      "store": "0x2fd770",
+      "target": 10957536,
+      "protected_opcode": 6
+    },
+    {
+      "name": "iconst_4",
+      "name_rva": "0x883de8",
+      "xref": "0x2fd7a3",
+      "store": "0x2fd7cc",
+      "target": 10957544,
+      "protected_opcode": 7
+    },
+    {
+      "name": "iconst_5",
+      "name_rva": "0x883df8",
+      "xref": "0x2fd7ff",
+      "store": "0x2fd828",
+      "target": 10957552,
+      "protected_opcode": 8
+    },
+    {
+      "name": "lconst_0",
+      "name_rva": "0x883e08",
+      "xref": "0x2fd85b",
+      "store": "0x2fd884",
+      "target": 10957600,
+      "protected_opcode": 14
+    },
+    {
+      "name": "lconst_1",
+      "name_rva": "0x883e18",
+      "xref": "0x2fd8b7",
+      "store": "0x2fd8e0",
+      "target": 10957608,
+      "protected_opcode": 15
+    },
+    {
+      "name": "fconst_0",
+      "name_rva": "0x883e28",
+      "xref": "0x2fd913",
+      "store": "0x2fd93c",
+      "target": 10957576,
+      "protected_opcode": 11
+    },
+    {
+      "name": "fconst_1",
+      "name_rva": "0x883e38",
+      "xref": "0x2fd96f",
+      "store": "0x2fd998",
+      "target": 10957584,
+      "protected_opcode": 12
+    },
+    {
+      "name": "fconst_2",
+      "name_rva": "0x883e48",
+      "xref": "0x2fd9cb",
+      "store": "0x2fd9f4",
+      "target": 10957592,
+      "protected_opcode": 13
+    },
+    {
+      "name": "dconst_0",
+      "name_rva": "0x883e58",
+      "xref": "0x2fda27",
+      "store": "0x2fda50",
+      "target": 10957560,
+      "protected_opcode": 9
+    },
+    {
+      "name": "dconst_1",
+      "name_rva": "0x883e68",
+      "xref": "0x2fda83",
+      "store": "0x2fdaac",
+      "target": 10957568,
+      "protected_opcode": 10
+    },
+    {
+      "name": "bipush",
+      "name_rva": "0x883e78",
+      "xref": "0x2fdad6",
+      "store": "0x2fdadd",
+      "target": 10958376,
+      "protected_opcode": 111
+    },
+    {
+      "name": "sipush",
+      "name_rva": "0x883e84",
+      "xref": "0x2fdb3b",
+      "store": "0x2fdb64",
+      "target": 10958456,
+      "protected_opcode": 121
+    },
+    {
+      "name": "ldc",
+      "name_rva": "0x883e90",
+      "xref": "0x2fdb9a",
+      "store": "0x2fdbc3",
+      "target": 10958208,
+      "protected_opcode": 90
+    },
+    {
+      "name": "ldc_w",
+      "name_rva": "0x883e98",
+      "xref": "0x2fdbfc",
+      "store": "0x2fdc25",
+      "target": 10958992,
+      "protected_opcode": 188
+    },
+    {
+      "name": "ldc2_w",
+      "name_rva": "0x883ea0",
+      "xref": "0x2fdc5e",
+      "store": "0x2fdc87",
+      "target": 10958536,
+      "protected_opcode": 131
+    },
+    {
+      "name": "iload",
+      "name_rva": "0x883eb4",
+      "xref": "0x2fdcc5",
+      "store": "0x2fdce6",
+      "target": 10958832,
+      "protected_opcode": 168
+    },
+    {
+      "name": "lload",
+      "name_rva": "0x883ebc",
+      "xref": "0x2fdd1c",
+      "store": "0x2fdd3d",
+      "target": 10957496,
+      "protected_opcode": 1
+    },
+    {
+      "name": "fload",
+      "name_rva": "0x883ec4",
+      "xref": "0x2fdd7d",
+      "store": "0x2fdd9e",
+      "target": 10958792,
+      "protected_opcode": 163
+    },
+    {
+      "name": "dload",
+      "name_rva": "0x883ecc",
+      "xref": "0x2fddde",
+      "store": "0x2fddff",
+      "target": 10957680,
+      "protected_opcode": 24
+    },
+    {
+      "name": "aload",
+      "name_rva": "0x883ed4",
+      "xref": "0x2fde3f",
+      "store": "0x2fde60",
+      "target": 10958944,
+      "protected_opcode": 182
+    },
+    {
+      "name": "iload_0",
+      "name_rva": "0x883ee0",
+      "xref": "0x2fdea0",
+      "store": "0x2fdec1",
+      "target": 10957792,
+      "protected_opcode": 38
+    },
+    {
+      "name": "iload_1",
+      "name_rva": "0x883ee8",
+      "xref": "0x2fdef5",
+      "store": "0x2fdf16",
+      "target": 10957800,
+      "protected_opcode": 39
+    },
+    {
+      "name": "iload_2",
+      "name_rva": "0x883ef0",
+      "xref": "0x2fdf5a",
+      "store": "0x2fdf83",
+      "target": 10957808,
+      "protected_opcode": 40
+    },
+    {
+      "name": "iload_3",
+      "name_rva": "0x883ef8",
+      "xref": "0x2fdfb6",
+      "store": "0x2fdfdf",
+      "target": 10957816,
+      "protected_opcode": 41
+    },
+    {
+      "name": "lload_0",
+      "name_rva": "0x883f00",
+      "xref": "0x2fe012",
+      "store": "0x2fe03b",
+      "target": 10957696,
+      "protected_opcode": 26
+    },
+    {
+      "name": "lload_1",
+      "name_rva": "0x883f08",
+      "xref": "0x2fe06e",
+      "store": "0x2fe097",
+      "target": 10957704,
+      "protected_opcode": 27
+    },
+    {
+      "name": "lload_2",
+      "name_rva": "0x883f10",
+      "xref": "0x2fe0d2",
+      "store": "0x2fe0e0",
+      "target": 10957712,
+      "protected_opcode": 28
+    },
+    {
+      "name": "lload_3",
+      "name_rva": "0x883f18",
+      "xref": "0x2fe126",
+      "store": "0x2fe14f",
+      "target": 10957720,
+      "protected_opcode": 29
+    },
+    {
+      "name": "fload_0",
+      "name_rva": "0x883f20",
+      "xref": "0x2fe182",
+      "store": "0x2fe1ab",
+      "target": 10957760,
+      "protected_opcode": 34
+    },
+    {
+      "name": "fload_1",
+      "name_rva": "0x883f28",
+      "xref": "0x2fe1de",
+      "store": "0x2fe207",
+      "target": 10957768,
+      "protected_opcode": 35
+    },
+    {
+      "name": "fload_2",
+      "name_rva": "0x883f30",
+      "xref": "0x2fe23a",
+      "store": "0x2fe263",
+      "target": 10957776,
+      "protected_opcode": 36
+    },
+    {
+      "name": "fload_3",
+      "name_rva": "0x883f38",
+      "xref": "0x2fe296",
+      "store": "0x2fe2bf",
+      "target": 10957784,
+      "protected_opcode": 37
+    },
+    {
+      "name": "dload_0",
+      "name_rva": "0x883f40",
+      "xref": "0x2fe2f2",
+      "store": "0x2fe31b",
+      "target": 10958056,
+      "protected_opcode": 71
+    },
+    {
+      "name": "dload_1",
+      "name_rva": "0x883f48",
+      "xref": "0x2fe34e",
+      "store": "0x2fe377",
+      "target": 10958064,
+      "protected_opcode": 72
+    },
+    {
+      "name": "dload_2",
+      "name_rva": "0x883f50",
+      "xref": "0x2fe3aa",
+      "store": "0x2fe3d3",
+      "target": 10958072,
+      "protected_opcode": 73
+    },
+    {
+      "name": "dload_3",
+      "name_rva": "0x883f58",
+      "xref": "0x2fe406",
+      "store": "0x2fe42f",
+      "target": 10958080,
+      "protected_opcode": 74
+    },
+    {
+      "name": "aload_0",
+      "name_rva": "0x883f60",
+      "xref": "0x2fe465",
+      "store": "0x2fe48e",
+      "target": 10957992,
+      "protected_opcode": 63
+    },
+    {
+      "name": "aload_1",
+      "name_rva": "0x883f68",
+      "xref": "0x2fe4bb",
+      "store": "0x2fe4c2",
+      "target": 10958000,
+      "protected_opcode": 64
+    },
+    {
+      "name": "aload_2",
+      "name_rva": "0x883f70",
+      "xref": "0x2fe520",
+      "store": "0x2fe549",
+      "target": 10958008,
+      "protected_opcode": 65
+    },
+    {
+      "name": "aload_3",
+      "name_rva": "0x883f78",
+      "xref": "0x2fe57c",
+      "store": "0x2fe5a5",
+      "target": 10958016,
+      "protected_opcode": 66
+    }
+  ]
+}

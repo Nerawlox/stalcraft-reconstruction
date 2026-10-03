@@ -1,0 +1,47 @@
+{
+  "Exception decompiling": [
+    "decompiled-standard/libs/com/google/common/util/concurrent/Futures.java",
+    "decompiled-standard/libs/org/lwjgl/opengl/LinuxCanvasImplementation.java",
+    "decompiled-standard/libs/org/lwjgl/opengl/LinuxDisplay.java"
+  ],
+  "Decompilation failed": [
+    "decompiled-standard/libs/com/google/common/util/concurrent/Futures.java",
+    "decompiled-standard/libs/org/lwjgl/opengl/LinuxCanvasImplementation.java",
+    "decompiled-standard/libs/org/lwjgl/opengl/LinuxDisplay.java"
+  ],
+  "Unable to fully structure code": [
+    "decompiled-standard/libs/com/jcraft/jorbis/Drft.java",
+    "decompiled-standard/libs/com/sun/crypto/provider/SunJCE_h.java",
+    "decompiled-standard/libs/com/sun/crypto/provider/SunJCE_i.java",
+    "decompiled-standard/libs/javax/crypto/SunJCE_b.java",
+    "decompiled-standard/libs/kotlin/io/FilesKt__UtilsKt.java",
+    "decompiled-standard/libs/kotlin/jvm/JvmClassMappingKt.java",
+    "decompiled-standard/libs/kotlin/text/DelimitedRangesSequence.java",
+    "decompiled-standard/libs/kotlin/reflect/full/KClassifiers.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/KFunctionImpl.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/builtins/FunctionTypesKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/builtins/functions/FunctionInvokeDescriptor.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/load/kotlin/JvmBuiltInsSettings.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/load/java/components/JavaAnnotationDescriptor.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancementKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/resolve/scopes/MemberScopeKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationDeserializer.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer.java",
+    "decompiled-standard/libs/org/apache/commons/lang3/text/ExtendedMessageFormat.java",
+    "decompiled-standard/libs/org/bouncycastle/crypto/generators/DSAParametersGenerator.java",
+    "decompiled-standard/libs/org/bouncycastle/crypto/generators/GOST3410ParametersGenerator.java",
+    "decompiled-standard/libs/org/bouncycastle/crypto/modes/gcm/Tables64kGCMMultiplier.java",
+    "decompiled-standard/libs/org/bouncycastle/crypto/modes/gcm/Tables8kGCMMultiplier.java",
+    "decompiled-standard/libs/org/objectweb/asm/Type.java",
+    "decompiled-standard/libs/paulscode/sound/codecs/CodecJOrbis.java"
+  ],
+  "Could not resolve type clashes": [
+    "decompiled-standard/libs/kotlin/io/FilesKt__UtilsKt.java",
+    "decompiled-standard/libs/kotlin/jvm/JvmClassMappingKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/AnnotationConstructorCallerKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/TypeQualifiersKt.java",
+    "decompiled-standard/libs/kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer.java"
+  ]
+}

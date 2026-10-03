@@ -1,0 +1,402 @@
+0000004d !This program cannot be run in DOS mode.
+000000cf |Rich/R
+000001f0 .text
+00000217 `.rdata
+0000023f @.data
+00000268 .pdata
+0000028f @.rsrc
+000002b7 @.reloc
+00000449 x ATAVAWH
+00000670 A_A^A\
+000007b1 H SWH
+00000aa3 WATAUAVAWH
+00000b32 |$ H;
+00000c1e @A_A^A]A\_
+0000158d x AVH
+0000168b WATAUAVAWH
+000017c1  tDE3
+00001853 A_A^A]A\_
+00001b49 UVWATAUAVAWH
+00001f35 D$L0A
+0000218d D$DD9T$X
+000021dc |$h+t$D+
+0000223c |$Dtp
+000023a2 ,X< w
+00002548 A_A^A]A\_^]
+000025ff WAVAWH
+0000267d  A_A^_
+000026f6 \$ WH
+00002710 T$PE3
+00002764 @SVWH
+00002780 T$`E3
+0000288e \$0H3
+00002d8c t$ WAVAWH
+00002f82 A_A^_
+00002ff0 LcA<E3
+000030a0 HcH<H
+00003113 ATAVAWH
+00003206  A_A^A\
+00003279 x AVH
+000032f9 x AVH
+00003375 x AVH
+000033f7 WAVAWH
+00003465  A_A^_
+00003563 t$ WATAUAVAWH
+00003578 D!l$h3
+00003784 0A_A^A]A\_
+00003930 D$p H
+00003afb \$0H;
+00003b1a L$0H;
+00003b81 p AWH
+00003dbb l$ VWATAVAWH
+00003e6c D9|$ 
+00003e79 T$&@8t$&t9@8r
+00003f7a A81t@@8r
+0000403e L$8H3
+00004059 A_A^A\_^
+0000433f L$0H;
+000045f5 ` AUAVAWH
+0000462c D$(E3
+000046d3 t$8Hc0I
+000046f4 \$0D9=V%
+0000490a A_A^A]
+0000491b t$ WH
+00004972 L$@E3
+00004987 Hct$@H
+00004999 sYHcL$HH
+00004a19 x ATAVAWH
+00004b48 < tD<
+00004bc7  A_A^A\
+00004d4e \$ UH
+00004db3 H3E H3E
+00004e09 x AVH
+00004e29 fD90t
+00004e33 fD93u
+00004e3d fD93u
+00004e45 t$8H+
+00005091 fffffff
+000051fe WATAUAVAWH
+0000528b \L96t
+000052e2 I!>E3
+000052fe t=L95
+00005332 0A_A^A]A\_
+00005408 ttI9<
+000054ea D9t$htrH
+00005ae0 @USVWATAUAVAWH
+00005e36 eHA_A^A]A\_^[]
+000060df AUAVAWH
+000061ae 0A_A^A]
+00006465 L$ WH
+000067d4 @SUVWATAVAWH
+00006962 tcH95E
+00006a2d L$HH3
+00006a3b PA_A^A\_^][
+00006d0d x AVH
+000071b3 fffff
+000074b8 @UATAUAVAWH
+00007616 !t$(H!t$ I
+0000779a A_A^A]A\]
+0000783c @UATAUAVAWH
+000079a8 A_A^A]A\]
+00007c1a ntelD
+00007c43 AuthA
+00007c4a entiE
+00007c53 cAMDD
+00007e38 T$(9r
+00007e64 @83t'
+00007e93 @8t$8t
+000086ed VWAVH
+000087b5  A^_^
+000087c5 VWATAVAWH
+00008893  A_A^A\_^
+000088a2 \$ UVWATAUAVAWH
+00008b5f D9l$`
+00008b6d D9l$dtXH
+00008c05 L$Df;
+00008c28 L$Df;
+00008d60 l$XD+
+00008da3 HcD$PH;
+00008e4d l$XD+
+00008e90 HcD$PH;
+00008f8c D$XD+
+00008fa1 |$PD;
+00009085 A_A^A]A\_^]
+0000909d VWATAVAWH
+0000916f  A_A^A\_^
+000092f7 t$ UH
+00009551 VWAVH
+00009605  A^_^
+000098f5 x AVH
+00009913 D82u&H
+0000994d D$0L9
+000099ce r=D8v
+00009a1b D8t$Ht
+00009aa1 UWAVH
+00009b71 `A^_]
+00009bd4 @SVWH
+00009c24 L$hE3
+00009c8d L$xH3
+00009cf3 L$hE3
+00009d4f L$xH3
+00009e1c |$ UATAUAVAWH
+0000a3bc A_A^A]A\]
+0000a3d4 |$ UATAUAVAWH
+0000a974 A_A^A]A\]
+0000a985 UVWATAUAVAWH
+0000ade7 D+moA
+0000b1d5 A_A^A]A\_^]
+0000b297 WATAUAVAWH
+0000b5d0 gfffffffH
+0000b605 D8L$Ht
+0000b62e A_A^A]A\_
+0000b649 x AUAVAWH
+0000b76e 80tVD
+0000b7aa gfffA
+0000b814 A_A^A]
+0000b834 @SUVWH
+0000b89b |$@-H
+0000b8b5 |$@-D
+0000b914 L$pH3
+0000b93d x AVH
+0000ba90 @SUVWH
+0000baf1 |$0-H
+0000bb4d L$`H3
+0000bb5b x_^][
+0000bb64 @SUVWAVH
+0000bc7f L$pH3
+0000bc91 A^_^][
+0000bdef 8D$8t
+0000be2b WATAVH
+0000c027 t$@fA
+0000c038 A^A\_
+0000c39c @USVWH
+0000c459 UVWATAUAVAWH
+0000ce90 A_A^A]A\_^]
+0000cebd #fD9M
+0000d0ba HcM H
+0000d4e0 openjdk
+0000d4f0 server\jvm.dll
+0000d500 Can not load library: %d
+0000d520 137bc867174a904f42a8efa61d836687
+0000d548 JLI_InitArgProcessing
+0000d560 c37c45bdb56ed218e567719525bfad0e
+0000d588 JLI_CmdToArgs
+0000d598 0e507ffc4f5371b5271f03ac97484fe0
+0000d5c0 JLI_GetStdArgc
+0000d5d0 1ee12e87292680737f1c121af6cabfe0
+0000d5f8 JLI_MemAlloc
+0000d608 f5199c4078a19150bc6c85942e593153
+0000d630 JLI_GetStdArgs
+0000d640 9b490ffc0189e74ef6ca6c1079e09043
+0000d668 JLI_Launch
+0000d678 _JAVA_LAUNCHER_DEBUG
+0000d690 Windows original main args:
+0000d6b0 wwwd_args[%d] = %s
+0000d6c8 9-internal+0-adhoc.Folken.jdk9
+0000d700 CorExitProcess
+0000d710 (null)
+0000d751 ( 8PX
+0000d759 700WP
+0000d769 `h````
+0000d771 xpxxxx
+0000d7b0 FlsAlloc
+0000d7c0 FlsFree
+0000d7c8 FlsGetValue
+0000d7d8 FlsSetValue
+0000d7e8 InitializeCriticalSectionEx
+0000d808 CreateEventExW
+0000d818 CreateSemaphoreExW
+0000d830 SetThreadStackGuarantee
+0000d848 CreateThreadpoolTimer
+0000d860 SetThreadpoolTimer
+0000d878 WaitForThreadpoolTimerCallbacks
+0000d898 CloseThreadpoolTimer
+0000d8b0 CreateThreadpoolWait
+0000d8c8 SetThreadpoolWait
+0000d8e0 CloseThreadpoolWait
+0000d8f8 FlushProcessWriteBuffers
+0000d918 FreeLibraryWhenCallbackReturns
+0000d938 GetCurrentProcessorNumber
+0000d958 GetLogicalProcessorInformation
+0000d978 CreateSymbolicLinkW
+0000d990 SetDefaultDllDirectories
+0000d9b0 EnumSystemLocalesEx
+0000d9c8 CompareStringEx
+0000d9d8 GetDateFormatEx
+0000d9e8 GetLocaleInfoEx
+0000d9f8 GetTimeFormatEx
+0000da08 GetUserDefaultLocaleName
+0000da28 IsValidLocaleName
+0000da40 LCMapStringEx
+0000da50 GetCurrentPackageId
+0000da68 GetTickCount64
+0000da78 GetFileInformationByHandleExW
+0000da98 SetFileInformationByHandleW
+0000e77c Sunday
+0000e784 Monday
+0000e790 Tuesday
+0000e798 Wednesday
+0000e7a8 Thursday
+0000e7b4 Friday
+0000e7c0 Saturday
+0000e800 January
+0000e808 February
+0000e814 March
+0000e81c April
+0000e834 August
+0000e840 September
+0000e850 October
+0000e858 November
+0000e868 December
+0000e880 MM/dd/yy
+0000e890 dddd, MMMM dd, yyyy
+0000e8a8 HH:mm:ss
+0000eb45 ('8PW
+0000eb4e 700PP
+0000eb60 `h`hhh
+0000eb69 xppwpp
+0000eb98 MessageBoxW
+0000eba8 GetActiveWindow
+0000ebb8 GetLastActivePopup
+0000ebd0 GetUserObjectInformationW
+0000ebf0 GetProcessWindowStation
+00011f3f  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+00012550  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+000126d0  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+000127d0 e+000
+000127e0 1#SNAN
+000127e8 1#IND
+000127f0 1#INF
+000127f8 1#QNAN
+00012888 c:\Projects\OpenJDK\jdk9_\build\windows-x86_64-obfuscated-custom-release\support\native\java.base\java_objs\java.pdb
+0001352a GetCommandLineA
+0001353c GetLastError
+0001354c GetProcAddress
+0001355e LoadLibraryA
+0001356e EncodePointer
+0001357e DecodePointer
+0001358e ExitProcess
+0001359c GetModuleHandleExW
+000135b2 MultiByteToWideChar
+000135c8 WideCharToMultiByte
+000135de IsDebuggerPresent
+000135f2 IsProcessorFeaturePresent
+0001360e EnterCriticalSection
+00013626 LeaveCriticalSection
+0001363e DeleteCriticalSection
+00013656 RtlUnwindEx
+00013664 RtlCaptureContext
+00013678 RtlLookupFunctionEntry
+00013692 RtlVirtualUnwind
+000136a6 UnhandledExceptionFilter
+000136c2 SetUnhandledExceptionFilter
+000136e0 SetLastError
+000136f0 InitializeCriticalSectionAndSpinCount
+00013718 Sleep
+00013720 GetCurrentProcess
+00013734 TerminateProcess
+00013748 TlsAlloc
+00013754 TlsGetValue
+00013762 TlsSetValue
+00013770 TlsFree
+0001377a GetStartupInfoW
+0001378c GetModuleHandleW
+000137a0 GetStdHandle
+000137b0 WriteFile
+000137bc GetModuleFileNameW
+000137d2 HeapFree
+000137de LoadLibraryExW
+000137f0 IsValidCodePage
+00013802 GetACP
+0001380c GetOEMCP
+00013818 GetCPInfo
+00013824 GetCurrentThreadId
+0001383a GetProcessHeap
+0001384c GetFileType
+0001385a GetModuleFileNameA
+00013870 QueryPerformanceCounter
+0001388a GetCurrentProcessId
+000138a0 GetSystemTimeAsFileTime
+000138ba GetEnvironmentStringsW
+000138d4 FreeEnvironmentStringsW
+000138ee SetEnvironmentVariableA
+00013908 HeapAlloc
+00013914 OutputDebugStringW
+0001392a HeapSize
+00013936 HeapReAlloc
+00013944 CompareStringW
+00013956 LCMapStringW
+00013966 GetStringTypeW
+00013978 FlushFileBuffers
+0001398c GetConsoleCP
+0001399c GetConsoleMode
+000139ae SetFilePointerEx
+000139c2 CloseHandle
+000139d0 SetStdHandle
+000139e0 WriteConsoleW
+000139f0 CreateFileW
+000139fc KERNEL32.dll
+00014462                           
+00014551 abcdefghijklmnopqrstuvwxyz
+00014571 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0001468a                           
+0001476a abcdefghijklmnopqrstuvwxyz
+0001478a ABCDEFGHIJKLMNOPQRSTUVWXYZ
+000150fe z?aUY
+00015140 zc%C1
+00015193 -64OS
+00016191 wwwwww
+000165ec UUU3DDD
+00016601 zzzzzzzz
+000166f2 ++++++++++++
+00016c21 wwwwwwwww
+00016c5b wxwwx
+00016c6b wwwwx
+00016cb3 wxwwwp
+00016e01 wwwwwwwwwwwwww
+000172a4 UUU3DDD
+000172db +++++++++++++++
+000172fa ++++++
+0001749c UOOOz
+000174bc UNNNN
+00017527 d@@@@d
+00018849 ffffffffffffffffffffff
+00018861 gwwwwwwwwwwwwwwwwwwwwvohwwwwwwwwwwwwwx
+0001888b wwwwfhwwwwww
+000188a8 gwwwww
+000188bc wwwvgx
+00018951 wwwww
+0001895b wwwwp
+00018969 wwwww
+00018971 wwwwwp
+00018981 wwwww
+00018988 wwwwwp
+000189a0 wwwww
+000189b8 wwwww
+000189d0 wwwwwp
+000189e8 wwwwwp
+00018a00 wwwwww
+00018aa4 wwwxwx
+00018cb1 wwwwwwwwwwwwwwwwwwwwww
+0001925c UUU3DDD
+000192a4 +++++++++++++++++++++++++++
+000192c4 ++++++++V
+000192d2 ++++++++++++++++
+000192f6 ++++++++
+00019301 V++++++++++
+0001938a +++++
+000193b8 +++++++
+000193e8 +++++++
+00019418 +++++++
+00019448 +++++++
+00019476 VV++++++
+00019491 VVVVV
+000194b5 +++++++
+000196c6 NNNNOUyz
+000196f6 NNNNNNNN
+00019727 UNNNNO
+00019799 ddddd
+000197c7 dd@@@@@kd+
+000197f6 dd@@@
+00019b42 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+0001c61c <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"><assemblyIdentity name="java.exe" version="9.0.0.0" processorArchitecture="X86" type="win32"></assemblyIdentity><description>Java(TM) SE process</description><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><asmv3:application><asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings"><dpiAware>true/PM</dpiAware></asmv3:windowsSettings></asmv3:application><ms_compatibility:compatibility xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" xmlns="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:application xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></ms_compatibility:supportedOS></ms_compatibility:application></ms_compatibility:compatibility></assembly>PPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD

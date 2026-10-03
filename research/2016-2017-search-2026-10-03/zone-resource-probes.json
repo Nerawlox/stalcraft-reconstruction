@@ -1,0 +1,35 @@
+[
+  {
+    "name": "ZoneResources.zip",
+    "url": "https://www.dropbox.com/s/497bkh99i7ubpl1/ZoneResources.zip?dl=1",
+    "checked_at_utc": "2026-10-03T06:05:24.245588+00:00",
+    "http_status": 200,
+    "content_type": "application/binary",
+    "content_length": "145846267",
+    "last_modified": null,
+    "prefix_hex": "504b0304140000000800020e234ae7d2ea4d45000000510000000b0000007061",
+    "is_zip_prefix": true
+  },
+  {
+    "name": "ZoneGrass.zip",
+    "url": "https://www.dropbox.com/s/ady10ivkakbv2yl/ZoneGrass.zip?dl=1",
+    "checked_at_utc": "2026-10-03T06:05:28.232990+00:00",
+    "http_status": 200,
+    "content_type": "application/binary",
+    "content_length": "6989793",
+    "last_modified": null,
+    "prefix_hex": "504b0304140000000800f60d234a1d300791410000004d0000000b0000007061",
+    "is_zip_prefix": true
+  },
+  {
+    "name": "ZoneSounds.zip",
+    "url": "https://www.dropbox.com/s/5sm8mk25v90odxk/ZoneSounds.zip?dl=1",
+    "checked_at_utc": "2026-10-03T06:05:30.161189+00:00",
+    "http_status": 200,
+    "content_type": "application/binary",
+    "content_length": "274486866",
+    "last_modified": null,
+    "prefix_hex": "504b03041400000008005299cd42fbe969b5e88a00001e8d0000080000007061",
+    "is_zip_prefix": true
+  }
+]

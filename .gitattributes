@@ -10,3 +10,10 @@ resource-configs/** -text
 
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
+
+# Preserve imported research bytes so recorded SHA-256 checks survive cloning.
+builds/pre-2017/decompiled-standard/** -text
+builds/pre-2017/decompiled-alternatives/** -text
+builds/pre-2017/analysis/** -text
+builds/pre-2017/recovered-bytecode/** -text
+research/2016-2017-search-2026-10-03/** -text

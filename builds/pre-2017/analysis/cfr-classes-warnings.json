@@ -1,0 +1,16 @@
+{
+  "Unable to fully structure code": [
+    "decompiled-standard/classes/cpw/mods/fml/common/asm/FMLSanityChecker.java",
+    "decompiled-standard/classes/gloomyfolken/mods/core/entity/jxtc.java",
+    "decompiled-standard/classes/gloomyfolken/mods/physics/core/client/world/DefaultCollisionManager.java",
+    "decompiled-standard/classes/gloomyfolken/mods/physics/ragdolls/client/ragdoll/SkeletonPreset.java",
+    "decompiled-standard/classes/gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings.java",
+    "decompiled-standard/classes/gloomyfolken/mods/stalker/mobs/client/tuning/EditorPropertyGroup.java"
+  ],
+  "Could not resolve type clashes": [
+    "decompiled-standard/classes/cpw/mods/fml/common/asm/FMLSanityChecker.java",
+    "decompiled-standard/classes/gloomyfolken/mods/physics/ragdolls/client/ragdoll/SkeletonPreset.java",
+    "decompiled-standard/classes/gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings.java",
+    "decompiled-standard/classes/gloomyfolken/mods/stalker/mobs/client/tuning/EditorPropertyGroup.java"
+  ]
+}
