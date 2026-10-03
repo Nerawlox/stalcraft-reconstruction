@@ -1,0 +1,1320 @@
+[
+  {
+    "type": "armor",
+    "id": 26000,
+    "name": "Дождевик"
+  },
+  {
+    "type": "armor",
+    "id": 26015,
+    "name": "Бронекостюм «Цербер OД-5»"
+  },
+  {
+    "type": "armor",
+    "id": 26016,
+    "name": "Куртка"
+  },
+  {
+    "type": "armor",
+    "id": 26042,
+    "name": "Бронескелет «Альбатрос-Штурмовик» модифицированный"
+  },
+  {
+    "type": "armor",
+    "id": 26053,
+    "name": "Комплект «Алтын»"
+  },
+  {
+    "type": "armor",
+    "id": 26056,
+    "name": "Бронекостюм Кобальт"
+  },
+  {
+    "type": "armor",
+    "id": 26061,
+    "name": "Бронекостюм «Берилл-5М»"
+  },
+  {
+    "type": "armor",
+    "id": 26062,
+    "name": "Бронекостюм «Червь»"
+  },
+  {
+    "type": "armor",
+    "id": 26069,
+    "name": "Комбинезон «СЕВА»"
+  },
+  {
+    "type": "armor",
+    "id": 26084,
+    "name": "Бронежилет репортера"
+  },
+  {
+    "type": "armor",
+    "id": 26085,
+    "name": "Бандитская куртка"
+  },
+  {
+    "type": "armor",
+    "id": 26086,
+    "name": "Кожанная куртка"
+  },
+  {
+    "type": "armor",
+    "id": 26087,
+    "name": "Модная куртка"
+  },
+  {
+    "type": "armor",
+    "id": 26088,
+    "name": "JD Hegaxon"
+  },
+  {
+    "type": "armor",
+    "id": 26089,
+    "name": "Комплект «Алтын»"
+  },
+  {
+    "type": "armor",
+    "id": 26090,
+    "name": "SBM/S TANK \"Новогодний"
+  },
+  {
+    "type": "armor",
+    "id": 26091,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26092,
+    "name": "Комплект «Алтын»"
+  },
+  {
+    "type": "armor",
+    "id": 26093,
+    "name": "Комплект «Алтын»"
+  },
+  {
+    "type": "armor",
+    "id": 26094,
+    "name": "Плащ"
+  },
+  {
+    "type": "armor",
+    "id": 26095,
+    "name": "Бандитский плащ"
+  },
+  {
+    "type": "armor",
+    "id": 26097,
+    "name": "Тяжёлый-бронекостюм \"Восход"
+  },
+  {
+    "type": "armor",
+    "id": 26098,
+    "name": "Экзоскелет"
+  },
+  {
+    "type": "armor",
+    "id": 26100,
+    "name": "Модифицированный экзоскелет"
+  },
+  {
+    "type": "armor",
+    "id": 26102,
+    "name": "Апостол"
+  },
+  {
+    "type": "armor",
+    "id": 26103,
+    "name": "Тяжёлый-бронекостюм \"Восход\" \"Масть"
+  },
+  {
+    "type": "armor",
+    "id": 26104,
+    "name": "Экзоскелет \"Масть"
+  },
+  {
+    "type": "armor",
+    "id": 26106,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Долга"
+  },
+  {
+    "type": "armor",
+    "id": 26105,
+    "name": "Экзоскелет Долга"
+  },
+  {
+    "type": "armor",
+    "id": 26107,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Свободы"
+  },
+  {
+    "type": "armor",
+    "id": 26108,
+    "name": "Экзоскелет Свободы"
+  },
+  {
+    "type": "armor",
+    "id": 26109,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Синдиката"
+  },
+  {
+    "type": "armor",
+    "id": 26111,
+    "name": "Экзоскелет Синдиката"
+  },
+  {
+    "type": "armor",
+    "id": 26113,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Наёмников"
+  },
+  {
+    "type": "armor",
+    "id": 26112,
+    "name": "Экзоскелет Наёмников"
+  },
+  {
+    "type": "armor",
+    "id": 26115,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Монолита"
+  },
+  {
+    "type": "armor",
+    "id": 26114,
+    "name": "Экзоскелет Монолита"
+  },
+  {
+    "type": "armor",
+    "id": 26116,
+    "name": "Тяжёлый-бронекостюм \"Восход\" Линчевателей"
+  },
+  {
+    "type": "armor",
+    "id": 26117,
+    "name": "Экзоскелет Линчевателей"
+  },
+  {
+    "type": "armor",
+    "id": 26118,
+    "name": "Потрёпанный Комбинезон"
+  },
+  {
+    "type": "armor",
+    "id": 26119,
+    "name": "ПСЗ-10"
+  },
+  {
+    "type": "armor",
+    "id": 26120,
+    "name": "Комбинезон «СЕВА» Наёмников"
+  },
+  {
+    "type": "armor",
+    "id": 26121,
+    "name": "Комбинезон «СЕВА» Монолита"
+  },
+  {
+    "type": "armor",
+    "id": 26122,
+    "name": "Комбинезон «СЕВА» Синдиката"
+  },
+  {
+    "type": "armor",
+    "id": 26123,
+    "name": "Комбинезон «СЕВА» Линчевателей"
+  },
+  {
+    "type": "armor",
+    "id": 26124,
+    "name": "Комбинезон «Луч Свободы»"
+  },
+  {
+    "type": "armor",
+    "id": 26125,
+    "name": "ПСЗ-9Мд «Универсальная защита»"
+  },
+  {
+    "type": "armor",
+    "id": 26126,
+    "name": "Бронекостюм «СКАТ-9м»"
+  },
+  {
+    "type": "armor",
+    "id": 26127,
+    "name": "Бронекостюм «Анархия»"
+  },
+  {
+    "type": "armor",
+    "id": 26128,
+    "name": "ПСЗ-9д «Броня Долга»"
+  },
+  {
+    "type": "armor",
+    "id": 26129,
+    "name": "Бронекостюм «Булат»"
+  },
+  {
+    "type": "armor",
+    "id": 26130,
+    "name": "Бронекостюм «Проповедник»"
+  },
+  {
+    "type": "armor",
+    "id": 26131,
+    "name": "Бронежилет"
+  },
+  {
+    "type": "armor",
+    "id": 26132,
+    "name": "Страж Свободы"
+  },
+  {
+    "type": "armor",
+    "id": 26133,
+    "name": "ПС-6Б «Берилл»"
+  },
+  {
+    "type": "armor",
+    "id": 26134,
+    "name": "Комбинезон «Адепт»"
+  },
+  {
+    "type": "armor",
+    "id": 26135,
+    "name": "Бронекостюм «Берилл» Линчевателей"
+  },
+  {
+    "type": "armor",
+    "id": 26141,
+    "name": "ССП-105 Топаз"
+  },
+  {
+    "type": "armor",
+    "id": 26142,
+    "name": "ССП-104 Иолит"
+  },
+  {
+    "type": "armor",
+    "id": 26143,
+    "name": "ССП-103 Аметист"
+  },
+  {
+    "type": "armor",
+    "id": 26144,
+    "name": "ССП-102 Изумруд"
+  },
+  {
+    "type": "armor",
+    "id": 26145,
+    "name": "ССП-99М"
+  },
+  {
+    "type": "armor",
+    "id": 26146,
+    "name": "Бронекостюм «Цербер OД-3»"
+  },
+  {
+    "type": "armor",
+    "id": 26147,
+    "name": "JD Tech"
+  },
+  {
+    "type": "armor",
+    "id": 26148,
+    "name": "JD Tech \"Mobius"
+  },
+  {
+    "type": "armor",
+    "id": 26149,
+    "name": "Комбинезон RS-32 Наёмникоов"
+  },
+  {
+    "type": "armor",
+    "id": 26150,
+    "name": "Комбинезон RS-32 Военных"
+  },
+  {
+    "type": "armor",
+    "id": 26151,
+    "name": "Комбинезон RS-32 ОМОНа"
+  },
+  {
+    "type": "armor",
+    "id": 26152,
+    "name": "Комбинезон RS-32 ООН"
+  },
+  {
+    "type": "armor",
+    "id": 26054,
+    "name": "Бронекостюм Кобальт"
+  },
+  {
+    "type": "armor",
+    "id": 26017,
+    "name": "SBM Tank++"
+  },
+  {
+    "type": "armor",
+    "id": 26018,
+    "name": "Комбинезон \"Охранник"
+  },
+  {
+    "type": "armor",
+    "id": 26019,
+    "name": "Комбинезон \"Охотник"
+  },
+  {
+    "type": "armor",
+    "id": 26020,
+    "name": "Комбинезон \"Свободный"
+  },
+  {
+    "type": "armor",
+    "id": 26096,
+    "name": "Пелена Ночи"
+  },
+  {
+    "type": "armor",
+    "id": 26021,
+    "name": "JTF2 \"T18"
+  },
+  {
+    "type": "armor",
+    "id": 26030,
+    "name": "Комбинезон «Заря» с противогазом"
+  },
+  {
+    "type": "armor",
+    "id": 26029,
+    "name": "ПС5-М «Универсальная защита»"
+  },
+  {
+    "type": "armor",
+    "id": 26028,
+    "name": "Комбинезон «Неофит»"
+  },
+  {
+    "type": "armor",
+    "id": 26027,
+    "name": "Комбинезон «Неофит»"
+  },
+  {
+    "type": "armor",
+    "id": 26026,
+    "name": "Комбинезон «Ветер свободы»"
+  },
+  {
+    "type": "armor",
+    "id": 26038,
+    "name": "Экзоброня JD ZIVCAS-2A Import"
+  },
+  {
+    "type": "armor",
+    "id": 26039,
+    "name": "Экзоброня JD ZIVCAS-2A Import"
+  },
+  {
+    "type": "armor",
+    "id": 26040,
+    "name": "Бронескелет «Альбатрос-Лазутчик»"
+  },
+  {
+    "type": "armor",
+    "id": 26041,
+    "name": "Бронескелет «Альбатрос-Лазутчик»"
+  },
+  {
+    "type": "armor",
+    "id": 26043,
+    "name": "Бронескелет «Альбатрос-Лазутчик» M-2"
+  },
+  {
+    "type": "armor",
+    "id": 26031,
+    "name": "ИП-4м"
+  },
+  {
+    "type": "armor",
+    "id": 26032,
+    "name": "Плащ Странника"
+  },
+  {
+    "type": "armor",
+    "id": 26024,
+    "name": "Затмение"
+  },
+  {
+    "type": "armor",
+    "id": 26033,
+    "name": "Кожанная куртка"
+  },
+  {
+    "type": "armor",
+    "id": 26034,
+    "name": "ЧН-3а"
+  },
+  {
+    "type": "armor",
+    "id": 26035,
+    "name": "Экзоброня JD ZIVCAS"
+  },
+  {
+    "type": "armor",
+    "id": 26036,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26037,
+    "name": "Окровавленные шмотки"
+  },
+  {
+    "type": "armor",
+    "id": 26044,
+    "name": "Комбинезон «Тёмная заря»"
+  },
+  {
+    "type": "armor",
+    "id": 26045,
+    "name": "Плащ Ренегатов"
+  },
+  {
+    "type": "armor",
+    "id": 26046,
+    "name": "«Послушник Слаанеш»"
+  },
+  {
+    "type": "armor",
+    "id": 26047,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26048,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26049,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26050,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26051,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26052,
+    "name": "SBM/S TANK"
+  },
+  {
+    "type": "armor",
+    "id": 26001,
+    "name": "Бронекостюм «Булат» ЧВК"
+  },
+  {
+    "type": "armor",
+    "id": 26002,
+    "name": "Бронекостюм «Берилл» ЧВК"
+  },
+  {
+    "type": "armor",
+    "id": 26003,
+    "name": "Маскирующий комбинезон «Смородина»"
+  },
+  {
+    "type": "armor",
+    "id": 26004,
+    "name": "«Смородина» Свободы"
+  },
+  {
+    "type": "armor",
+    "id": 26005,
+    "name": "Маскирующий комбинезон «Смородина»"
+  },
+  {
+    "type": "armor",
+    "id": 26006,
+    "name": "«Смородина» Свободы"
+  },
+  {
+    "type": "armor",
+    "id": 26007,
+    "name": "Бронекостюм «Цербер OД-2»"
+  },
+  {
+    "type": "armor",
+    "id": 26008,
+    "name": "Бронекостюм «Цербер OД-2»"
+  },
+  {
+    "type": "armor",
+    "id": 26009,
+    "name": "Цербер Выжившего"
+  },
+  {
+    "type": "armor",
+    "id": 26010,
+    "name": "ССП-100 «Циркон»"
+  },
+  {
+    "type": "armor",
+    "id": 26011,
+    "name": "ССП-102 «Гранат»"
+  },
+  {
+    "type": "armor",
+    "id": 26012,
+    "name": "Химза"
+  },
+  {
+    "type": "armor",
+    "id": 26013,
+    "name": "Бронескелет «Альбатрос-Штурмовик»"
+  },
+  {
+    "type": "armor",
+    "id": 26014,
+    "name": "Бронескелет «Альбатрос-Штурмовик»"
+  },
+  {
+    "type": "armor",
+    "id": 26055,
+    "name": "RS-62"
+  },
+  {
+    "type": "armor",
+    "id": 26070,
+    "name": "Бронекостюм «Звезда-КС»"
+  },
+  {
+    "type": "armor",
+    "id": 26071,
+    "name": "Бронекостюм «Звезда-РТ»"
+  },
+  {
+    "type": "armor",
+    "id": 26072,
+    "name": "Бронекостюм «Звезда-РТ»"
+  },
+  {
+    "type": "armor",
+    "id": 26073,
+    "name": "Бронекостюм «Звезда-РТ»"
+  },
+  {
+    "type": "armor",
+    "id": 26074,
+    "name": "Тяжёлый бронекостюм «Туманный охотник»"
+  },
+  {
+    "type": "armor",
+    "id": 26025,
+    "name": "Заря PRO Helper"
+  },
+  {
+    "type": "armor",
+    "id": 26137,
+    "name": "Бронескелет \"Сфера-1"
+  },
+  {
+    "type": "armor",
+    "id": 26138,
+    "name": "Т-90"
+  },
+  {
+    "type": "armor",
+    "id": 26139,
+    "name": "Экзоброня JD ZIVCAS-2A Import \"Пахан"
+  },
+  {
+    "type": "armor",
+    "id": 26140,
+    "name": "RS-62"
+  },
+  {
+    "type": "armor",
+    "id": 26022,
+    "name": "Мама будет рада"
+  },
+  {
+    "type": "armor",
+    "id": 26023,
+    "name": "Бронекостюм «RS-95»"
+  },
+  {
+    "type": "weapon",
+    "id": 25001,
+    "name": "АН-94 «Абакан» модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25002,
+    "name": "АН-94 «Абакан» Котлера",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25003,
+    "name": "АН-94 «Абакан» Котлера модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25004,
+    "name": "АКС-74",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25005,
+    "name": "АКС-74 модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25006,
+    "name": "АКС-74У",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25007,
+    "name": "АКС-74У модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25008,
+    "name": "АКМ-74",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25009,
+    "name": "АКМ-74 модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25010,
+    "name": "АКМ-74 камуфляжный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25011,
+    "name": "АКМ-74 камуфляжный модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25012,
+    "name": "HK XM8",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25013,
+    "name": "HK XM8 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25014,
+    "name": "Новогодняя HK XM8",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25015,
+    "name": "Новогодняя HK XM8 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25016,
+    "name": "ПКМ",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25017,
+    "name": "Новогодний ПКМ",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25018,
+    "name": "LR-300",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25019,
+    "name": "LR-300 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25020,
+    "name": "M4A1",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25021,
+    "name": "M4A1 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25022,
+    "name": "Новогодняя M4A1",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25023,
+    "name": "Новогодняя M4A1 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25024,
+    "name": "M4A1 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25025,
+    "name": "Новогодняя M4A1 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25026,
+    "name": "SIG SG550",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25027,
+    "name": "SIG SG550 модифицированный",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25028,
+    "name": "СВД",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25029,
+    "name": "СВД модифицированная",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25030,
+    "name": "АКС-74 модифицированный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25031,
+    "name": "LR-300 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25032,
+    "name": "SIG SG550 Sniper",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25033,
+    "name": "Новогодний SIG SG550 Sniper",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25034,
+    "name": "WA 2000",
+    "ammo_id": 25091,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25037,
+    "name": "ОЦ-14 «Гроза» 5.45",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25038,
+    "name": "ОЦ-14 «Гроза» 5.45 модифицированная",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25039,
+    "name": "FN F2000",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25040,
+    "name": "FN F2000 модифицированная",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25041,
+    "name": "ПМ",
+    "ammo_id": 12937,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25042,
+    "name": "Colt 1911",
+    "ammo_id": 25078,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25043,
+    "name": "HK USP",
+    "ammo_id": 25078,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25044,
+    "name": "P99 Walther",
+    "ammo_id": 12936,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25045,
+    "name": "Browning Hi-Power",
+    "ammo_id": 12936,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25046,
+    "name": "Beretta",
+    "ammo_id": 12936,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25047,
+    "name": "Desert Eagle",
+    "ammo_id": 25078,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25048,
+    "name": "ПБ",
+    "ammo_id": 12937,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25049,
+    "name": "UMP-45",
+    "ammo_id": 25078,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25050,
+    "name": "M14 EBR",
+    "ammo_id": 25091,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25051,
+    "name": "РПК-74",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25052,
+    "name": "РПК-74 \"Патриот",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25053,
+    "name": "РПК-74 \"Вежливый",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25054,
+    "name": "СВ-98",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25055,
+    "name": "СВ-98 \"Новогодняя",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25056,
+    "name": "Винтовка Мосина",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25057,
+    "name": "Винтовка Мосина \"Флора",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25058,
+    "name": "Винтовка Мосина \"Красная Звезда",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25059,
+    "name": "Бинокль",
+    "ammo_id": 1,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25060,
+    "name": "СВ-98 \"Король",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25061,
+    "name": "HK G36",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25063,
+    "name": "АПС",
+    "ammo_id": 12937,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 25064,
+    "name": "АПС",
+    "ammo_id": 12937,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24001,
+    "name": "Обрез БМ-16",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24002,
+    "name": "БМ-16",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24003,
+    "name": "ТОЗ-34",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24004,
+    "name": "FN SCAR-L",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24005,
+    "name": "FN SCAR-H",
+    "ammo_id": 25091,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24006,
+    "name": "ВСС \"Винторез",
+    "ammo_id": 12939,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24007,
+    "name": "Гаусс-Пушка",
+    "ammo_id": 25092,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24008,
+    "name": "Гаусс-Пушка \"Новогодняя",
+    "ammo_id": 25092,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24009,
+    "name": "XM-29",
+    "ammo_id": 12940,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24000,
+    "name": "McMillan CS5",
+    "ammo_id": 25091,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23999,
+    "name": "СВУ",
+    "ammo_id": 25067,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23998,
+    "name": "HK MP-5",
+    "ammo_id": 12936,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23997,
+    "name": "АК-105",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23996,
+    "name": "АК-105 Улучшенный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23995,
+    "name": "АК-105 \"ВСРФ\" улучшенный",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23994,
+    "name": "АК-105 \"ВСРФ",
+    "ammo_id": 12935,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23993,
+    "name": "AA12",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23992,
+    "name": "XM-30",
+    "ammo_id": 25092,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23991,
+    "name": "Mossberg 500 Cruiser",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 23990,
+    "name": "9A-91",
+    "ammo_id": 12939,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24010,
+    "name": "СР-3м \"Вихрь",
+    "ammo_id": 12939,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24011,
+    "name": "Franchi SPAS-12",
+    "ammo_id": 12934,
+    "registered_in_log": true
+  },
+  {
+    "type": "weapon",
+    "id": 24012,
+    "name": "АС «Вал»",
+    "ammo_id": 12939,
+    "registered_in_log": true
+  },
+  {
+    "type": "grenade",
+    "id": 12346,
+    "name": "M26"
+  },
+  {
+    "type": "grenade",
+    "id": 12345,
+    "name": "РГД-5"
+  },
+  {
+    "type": "grenade",
+    "id": 12344,
+    "name": "Ф-1"
+  },
+  {
+    "type": "bullet",
+    "id": 12934,
+    "name": "Патрон 12x76 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 12935,
+    "name": "Патрон 5.45x39 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 25091,
+    "name": "Патрон 7.62x51 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 25092,
+    "name": "Аккумулятор"
+  },
+  {
+    "type": "bullet",
+    "id": 12936,
+    "name": "Патрон 9x19 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 12937,
+    "name": "Патрон 9x18 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 12938,
+    "name": "Патрон 12.7x108 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 12939,
+    "name": "Патрон 9x39"
+  },
+  {
+    "type": "bullet",
+    "id": 25067,
+    "name": "Патрон 7,62x54 мм"
+  },
+  {
+    "type": "bullet",
+    "id": 12940,
+    "name": "Патрон 5.56x45 мм ПАБ-9"
+  },
+  {
+    "type": "bullet",
+    "id": 25078,
+    "name": "Патрон .45 ACP"
+  },
+  {
+    "type": "bullet",
+    "id": 12945,
+    "name": "Патрон 20x110mm Hispano"
+  },
+  {
+    "type": "bullet",
+    "id": 12946,
+    "name": "Патрон .300 Winchester Magnum"
+  }
+]
