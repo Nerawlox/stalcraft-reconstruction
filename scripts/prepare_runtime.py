@@ -140,9 +140,9 @@ print('Copied world; repaired',len(fixed),'Cyrillic region extensions in the cop
 packs=GAME/'resourcepacks';packs.mkdir(exist_ok=True)
 pack=packs/'STALCRAFT-original'
 if not pack.exists(): shutil.copytree(ORIGINAL/'Текстурпак'/'S.T.A.L.C.R.A.F.T',pack)
-# A quiet windowed smoke test, with optional resource pack enabled only for the modded profile.
+# Minecraft 1.6.4 selects its single resource pack with "skin", not "resourcePacks".
 options=GAME/'options.txt'
-if not options.exists(): options.write_text('fullscreen:false\nrenderDistance:0\nsound:0.0\nmusic:0.0\nresourcePacks:[]\n',encoding='utf-8')
+if not options.exists(): options.write_text('fullscreen:false\nrenderDistance:0\nsound:0.0\nmusic:0.0\nskin:STALCRAFT-original\nlang:ru_RU\n',encoding='utf-8')
 
 asset_info=mc['assetIndex']
 indexpath=RUNTIME/'assets'/'indexes'/(asset_info['id']+'.json')

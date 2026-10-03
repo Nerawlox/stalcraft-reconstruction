@@ -22,7 +22,7 @@ else:
         name='stalker_client212.jar';target=mods/name
         if not target.exists(): shutil.copy2(pathlib.Path(config['game_dir'])/'mods'/name,target)
     options=game/'options.txt'
-    if not options.exists(): options.write_text('fullscreen:false\nrenderDistance:0\nsound:0.0\nmusic:0.0\nresourcePacks:[]\n',encoding='utf-8')
+    if not options.exists(): options.write_text('fullscreen:false\nrenderDistance:0\nsound:0.0\nmusic:0.0\nskin:Default\nlang:ru_RU\n',encoding='utf-8')
 if not game.resolve().is_relative_to(runtime): raise ValueError('Game path escapes isolated runtime')
 logs=runtime/'logs';logs.mkdir(exist_ok=True)
 logpath=logs/(args.profile+'-'+str(int(time.time()))+'.log')
