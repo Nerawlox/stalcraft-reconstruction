@@ -49,6 +49,7 @@ $quotedArgs = ($launchArgs | ForEach-Object { '"' + $_ + '"' }) -join ' '
 $logDir = Join-Path $runtimeDir 'logs'
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null
 $logStem = Join-Path $logDir ("manual-$Profile-" + [guid]::NewGuid().ToString('N'))
-$clientProcess = Start-Process -FilePath $javaPath -ArgumentList $quotedArgs -WorkingDirectory $gameDir -WindowStyle Hidden -RedirectStandardOutput "$logStem.log" -RedirectStandardError "$logStem.stderr.log" -PassThru
+# javaw is the user's interactive game application; it has no helper console to hide.
+$clientProcess = Start-Process -FilePath $javaPath -ArgumentList $quotedArgs -WorkingDirectory $gameDir -WindowStyle Normal -RedirectStandardOutput "$logStem.log" -RedirectStandardError "$logStem.stderr.log" -PassThru
 Write-Output "Started local test client, PID $($clientProcess.Id)."
 Write-Output "Log: $logStem.log"
