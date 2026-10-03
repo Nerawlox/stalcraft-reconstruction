@@ -1,0 +1,15 @@
+{
+  "java_files": 5519,
+  "exit_code": 0,
+  "source_hash_mismatches": [],
+  "decompilation_failure_marker_files": [],
+  "flow_or_type_warning_files": [
+    "cpw/mods/fml/common/asm/FMLSanityChecker.java",
+    "gloomyfolken/mods/core/entity/jxtc.java",
+    "gloomyfolken/mods/physics/core/client/world/DefaultCollisionManager.java",
+    "gloomyfolken/mods/physics/ragdolls/client/ragdoll/SkeletonPreset.java",
+    "gloomyfolken/mods/stalker/mobs/client/gui/GuiMutantSpawnerSettings.java",
+    "gloomyfolken/mods/stalker/mobs/client/tuning/EditorPropertyGroup.java"
+  ],
+  "new_scripts_parse": true
+}

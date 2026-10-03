@@ -1,0 +1,48 @@
+Summary for E:\Stalcraft project\stalcraft-decompiled\.cache\reconstruction\pre-2017\named-bytecode\classes-named.jar
+Decompiled with CFR 0.152
+
+
+gloomyfolken.mods.stalker.mobs.client.gui.GuiMutantSpawnerSettings
+----------------------------
+
+parseConfigurationsStrings()
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+gloomyfolken.mods.stalker.mobs.client.tuning.EditorPropertyGroup
+----------------------------
+
+extractFieldByName(java.lang.String gloomyfolken.mods.stalker.mobs.client.tuning.SyntheticPropertyAnnotation )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+cpw.mods.fml.common.asm.FMLSanityChecker
+----------------------------
+
+call()
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+gloomyfolken.mods.core.entity.jxtc
+----------------------------
+
+_a(gloomyfolken.mods.core.misc.ybzs )
+  Unable to fully structure code
+
+
+gloomyfolken.mods.physics.ragdolls.client.ragdoll.SkeletonPreset
+----------------------------
+
+setupCorpse(gloomyfolken.mods.physics.ragdolls.client.ragdoll.RagdollCorpse java.util.List<? extends com.bulletphysics.dynamics.RigidBody> )
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+gloomyfolken.mods.physics.core.client.world.DefaultCollisionManager
+----------------------------
+
+needsCollision(com.bulletphysics.collision.dispatch.CollisionObject com.bulletphysics.collision.dispatch.CollisionObject )
+  Unable to fully structure code

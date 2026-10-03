@@ -1,0 +1,89 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package noppes.npcs.client.model;
+
+import net.minecraft.client.model.ModelRenderer;
+import noppes.npcs.client.model.ModelNPCMale;
+
+public class ModelNPCEnderman
+extends ModelNPCMale {
+    public ModelNPCEnderman(float f) {
+        super(f);
+    }
+
+    @Override
+    public void init(float f, float f2) {
+        super.init(f, f2);
+        this.bipedHeadwear = new ModelRenderer(this, 0, 16);
+        this.bipedHeadwear.addBox(-4.0f, -8.0f, -4.0f, 8, 8, 8, f2 + 0.5f);
+        this.bipedHeadwear.setRotationPoint(0.0f, 0.0f + f2, 0.0f);
+        this.bipedBody = new ModelRenderer(this, 40, 0);
+        this.bipedBody.addBox(-4.0f, 0.0f, -2.0f, 8, 12, 4, f2);
+        this.bipedBody.setRotationPoint(0.0f, -14.0f, 0.0f);
+        this.bipedRightArm = new ModelRenderer(this, 32, 0);
+        this.bipedRightArm.addBox(-1.0f, -2.0f, -1.0f, 2, 30, 2, f2);
+        this.bipedRightArm.setRotationPoint(-3.0f, -12.0f, 0.0f);
+        this.bipedLeftArm = new ModelRenderer(this, 32, 0);
+        this.bipedLeftArm.mirror = true;
+        this.bipedLeftArm.addBox(-1.0f, -2.0f, -1.0f, 2, 30, 2, f2);
+        this.bipedLeftArm.setRotationPoint(5.0f, -12.0f, 0.0f);
+        this.bipedRightLeg = new ModelRenderer(this, 32, 0);
+        this.bipedRightLeg.addBox(-1.0f, 0.0f, -1.0f, 2, 30, 2, f2);
+        this.bipedRightLeg.setRotationPoint(-2.0f, -2.0f, 0.0f);
+        this.bipedLeftLeg = new ModelRenderer(this, 32, 0);
+        this.bipedLeftLeg.mirror = true;
+        this.bipedLeftLeg.addBox(-1.0f, 0.0f, -1.0f, 2, 30, 2, f2);
+        this.bipedLeftLeg.setRotationPoint(2.0f, -2.0f, 0.0f);
+        this.bipedCloak.setRotationPoint(0.0f, -12.0f, -2.0f);
+    }
+
+    @Override
+    public void setRotationAngles(float f, float f2, float f3, float f4, float f5, float f6) {
+        super.setRotationAngles(f, f2, f3, f4, f5, f6);
+        float f7 = -14.0f;
+        this.bipedBody.rotateAngleX = 0.0f;
+        this.bipedBody.rotationPointY = f7;
+        this.bipedBody.rotationPointZ = -0.0f;
+        this.bipedRightLeg.rotateAngleX -= 0.0f;
+        this.bipedLeftLeg.rotateAngleX -= 0.0f;
+        this.bipedRightArm.rotateAngleX = (float)((double)this.bipedRightArm.rotateAngleX * 0.5);
+        this.bipedLeftArm.rotateAngleX = (float)((double)this.bipedLeftArm.rotateAngleX * 0.5);
+        this.bipedRightLeg.rotateAngleX = (float)((double)this.bipedRightLeg.rotateAngleX * 0.5);
+        this.bipedLeftLeg.rotateAngleX = (float)((double)this.bipedLeftLeg.rotateAngleX * 0.5);
+        float f8 = 0.4f;
+        if (this.bipedRightLeg.rotateAngleX > f8) {
+            this.bipedRightLeg.rotateAngleX = f8;
+        }
+        if (this.bipedLeftLeg.rotateAngleX > f8) {
+            this.bipedLeftLeg.rotateAngleX = f8;
+        }
+        if (this.bipedRightLeg.rotateAngleX < -f8) {
+            this.bipedRightLeg.rotateAngleX = -f8;
+        }
+        if (this.bipedLeftLeg.rotateAngleX < -f8) {
+            this.bipedLeftLeg.rotateAngleX = -f8;
+        }
+        if (this.heldItemLeft != 0) {
+            this.bipedRightArm.rotateAngleX = -0.5f;
+            this.bipedLeftArm.rotateAngleX = -0.5f;
+            this.bipedRightArm.rotateAngleZ = 0.05f;
+            this.bipedLeftArm.rotateAngleZ = -0.05f;
+        }
+        this.bipedRightArm.rotationPointZ = 0.0f;
+        this.bipedLeftArm.rotationPointZ = 0.0f;
+        this.bipedRightLeg.rotationPointZ = 0.0f;
+        this.bipedLeftLeg.rotationPointZ = 0.0f;
+        this.bipedRightLeg.rotationPointY = 9.0f + f7;
+        this.bipedLeftLeg.rotationPointY = 9.0f + f7;
+        this.bipedHead.rotationPointZ = -0.0f;
+        this.bipedHead.rotationPointY = f7 + 1.0f;
+        this.bipedHeadwear.rotationPointX = this.bipedHead.rotationPointX;
+        this.bipedHeadwear.rotationPointY = this.bipedHead.rotationPointY;
+        this.bipedHeadwear.rotationPointZ = this.bipedHead.rotationPointZ;
+        this.bipedHeadwear.rotateAngleX = this.bipedHead.rotateAngleX;
+        this.bipedHeadwear.rotateAngleY = this.bipedHead.rotateAngleY;
+        this.bipedHeadwear.rotateAngleZ = this.bipedHead.rotateAngleZ;
+    }
+}
+

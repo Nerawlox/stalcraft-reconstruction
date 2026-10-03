@@ -54,7 +54,7 @@ Future source changes belong in a separate `reconstruction/` directory for the r
 
 ## Reading and verifying the code
 
-Browse [client212 sources](src/) or [pre-2017 game sources](builds/pre-2017/decompiled-standard/classes/). These directories are useful for reading and analysis; opening them in an IDE does not provide a ready-to-build or ready-to-run project.
+Browse [client212 sources](src/) or the [pre-2017 working source with recovered names](builds/pre-2017/reconstruction/src/). The [original pre-2017 CFR snapshot](builds/pre-2017/decompiled-standard/classes/) remains separate. See [name-recovery status](builds/pre-2017/reconstruction/README.md) for evidence and limitations. These directories are useful for reading and analysis; opening them in an IDE does not provide a ready-to-build or ready-to-run project.
 
 With Python 3.9 or newer, verify both preserved snapshots:
 

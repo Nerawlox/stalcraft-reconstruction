@@ -1,0 +1,77 @@
+{
+  "purpose": "Read-only reference mappings for Minecraft 1.6.4 / MCP 8.11; stored under local ignored cache, not part of source snapshots.",
+  "mapping_release": {
+    "mcp_version": "8.11",
+    "minecraft_version": "1.6.4",
+    "compatibility_evidence": "Historical Forge configuration and support record identify MCP 8.11 as the 1.6.4 MCP archive."
+  },
+  "original_upstream_url": "http://mcp.ocean-labs.de/files/archive/mcp811.zip",
+  "archive_source_url": "https://github.com/WonderlandCentral/mcp-sources/blob/main/mcp811-1.6.4.zip",
+  "archive_raw_url": "https://raw.githubusercontent.com/WonderlandCentral/mcp-sources/main/mcp811-1.6.4.zip",
+  "archive_sha256": "6a9400225d6aafb019b3b04e58490b1b29966f5db0caffb62a81b4b552b7003a",
+  "archive_md5": "2d7a759309b5cc10ca29caa0b10f3bfc",
+  "historical_forge_expected_md5": "2d7a759309b5cc10ca29caa0b10f3bfc",
+  "expected_md5_match": true,
+  "archive_size": 7237509,
+  "archive_zip_test": "passed (Python zipfile.testzip returned null)",
+  "extracted_entries": {
+    "methods.csv": "conf/methods.csv",
+    "fields.csv": "conf/fields.csv",
+    "params.csv": "conf/params.csv"
+  },
+  "csv_files": {
+    "methods.csv": {
+      "path": "methods.csv",
+      "sha256": "d9b7dd3d1b1899c3a882509bc71ea7f3a9474af8a25150c1a8755e0063827f0c",
+      "size": 638267
+    },
+    "fields.csv": {
+      "path": "fields.csv",
+      "sha256": "235724a042b185a6352549d8def0eb2a52d16b748416ceba725bc957c10c876e",
+      "size": 460598
+    },
+    "params.csv": {
+      "path": "params.csv",
+      "sha256": "d29334db1da70bdbe9ee25b2000c1a3b71befa5f9b127e8ac844865db336af90",
+      "size": 271005
+    }
+  },
+  "mapping_checks": {
+    "func_71864_b": {
+      "csv": "methods.csv",
+      "mcp_name": "setUnlocalizedName",
+      "rows": [
+        0,
+        1
+      ]
+    },
+    "func_71849_a": {
+      "csv": "methods.csv",
+      "mcp_name": "setCreativeTab",
+      "rows": [
+        0,
+        1
+      ]
+    },
+    "field_71973_m": {
+      "csv": "fields.csv",
+      "mcp_name": "blocksList",
+      "rows": [
+        0,
+        1
+      ]
+    }
+  },
+  "caveats": [
+    "The CSV rows contain Searge name, MCP name, side and optional description; they do not encode owner classes or JVM descriptors. Use them for identifier renaming only after owner/signature matches are established from SRG and recovered bytecode.",
+    "Two rows per target identifier differ by side column; the readable MCP name is identical.",
+    "The repository mirror is not an official source. Its bytes are pinned by the SHA-256 above and independently match the MD5 expected by the historical Forge setup.",
+    "No executable or tool from the archive was run."
+  ],
+  "embedded_version_cfg": {
+    "MCPVersion": "8.11",
+    "ClientVersion": "1.6.4",
+    "ServerVersion": "1.6.4"
+  },
+  "compatibility_evidence": "Archive conf/version.cfg explicitly identifies MCP 8.11 and both client/server Minecraft 1.6.4; the historical Forge record corroborates the archive hash."
+}

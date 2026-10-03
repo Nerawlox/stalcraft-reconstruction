@@ -1,0 +1,128 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package net.smart.moving;
+
+import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.particle.EntityFX;
+import net.minecraft.client.particle.EntityLavaFX;
+import net.minecraft.client.particle.EntitySplashFX;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.sajh;
+import net.smart.moving.IEntityPlayerSP;
+import net.smart.moving.SmartMovingBase;
+import net.smart.moving.SmartMovingContext;
+import net.smart.render.RendererData;
+import net.smart.render.SmartRenderRender;
+
+public abstract class SmartMoving
+extends SmartMovingBase {
+    public boolean isSlow;
+    public boolean isFast;
+    public boolean isClimbing;
+    public boolean isHandsVineClimbing;
+    public boolean isFeetVineClimbing;
+    public boolean isClimbJumping;
+    public boolean isClimbBackJumping;
+    public boolean isWallJumping;
+    public boolean isClimbCrawling;
+    public boolean isCrawlClimbing;
+    public boolean isCeilingClimbing;
+    public boolean isRopeSliding;
+    public boolean isDipping;
+    public boolean isSwimming;
+    public boolean isDiving;
+    public boolean isLevitating;
+    public boolean isHeadJumping;
+    public boolean isCrawling;
+    public boolean isSliding;
+    public boolean isFlying;
+    public int actualHandsClimbType;
+    public int actualFeetClimbType;
+    public int angleJumpType;
+    public float heightOffset;
+    private float spawnSlindingParticle;
+    private float spawnSwimmingParticle;
+
+    public SmartMoving(EntityPlayer entityPlayer, IEntityPlayerSP iEntityPlayerSP) {
+        super(entityPlayer, iEntityPlayerSP);
+    }
+
+    public boolean isAngleJumping() {
+        return this.angleJumpType > 1 && this.angleJumpType < 7;
+    }
+
+    public abstract boolean isJumping();
+
+    public abstract boolean doFlyingAnimation();
+
+    public abstract boolean doFallingAnimation();
+
+    protected void spawnParticles(Minecraft minecraft, double d, double d2) {
+        double d3;
+        double d4;
+        int n;
+        int n2;
+        int n3;
+        int n4;
+        float f = 0.0f;
+        if (this.isSliding || this.isSwimming) {
+            f = (float)(d * d + d2 * d2);
+        }
+        if (this.isSliding && (n4 = this.sp.worldObj.getBlockId(n3 = sajh._c(this.sp.posX), n2 = sajh._c(this.sp.boundingBox._c - (double)0.1f), n = sajh._c(this.sp.posZ))) > 0) {
+            double d5 = this.sp.boundingBox._c + 0.1;
+            double d6 = -d * 4.0;
+            d4 = 1.5;
+            d3 = -d2 * 4.0;
+            this.spawnSlindingParticle += f;
+            float f2 = ((Float)SmartMovingContext.Config._slideParticlePeriodFactor.value).floatValue() * 0.1f;
+            while (this.spawnSlindingParticle > f2) {
+                double d7 = this.sp.posX + (double)this.getSpawnOffset();
+                double d8 = this.sp.posZ + (double)this.getSpawnOffset();
+                int n5 = this.sp.worldObj.getBlockMetadata(n3, n2, n);
+                this.sp.worldObj.spawnParticle("tilecrack_" + n4 + "_" + n5, d7, d5, d8, d6, d4, d3);
+                this.spawnSlindingParticle -= f2;
+            }
+        }
+        if (this.isSwimming) {
+            float f3 = (float)sajh._c(this.sp.boundingBox._c) + 1.0f;
+            n2 = (int)Math.floor(this.sp.posX);
+            int n6 = this.sp.worldObj.getBlockId(n2, n = (int)Math.floor((double)f3 - 0.5), n4 = (int)Math.floor(this.sp.posZ));
+            Block block = n6 > 0 ? Block.blocksList[n6] : null;
+            boolean bl = block != null && this.isLava(block.blockID);
+            this.spawnSwimmingParticle += f;
+            float f4 = (bl ? (Float)SmartMovingContext.Config._lavaSwimParticlePeriodFactor.value : (Float)SmartMovingContext.Config._swimParticlePeriodFactor.value).floatValue() * 0.01f;
+            while (this.spawnSwimmingParticle > f4) {
+                d4 = this.sp.posX + (double)this.getSpawnOffset();
+                d3 = this.sp.posZ + (double)this.getSpawnOffset();
+                EntityFX entityFX = bl ? new EntityLavaFX(this.sp.worldObj, d4, f3, d3) : new EntitySplashFX(this.sp.worldObj, d4, f3, d3, 0.0, 0.0, 0.0);
+                ((Entity)entityFX).motionX = 0.0;
+                ((Entity)entityFX).motionY = 0.2;
+                ((Entity)entityFX).motionZ = 0.0;
+                minecraft._w._a(entityFX);
+                this.spawnSwimmingParticle -= f4;
+            }
+        }
+    }
+
+    private float getSpawnOffset() {
+        return (this.sp.getRNG().nextFloat() - 0.5f) * 2.0f * this.sp.width;
+    }
+
+    protected void onStartClimbBackJump() {
+        RendererData rendererData = SmartRenderRender.getPreviousRendererData(this.sp);
+        rendererData.rotateAngleY = rendererData.rotateAngleY + (this.isHeadJumping ? (float)Math.PI : 1.5707964f);
+        this.isClimbBackJumping = true;
+    }
+
+    protected void onStartWallJump(Float f) {
+        if (f != null) {
+            SmartRenderRender.getPreviousRendererData((EntityPlayer)this.sp).rotateAngleY = f.floatValue() / 57.295776f;
+        }
+        this.isWallJumping = true;
+        this.sp.fallDistance = 0.0f;
+    }
+}
+

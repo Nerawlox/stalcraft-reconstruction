@@ -1,0 +1,68 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraft.world.gen.layer.IntCache;
+
+public class gawj
+extends lqgz {
+    public gawj(long l, lqgz lqgz2) {
+        super(l);
+        this._b = lqgz2;
+    }
+
+    @Override
+    public int[] _a(int n, int n2, int n3, int n4) {
+        int[] nArray = this._b._a(n - 1, n2 - 1, n3 + 2, n4 + 2);
+        int[] nArray2 = IntCache._a(n3 * n4);
+        for (int i = 0; i < n4; ++i) {
+            for (int j = 0; j < n3; ++j) {
+                int n5;
+                int n6;
+                int n7;
+                int n8;
+                this._a(j + n, i + n2);
+                int n9 = nArray[j + 1 + (i + 1) * (n3 + 2)];
+                if (n9 == BiomeGenBase._p._P) {
+                    n8 = nArray[j + 1 + (i + 1 - 1) * (n3 + 2)];
+                    n7 = nArray[j + 1 + 1 + (i + 1) * (n3 + 2)];
+                    n6 = nArray[j + 1 - 1 + (i + 1) * (n3 + 2)];
+                    n5 = nArray[j + 1 + (i + 1 + 1) * (n3 + 2)];
+                    if (n8 == BiomeGenBase._b._P || n7 == BiomeGenBase._b._P || n6 == BiomeGenBase._b._P || n5 == BiomeGenBase._b._P) {
+                        nArray2[j + i * n3] = BiomeGenBase._q._P;
+                        continue;
+                    }
+                    nArray2[j + i * n3] = n9;
+                    continue;
+                }
+                if (n9 != BiomeGenBase._b._P && n9 != BiomeGenBase._i._P && n9 != BiomeGenBase._h._P && n9 != BiomeGenBase._e._P) {
+                    n8 = nArray[j + 1 + (i + 1 - 1) * (n3 + 2)];
+                    n7 = nArray[j + 1 + 1 + (i + 1) * (n3 + 2)];
+                    n6 = nArray[j + 1 - 1 + (i + 1) * (n3 + 2)];
+                    n5 = nArray[j + 1 + (i + 1 + 1) * (n3 + 2)];
+                    if (n8 == BiomeGenBase._b._P || n7 == BiomeGenBase._b._P || n6 == BiomeGenBase._b._P || n5 == BiomeGenBase._b._P) {
+                        nArray2[j + i * n3] = BiomeGenBase._r._P;
+                        continue;
+                    }
+                    nArray2[j + i * n3] = n9;
+                    continue;
+                }
+                if (n9 == BiomeGenBase._e._P) {
+                    n8 = nArray[j + 1 + (i + 1 - 1) * (n3 + 2)];
+                    n7 = nArray[j + 1 + 1 + (i + 1) * (n3 + 2)];
+                    n6 = nArray[j + 1 - 1 + (i + 1) * (n3 + 2)];
+                    n5 = nArray[j + 1 + (i + 1 + 1) * (n3 + 2)];
+                    if (n8 != BiomeGenBase._e._P || n7 != BiomeGenBase._e._P || n6 != BiomeGenBase._e._P || n5 != BiomeGenBase._e._P) {
+                        nArray2[j + i * n3] = BiomeGenBase._v._P;
+                        continue;
+                    }
+                    nArray2[j + i * n3] = n9;
+                    continue;
+                }
+                nArray2[j + i * n3] = n9;
+            }
+        }
+        return nArray2;
+    }
+}
+

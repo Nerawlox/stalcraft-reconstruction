@@ -6,6 +6,8 @@ Files carry timestamps from **29 October 2017**. Those timestamps describe the p
 
 ## Recovered code and results
 
+- [reconstruction/src](reconstruction/src/) — newer working source with recovered Minecraft/MCP names; see [name-recovery status](reconstruction/README.md).
+
 - [decompiled-standard/classes](decompiled-standard/classes/) — 5,519 Java files from the main archive.
 - [decompiled-standard/libs](decompiled-standard/libs/) — 4,528 Java files from dependencies.
 - [decompiled-alternatives](decompiled-alternatives/) — separate Procyon results for comparison; these do not replace the CFR snapshot.

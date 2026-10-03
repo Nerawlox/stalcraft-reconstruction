@@ -17,3 +17,7 @@ builds/pre-2017/decompiled-alternatives/** -text
 builds/pre-2017/analysis/** -text
 builds/pre-2017/recovered-bytecode/** -text
 research/2016-2017-search-2026-10-03/** -text
+
+# Preserve the hashes of name-recovery dictionaries and generated source baseline.
+builds/pre-2017/reconstruction/names/** -text
+builds/pre-2017/reconstruction/src/** -text

@@ -22,6 +22,16 @@ On 4 October 2026, the JVM opcode permutation was recovered. 246,325 methods and
 
 The user reported a Windows crash. The Windows log confirmed bugcheck 0x1E/C0000005; its relationship to the research has not been established. Work continued statically, without new protected-JVM launches.
 
+## Name-recovery milestone — 4 October 2026
+
+An independent working layer now contains 474 recovered custom Minecraft class names and MCP names for 8,553 method declarations and 1,757 field declarations. Another 161 Minecraft classes were already named. Matches use declared SRG identities, vanilla descriptors, type constraints, and unmodified declaration/instruction fingerprints; class kind, superclass, interfaces, and one-to-one targets are checked. Different Python hash seeds reproduced identical evidence.
+
+The historical MCP 8.11 archive identifies Minecraft 1.6.4 in its embedded version file. Text dictionaries are hash-pinned; 123 conflicting client/server identifiers were kept unchanged. Remapping all 15,069 game/dependency classes preserved all Code arrays and literal strings and found no class/member collisions. No game or protected JVM was executed.
+
+The first CFR pass exhausted its 512 MiB heap after 2,326 files; its failure report and incomplete local artifacts were retained. A fresh 1,536 MiB attempt completed and produced 5,519 named main-source files. The same six flow/type warnings remain; no failed-method markers were found. A static review prompted stronger generic-signature and interface checks; comparing all output class payloads after those improvements found no differences.
+
+See [reconstruction/README.md](../builds/pre-2017/reconstruction/README.md). Mod-specific names, unresolved Minecraft classes, reflective/ASM string targets, dependencies, and a full source build still need work.
+
 ## Remaining work
 
 ### Source-date clarification

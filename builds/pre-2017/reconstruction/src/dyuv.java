@@ -1,0 +1,35 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.util.Random;
+import net.minecraft.block.BlockDispenser;
+import net.minecraft.entity.projectile.EntitySmallFireball;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ezfa;
+import net.minecraft.world.World;
+
+public final class dyuv
+extends bbmo {
+    @Override
+    public ItemStack _b(ekuw ekuw2, ItemStack itemStack) {
+        ezfa ezfa2 = BlockDispenser._a(ekuw2._h());
+        yent yent2 = BlockDispenser._a(ekuw2);
+        double d = yent2._b() + (double)((float)ezfa2._a() * 0.3f);
+        double d2 = yent2._c() + (double)((float)ezfa2._a() * 0.3f);
+        double d3 = yent2._d() + (double)((float)ezfa2._c() * 0.3f);
+        World world = ekuw2._a();
+        Random random = world.rand;
+        double d4 = random.nextGaussian() * 0.05 + (double)ezfa2._a();
+        double d5 = random.nextGaussian() * 0.05 + (double)ezfa2._b();
+        double d6 = random.nextGaussian() * 0.05 + (double)ezfa2._c();
+        world.spawnEntityInWorld(new EntitySmallFireball(world, d, d2, d3, d4, d5, d6));
+        itemStack._a(1);
+        return itemStack;
+    }
+
+    @Override
+    public void _a(ekuw ekuw2) {
+        ekuw2._a().playAuxSFX(1009, ekuw2._e(), ekuw2._f(), ekuw2._g(), 0);
+    }
+}
+

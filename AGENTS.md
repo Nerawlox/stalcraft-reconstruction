@@ -16,6 +16,7 @@ This repository contains research on multiple historical clients. Read `README.m
 - `builds/pre-2017/analysis/` and `research/` contain exact historical text imports. Read the current status when older reports conflict.
 - Verify both preserved snapshots using `scripts/verify_research_snapshots.py`. Its execution is limited to hashes and inventories.
 - New source fixes belong in a separate `reconstruction/` directory for their build. Record evidence and validation; do not silently modify preserved snapshots.
+- `builds/pre-2017/reconstruction/src/` is the newer named working source (5,519 files): 474 newly named Minecraft classes and MCP names for 8,553 methods/1,757 fields. Read its README and evidence under `reconstruction/names/`. It is not a complete rebuild. New source edits may intentionally differ from the generated baseline hashes; never confuse them with the immutable historical snapshot.
 
 Run `git status` before editing. Keep builds, assets, worlds, and runtimes separate. Do not move existing local launch paths merely to make the directory tree symmetric. Write new public-facing documentation in English unless the user requests otherwise; historical research may remain in its original language.
 

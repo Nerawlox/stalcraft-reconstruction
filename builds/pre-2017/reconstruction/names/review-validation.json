@@ -1,0 +1,6 @@
+{
+  "interface_constrained_mapping_identical": true,
+  "generic_signature_regressions": 3,
+  "remapped_classes_compared": 15069,
+  "changed_class_payloads": []
+}

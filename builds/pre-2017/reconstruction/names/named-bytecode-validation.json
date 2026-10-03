@@ -1,0 +1,532 @@
+{
+  "class_map_sha256": "766343612911cf9a80a0ec6ef7e39546875e781382d2aba454123dc4c5b6f352",
+  "mcp_ambiguous_identifiers": {
+    "func_130071_aq": [
+      "getCurrentTimeMillis",
+      "getSystemTimeMillis"
+    ],
+    "func_70008_c": [
+      "getChatBuffer",
+      "getLogContents"
+    ],
+    "func_70035_c": [
+      "getInventory",
+      "getLastActiveItems"
+    ],
+    "func_71110_a": [
+      "sendContainerAndContentsToPlayer",
+      "updateCraftingInventory"
+    ],
+    "func_71117_bO": [
+      "getNextWindowId",
+      "incrementWindowID"
+    ],
+    "func_71119_a": [
+      "getTileEntityInfo",
+      "sendTileEntityToPlayer"
+    ],
+    "func_71122_b": [
+      "handleFalling",
+      "updateFlyingState"
+    ],
+    "func_71124_b": [
+      "getCurrentItemOrArmor",
+      "getEquipmentInSlot"
+    ],
+    "func_71252_i": [
+      "executeCommand",
+      "handleRConCommand"
+    ],
+    "func_71274_v": [
+      "getMotd",
+      "getServerMOTD"
+    ],
+    "func_71747_b": [
+      "handleNetworkListenThread",
+      "networkTick"
+    ],
+    "func_72361_f": [
+      "getPlayerEntity",
+      "getPlayerForUsername"
+    ],
+    "func_72368_a": [
+      "recreatePlayerEntity",
+      "respawnPlayer"
+    ],
+    "func_72374_b": [
+      "onTick",
+      "sendPlayerInfoToAllPlayers"
+    ],
+    "func_72393_a": [
+      "sendPacketToPlayersAroundPoint",
+      "sendToAllNear"
+    ],
+    "func_72527_a": [
+      "kickUser",
+      "raiseErrorAndDisconnect"
+    ],
+    "func_72565_c": [
+      "kickPlayer",
+      "kickPlayerFromServer"
+    ],
+    "func_72567_b": [
+      "sendPacket",
+      "sendPacketToPlayer"
+    ],
+    "func_72568_e": [
+      "getNumChunkDataPackets",
+      "packetSize"
+    ],
+    "func_72570_d": [
+      "handlePackets",
+      "networkTick"
+    ],
+    "func_72688_a": [
+      "getMinecraftServer",
+      "getWorldServer"
+    ],
+    "func_72690_a": [
+      "getOrCreateChunkWatcher",
+      "getPlayerInstance"
+    ],
+    "func_72784_a": [
+      "sendPacketToAllPlayersTrackingEntity",
+      "sendPacketToTrackedPlayers"
+    ],
+    "func_72785_a": [
+      "addEntityToTracker",
+      "trackEntity"
+    ],
+    "func_72786_a": [
+      "addEntityToTracker",
+      "trackEntity"
+    ],
+    "func_72789_b": [
+      "sendPacketToAllAssociatedPlayers",
+      "sendPacketToTrackedPlayersAndTrackedEntity"
+    ],
+    "func_72790_b": [
+      "removeEntityFromAllTrackingPlayers",
+      "untrackEntity"
+    ],
+    "func_72791_a": [
+      "addEntityToTracker",
+      "trackEntity"
+    ],
+    "func_72831_a": [
+      "rayTraceBlocks",
+      "rayTraceBlocks_do_do"
+    ],
+    "func_72901_a": [
+      "clip",
+      "rayTraceBlocks"
+    ],
+    "func_72913_w": [
+      "commandToggleDownfall",
+      "toggleRain"
+    ],
+    "func_72921_c": [
+      "setBlockMetadata",
+      "setBlockMetadataWithNotify"
+    ],
+    "func_72933_a": [
+      "clip",
+      "rayTraceBlocks"
+    ],
+    "func_73049_a": [
+      "getAllTileEntityInBox",
+      "getTileEntityList"
+    ],
+    "func_73082_a": [
+      "blockRemoving",
+      "uncheckedTryHarvestBlock"
+    ],
+    "func_73116_b": [
+      "sendPacketToAllAssociatedPlayers",
+      "sendPacketToTrackedPlayersAndTrackedEntity"
+    ],
+    "func_73117_b": [
+      "tryStartWachingThis",
+      "updatePlayerEntity"
+    ],
+    "func_73118_a": [
+      "removeFromTrackedPlayers",
+      "removeFromWatchingList"
+    ],
+    "func_73119_a": [
+      "informAllAssociatedPlayersOfItemDestruction",
+      "sendDestroyEntityPacketToTrackedPlayers"
+    ],
+    "func_73120_a": [
+      "sendPacketToAllTrackingPlayers",
+      "sendPacketToTrackedPlayers"
+    ],
+    "func_73122_a": [
+      "sendLocationToAllClients",
+      "updatePlayerList"
+    ],
+    "func_73123_c": [
+      "removePlayerFromTracker",
+      "removeTrackedPlayerSymmetric"
+    ],
+    "func_73124_b": [
+      "getPacketForThisEntity",
+      "getSpawnPacket"
+    ],
+    "func_73125_b": [
+      "sendEventsToPlayers",
+      "updatePlayerEntities"
+    ],
+    "func_73239_e": [
+      "loadChunkFromFile",
+      "safeLoadChunk"
+    ],
+    "func_73241_b": [
+      "dropChunk",
+      "unloadChunksIfNotNearSpawn"
+    ],
+    "func_73242_b": [
+      "safeSaveChunk",
+      "saveChunkData"
+    ],
+    "func_73243_a": [
+      "safeSaveExtraChunkData",
+      "saveChunkExtraData"
+    ],
+    "func_73254_a": [
+      "onUpdate",
+      "sendChunkUpdate"
+    ],
+    "func_73256_a": [
+      "sendPacketToPlayersInInstance",
+      "sendToAllPlayersWatchingChunk"
+    ],
+    "func_73257_a": [
+      "sendTileToAllPlayersWatchingChunk",
+      "updateTileEntity"
+    ],
+    "func_73259_a": [
+      "flagChunkForUpdate",
+      "markBlockNeedsUpdate"
+    ],
+    "func_73666_a": [
+      "generateNewProperties",
+      "logMessageAndSave"
+    ],
+    "func_73671_a": [
+      "getProperty",
+      "getStringProperty"
+    ],
+    "func_73719_c": [
+      "displayLoadingString",
+      "resetProgresAndWorkingMessage"
+    ],
+    "func_73720_a": [
+      "displayProgressMessage",
+      "displaySavingString"
+    ],
+    "func_74426_e": [
+      "getNumChunkDataPackets",
+      "packetSize"
+    ],
+    "func_74430_c": [
+      "getRemoteAddress",
+      "getSocketAddress"
+    ],
+    "func_75128_a": [
+      "setCanCraft",
+      "setPlayerIsPresent"
+    ],
+    "func_75129_b": [
+      "getCanCraft",
+      "isPlayerNotUsingContainer"
+    ],
+    "func_75132_a": [
+      "addCraftingToCrafters",
+      "onCraftGuiOpened"
+    ],
+    "func_75217_a": [
+      "isHere",
+      "isSlotInInventory"
+    ],
+    "func_75252_g": [
+      "isContinuous",
+      "isInterruptible"
+    ],
+    "func_75684_a": [
+      "hasChanges",
+      "hasObjectChanged"
+    ],
+    "func_75756_e": [
+      "getPlayerNBTManager",
+      "getSaveHandler"
+    ],
+    "func_75891_b": [
+      "createNewKeyPair",
+      "generateKeyPair"
+    ],
+    "func_76076_i": [
+      "getDimension",
+      "getVanillaDimension"
+    ],
+    "func_77871_c": [
+      "createMapDataPacket",
+      "getUpdatePacket"
+    ],
+    "func_82114_b": [
+      "getCommandSenderPosition",
+      "getPlayerCoordinates"
+    ],
+    "func_83009_v": [
+      "getBlockBoundsMinX",
+      "getMinX"
+    ],
+    "func_94128_d": [
+      "getAccessibleSlotsFromSide",
+      "getSlotsForFace"
+    ],
+    "func_94520_b": [
+      "containsTranslateKey",
+      "isKeyTranslated"
+    ],
+    "func_96302_c": [
+      "Checks",
+      "isColor"
+    ],
+    "field_70010_a": [
+      "consoleBuffer",
+      "instance"
+    ],
+    "field_70865_by": [
+      "lastTentacleAngle",
+      "prevTentacleAngle"
+    ],
+    "field_70958_bB": [
+      "villagerStockList",
+      "villagersSellingList"
+    ],
+    "field_71137_h": [
+      "isChangingQuantityOnly",
+      "playerInventoryBeingManipulated"
+    ],
+    "field_71145_cl": [
+      "initialInvulnerability",
+      "ticksOfInvuln"
+    ],
+    "field_71322_p": [
+      "playersOnline",
+      "tickables"
+    ],
+    "field_71577_f": [
+      "enderEyeMetaToDirection",
+      "rotateRight"
+    ],
+    "field_72535_g": [
+      "connectionTimer",
+      "loginTimer"
+    ],
+    "field_72539_c": [
+      "connectionComplete",
+      "finishedProcessing"
+    ],
+    "field_72572_g": [
+      "playerInAirTime",
+      "ticksForFloatKick"
+    ],
+    "field_72583_k": [
+      "randomGenerator",
+      "rndmObj"
+    ],
+    "field_72697_d": [
+      "chunkWatcherWithPlayers",
+      "playerInstancesToUpdate"
+    ],
+    "field_72792_d": [
+      "entityViewDistance",
+      "maxTrackingDistanceThreshold"
+    ],
+    "field_72794_c": [
+      "trackedEntityHashTable",
+      "trackedEntityIDs"
+    ],
+    "field_72814_d": [
+      "hasExtendedLevels",
+      "isEmpty"
+    ],
+    "field_73058_d": [
+      "canNotSave",
+      "levelSaving"
+    ],
+    "field_73086_f": [
+      "curBlockX",
+      "partiallyDestroyedBlockX"
+    ],
+    "field_73087_g": [
+      "curBlockY",
+      "partiallyDestroyedBlockY"
+    ],
+    "field_73099_h": [
+      "curBlockZ",
+      "partiallyDestroyedBlockZ"
+    ],
+    "field_73126_f": [
+      "encodedPosZ",
+      "lastScaledZPosition"
+    ],
+    "field_73127_g": [
+      "encodedRotationYaw",
+      "lastYaw"
+    ],
+    "field_73128_d": [
+      "encodedPosX",
+      "lastScaledXPosition"
+    ],
+    "field_73129_e": [
+      "encodedPosY",
+      "lastScaledYPosition"
+    ],
+    "field_73130_b": [
+      "blocksDistanceThreshold",
+      "trackingDistanceThreshold"
+    ],
+    "field_73132_a": [
+      "myEntity",
+      "trackedEntity"
+    ],
+    "field_73136_m": [
+      "ticks",
+      "updateCounter"
+    ],
+    "field_73137_j": [
+      "lastTrackedEntityMotionX",
+      "motionX"
+    ],
+    "field_73138_k": [
+      "lastTrackedEntityMotionY",
+      "motionY"
+    ],
+    "field_73139_h": [
+      "encodedRotationPitch",
+      "lastPitch"
+    ],
+    "field_73144_s": [
+      "firstUpdateDone",
+      "isDataInitialized"
+    ],
+    "field_73145_r": [
+      "lastTrackedEntityPosZ",
+      "posZ"
+    ],
+    "field_73146_q": [
+      "lastTrackedEntityPosY",
+      "posY"
+    ],
+    "field_73147_p": [
+      "lastTrackedEntityPosX",
+      "posX"
+    ],
+    "field_73244_f": [
+      "id2ChunkMap",
+      "loadedChunkHashMap"
+    ],
+    "field_73246_d": [
+      "currentChunkProvider",
+      "serverChunkGenerator"
+    ],
+    "field_73247_e": [
+      "chunkLoader",
+      "currentChunkLoader"
+    ],
+    "field_73248_b": [
+      "chunksToUnload",
+      "droppedChunksSet"
+    ],
+    "field_73249_c": [
+      "defaultEmptyChunk",
+      "dummyChunk"
+    ],
+    "field_73250_a": [
+      "chunkLoadOverride",
+      "loadChunkOnProvideRequest"
+    ],
+    "field_73261_d": [
+      "blocksToUpdate",
+      "locationOfBlockChange"
+    ],
+    "field_73262_e": [
+      "numBlocksToUpdate",
+      "numberOfTilesToUpdate"
+    ],
+    "field_73263_b": [
+      "players",
+      "playersInChunk"
+    ],
+    "field_73264_c": [
+      "chunkLocation",
+      "currentChunk"
+    ],
+    "field_73672_b": [
+      "properties",
+      "serverProperties"
+    ],
+    "field_73673_c": [
+      "associatedFile",
+      "serverPropertiesFile"
+    ],
+    "field_76947_d": [
+      "biomeGenerator",
+      "biomeToUse"
+    ],
+    "field_78043_p": [
+      "backgroundImageName",
+      "theTexture"
+    ],
+    "field_82237_a": [
+      "currentFlightTarget",
+      "spawnPosition"
+    ],
+    "field_94513_g": [
+      "connectedTracks",
+      "railChunkPosition"
+    ],
+    "field_94582_cb": [
+      "minecartTnt",
+      "tntMinecart"
+    ]
+  },
+  "scope": "Research bytecode only. Reflection/ASM string targets intentionally preserved and require later audit before runtime use.",
+  "archives": [
+    {
+      "input": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\recovered-bytecode\\classes-standard.jar",
+      "input_sha256": "2760bda721101cc17b923b60ae185ee69f1d8545bebf579672e77e3a475a87fb",
+      "output": ".cache\\reconstruction\\pre-2017\\named-bytecode\\classes-named.jar",
+      "output_sha256": "c55caf5da8d7aa09ca17d02bb756b5fba48902b7f806ae64958241e7fb11e0d2",
+      "classes": 6975,
+      "code_methods_checked": 53928,
+      "changes": {
+        "descriptor": 37553,
+        "member": 36377,
+        "class": 12261
+      },
+      "renamed_declarations": {
+        "fields": 1757,
+        "methods": 8553
+      },
+      "validation": "All classes reparsed; unchanged Code arrays and literal strings; no class/member collisions"
+    },
+    {
+      "input": "E:\\Stalcraft project\\builds\\stalcraft-pre-vk-2017-candidate\\recovered-bytecode\\libs-standard.jar",
+      "input_sha256": "7caf4aa0afd11f3815e580bcf34382dfacdd85d08b43bf81f463c119ec722284",
+      "output": ".cache\\reconstruction\\pre-2017\\named-bytecode\\libs-named.jar",
+      "output_sha256": "09dca168ca0cac62455d57361c96efb8a1906edacfba243f89cd4911a97583d0",
+      "classes": 8094,
+      "code_methods_checked": 60561,
+      "changes": {},
+      "renamed_declarations": {
+        "fields": 0,
+        "methods": 0
+      },
+      "validation": "All classes reparsed; unchanged Code arrays and literal strings; no class/member collisions"
+    }
+  ]
+}
