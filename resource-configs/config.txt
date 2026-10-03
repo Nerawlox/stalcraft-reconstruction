@@ -1,0 +1,33 @@
+﻿blackhole_damage: 70;
+carousel_damage: 5;
+coach_damage: 1;
+electra_damage: 10;
+kissel_damage: 5;
+steam_damage: 2;
+trampoline_damage: 6;
+web_damage: 5;
+ejection_damage: 0;
+
+blackhole_drop: "0-1200,12524-0.01,12527-20,12528-20,12529-70,12530-100,12531-10"; //2 - айди, 3 - относительная вероятность
+trampoline_drop: "0-2200,12521-20,12522-80,12523-70,12524-0.01";
+carousel_drop: "0-4000,12511-10,12512-20,12513-30,12514-100,12515-70,12516-50,12517-60,12524-0.01";
+electra_drop: "0-5000,12500-50,12501-70,12502-100,12503-20,12504-70,12505-100,12506-30,12507-80,12526-0.01";
+coach_drop: "0-1";
+kissel_drop: "0-200,12518-50,12519-10,12520-5,12525-0.01";
+lighter_drop: "0-1200,12508-40,12509-39,12510-10";
+steam_drop: "0-900,12524-0.01,12508-40,12509-39,12510-10";
+blackhole_active_drop: "12529-70,12530-100";
+carousel_active_drop: "12513-30,12514-100,12515-70,12517-60";
+
+turrel1_cooldown: 2;
+turrel1_damage: 2;
+turrel1_health: 100;
+turrel2_cooldown: 5;
+turrel2_damage: 7;
+turrel2_health: 200;
+turrel3_cooldown: 5;
+turrel3_damage: 10;
+turrel3_health: 300;
+ejection_savers: "1,2,3,4";
+
+destroyable_blocks: "";

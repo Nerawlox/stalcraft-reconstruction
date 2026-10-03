@@ -1,0 +1,23 @@
+# Original binaries and downloaded tools are stored outside version control.
+*.jar
+*.zip
+*.7z
+*.exe
+*.dll
+*.log
+.cache/
+tools/
+runtime/
+originals/
+
+# Build output and local editor settings.
+build/
+target/
+out/
+*.class
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

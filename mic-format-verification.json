@@ -1,0 +1,74 @@
+[
+  {
+    "path": "assets/stalker/models/sleeves/machinegun_sleeve.mic",
+    "format": "PNG",
+    "size": [
+      218,
+      900
+    ]
+  },
+  {
+    "path": "assets/stalker/models/sleeves/sleeve.mic",
+    "format": "PNG",
+    "size": [
+      218,
+      900
+    ]
+  },
+  {
+    "path": "assets/stalker/models/sleeves/turrel1.mic",
+    "format": "PNG",
+    "size": [
+      218,
+      900
+    ]
+  },
+  {
+    "path": "assets/stalker/models/sleeves/turrel2.mic",
+    "format": "PNG",
+    "size": [
+      218,
+      900
+    ]
+  },
+  {
+    "path": "assets/stalker/models/sleeves/turrel3.mic",
+    "format": "PNG",
+    "size": [
+      218,
+      900
+    ]
+  },
+  {
+    "path": "assets/stalker/textures/particles/lighter/flame1.mic",
+    "format": "PNG",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "assets/stalker/textures/particles/lighter/flame2.mic",
+    "format": "PNG",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "assets/stalker/textures/particles/lighter/flame3.mic",
+    "format": "PNG",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "path": "assets/stalker/textures/particles/lighter/spark.mic",
+    "format": "PNG",
+    "size": [
+      32,
+      32
+    ]
+  }
+]

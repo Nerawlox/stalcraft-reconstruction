@@ -1,0 +1,228 @@
+{
+  "input_classes": 919,
+  "input_stalcraft_classes": 483,
+  "input_top_level_classes": 748,
+  "java_files": 748,
+  "stalcraft_java_files": 318,
+  "missing_top_level_sources": [],
+  "files_with_unresolved_dependencies": 617,
+  "warning_files": [
+    {
+      "path": "aee.java",
+      "warnings": [
+        [
+          49,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          111,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          131,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "avn.java",
+      "warnings": [
+        [
+          255,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "avo.java",
+      "warnings": [
+        [
+          108,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "avp.java",
+      "warnings": [
+        [
+          28,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "ayz.java",
+      "warnings": [
+        [
+          366,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "azc.java",
+      "warnings": [
+        [
+          28,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "b.java",
+      "warnings": [
+        [
+          87,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "bif.java",
+      "warnings": [
+        [
+          30,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "bjf.java",
+      "warnings": [
+        [
+          69,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "blt.java",
+      "warnings": [
+        [
+          80,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          134,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          463,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "blw.java",
+      "warnings": [
+        [
+          73,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          105,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          143,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "co.java",
+      "warnings": [
+        [
+          110,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          161,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "el.java",
+      "warnings": [
+        [
+          62,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "hq.java",
+      "warnings": [
+        [
+          19,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "iy.java",
+      "warnings": [
+        [
+          43,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          83,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ],
+        [
+          97,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "kl.java",
+      "warnings": [
+        [
+          37,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "li.java",
+      "warnings": [
+        [
+          98,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "mw.java",
+      "warnings": [
+        [
+          19,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "ru\\stalcraft\\ItemsConfig.java",
+      "warnings": [
+        [
+          376,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    },
+    {
+      "path": "ru\\stalcraft\\client\\loaders\\MultithreadLoadingTexture.java",
+      "warnings": [
+        [
+          30,
+          "* WARNING - Removed try catching itself - possible behaviour change."
+        ]
+      ]
+    }
+  ],
+  "failed_decompilation_markers": []
+}

@@ -1,0 +1,2 @@
+Summary for outputs\stalcraft-decompiled\bytecode.jar
+Decompiled with CFR 0.152

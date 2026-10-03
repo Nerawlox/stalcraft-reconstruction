@@ -1,0 +1,9 @@
+# Preserve the exact decompiler snapshot, including its original line endings.
+src/** -text
+resource-configs/** -text
+
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

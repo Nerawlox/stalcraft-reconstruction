@@ -1,0 +1,5535 @@
+{
+  "original": "E:\\Stalcraft project\\Сборка STALKRAFT от Алекса\\Моды\\stalker_client212.jar",
+  "original_sha256": "3f37140d3b75fcd78c4f78481a478239d174adfb3ae5a2643eb16cd2fde31901",
+  "tools": {
+    "cfr": {
+      "name": "CFR 0.152",
+      "source": "https://www.benf.org/other/cfr/",
+      "sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2"
+    },
+    "jre": {
+      "name": "jdk8u504-b01",
+      "source": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_windows_hotspot_8u504b01.zip",
+      "sha256": "82e2cdc6693737c5998445b31f69668fa0da77c7705121053f6508ac84961123",
+      "java": "C:\\Users\\drgoo\\Documents\\Codex\\2026-10-03\\new-chat\\work\\tools\\temurin-jre\\jdk8u504-b01-jre\\bin\\java.exe"
+    }
+  },
+  "class_count": 919,
+  "stalcraft_class_count": 483,
+  "classes": [
+    {
+      "path": "a.class",
+      "bytes": 4800,
+      "sha256": "77e994e645c60afd006ed500a838e81ae7766a4e973695107d7fe6639d33bef9",
+      "stalcraft": false
+    },
+    {
+      "path": "aav.class",
+      "bytes": 1710,
+      "sha256": "ecca369ac254f017b44d532bce6aaed2bb8b05b475c2decd991dbca532181918",
+      "stalcraft": false
+    },
+    {
+      "path": "abu.class",
+      "bytes": 1024,
+      "sha256": "60b0473a1d9c413fd6f6b60e708a9956d775dc7e4d66dca851cd9240daf1bdcc",
+      "stalcraft": false
+    },
+    {
+      "path": "abw.class",
+      "bytes": 65879,
+      "sha256": "ed84d532ee1cfd23ba3cb355f882967c92af61ddcdfa0958c82bc657902a7986",
+      "stalcraft": false
+    },
+    {
+      "path": "ace.class",
+      "bytes": 2614,
+      "sha256": "1a880d029218e9a05233beefa1a4a5e83b5255b9a557dc8e4250d69d05f97045",
+      "stalcraft": false
+    },
+    {
+      "path": "ach.class",
+      "bytes": 940,
+      "sha256": "9d9508f323f566e58261b60877e5e23b45e5b2645c4ecf51f1e78800279a0b91",
+      "stalcraft": false
+    },
+    {
+      "path": "aci.class",
+      "bytes": 7629,
+      "sha256": "ae4e2a49dae315ead4a89690a9f9f308f754adf828701f9f675e67275ec02a14",
+      "stalcraft": false
+    },
+    {
+      "path": "acq.class",
+      "bytes": 8976,
+      "sha256": "a3d10aee24fd39a4d203e2d8fc0cd6f6d0fbb6897a24b7786de8cbf2acb6da63",
+      "stalcraft": false
+    },
+    {
+      "path": "acz.class",
+      "bytes": 841,
+      "sha256": "4e867bc4870562630589ccec4413472d4d212c7637cb4127f1573368ac981f09",
+      "stalcraft": false
+    },
+    {
+      "path": "ada.class",
+      "bytes": 625,
+      "sha256": "d977fde492f3ba5d610411091bf36de39f335ff303bb90317555c66d0bd1807a",
+      "stalcraft": false
+    },
+    {
+      "path": "adc.class",
+      "bytes": 1676,
+      "sha256": "aa7e18646438bf7486e305aba41e3eec7914798699c17bab97442f38066b1dee",
+      "stalcraft": false
+    },
+    {
+      "path": "add.class",
+      "bytes": 771,
+      "sha256": "89a74e34d65e19ab5cf89b060cac508c9c5ffcd04e54767e5a2e27a96eaa1bc5",
+      "stalcraft": false
+    },
+    {
+      "path": "adf.class",
+      "bytes": 548,
+      "sha256": "4bd52907748848f492b2b458b4bedfd61e3e88557cd7921d4d2c4599928364a4",
+      "stalcraft": false
+    },
+    {
+      "path": "adi.class",
+      "bytes": 1317,
+      "sha256": "074179e5b9fad2fbf4b59845deb949a389f175fbdae1d978c5e731e50729b6f5",
+      "stalcraft": false
+    },
+    {
+      "path": "adj.class",
+      "bytes": 816,
+      "sha256": "71a4acaaebe5978a187ed1ba14fc3bb98c1571905c7defc3b78ffe27133a3342",
+      "stalcraft": false
+    },
+    {
+      "path": "adk.class",
+      "bytes": 936,
+      "sha256": "6ede8991ba5f116cf925e07559f6b4162cc8de1b8fd69c7b0634fb0a445f683d",
+      "stalcraft": false
+    },
+    {
+      "path": "adr.class",
+      "bytes": 22449,
+      "sha256": "ef98ba3fa049e97c3a7c5e5f46e85589165be83fefcc0c4278a4e2889a0dd0d2",
+      "stalcraft": false
+    },
+    {
+      "path": "ae.class",
+      "bytes": 6110,
+      "sha256": "a2315c9b95e54eabaecc0d0dfd5fd366ae5ca0eac35a54cffd316f4349f7f840",
+      "stalcraft": false
+    },
+    {
+      "path": "aee.class",
+      "bytes": 11203,
+      "sha256": "9d0ee637bf38c761bf8b1a17fbaf13f38cd5c5c8e0c440c272214d2656c9df85",
+      "stalcraft": false
+    },
+    {
+      "path": "aei.class",
+      "bytes": 9679,
+      "sha256": "a4816d213459e05fc0ff67f011fa7112c120b23d9a4d274852f25892842221aa",
+      "stalcraft": false
+    },
+    {
+      "path": "ael.class",
+      "bytes": 2363,
+      "sha256": "3c620f9c401a4d98c936b4d1574a3027591e97410de88bfc481dd88d1195c59a",
+      "stalcraft": false
+    },
+    {
+      "path": "aem.class",
+      "bytes": 5438,
+      "sha256": "670d5d90b5af7e1ad6cdc71b109eedc5ab79738cbc2c494e4ef5092314d85ea4",
+      "stalcraft": false
+    },
+    {
+      "path": "aep.class",
+      "bytes": 13481,
+      "sha256": "32247d4a52a33aebb2ad73dd6b08a2038837a3240482621982a4378ee2007341",
+      "stalcraft": false
+    },
+    {
+      "path": "aeq.class",
+      "bytes": 5863,
+      "sha256": "0e97e65899429ab13cb0b443e432b2c1389de1ece0f6b0c174266cb0d354dcab",
+      "stalcraft": false
+    },
+    {
+      "path": "aes.class",
+      "bytes": 4488,
+      "sha256": "9141ac34588842b1a317041d08beec0aaa1b1a024f6ccad049c8e04b1c90b6d9",
+      "stalcraft": false
+    },
+    {
+      "path": "aet.class",
+      "bytes": 13872,
+      "sha256": "394e5a283a3cc34e67f2277620e79eceaa191b6f6798a76fd3c452becf25f42f",
+      "stalcraft": false
+    },
+    {
+      "path": "aew.class",
+      "bytes": 8143,
+      "sha256": "5d219c927199e14b5bc9545cb4f013d86e15295769616aa101c26547ae2992ed",
+      "stalcraft": false
+    },
+    {
+      "path": "aex.class",
+      "bytes": 2628,
+      "sha256": "c1d52f8b46f7882751419a3da7b7f3ade7264edc099187a50e15432158f5ba4a",
+      "stalcraft": false
+    },
+    {
+      "path": "afg.class",
+      "bytes": 1547,
+      "sha256": "6fe30b2ee94bbe42f6499a1a06a4ef7866bf0d61f0ee2978e01236207ca6e1e9",
+      "stalcraft": false
+    },
+    {
+      "path": "afo.class",
+      "bytes": 4790,
+      "sha256": "f58d2384b83e4494bac6c1d58fcf3e4cf54054e8834719a767e611f9cde0f5f0",
+      "stalcraft": false
+    },
+    {
+      "path": "afp.class",
+      "bytes": 3981,
+      "sha256": "33cf43bde95856fb06a82f2443f46cb47a5e67dccef14cb877a1ad7d227a1d90",
+      "stalcraft": false
+    },
+    {
+      "path": "afq.class",
+      "bytes": 2563,
+      "sha256": "910f9db4b474998baefbbb42f8ab33d35435952bdd2ee5a6fff65ce07fb0c018",
+      "stalcraft": false
+    },
+    {
+      "path": "afr.class",
+      "bytes": 2506,
+      "sha256": "cff9f3858b8cb35500937e2ab2b475d507b2d30ac34c3cb982420b61cf77acd5",
+      "stalcraft": false
+    },
+    {
+      "path": "afx.class",
+      "bytes": 2826,
+      "sha256": "4cefac73d3a60730e628ea2ad01279a72b3a1b584bb6d9a61a51a4a4f5c9dfcb",
+      "stalcraft": false
+    },
+    {
+      "path": "afy.class",
+      "bytes": 3207,
+      "sha256": "2d560cd7f2190a20468be22be3e00281978f862531f555c6a7389ee1920ac77e",
+      "stalcraft": false
+    },
+    {
+      "path": "aga.class",
+      "bytes": 4381,
+      "sha256": "66d7335d6cffc17f354b887e4067bf4e99cfaac4a540fad05d5d0547c96cbb45",
+      "stalcraft": false
+    },
+    {
+      "path": "agc.class",
+      "bytes": 5718,
+      "sha256": "787aae69f9d0dc8e02d293afa737a86f314caf7b079c4dfbd99ef3b8fa9dd63e",
+      "stalcraft": false
+    },
+    {
+      "path": "agf.class",
+      "bytes": 3707,
+      "sha256": "347e8357d1816abed0b50c97865e9a0231bf1a5d6c87d120d832936f350b7ce8",
+      "stalcraft": false
+    },
+    {
+      "path": "agh.class",
+      "bytes": 2708,
+      "sha256": "24fc1b7e82b28143ff64335661e8dcb068f917dbf68b44b2e3d2a8c656454fd1",
+      "stalcraft": false
+    },
+    {
+      "path": "agi.class",
+      "bytes": 6676,
+      "sha256": "75332c06b02cbafb2f135f00823211cab8b6a0467a4f70f03cdc21eab0422b8c",
+      "stalcraft": false
+    },
+    {
+      "path": "agn.class",
+      "bytes": 1375,
+      "sha256": "7b48ffbf8369258e06ef5d0e8b5aca6d1b00636860928a3c4640d7f467c2a90f",
+      "stalcraft": false
+    },
+    {
+      "path": "agp.class",
+      "bytes": 3202,
+      "sha256": "2dc80a1c765e8d0fb0ab59aa680dfa57453d8ede7fe40c24796b920154294ddd",
+      "stalcraft": false
+    },
+    {
+      "path": "ahh.class",
+      "bytes": 3121,
+      "sha256": "b3007f867a0ce81d6a966864ba6fc617050d1ebd625106c4b4fa141c86acf010",
+      "stalcraft": false
+    },
+    {
+      "path": "ahj.class",
+      "bytes": 463,
+      "sha256": "43959e9953f8e72677f6935140e7b12df3ade7eef731e2cafae84f9acef353ec",
+      "stalcraft": false
+    },
+    {
+      "path": "ahl.class",
+      "bytes": 6896,
+      "sha256": "ebc8904f72926e27bc8f10419f8254664793f71291899510a017a0271f321963",
+      "stalcraft": false
+    },
+    {
+      "path": "ahm.class",
+      "bytes": 6501,
+      "sha256": "32feb3e75cf6bb2316efad47c91a20c0027a83cd3659878b3bb2a9087193a36b",
+      "stalcraft": false
+    },
+    {
+      "path": "ahq.class",
+      "bytes": 4358,
+      "sha256": "4512509783c8bd6dd7ddccccd03521cb5f04e88a1de26ca0aa86648737e8b103",
+      "stalcraft": false
+    },
+    {
+      "path": "ahs.class",
+      "bytes": 5163,
+      "sha256": "732e28667ae795dd4ffa3ffc92a6348f176c39e436b7c2a258f54bb234b38321",
+      "stalcraft": false
+    },
+    {
+      "path": "ahv.class",
+      "bytes": 684,
+      "sha256": "40a1ad1258cec5d63519b66d9fb4b8f843c8ff3d587ae7bd64199e16ee35f320",
+      "stalcraft": false
+    },
+    {
+      "path": "ahw.class",
+      "bytes": 3717,
+      "sha256": "359d24e85c8e23b2dc19e2c99bb0c555a4b2d1d9dfdbcc938fb0de598d4e1a7a",
+      "stalcraft": false
+    },
+    {
+      "path": "aia.class",
+      "bytes": 4765,
+      "sha256": "dc4ef4c22f1cdeacea4ae3f0972cb71e7a26900ed437c39756da8802f99317e3",
+      "stalcraft": false
+    },
+    {
+      "path": "aif.class",
+      "bytes": 4546,
+      "sha256": "badb28ff7e2753cc73f71ba962d64933946d2298ce73a5b9030167b72904a0c4",
+      "stalcraft": false
+    },
+    {
+      "path": "aih.class",
+      "bytes": 3069,
+      "sha256": "f5e207abea1023a9018c602acf384aa0753e7b9776c07835315439beb8747fc4",
+      "stalcraft": false
+    },
+    {
+      "path": "aim.class",
+      "bytes": 964,
+      "sha256": "bf74265d89c1955e74e87c4145426143032667fcf9bd813c76bbd100fee0aa71",
+      "stalcraft": false
+    },
+    {
+      "path": "ain.class",
+      "bytes": 6289,
+      "sha256": "28cf425a8a505baf4bf5e6691d49d988e72eafd329479b1444c9cdfa21004bc6",
+      "stalcraft": false
+    },
+    {
+      "path": "air.class",
+      "bytes": 2902,
+      "sha256": "be1b12fafc74381f9c641124fa0c37d635998df0280649e472a92816618b995e",
+      "stalcraft": false
+    },
+    {
+      "path": "aiv.class",
+      "bytes": 4464,
+      "sha256": "61d3ccde60c91792545c90be8d1a3cc19fbd4c80ac35b1343dfe59c596a34015",
+      "stalcraft": false
+    },
+    {
+      "path": "aiy.class",
+      "bytes": 6504,
+      "sha256": "4682b0f732f9ae1f8be67947cfda9fd260730bc3b5c5d7e22474b2b25a31dcdf",
+      "stalcraft": false
+    },
+    {
+      "path": "aji.class",
+      "bytes": 4648,
+      "sha256": "8b6fe36e38f84f0bc2eb89b0aafc7e0263011a3f3848c6e443a53fc55792c405",
+      "stalcraft": false
+    },
+    {
+      "path": "ald.class",
+      "bytes": 2179,
+      "sha256": "ccc8d827c08a961c62ed9c24b1c84b28dc2a106ecc4dd7e69d7f945a6a427187",
+      "stalcraft": false
+    },
+    {
+      "path": "ale.class",
+      "bytes": 1832,
+      "sha256": "0e1d07f371d6b6eae538370763b0bf62b0ea7fa51c793111b03b91ccdf62250e",
+      "stalcraft": false
+    },
+    {
+      "path": "alq.class",
+      "bytes": 6407,
+      "sha256": "494d046d8363dd5bfc658b3c9146f6a69a23ef062d4a4316a905cfbd72398bc1",
+      "stalcraft": false
+    },
+    {
+      "path": "alr.class",
+      "bytes": 4576,
+      "sha256": "80c4e2b9a0dbed2139d7208a3b38b45454b5a8aef2bd4c7d4b2765c097998260",
+      "stalcraft": false
+    },
+    {
+      "path": "alz.class",
+      "bytes": 1031,
+      "sha256": "2b07cc4268a5faf29ab4ddb567c42b8d4ecf16a008ecbb5544514ba8bfba75d4",
+      "stalcraft": false
+    },
+    {
+      "path": "amr.class",
+      "bytes": 5366,
+      "sha256": "4f4b2fa45c441ed03b5f558754544270ae36cbe1e17fee39cd415b50b9c92533",
+      "stalcraft": false
+    },
+    {
+      "path": "an.class",
+      "bytes": 2732,
+      "sha256": "4efbe175695bd7f1deff835ca4a726a0d17db1b20d01e196643d442fb2bb2503",
+      "stalcraft": false
+    },
+    {
+      "path": "ane.class",
+      "bytes": 3596,
+      "sha256": "8f6d7fcc33d366f9d2009d9605d0c62ffb2bb55b0945380374ff42c8dff5ef6a",
+      "stalcraft": false
+    },
+    {
+      "path": "anf.class",
+      "bytes": 7227,
+      "sha256": "17489435c4a233c4fec7db88a48397a553f9d7bf747157e9e70978a3f516646e",
+      "stalcraft": false
+    },
+    {
+      "path": "anj.class",
+      "bytes": 4719,
+      "sha256": "5f4942d675bba3476ed5eb3f1d9cb228ba551496eae6f99a36215c10f016fef6",
+      "stalcraft": false
+    },
+    {
+      "path": "ank.class",
+      "bytes": 9237,
+      "sha256": "affff46c9fcb8edbc50714e762a7101fcf091c6e2fbe048aeb4082e8630fe48a",
+      "stalcraft": false
+    },
+    {
+      "path": "ans.class",
+      "bytes": 2842,
+      "sha256": "9dd2af87e2af2b656bf1164c556013b8828f1e8d4fb6d3283791a5af637d57b2",
+      "stalcraft": false
+    },
+    {
+      "path": "anu.class",
+      "bytes": 3680,
+      "sha256": "7587afaea77e07633e451436dd7baa46a118404641b3ef8fa207a5088c22c606",
+      "stalcraft": false
+    },
+    {
+      "path": "ao.class",
+      "bytes": 957,
+      "sha256": "aba232f0e32492b0f39eeb28ffc356b0edd5e468840dffccf936d77c6d986ec9",
+      "stalcraft": false
+    },
+    {
+      "path": "aoc.class",
+      "bytes": 3291,
+      "sha256": "da4ad2ce1509de171fdb7e4e2746f07e5f0be3b818cf0ca225d5d87013de165e",
+      "stalcraft": false
+    },
+    {
+      "path": "aoi.class",
+      "bytes": 9634,
+      "sha256": "66cdc46b76c90ff0a6e216b51e62915225a9cf0f87d97109f5a76097dfd6ab1c",
+      "stalcraft": false
+    },
+    {
+      "path": "aou.class",
+      "bytes": 2286,
+      "sha256": "95ee1e1c7b3fe0ada0407d0528440d2b7782f62c65bc051dd152dee21e587827",
+      "stalcraft": false
+    },
+    {
+      "path": "aoy.class",
+      "bytes": 3087,
+      "sha256": "95763b69c7613d0b163cbaf5af9f442f12f6927357e9a4ba0b4d3721a516913d",
+      "stalcraft": false
+    },
+    {
+      "path": "apb.class",
+      "bytes": 5995,
+      "sha256": "0ba0504066b00fc78e2d99883c534f704eda2f5e4b05b91306498be487c3f02c",
+      "stalcraft": false
+    },
+    {
+      "path": "apc.class",
+      "bytes": 9810,
+      "sha256": "86b5bb48c3e8525b1596fe2d3b5eaba96bf01bb4ec4a0aeb42eeb24377815143",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/forge/RenderPlayerAPIContainer.class",
+      "bytes": 1377,
+      "sha256": "9cc27fabab0be97fe78360df73f4f7d493bd90da5a1d86d4aadf89643f8a4cf6",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/forge/RenderPlayerAPIPlugin.class",
+      "bytes": 1864,
+      "sha256": "5fb848558015d24aef9002c22f1b7e357c123fb737f33956d495d96bcc88edaa",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/forge/RenderPlayerAPITransformer.class",
+      "bytes": 1572,
+      "sha256": "6e631d93ad8aec9d912f94a81dbc5fb7033be0468bde4e3bd26ed80943bee374",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/IModelPlayer.class",
+      "bytes": 2831,
+      "sha256": "4a6a386ddc491ee5602622a94fd8928e5d707cccaca5120e4d1c28b2e11f67e6",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/IModelPlayerAPI.class",
+      "bytes": 291,
+      "sha256": "70dbcaf8fe62ac63999fcb2a24b5ef9e2afe07b8ea20fd4e71c6b2724b100d62",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayer.class",
+      "bytes": 340,
+      "sha256": "a9c892408498c6bdcba7be7c3c4d98a93370bc0d696ee2fa65ca61c674754897",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerAPI.class",
+      "bytes": 47215,
+      "sha256": "fb520e700c6d4c3a058c207dcb739ed4b350a254cc3792910bc083dc92b9119c",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerBase.class",
+      "bytes": 6639,
+      "sha256": "e19341a79c8d45d4f99d594b52625a6488d3ef62ff8f362b2f25e5d962d89365",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerBaseSorter.class",
+      "bytes": 7468,
+      "sha256": "204c4672876e4402ca84dea761e3c165e0b5fa837744b20407bc6fd0d7c5e3f8",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerBaseSorting.class",
+      "bytes": 17038,
+      "sha256": "080529063d96bc3f6c954a8d82a80ee6dd57589f9c70ee21c73f91780752e8b8",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerClassVisitor.class",
+      "bytes": 27408,
+      "sha256": "7a3e5383da646579705c97b41f77c1f59c1c5406b0b125d3d99a6a6197297728",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/model/ModelPlayerConstructorVisitor.class",
+      "bytes": 1803,
+      "sha256": "0f8a45f657240c84c8111b9138ebcfa0067acc28c8ef9bbba291957dc4daf3fd",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/IRenderPlayer.class",
+      "bytes": 4991,
+      "sha256": "c12b5694f19cfd1e01fb0f1552e56cad3c373375f6646562f5d7fce3aabe10c4",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/IRenderPlayerAPI.class",
+      "bytes": 321,
+      "sha256": "96ff6692a8eb266acdd037e0fb0d030c8bfce481a1456801d62b86235b451b15",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerAPI.class",
+      "bytes": 99665,
+      "sha256": "6584045c0d94f5cb353617791c27ff6d3de8ffa845607f8327af75c7fa459261",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerBase.class",
+      "bytes": 18139,
+      "sha256": "2c67e3b8a22159498f39e152612f291e96aa2ad35d683e2ff8cb104e19de9c4c",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerBaseSorter.class",
+      "bytes": 7474,
+      "sha256": "7f5e116d9e1d017ee38ca5cca4bb9ad2dc0776552e5e9d998d66be379b82b368",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerBaseSorting.class",
+      "bytes": 49372,
+      "sha256": "9b3f03af3954263d2d9aeba7147495250474bcd602500e529e47cdf1418c74fd",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerClassVisitor.class",
+      "bytes": 65174,
+      "sha256": "28f8c720952eb376a5ffa9d73a85a1ea2f7922f5457fa056f0bb67626d1d47f4",
+      "stalcraft": false
+    },
+    {
+      "path": "api/player/render/RenderPlayerConstructorVisitor.class",
+      "bytes": 3240,
+      "sha256": "ee632e98084229856d2cb7e6052ba23872b7940406c729b26ffc03fb8a692e43",
+      "stalcraft": false
+    },
+    {
+      "path": "apj.class",
+      "bytes": 2653,
+      "sha256": "5f3f7cfdb5e911fabab1596dfbee32f02e2fae6b946879e982cff09bd8a6d576",
+      "stalcraft": false
+    },
+    {
+      "path": "apw.class",
+      "bytes": 1535,
+      "sha256": "1fcf3eb5e1d2665eec1ea43548e06b79aa29d92d2066d7768bc17c30dfc2e0e4",
+      "stalcraft": false
+    },
+    {
+      "path": "apx.class",
+      "bytes": 906,
+      "sha256": "0538150bfff5d6a8f578162dd3b432056384cb1d5aaf8c21333d17011c1d27ab",
+      "stalcraft": false
+    },
+    {
+      "path": "apz.class",
+      "bytes": 2981,
+      "sha256": "e70a6cb2902da688654c8601933315f09ba058d3297f59cbe3b52222a0906d30",
+      "stalcraft": false
+    },
+    {
+      "path": "aqb.class",
+      "bytes": 8875,
+      "sha256": "1f024f73489c246675babb5adb1fb5cec2a10ed55855b8b2e8ac3156154238c4",
+      "stalcraft": false
+    },
+    {
+      "path": "aqz$1.class",
+      "bytes": 895,
+      "sha256": "bf2b67d25f1589039ce6c0c8a3b265037fa84d9100871f5d3c80be8302e9b8fa",
+      "stalcraft": false
+    },
+    {
+      "path": "aqz.class",
+      "bytes": 50065,
+      "sha256": "e98d7b16ad43cb5467506139a07d9a5cd0f67fda6cee735610d4a4110eb9880f",
+      "stalcraft": false
+    },
+    {
+      "path": "arg.class",
+      "bytes": 4801,
+      "sha256": "4848a2bc2e8c9f1c02436c686a32b2b4ec95ae081433dbc7f2a01f4c00e4f3c0",
+      "stalcraft": false
+    },
+    {
+      "path": "ark.class",
+      "bytes": 7435,
+      "sha256": "ac34b74ab7d1b553d462982ce6140fa0554923d292bad9281887e66881684339",
+      "stalcraft": false
+    },
+    {
+      "path": "arq.class",
+      "bytes": 1482,
+      "sha256": "40df339b1f8d6c7451966512ff8c7e98e4262d95edec276bf8c2678f20554e64",
+      "stalcraft": false
+    },
+    {
+      "path": "arw.class",
+      "bytes": 6306,
+      "sha256": "6145ff19cb06e06371adbc436de26e27f293165d556ae8eb3a2018a36d37c3fd",
+      "stalcraft": false
+    },
+    {
+      "path": "ary.class",
+      "bytes": 7253,
+      "sha256": "7f653b1bc3e1e230e0ca8ea453c536376d98f33cf7c0b55e7ea63097b6d3d9e1",
+      "stalcraft": false
+    },
+    {
+      "path": "as.class",
+      "bytes": 8147,
+      "sha256": "b991a4dd0ada2b31259393c3cd56787f8e28495fd727d3734aebd2cee344b923",
+      "stalcraft": false
+    },
+    {
+      "path": "ase.class",
+      "bytes": 2630,
+      "sha256": "528f408203cdf1b6c1352c95f3a3f9a0e6b9c529acfae1dd6bea7b0b49edefba",
+      "stalcraft": false
+    },
+    {
+      "path": "asi.class",
+      "bytes": 8906,
+      "sha256": "970ee24e0456ccc693f8546e7db30d31cfe3c88933352b7533a9c40e78380cfe",
+      "stalcraft": false
+    },
+    {
+      "path": "asp.class",
+      "bytes": 7526,
+      "sha256": "1bf30969f2b3b0a6d387e3a76dabc38cc56d7c16b33dec11b4a2f5144aa8140a",
+      "stalcraft": false
+    },
+    {
+      "path": "atb.class",
+      "bytes": 853,
+      "sha256": "bc12499f6ad7de4c234003b53e12547679523dbc32ec04dc95aee762f42d514a",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/DynamicLights$LightsOnOffKey.class",
+      "bytes": 2634,
+      "sha256": "9b6f5de3d4925d0732112685a88b7c534c9896030b1abe2683edb3c19ca4f53d",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/DynamicLights$TickHandler.class",
+      "bytes": 2499,
+      "sha256": "e75d5bc1b1497afe12b9f38f52d15cbeb89914ba560c7d799be8fb4513d05724",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/DynamicLights.class",
+      "bytes": 4956,
+      "sha256": "9f41f8ebb86802b8c6087d8849995671c7fdf507235d6461d1edc3c775cbe024",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/DynamicLightSourceContainer.class",
+      "bytes": 2100,
+      "sha256": "751962254dcf373578da3b3e68ac3b1e6fbe0293468d281c7ef29b59428a8db9",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/IDynamicLightSource.class",
+      "bytes": 231,
+      "sha256": "e64dae488129fddf673d1466620cfd02f4bfac59e24e5b8b79ecf960dd43b00c",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/ItemConfigHelper$ItemData.class",
+      "bytes": 2031,
+      "sha256": "ded442679ea51d11bf63666bd7e76b4eaa901409af8d85425803ee4b08ae14ac",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/client/ItemConfigHelper.class",
+      "bytes": 4110,
+      "sha256": "fd114b29072bccd844527329f2e51fe3ea0f8366e34e93de19ec423e46f456b5",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/common/DLFMLCorePlugin.class",
+      "bytes": 975,
+      "sha256": "e15cbe8b3ce197f361a3ca7424216a461bc9fe08ea183bb12fee742288af0f89",
+      "stalcraft": false
+    },
+    {
+      "path": "atomicstryker/dynamiclights/common/DLTransformer.class",
+      "bytes": 5676,
+      "sha256": "035dca54448c405717abfe833d1e30869a53dd42c7a88cca71ab2650337cc8d9",
+      "stalcraft": false
+    },
+    {
+      "path": "atp.class",
+      "bytes": 3020,
+      "sha256": "380227500d00f6a20ecc1a2c1e54efe8331b49cd79ac020ab66edd893c3d4834",
+      "stalcraft": false
+    },
+    {
+      "path": "att.class",
+      "bytes": 2151,
+      "sha256": "8011fdff73754cc2e00a1c01aa055ac2dbbdc998255a2f36d1e1e446ec11ea5f",
+      "stalcraft": false
+    },
+    {
+      "path": "atv.class",
+      "bytes": 41534,
+      "sha256": "f99653ad4e56ee26b2175fa52c4f117b79e4705f45713ca9f68e41fe32bee381",
+      "stalcraft": false
+    },
+    {
+      "path": "atw.class",
+      "bytes": 795,
+      "sha256": "ead66924fc5b3cc32a6b060a0f9942b25cbdbfac2469f67b64b0ca468b22032a",
+      "stalcraft": false
+    },
+    {
+      "path": "aug.class",
+      "bytes": 955,
+      "sha256": "4eaaee74e9bd3d506ae42f326c9fcb62f20f495baba57bcfe58e19e9ab7aeac8",
+      "stalcraft": false
+    },
+    {
+      "path": "auh.class",
+      "bytes": 1333,
+      "sha256": "260b23732a8abde03b6b0eeb27f6ed145b6e0cdcb91c945b3d1dba989419604c",
+      "stalcraft": false
+    },
+    {
+      "path": "aul.class",
+      "bytes": 17121,
+      "sha256": "7a4e774c294b3738759cd0f99a4fc0639904bacb419a7cf1d6f33f7bf9dbec86",
+      "stalcraft": false
+    },
+    {
+      "path": "aum.class",
+      "bytes": 1374,
+      "sha256": "067fbd94a4b3b1daac4d35aef250c1b7dbd698b0eeb8d3fc7609353b21e472c5",
+      "stalcraft": false
+    },
+    {
+      "path": "aun.class",
+      "bytes": 4642,
+      "sha256": "008147e198ff2afdb5b1052330aaedf6a4786cfdf39f996665e4735cc1f40ff8",
+      "stalcraft": false
+    },
+    {
+      "path": "auo.class",
+      "bytes": 3180,
+      "sha256": "118d15b08ad1172580e57f9a44be7a695faaffb9261544dc4d45239f3ab7f386",
+      "stalcraft": false
+    },
+    {
+      "path": "aup.class",
+      "bytes": 3465,
+      "sha256": "6771d7b7a638228d9692bcec4d1d387313391d2ba7d6f30c62fadd532b499c50",
+      "stalcraft": false
+    },
+    {
+      "path": "auu.class",
+      "bytes": 6893,
+      "sha256": "6390b0c35e50848aafa36b66ee722581358bbc881cd1f9c223720a906fe47fc2",
+      "stalcraft": false
+    },
+    {
+      "path": "auw.class",
+      "bytes": 6881,
+      "sha256": "821f5b73abc8a049b1a528dcb22b437efcad7bbbc6279fad5acc4aa0eb509ab8",
+      "stalcraft": false
+    },
+    {
+      "path": "auz.class",
+      "bytes": 3844,
+      "sha256": "47a11054570232dfac7bb19fde747c1a5d459968df37922227959b28501afbb4",
+      "stalcraft": false
+    },
+    {
+      "path": "ava.class",
+      "bytes": 3587,
+      "sha256": "60cd0aecaa53b85465c0595ba04cb9fd08adb0a7bb71f6ef278fe2ab6f09cc07",
+      "stalcraft": false
+    },
+    {
+      "path": "avd.class",
+      "bytes": 3454,
+      "sha256": "c8a835a0abd2c05df44c6bbb9639f02665ffc944aeafb3a8a4f1093a77133373",
+      "stalcraft": false
+    },
+    {
+      "path": "avf.class",
+      "bytes": 8720,
+      "sha256": "39e7f21a95e8c10a5f15f62d8c8d90678b91185b5b2c52b7f48d9b5978c72c3b",
+      "stalcraft": false
+    },
+    {
+      "path": "avi.class",
+      "bytes": 14599,
+      "sha256": "a2977161d85752659ff061be037924ae9a0cefd988e9565f006bb8887b950deb",
+      "stalcraft": false
+    },
+    {
+      "path": "avj.class",
+      "bytes": 20799,
+      "sha256": "5e10720d2e2de316762da6c0ea0e02619f139ff8f99e9cd6f04cca63d634bb64",
+      "stalcraft": false
+    },
+    {
+      "path": "avk.class",
+      "bytes": 3722,
+      "sha256": "5fc30e10015fca517ab09c452247490aee9fae2d5f61a7f2d6cdcde266b0855f",
+      "stalcraft": false
+    },
+    {
+      "path": "avn.class",
+      "bytes": 11194,
+      "sha256": "ed7489e83a9d7b2d4855bb75fa25c9369289049660419fc9982afd7047ca145f",
+      "stalcraft": false
+    },
+    {
+      "path": "avo.class",
+      "bytes": 5550,
+      "sha256": "9975fe8cdf3572f9ab6d2fe072014e90cc01c6c67912e317cd3541ae1e1ea049",
+      "stalcraft": false
+    },
+    {
+      "path": "avp.class",
+      "bytes": 3369,
+      "sha256": "1533192d4f1aa6aa26b3ff4cd403e8e0efe84f91a3e861575c0b6d84c63b5b0e",
+      "stalcraft": false
+    },
+    {
+      "path": "avu.class",
+      "bytes": 1379,
+      "sha256": "505bfdc8415914b1c83c9a9c5dbdcbcd855c3778b5ec532512a376f883cc6d06",
+      "stalcraft": false
+    },
+    {
+      "path": "avv.class",
+      "bytes": 3313,
+      "sha256": "1ca2e739847cd9d7c7cae02db9ba985920ff7241a5b7b54cf31f23626a0e6fac",
+      "stalcraft": false
+    },
+    {
+      "path": "avy.class",
+      "bytes": 2788,
+      "sha256": "2489056ddd8ec3a640094abc455654a711e146eb4e533fb801e6cd990766728c",
+      "stalcraft": false
+    },
+    {
+      "path": "awb.class",
+      "bytes": 2787,
+      "sha256": "5fb22d814fbe4e0b035b3f469102d64f620cf39b2ef33ab23c15645c0ed9e920",
+      "stalcraft": false
+    },
+    {
+      "path": "awe.class",
+      "bytes": 5897,
+      "sha256": "9403ce184582b97eec073896eff18cf1ee2fd37b783fa914c3c16b9a2ab4916c",
+      "stalcraft": false
+    },
+    {
+      "path": "awg.class",
+      "bytes": 7219,
+      "sha256": "b2b789f9757d3c474fc41075fc62f4dd8f69a7c5fc4cf113848bb8b9e99b22ef",
+      "stalcraft": false
+    },
+    {
+      "path": "awp.class",
+      "bytes": 3044,
+      "sha256": "2810d11a49d3fb3b8e40b78e40a37d56a920bd4a8f9a1f501fff1fff71c0a94c",
+      "stalcraft": false
+    },
+    {
+      "path": "awq.class",
+      "bytes": 10323,
+      "sha256": "6611b3edeeb5ba016afcf1031a9c0a9a5a25a2132934360d3e5972757cc957a6",
+      "stalcraft": false
+    },
+    {
+      "path": "awr.class",
+      "bytes": 5059,
+      "sha256": "5673b332d9c90df0068f4a59136f753613725006abe04a3e09940c4505ba75a9",
+      "stalcraft": false
+    },
+    {
+      "path": "awy.class",
+      "bytes": 14211,
+      "sha256": "299aa4f559ae6877251ab75347e7e02bfca031522f9ca22bc47becad27dba979",
+      "stalcraft": false
+    },
+    {
+      "path": "awz.class",
+      "bytes": 4962,
+      "sha256": "b2eb9e4626cb02f8de3c50b5b1aa75b93e77ddc29165d34f4ec6b98775c55e31",
+      "stalcraft": false
+    },
+    {
+      "path": "axf.class",
+      "bytes": 8591,
+      "sha256": "2a84b28bf5a054f0e9746bc93d47dc2e156e32c0b1de0991c2db5b34c144ab8b",
+      "stalcraft": false
+    },
+    {
+      "path": "axm.class",
+      "bytes": 15968,
+      "sha256": "f87dbe49d7a3892f5d45702079d3adff637b32421ef01204ca6926b5fcdfe6af",
+      "stalcraft": false
+    },
+    {
+      "path": "axp.class",
+      "bytes": 2720,
+      "sha256": "a10cbdfcc075bc58166f88033245d655b5e1742e01d65741a953943af604c6e2",
+      "stalcraft": false
+    },
+    {
+      "path": "axr.class",
+      "bytes": 6040,
+      "sha256": "b1caa1252758ed531ffae025e66321cee1043e437e5af8c7a2616d2c1e4a7884",
+      "stalcraft": false
+    },
+    {
+      "path": "axv.class",
+      "bytes": 3404,
+      "sha256": "2ad3414359f768f6952bcd6bac6d18af9302853eb14b5e530bff4c874fe05c3a",
+      "stalcraft": false
+    },
+    {
+      "path": "axw.class",
+      "bytes": 5198,
+      "sha256": "fefb5462a2d09ec2219f14a2b910462ef8140881019f9304f72781601b146dcc",
+      "stalcraft": false
+    },
+    {
+      "path": "ayf.class",
+      "bytes": 7790,
+      "sha256": "d27e0eb75f10b6c5fb116e88a7bb3ae83f91e7d67e03bb3f112e2b9d93b1ae0f",
+      "stalcraft": false
+    },
+    {
+      "path": "ayi.class",
+      "bytes": 2337,
+      "sha256": "c833810d803c3539534374e5b50813316b7bebe350024a838b93957c2557478c",
+      "stalcraft": false
+    },
+    {
+      "path": "ayk.class",
+      "bytes": 4437,
+      "sha256": "39ea2b5120b63d4be16f84f71fa96376700f290f52539e55c74351cda02fff03",
+      "stalcraft": false
+    },
+    {
+      "path": "ayp.class",
+      "bytes": 1199,
+      "sha256": "54b6b445f1e860a8432d9ab7ac94aeb4d5223e2219a72db1f4e7ea08e8444892",
+      "stalcraft": false
+    },
+    {
+      "path": "ays.class",
+      "bytes": 6704,
+      "sha256": "f3bd132923ff0d6739ef662dd984d033e223a01d2e8dbbf970ccd23ad25c9a06",
+      "stalcraft": false
+    },
+    {
+      "path": "ayt.class",
+      "bytes": 3425,
+      "sha256": "f399b6d936c5ac6a80d8724bd034c28c29921369778133ec5f0441ce7f4eb727",
+      "stalcraft": false
+    },
+    {
+      "path": "ayw.class",
+      "bytes": 5073,
+      "sha256": "a9795166afcf50464fec25eca4eec598e8c38631da1967db374c16f39f931cb4",
+      "stalcraft": false
+    },
+    {
+      "path": "ayz.class",
+      "bytes": 15557,
+      "sha256": "2661102faa258dc2ca3c0aabba599dc49b3d00a913eab2c29853802f02c59e6c",
+      "stalcraft": false
+    },
+    {
+      "path": "azc.class",
+      "bytes": 3024,
+      "sha256": "32391ea68cf2c7b57da3eb938f8bf090a874081d469ad3560bb47edb481bf43d",
+      "stalcraft": false
+    },
+    {
+      "path": "azo.class",
+      "bytes": 1720,
+      "sha256": "b37c10d573d62b2950cd5f7bb7b8011c525467f2b23b321acbbd10bec4d5ca3c",
+      "stalcraft": false
+    },
+    {
+      "path": "azr.class",
+      "bytes": 6009,
+      "sha256": "656767ef3d8038affa9cc556b7f6819a2bda6467fb552f8ec909d223a6482299",
+      "stalcraft": false
+    },
+    {
+      "path": "azz.class",
+      "bytes": 8577,
+      "sha256": "2a4b34ba170b27a2bebaf99c8f52d56e774ed47e00d38a78325aa4854cb3b951",
+      "stalcraft": false
+    },
+    {
+      "path": "b.class",
+      "bytes": 7860,
+      "sha256": "f2df8c19c3f89b07515d6c907ae34f3cc22722a69060ed86321883725cfb9259",
+      "stalcraft": false
+    },
+    {
+      "path": "bab.class",
+      "bytes": 4559,
+      "sha256": "6f92a8974bb412c6ad1238ac43f1a5fc9fa7c32891055665ed76a5ec05e74b68",
+      "stalcraft": false
+    },
+    {
+      "path": "bag.class",
+      "bytes": 1106,
+      "sha256": "f0b1581e407694a98a669742674c908bcf68d3ea39cd81387d9a6bdc5605d74b",
+      "stalcraft": false
+    },
+    {
+      "path": "bah.class",
+      "bytes": 1553,
+      "sha256": "2e9fda0bda7cf02216a8d1b116f5dbf6bf5c2b7f219bda213f0956e410de95e2",
+      "stalcraft": false
+    },
+    {
+      "path": "bak.class",
+      "bytes": 4848,
+      "sha256": "accdd0d30ea5e4c204fe0abc9b7c78456051791dee4d649bdd75e259dc6a694c",
+      "stalcraft": false
+    },
+    {
+      "path": "bal.class",
+      "bytes": 1062,
+      "sha256": "f0e9dba685c884acbaddfacfbaacdf2af76bffd5531c2322ea3e37aa9b6af2ac",
+      "stalcraft": false
+    },
+    {
+      "path": "bam.class",
+      "bytes": 1572,
+      "sha256": "f0a300737319f4f733507d071f5cb37c7021ab036a8c84f24756dfc027a7e8c3",
+      "stalcraft": false
+    },
+    {
+      "path": "ban.class",
+      "bytes": 946,
+      "sha256": "890eb636060c3aa00869c3c9a4aa7fafa7ce1acadf36257a334e146fd5c214c1",
+      "stalcraft": false
+    },
+    {
+      "path": "bao.class",
+      "bytes": 1568,
+      "sha256": "d321d09b0bf3ded800abfb537aaeb20cf794abf62d714dcfa832d1d02a779f4a",
+      "stalcraft": false
+    },
+    {
+      "path": "bar.class",
+      "bytes": 1283,
+      "sha256": "e297668249646ece2e1a738cf0aeaee15473d0ad0bec9fa49320daf989299baf",
+      "stalcraft": false
+    },
+    {
+      "path": "bas.class",
+      "bytes": 1700,
+      "sha256": "338025cb45decb0c3ddb5cd2d799a7c0537d1efd809fcaa2e14e78b439ee4c93",
+      "stalcraft": false
+    },
+    {
+      "path": "bat.class",
+      "bytes": 1021,
+      "sha256": "6c3e311692d28f94d7528cead6c8919f2655022e08d8d5ba6ad375e2e1573b1d",
+      "stalcraft": false
+    },
+    {
+      "path": "bau.class",
+      "bytes": 1578,
+      "sha256": "4cfb59aaf9076a89df59b922ac8a20bf2a94641ac470ae14f3c9f41cadf69615",
+      "stalcraft": false
+    },
+    {
+      "path": "baz.class",
+      "bytes": 2312,
+      "sha256": "1bace7da73acca7b293064b9bdd880ae0e96826c79cd64252f9de71e9019c739",
+      "stalcraft": false
+    },
+    {
+      "path": "bba.class",
+      "bytes": 1870,
+      "sha256": "4a47aba287994864521977262ac224a9f68a6028f5f744f293c8f324646a93b5",
+      "stalcraft": false
+    },
+    {
+      "path": "bbb.class",
+      "bytes": 1387,
+      "sha256": "34f98980626d3e10e860eaf0abced026c4282eac69bf57537b3b61651a32ebec",
+      "stalcraft": false
+    },
+    {
+      "path": "bbc.class",
+      "bytes": 1720,
+      "sha256": "5d8477e38a88619f3cff44223a864d181a2cdc9d568e3834a4588276a151e44c",
+      "stalcraft": false
+    },
+    {
+      "path": "bbe.class",
+      "bytes": 2375,
+      "sha256": "db540533a95c5ac4f90b9cfe1a3c7b8bbeb7ed526b7913f1881af72cfcfcadd6",
+      "stalcraft": false
+    },
+    {
+      "path": "bbg.class",
+      "bytes": 1852,
+      "sha256": "ab706f50d1ab8a332339c959c0e7d8416adb23579706e9178ff575d712459f92",
+      "stalcraft": false
+    },
+    {
+      "path": "bbj.class",
+      "bytes": 4545,
+      "sha256": "c08389a2c3e28830dea32b79254867956b9040f5145f7e280e1a9340a7740b5d",
+      "stalcraft": false
+    },
+    {
+      "path": "bbm.class",
+      "bytes": 1250,
+      "sha256": "08a99b348ebb737e977c134d09b19afaabc8f5bffcd478776f9ad7a0bfa27735",
+      "stalcraft": false
+    },
+    {
+      "path": "bbn.class",
+      "bytes": 1518,
+      "sha256": "9009ec61e5c2115a4e928cbbb4afa45938f67776d54754e0cde95c1a801fdeac",
+      "stalcraft": false
+    },
+    {
+      "path": "bbp.class",
+      "bytes": 10737,
+      "sha256": "2ac3591840d7a8aaf5a3057e45f807949bd8728978ca0dc378420a5ce8b05d7d",
+      "stalcraft": false
+    },
+    {
+      "path": "bbq.class",
+      "bytes": 4122,
+      "sha256": "f3c14e24a253635f53c7f64d506708396679fd6652cd0c6473383a186311d718",
+      "stalcraft": false
+    },
+    {
+      "path": "bbt.class",
+      "bytes": 2203,
+      "sha256": "0367bb727cb1cc85b645e00ab1965e688d4de3e05dbb28ac4af0bc54e5779443",
+      "stalcraft": false
+    },
+    {
+      "path": "bbx.class",
+      "bytes": 2407,
+      "sha256": "2857702ba12d1d4ac15b12517f48fea7c37f2ec2df5a62e5b652326393ed9a25",
+      "stalcraft": false
+    },
+    {
+      "path": "bby.class",
+      "bytes": 1254,
+      "sha256": "cb2cadd4f2152ed9364103e5873bc390e1101d58e826071b11aafac9ebd542c2",
+      "stalcraft": false
+    },
+    {
+      "path": "bcc.class",
+      "bytes": 1913,
+      "sha256": "ff1bb1795b78ce1be1f02283d588c44190f8ecaf97b8d1db18b4aab2521901b9",
+      "stalcraft": false
+    },
+    {
+      "path": "bcd.class",
+      "bytes": 3113,
+      "sha256": "f6408eb9bd3f1a03e1766314d93b77c5bf6bc1c7a47375dc9b3c60fc3e27bf75",
+      "stalcraft": false
+    },
+    {
+      "path": "bce.class",
+      "bytes": 1751,
+      "sha256": "c8888fdf97ad804869a0b12cc5a5a1b5ed72d36cb5ddc96325726c7d2fd9fa5a",
+      "stalcraft": false
+    },
+    {
+      "path": "bcg.class",
+      "bytes": 2814,
+      "sha256": "d5cb54c79029026710751f2977896cbe51d3043011771b060d1d2fcc19e06c32",
+      "stalcraft": false
+    },
+    {
+      "path": "bch.class",
+      "bytes": 2122,
+      "sha256": "b0da513109e9338f90be05e36056057f5cfebef2e9abd260a14b4e67ac1f2eb3",
+      "stalcraft": false
+    },
+    {
+      "path": "bci.class",
+      "bytes": 1716,
+      "sha256": "1102d7f1af3c76e3be00e435d076cedf1ad937fae1895095bdc007f6344300bf",
+      "stalcraft": false
+    },
+    {
+      "path": "bcj.class",
+      "bytes": 1885,
+      "sha256": "acc9f483ad5da065b134bb373c59119230d54a6ec1328132bd3466d0564018c7",
+      "stalcraft": false
+    },
+    {
+      "path": "bck.class",
+      "bytes": 2532,
+      "sha256": "6de03e08e3296e009da65bac7fd1e64650d2c1373db50f6a52f1e3aa4023128a",
+      "stalcraft": false
+    },
+    {
+      "path": "bcl.class",
+      "bytes": 3367,
+      "sha256": "e3293ff392130c5adc44a7f7415f1420b9a1d131bbe201a5a5e30a6bf170a921",
+      "stalcraft": false
+    },
+    {
+      "path": "bcm.class",
+      "bytes": 1421,
+      "sha256": "93dd7b8ce93b3bfadbf3aaef164dea79af17ba4f8bc2074c521ca702464ee4d9",
+      "stalcraft": false
+    },
+    {
+      "path": "bcn.class",
+      "bytes": 6129,
+      "sha256": "bf4268ada460c004238c4feeed509d0e3e3ca86a9f48e0fbbb8d8dff12e60f76",
+      "stalcraft": false
+    },
+    {
+      "path": "bcu.class",
+      "bytes": 4939,
+      "sha256": "f4f8597f33a493e6bd06865c63477f498992c31f19945a1b7dc474fbe8108930",
+      "stalcraft": false
+    },
+    {
+      "path": "bcw.class",
+      "bytes": 38751,
+      "sha256": "e4fd1ce293c2ab50d7380a641f83883e44f339ef8a4668de4364ab7f1fa2ff9f",
+      "stalcraft": false
+    },
+    {
+      "path": "bdc.class",
+      "bytes": 9007,
+      "sha256": "412b2083bb43d6509485dfa887c52db83d65d36fcad9fea283d04bf8b6c8bae7",
+      "stalcraft": false
+    },
+    {
+      "path": "bdw.class",
+      "bytes": 1550,
+      "sha256": "94ef9ba9f5ce887f5f6662f2cf431b599a5c5913d3c4f26a79ecf99cb84a4395",
+      "stalcraft": false
+    },
+    {
+      "path": "bdy.class",
+      "bytes": 7116,
+      "sha256": "4fad7e5d29187e7e179ee4a1584c651215f38e8f9b4513712877fc89b10edb1a",
+      "stalcraft": false
+    },
+    {
+      "path": "bea.class",
+      "bytes": 2128,
+      "sha256": "9f2e85751d668f928abf7fba5d2671fc158bf2ef1f36cb3dc085edf5282262cf",
+      "stalcraft": false
+    },
+    {
+      "path": "bec.class",
+      "bytes": 2737,
+      "sha256": "796aebaef8f2a05bb0d1dd8b4d70a9d2cbd568e082f40d172395428bc49469ed",
+      "stalcraft": false
+    },
+    {
+      "path": "bef.class",
+      "bytes": 2014,
+      "sha256": "67bac502c866b92852bdc144a576bcc9d166c0cb2c6f66f4ed93011202dcf17e",
+      "stalcraft": false
+    },
+    {
+      "path": "beh.class",
+      "bytes": 5858,
+      "sha256": "a24bb2618499268b662062cee2ea37cbdad180848c7ee3e974b21b3d8de68363",
+      "stalcraft": false
+    },
+    {
+      "path": "bfa.class",
+      "bytes": 5337,
+      "sha256": "27bbd67ec21aaa559422fa282c2dce56065d5251517bf147009f527a53e15619",
+      "stalcraft": false
+    },
+    {
+      "path": "bfe.class",
+      "bytes": 29186,
+      "sha256": "5452f3da1e487f6e805d0540bb88875ea4abcf8733f8e6c28ed99aa1a1a26cf7",
+      "stalcraft": false
+    },
+    {
+      "path": "bfj.class",
+      "bytes": 14324,
+      "sha256": "0e081dfbdb25a751f257f688379ad058e7a5f39989eb1b5c1a5593c1dce0428b",
+      "stalcraft": false
+    },
+    {
+      "path": "bfl.class",
+      "bytes": 42610,
+      "sha256": "6c69cc6031949b95d876c06fee9600d62ef91c4d56cc4b26d644dbb9be9b2c11",
+      "stalcraft": false
+    },
+    {
+      "path": "bfq.class",
+      "bytes": 7856,
+      "sha256": "3a2e3ed8bceb6e6901c10186f98257fa0d42418b094e4befe4d94009db01554b",
+      "stalcraft": false
+    },
+    {
+      "path": "bfr.class",
+      "bytes": 128079,
+      "sha256": "99f82384cec05b66c3eb74a3f7cbb87edf736db3dac2ed3922dbc0b74a1ef957",
+      "stalcraft": false
+    },
+    {
+      "path": "bfu.class",
+      "bytes": 3338,
+      "sha256": "9e081e6f2e5077f03de2819b39b30f98dbfebdd8243454fb20cffe6bdf5f6675",
+      "stalcraft": false
+    },
+    {
+      "path": "bfz.class",
+      "bytes": 2643,
+      "sha256": "2dc695e6cf5d73cb864bd72071422469b582b5aaf9648369859b9d32afca8d96",
+      "stalcraft": false
+    },
+    {
+      "path": "bgg.class",
+      "bytes": 3066,
+      "sha256": "04733248d37dd856ae672c36fc64836c0b94229a96b6a85fa9470adc2697d866",
+      "stalcraft": false
+    },
+    {
+      "path": "bgj.class",
+      "bytes": 6635,
+      "sha256": "4a02828d648534dad222dafa52c2d656251299ac14ef20f8a13b8eb8333de365",
+      "stalcraft": false
+    },
+    {
+      "path": "bgk.class",
+      "bytes": 3629,
+      "sha256": "9c0882bbf255937165db98418b79c0614611401396e7edf032d150b29bb6f770",
+      "stalcraft": false
+    },
+    {
+      "path": "bgl.class",
+      "bytes": 9825,
+      "sha256": "3b067b01fc530d42159026824b956ef9f75035333f3bab9cd6393f1bf0632fae",
+      "stalcraft": false
+    },
+    {
+      "path": "bgm.class",
+      "bytes": 7261,
+      "sha256": "2b2da94c7c68b6ec7718bbb8a26b6e67c0d8ff6ff3a83285de635fecf6698b96",
+      "stalcraft": false
+    },
+    {
+      "path": "bgn.class",
+      "bytes": 2554,
+      "sha256": "a7254ebe55ed6967e393e3e56fdb617d529dfef2436e766ff256e11705428c25",
+      "stalcraft": false
+    },
+    {
+      "path": "bgo.class",
+      "bytes": 2282,
+      "sha256": "b0b652dbdfa095d7eef2e10532a5a17337af881f4442e15516b18c819d883123",
+      "stalcraft": false
+    },
+    {
+      "path": "bgp.class",
+      "bytes": 2083,
+      "sha256": "96c5123a2e10c833a0dee5004a96b4ac64510d539de6783f59844e0e61bf3ac4",
+      "stalcraft": false
+    },
+    {
+      "path": "bgq.class",
+      "bytes": 4005,
+      "sha256": "02efc00d24ee699a74f53fbcaaf506ec137db78cf065d5cbdd5b80cdf249bfa1",
+      "stalcraft": false
+    },
+    {
+      "path": "bgu.class",
+      "bytes": 9699,
+      "sha256": "7c387a8813cab220626c18747dc038b2afa8ad6f5d04c416fde8734d43d60397",
+      "stalcraft": false
+    },
+    {
+      "path": "bgw.class",
+      "bytes": 12009,
+      "sha256": "d41bc9cacaafdbf8eec9485c1c264eb8c3fd7c2740c50997f0793e6a0a80e0f8",
+      "stalcraft": false
+    },
+    {
+      "path": "bgx.class",
+      "bytes": 2389,
+      "sha256": "eb29ef25d2bf10c82668e2d3998fc66f69e9c91bb67f2abed6dc32773ce51bb5",
+      "stalcraft": false
+    },
+    {
+      "path": "bgz.class",
+      "bytes": 1549,
+      "sha256": "958448d284e6c7c55bf35b5659e76674ce672a06f74ea61d87970350422c7efc",
+      "stalcraft": false
+    },
+    {
+      "path": "bha.class",
+      "bytes": 2841,
+      "sha256": "29bb13fb1171de377b5ebaa4ba017151ca512ae71d73d4e2df585d2b39a9f795",
+      "stalcraft": false
+    },
+    {
+      "path": "bhb.class",
+      "bytes": 11919,
+      "sha256": "c8cdc13f0e74b38291d4da8dbce96186eaf9450c3a7f8ffc13fe83d7c670c57f",
+      "stalcraft": false
+    },
+    {
+      "path": "bhc.class",
+      "bytes": 3573,
+      "sha256": "ebffeda8be705bff2f3ff1d4a7716168151d56f9b9e4b2625940f84f7c3212b1",
+      "stalcraft": false
+    },
+    {
+      "path": "bhe.class",
+      "bytes": 3832,
+      "sha256": "58450df414ece03465611ccd79f62a03ad081fb2643934d5d1a2e15502a04522",
+      "stalcraft": false
+    },
+    {
+      "path": "bhf.class",
+      "bytes": 2543,
+      "sha256": "294bd5874a7ccadf43ccb499f2a6b7777633914b8a6f3d99ca481b9c71e7c930",
+      "stalcraft": false
+    },
+    {
+      "path": "bhh.class",
+      "bytes": 4087,
+      "sha256": "c0441099382d316592d37bfc24393ec1b8c3f6521f8519ca5133f597110fa38b",
+      "stalcraft": false
+    },
+    {
+      "path": "bhj.class",
+      "bytes": 13765,
+      "sha256": "40713b8323a1d63e6dec128c886679500895be42b6154a1f2d59d8e001f74b13",
+      "stalcraft": false
+    },
+    {
+      "path": "bhn.class",
+      "bytes": 1902,
+      "sha256": "e006c8f47b7d0b50fe342f502eff67379411b4108006167c0d79799a4f34dfd5",
+      "stalcraft": false
+    },
+    {
+      "path": "bhp.class",
+      "bytes": 1909,
+      "sha256": "e891f89d23f9235413c1124eb72c8339d5760ad6c5d0517578d2701cf1303d99",
+      "stalcraft": false
+    },
+    {
+      "path": "bhr.class",
+      "bytes": 1478,
+      "sha256": "0c363cad4d43eb07efeaa8c090677412fd5b4a1e451e55c9bcc041dff7fc6434",
+      "stalcraft": false
+    },
+    {
+      "path": "bhs.class",
+      "bytes": 1858,
+      "sha256": "6f817398666e69ff312de344858445bdd04f4c442bcdbb6c73b331799d514e04",
+      "stalcraft": false
+    },
+    {
+      "path": "bht.class",
+      "bytes": 3206,
+      "sha256": "aee54f3bf203363456b98262b976ac9397271c353e29deaf2ec01059e10d6a2a",
+      "stalcraft": false
+    },
+    {
+      "path": "bhw.class",
+      "bytes": 3451,
+      "sha256": "c25d0464ea90d9df673fd35b0d3c3da8bcb0cb8088caeaef185edfc01c85e6f7",
+      "stalcraft": false
+    },
+    {
+      "path": "bhx.class",
+      "bytes": 2054,
+      "sha256": "5ae37010c062f7d27929027244df064db1c82e7cd0bec9905589ebb29b898613",
+      "stalcraft": false
+    },
+    {
+      "path": "bhz.class",
+      "bytes": 3811,
+      "sha256": "5fae71f0724119df2343034a9dd0d480731cf5154bdf1c380f3980517ec39f19",
+      "stalcraft": false
+    },
+    {
+      "path": "bid.class",
+      "bytes": 1879,
+      "sha256": "d5d8d7b3cd5a311e35839af816c6adbac5022345e095ade34ab0e638a52adfcf",
+      "stalcraft": false
+    },
+    {
+      "path": "bif.class",
+      "bytes": 2109,
+      "sha256": "fd82960250a9e7da1c4464d1a2a5a3413e69c8bb1150c35fef4a2f53796764e9",
+      "stalcraft": false
+    },
+    {
+      "path": "bik.class",
+      "bytes": 7116,
+      "sha256": "f6904ade8b176428790773966573ed551294c060995d5c6dfeb8b4db5f5734a3",
+      "stalcraft": false
+    },
+    {
+      "path": "bil.class",
+      "bytes": 6720,
+      "sha256": "6ab6c2debad98ff6d2cc8b71b886acac84083c00ecabc62e48140dde8efa19b2",
+      "stalcraft": false
+    },
+    {
+      "path": "bip.class",
+      "bytes": 5083,
+      "sha256": "08ecace8c00820f757625026646a18c12fb5fbd6346ca914af9d264a67555003",
+      "stalcraft": false
+    },
+    {
+      "path": "bit.class",
+      "bytes": 2122,
+      "sha256": "7655c9e83eb768ae16e963bd20a4dc9158c644ad2127e0d1bfa9087de0655147",
+      "stalcraft": false
+    },
+    {
+      "path": "biu.class",
+      "bytes": 3571,
+      "sha256": "710be239ecf5b4ab0ebde5410631fbd17a65f436e8cbd21dc47778b391559067",
+      "stalcraft": false
+    },
+    {
+      "path": "biv.class",
+      "bytes": 3663,
+      "sha256": "4505ba35a7e860186fbc9f92784a6e2879bbd1fce814177972f48da4782740ec",
+      "stalcraft": false
+    },
+    {
+      "path": "biw.class",
+      "bytes": 1982,
+      "sha256": "0182fbac03875176aefd15a446a0ab7687bb34fa803e1f23f03a6774f740b14b",
+      "stalcraft": false
+    },
+    {
+      "path": "bix.class",
+      "bytes": 1808,
+      "sha256": "91d83faa27747c883c8196f66906824359a400863b51dff4062a1ff2b8dcea25",
+      "stalcraft": false
+    },
+    {
+      "path": "biz.class",
+      "bytes": 2206,
+      "sha256": "56645ca13eaf4e793c52ce7cd7707ef82e848e5dc65c358895f1df002773e355",
+      "stalcraft": false
+    },
+    {
+      "path": "bjb.class",
+      "bytes": 2822,
+      "sha256": "3a40912d938a5d7a4535a956402303b5a0244cbb5c13166bf15728d8af3256bb",
+      "stalcraft": false
+    },
+    {
+      "path": "bjc.class",
+      "bytes": 3607,
+      "sha256": "7859f500c5f68be9bd6a47e8f2f6e95e11f2c514473bee0cb02485db5e449d32",
+      "stalcraft": false
+    },
+    {
+      "path": "bjd.class",
+      "bytes": 4373,
+      "sha256": "d4f868e417ec9a2957c4b893c3cf18818360607e8019429af6c661accf66f7c1",
+      "stalcraft": false
+    },
+    {
+      "path": "bjf.class",
+      "bytes": 3441,
+      "sha256": "a3aa96184589ad95e14e13349c34313c7160c35e406380e116e00c5002cbbb8d",
+      "stalcraft": false
+    },
+    {
+      "path": "bjg.class",
+      "bytes": 3414,
+      "sha256": "9c38be1e80cd8b9de07d75ee540432609ad60a16822f2edfbf1759f21795cc58",
+      "stalcraft": false
+    },
+    {
+      "path": "bjh.class",
+      "bytes": 2733,
+      "sha256": "cf7c2485028f8d3aa564a1ec91f0b113cc37792f3fcb1e033e0504fac199d623",
+      "stalcraft": false
+    },
+    {
+      "path": "bji.class",
+      "bytes": 3505,
+      "sha256": "2bc9bf3fdcd297ecf209c1c9755addd7c5752d631b8d2d4da278f49d3a1cfcc5",
+      "stalcraft": false
+    },
+    {
+      "path": "bjk.class",
+      "bytes": 839,
+      "sha256": "5991f540ce302680fedcb2a933008d27dd31ac4f3d8d9ab8029d7a0e4be3a5dd",
+      "stalcraft": false
+    },
+    {
+      "path": "bjl.class",
+      "bytes": 835,
+      "sha256": "457e0f54f4baacb686c5c95c86e4b21f8cb99b1192cda60ee17c97cdaa9e940a",
+      "stalcraft": false
+    },
+    {
+      "path": "bjv.class",
+      "bytes": 3255,
+      "sha256": "4fc3ae2ad7238961079e1a0fdf8010b7ab5c01f3f4fcd1b58389a702f20d684f",
+      "stalcraft": false
+    },
+    {
+      "path": "bjw.class",
+      "bytes": 3886,
+      "sha256": "2f32e2f6bca02c0815bd78b0468ff60f3c0eea2a9734baa966a7bd296abb452f",
+      "stalcraft": false
+    },
+    {
+      "path": "bjy.class",
+      "bytes": 2570,
+      "sha256": "28298fdd61d23e26ced00e1ac1a02d2447887e65a16ad3d1fc865da1e16b6e07",
+      "stalcraft": false
+    },
+    {
+      "path": "bjz.class",
+      "bytes": 4964,
+      "sha256": "955007a98798a5b7c8b1b430306b3fbfc8138cb8fd95a21081e2aad3c172fe10",
+      "stalcraft": false
+    },
+    {
+      "path": "bka.class",
+      "bytes": 4245,
+      "sha256": "0828d870d2302da3cce9f239b5b7d366d8d951bb86cf9e9a6d8b17dc22318462",
+      "stalcraft": false
+    },
+    {
+      "path": "bke.class",
+      "bytes": 4618,
+      "sha256": "54a1e3579fcc885fadddfb408d14e501270b950af13b801c7ccc8e0f2aa87883",
+      "stalcraft": false
+    },
+    {
+      "path": "bkp.class",
+      "bytes": 5158,
+      "sha256": "7913bc02686f32aed3aec9fb7320f177a8b825fe2e78681a53f891708965de3d",
+      "stalcraft": false
+    },
+    {
+      "path": "bkt.class",
+      "bytes": 3566,
+      "sha256": "d916b04936f18f17df89a3c2ba2b6c1055d46614c85180d164d07d59f67305c2",
+      "stalcraft": false
+    },
+    {
+      "path": "bkv.class",
+      "bytes": 2635,
+      "sha256": "251c45a4167158c860dd61aca0e85643b9e94f8aed8ed4abb53dca0edec62905",
+      "stalcraft": false
+    },
+    {
+      "path": "bkz.class",
+      "bytes": 7436,
+      "sha256": "df0e618018b5232022a4f937344557b80ff71dc63bb131f16862da2ddc922e8b",
+      "stalcraft": false
+    },
+    {
+      "path": "bl.class",
+      "bytes": 1873,
+      "sha256": "5d011cf8e4bb887ac117ff20ef9980d262c2abdcbd67f12c9cfe93eb23b26bce",
+      "stalcraft": false
+    },
+    {
+      "path": "blb.class",
+      "bytes": 1494,
+      "sha256": "a91ba2d83f96abdff1e484680171440bf4aa5be2b46d554df8922a5aa220507f",
+      "stalcraft": false
+    },
+    {
+      "path": "blc.class",
+      "bytes": 2445,
+      "sha256": "5221d18cfe755f28b06d3676d315f2b41dea123ad77705b59793896548995a81",
+      "stalcraft": false
+    },
+    {
+      "path": "blf.class",
+      "bytes": 2363,
+      "sha256": "69334e5be0695e6c35041cbd599c40c6d5e72ba6eada8e2a97185b68259e9de4",
+      "stalcraft": false
+    },
+    {
+      "path": "blh.class",
+      "bytes": 2949,
+      "sha256": "58b7271bc231f7d2bfb0283a79ca82dbba3f0ff45dc822ae303bdeed429569f6",
+      "stalcraft": false
+    },
+    {
+      "path": "bln.class",
+      "bytes": 12611,
+      "sha256": "513cd0a429a0b798ba2e6e068099353a17c15abfb3ed99f61309c8ac35b11cd9",
+      "stalcraft": false
+    },
+    {
+      "path": "blt.class",
+      "bytes": 14794,
+      "sha256": "ca8e03b550323c6dbb2bb6b2f9be604fa97158a856383b445cdf55a0a133fadd",
+      "stalcraft": false
+    },
+    {
+      "path": "blw.class",
+      "bytes": 6718,
+      "sha256": "b7e107335f4bc2f58e045667b6a10adb9a162cb9aeba3ded44c257b656ccd2b7",
+      "stalcraft": false
+    },
+    {
+      "path": "blx.class",
+      "bytes": 1292,
+      "sha256": "48cc6d5f4b5fe12028557f10de8671db686397a458a7d23a9f2b2daceb3f3c1a",
+      "stalcraft": false
+    },
+    {
+      "path": "bly.class",
+      "bytes": 1089,
+      "sha256": "3f902be4dc3842467b517f609c36ef1d5d3e6de34ba899e9e2da1045ceeeec99",
+      "stalcraft": false
+    },
+    {
+      "path": "bv.class",
+      "bytes": 3893,
+      "sha256": "40fbb874ad98f258ecf130e23c3b01bf48319258d0a4d383c24eb536c6dca9b7",
+      "stalcraft": false
+    },
+    {
+      "path": "by.class",
+      "bytes": 8666,
+      "sha256": "ad3d53264e677b0a9ebabd3bb3357856782c9cdf17ff8081d616b43e67c75ab5",
+      "stalcraft": false
+    },
+    {
+      "path": "cg.class",
+      "bytes": 3235,
+      "sha256": "a69ff16ab7cc87c3ea0fa26df7b1af055227f5ce10f5bad91b178c2b629b9637",
+      "stalcraft": false
+    },
+    {
+      "path": "ci.class",
+      "bytes": 3875,
+      "sha256": "5f061fd30d07e2a7feb54a7b286bd723e3ad8b6fc795a5e2d89076210557b1ca",
+      "stalcraft": false
+    },
+    {
+      "path": "ck.class",
+      "bytes": 1859,
+      "sha256": "b0b54f0531eebf94861ef68e1f2a5528687ba7275fd677061e136c70db3138b9",
+      "stalcraft": false
+    },
+    {
+      "path": "co.class",
+      "bytes": 9485,
+      "sha256": "06ca1da4ec80db029f61f1e0ee485d8d5c4919a1964f5ee07bbe25d0bab6fa68",
+      "stalcraft": false
+    },
+    {
+      "path": "cp.class",
+      "bytes": 963,
+      "sha256": "b767b37a2e6ef05edfe724e08ced8f1d9c916ff2e96d964a38586f92a5ee687f",
+      "stalcraft": false
+    },
+    {
+      "path": "cq.class",
+      "bytes": 1331,
+      "sha256": "c747422c41da2773a81b31844fad996106a0002a8d35e70518eec80b401aff14",
+      "stalcraft": false
+    },
+    {
+      "path": "cr.class",
+      "bytes": 873,
+      "sha256": "b3ed16c4b04b0fb0bdc3a612b6c0d84587e35d3722768998d6fea16ce20a0a39",
+      "stalcraft": false
+    },
+    {
+      "path": "cv.class",
+      "bytes": 7242,
+      "sha256": "39d87e367a5e6efd20eafa4aa3449c4c5d35b2fbeaee307e6fcd92b6fe717847",
+      "stalcraft": false
+    },
+    {
+      "path": "ej.class",
+      "bytes": 4927,
+      "sha256": "c2bbdeacf679d2465e10f52f548198f920c05eaa04ea97eaf8a85e071fc3598b",
+      "stalcraft": false
+    },
+    {
+      "path": "el.class",
+      "bytes": 4781,
+      "sha256": "405bdd8e7d6dd1a1141901471821d1c1da3ef7fff8f4f0daa4c00fdb8378296b",
+      "stalcraft": false
+    },
+    {
+      "path": "eo.class",
+      "bytes": 2501,
+      "sha256": "f8d4061760c24efeb8c027ae90061fe43bed33ab66da25442309b7f2b30fd9ac",
+      "stalcraft": false
+    },
+    {
+      "path": "eq.class",
+      "bytes": 1567,
+      "sha256": "b1b97663f5dbe55472348a69fd7f223d0f2b1fc1fc5408a4145e01499cc9b0a0",
+      "stalcraft": false
+    },
+    {
+      "path": "ey.class",
+      "bytes": 8751,
+      "sha256": "9e59ffc490c9b42df27cfdb3c1161a3e4e016f8a085f7f2be3cdada2b1cb4f85",
+      "stalcraft": false
+    },
+    {
+      "path": "gm.class",
+      "bytes": 3704,
+      "sha256": "ffacd868ebac569c94051ee1b2c5c8e5682886fd8ab7b0ef6a36dab157b2fafa",
+      "stalcraft": false
+    },
+    {
+      "path": "gn.class",
+      "bytes": 3819,
+      "sha256": "e501f12644959045cdd09219e3a6735b26dc8ccb0106abcae7ccf2cdbf4acaab",
+      "stalcraft": false
+    },
+    {
+      "path": "hq.class",
+      "bytes": 3610,
+      "sha256": "b0c201021a6e43d0e475a4528a9f447c0361f3dde6f8c1ee4061e0451fc2f2a6",
+      "stalcraft": false
+    },
+    {
+      "path": "is.class",
+      "bytes": 11773,
+      "sha256": "f9b06b82b93267097a2176ac0ec80a67ae65076428c4c1455cdf89132d8c1178",
+      "stalcraft": false
+    },
+    {
+      "path": "it.class",
+      "bytes": 601,
+      "sha256": "2e098bfd1498a07013105424472ceb76e7c09cdf19940eacfb23e7bcd9efe8b9",
+      "stalcraft": false
+    },
+    {
+      "path": "iy.class",
+      "bytes": 4281,
+      "sha256": "5f33eac26feac4462739b12d0a5e4f813c07cb5ee4071ec6df4bbbf4dcdd87ec",
+      "stalcraft": false
+    },
+    {
+      "path": "iz.class",
+      "bytes": 3625,
+      "sha256": "6fe7037033d64d72e8b33604f488f644e30942e7378b377a73bcb56231e8fb8d",
+      "stalcraft": false
+    },
+    {
+      "path": "j.class",
+      "bytes": 3887,
+      "sha256": "a3c78595247ae39b28b2313ae18ebfa376f74a7e69cfd316e6457a0ad16b0df2",
+      "stalcraft": false
+    },
+    {
+      "path": "je.class",
+      "bytes": 4545,
+      "sha256": "39419bcff817ca6b29c611fba9e97e96a61741c491dc2f92b79680a7f92da93a",
+      "stalcraft": false
+    },
+    {
+      "path": "jm.class",
+      "bytes": 5995,
+      "sha256": "2991409240083d2cf65f393083207e2bbd68a24d9e9104dc458fea9d9ab00a34",
+      "stalcraft": false
+    },
+    {
+      "path": "jn.class",
+      "bytes": 990,
+      "sha256": "a779f4568d5ec34252b09e35dfb3b7ffc0af624ed3e101b11d6f84ab9cbee63e",
+      "stalcraft": false
+    },
+    {
+      "path": "jr.class",
+      "bytes": 7530,
+      "sha256": "7a636c40aafcb54ee8c8041e27f08fb3855398cb63d68896b6aac31243ce0a93",
+      "stalcraft": false
+    },
+    {
+      "path": "js.class",
+      "bytes": 20895,
+      "sha256": "6fb7baf7c494a99a5015347aea4a907b93c2c6fe5c4748b685d9e054dae35f30",
+      "stalcraft": false
+    },
+    {
+      "path": "jv.class",
+      "bytes": 21041,
+      "sha256": "556caedb871715672047192d0c9e0ab2ba2f7969d9551629e40b184e7c7d1dfe",
+      "stalcraft": false
+    },
+    {
+      "path": "jy.class",
+      "bytes": 7578,
+      "sha256": "87d659f00a768ac682b032007d54f3c4a01bcfb77378d9f520bbd6270832b32a",
+      "stalcraft": false
+    },
+    {
+      "path": "ka.class",
+      "bytes": 24692,
+      "sha256": "6ff4bd3bfb86f802e934de3add25ac6e9e320353ca87e1e601dd734054a80ac0",
+      "stalcraft": false
+    },
+    {
+      "path": "kh.class",
+      "bytes": 1375,
+      "sha256": "8b24c22651b4e5cbf185f279a6f64c6d3bb1e7ec1814bcc28d4722b0a9114a42",
+      "stalcraft": false
+    },
+    {
+      "path": "kj.class",
+      "bytes": 9000,
+      "sha256": "2535ad67be0c31ed16a829c2e34b6590a2fceb3fcdadca8686e78828e39fc182",
+      "stalcraft": false
+    },
+    {
+      "path": "kl.class",
+      "bytes": 4590,
+      "sha256": "c477c051c55d06fab81dfc9cdd980b4cf0ff832c10404cdecdeef85cf92ea2f7",
+      "stalcraft": false
+    },
+    {
+      "path": "kn.class",
+      "bytes": 3809,
+      "sha256": "7b0c69bfdaa9518169ad9cfc7fb4497c33c1150871b5a5e5fd91c58cba41cf31",
+      "stalcraft": false
+    },
+    {
+      "path": "lb.class",
+      "bytes": 1629,
+      "sha256": "ff594a37d4bda60fa21b69537ea6961f60e39924d3a73959d2ac7ae4e08723a8",
+      "stalcraft": false
+    },
+    {
+      "path": "li.class",
+      "bytes": 5144,
+      "sha256": "20050634d00cc80afb800ae99d2fde9ffc0f4d84532847d89fdb0287a188084f",
+      "stalcraft": false
+    },
+    {
+      "path": "lm.class",
+      "bytes": 3440,
+      "sha256": "023f37373ff3a42e3b5e3299485ed21559e41de3ca2937523251b29c86a2b69f",
+      "stalcraft": false
+    },
+    {
+      "path": "lq.class",
+      "bytes": 3203,
+      "sha256": "fedcca01cb0b93a55852f478f27e9c529492224ea8b84e0f07ed6ba5a29d9c76",
+      "stalcraft": false
+    },
+    {
+      "path": "ls.class",
+      "bytes": 4295,
+      "sha256": "715994c272fc51b9a15fb78917e26e15921b01312d5fcb0652728aa5b1cc6575",
+      "stalcraft": false
+    },
+    {
+      "path": "m.class",
+      "bytes": 5746,
+      "sha256": "710c76bd0906a5d86207f7697b476d45df5503e9d86ac467719240794b17de38",
+      "stalcraft": false
+    },
+    {
+      "path": "mk.class",
+      "bytes": 2453,
+      "sha256": "29adcaa5f8c561216f705b4f362cdaa337076083e74dc9fb4e117468fcdbb5a4",
+      "stalcraft": false
+    },
+    {
+      "path": "ModLoader.class",
+      "bytes": 17405,
+      "sha256": "ad8bf305c9c2c991894fb5dde4d72c7fab06d7142c45934a6dbcac7d07c9cc9f",
+      "stalcraft": false
+    },
+    {
+      "path": "mw.class",
+      "bytes": 1216,
+      "sha256": "84794f2ab4fd75d5b7d6bf8c8fceed01cd45f6af5c8f89262b2d7f96d4a2247f",
+      "stalcraft": false
+    },
+    {
+      "path": "mz.class",
+      "bytes": 1234,
+      "sha256": "392db8bef6e5648abc10a156957ed40e28938268f41a96a887886a5e5642265f",
+      "stalcraft": false
+    },
+    {
+      "path": "nj.class",
+      "bytes": 5315,
+      "sha256": "372eb9ec17d7eaa92369138d7bda656b2630448fb7d9bfe8896024e479306106",
+      "stalcraft": false
+    },
+    {
+      "path": "nn.class",
+      "bytes": 38548,
+      "sha256": "3caecd5f9dbd752bf3d93d73d9dc8d6c15371edc75fc65f8bb1b6704477ce56c",
+      "stalcraft": false
+    },
+    {
+      "path": "nq.class",
+      "bytes": 794,
+      "sha256": "a96c8e16446bd9a3accd5abfd61f5163e6a7938cf070afc6148965c4c0957515",
+      "stalcraft": false
+    },
+    {
+      "path": "nr.class",
+      "bytes": 1773,
+      "sha256": "1feb346820c4573e1bd546d83d487562fa2608938ab73d5caf82d6cfecd487c4",
+      "stalcraft": false
+    },
+    {
+      "path": "nt.class",
+      "bytes": 6711,
+      "sha256": "5713076da4dec984621be09ce710b44afe783f18e43e78a2bfce42001a33bbc9",
+      "stalcraft": false
+    },
+    {
+      "path": "oe.class",
+      "bytes": 3581,
+      "sha256": "a5206d50d308285839fb3d6a7b6a2dd9cedb50af1b2a50ed5a0ab8c8f1369e94",
+      "stalcraft": false
+    },
+    {
+      "path": "of.class",
+      "bytes": 33384,
+      "sha256": "1cd9ef27ee928311a48d109cfb40f9b3d16e2d6f7ec99125be6da4301a14cdc1",
+      "stalcraft": false
+    },
+    {
+      "path": "og.class",
+      "bytes": 19692,
+      "sha256": "a6cc983388aacdbfa0e838d4341321dfdedaf2e27ab553eea5b28c22aad73602",
+      "stalcraft": false
+    },
+    {
+      "path": "oh.class",
+      "bytes": 1798,
+      "sha256": "0b2338a08d719e242fe1a6357137672e308a2eb25bf204ae75a0442fc687a0ca",
+      "stalcraft": false
+    },
+    {
+      "path": "oj.class",
+      "bytes": 913,
+      "sha256": "bf6ec336ce74274fdb8f6e47a8f01d9ea616e1689e25a97f226592fe7f64f531",
+      "stalcraft": false
+    },
+    {
+      "path": "om.class",
+      "bytes": 2937,
+      "sha256": "8b3cade2b3cf4e74b5161a7bace1a171a8c99191f55c8d8d83a188fbd621337d",
+      "stalcraft": false
+    },
+    {
+      "path": "on.class",
+      "bytes": 6715,
+      "sha256": "a9566a2b90b702ec143f40f8dd5294393042177206d981ec43337f4bf863232d",
+      "stalcraft": false
+    },
+    {
+      "path": "oo.class",
+      "bytes": 8150,
+      "sha256": "e3aab1bf238dfb707fc5eb51e68f4963009af9a3ea9dd0b4c3eed63364c2d70b",
+      "stalcraft": false
+    },
+    {
+      "path": "pe.class",
+      "bytes": 2042,
+      "sha256": "72bc60a7328197afc2ff9dc33d150f75feaadecb13844fb4c0303a0805450a2c",
+      "stalcraft": false
+    },
+    {
+      "path": "pf.class",
+      "bytes": 1808,
+      "sha256": "b6ac9586dab876d3a632255a61b5e32b9c992b8703f387eef5f189faa25b705b",
+      "stalcraft": false
+    },
+    {
+      "path": "pg.class",
+      "bytes": 2375,
+      "sha256": "7d5a8b30bf9a6cc56e9c79aaa566386a6da49356d5367050ebe557dd0f5f0ff6",
+      "stalcraft": false
+    },
+    {
+      "path": "pk.class",
+      "bytes": 2972,
+      "sha256": "99678f1c869dfc0f061f28e347f5b6e8688357e4d087c36eaaab00d45674821e",
+      "stalcraft": false
+    },
+    {
+      "path": "pl.class",
+      "bytes": 3992,
+      "sha256": "10e418c744542229b9ee974309a624dfb945e0a1f1b3e0541b4695bc35f5102d",
+      "stalcraft": false
+    },
+    {
+      "path": "pr.class",
+      "bytes": 1805,
+      "sha256": "4b01d339142bd8dcda60e22fa2598a75bf68f1aeb8ba3a9c138fdd8180d4a048",
+      "stalcraft": false
+    },
+    {
+      "path": "px.class",
+      "bytes": 1916,
+      "sha256": "13f136743bb770134ed4d5c67d34cde42094e87ae5895fa8327c12015e937495",
+      "stalcraft": false
+    },
+    {
+      "path": "py.class",
+      "bytes": 563,
+      "sha256": "f9813dc559931fd99f23dfdf868ae6c073329adbd19beb02f8062c7381fba837",
+      "stalcraft": false
+    },
+    {
+      "path": "pz.class",
+      "bytes": 2361,
+      "sha256": "922a89ed8fbae22e8827f5c3c93ba25bd0e59a086cedeb3e6e3d7e3e3e4288e7",
+      "stalcraft": false
+    },
+    {
+      "path": "qc.class",
+      "bytes": 3136,
+      "sha256": "5c1b0cab903ba1d2682da36e24d100e5b3d5571eb2d80db7ad717be3301c8efd",
+      "stalcraft": false
+    },
+    {
+      "path": "qh.class",
+      "bytes": 1288,
+      "sha256": "d7b2f65cca3da2224f032de75529b334f85993aeeee5444a6c392f04c4c59618",
+      "stalcraft": false
+    },
+    {
+      "path": "qk.class",
+      "bytes": 2102,
+      "sha256": "629738c949b98463741ebb5c96a15b9619eb8588122b7df0487d0ec560846523",
+      "stalcraft": false
+    },
+    {
+      "path": "ql.class",
+      "bytes": 1247,
+      "sha256": "35acb9cd724659826d3309a3d3c15b9fd24ccde5879fbd33ea7ec9412d41cc6f",
+      "stalcraft": false
+    },
+    {
+      "path": "qt.class",
+      "bytes": 1932,
+      "sha256": "b181b753d85bf7b8d894e0366e424d6dbbd864736037141ec47b327977ca58f1",
+      "stalcraft": false
+    },
+    {
+      "path": "rj.class",
+      "bytes": 10697,
+      "sha256": "1a25bdedfa2769daba1ebecd700ce71421a45317dde6210067d150c886df9803",
+      "stalcraft": false
+    },
+    {
+      "path": "rl.class",
+      "bytes": 3582,
+      "sha256": "fe1ebcaf0414f21338414d5806080f7fc3ba95cfc6b66a2f001b4092bced3f84",
+      "stalcraft": false
+    },
+    {
+      "path": "rm.class",
+      "bytes": 6014,
+      "sha256": "e7832c12451c2879ac01dcf1b84c1a597106f2cf742e2a798aef2c3fb808ec19",
+      "stalcraft": false
+    },
+    {
+      "path": "ro.class",
+      "bytes": 4958,
+      "sha256": "71e782a1ab161a9185fa66f438553e2c172f71b74d0499c684efd796a76d160b",
+      "stalcraft": false
+    },
+    {
+      "path": "rp.class",
+      "bytes": 6567,
+      "sha256": "eeb81061c7873db2548994f633b1d993c17adf0e5a1d62cab6e33967e249a6eb",
+      "stalcraft": false
+    },
+    {
+      "path": "rq.class",
+      "bytes": 3329,
+      "sha256": "7c13a0937a59e39d7d7ebe9319d1a8be1a941dd01b8f2ac04d084a76911355e6",
+      "stalcraft": false
+    },
+    {
+      "path": "rr.class",
+      "bytes": 3074,
+      "sha256": "ae5d7dc2e7de56a9e4c7064a3ba5db4b1460bfed355549eb1db7510878f7ea91",
+      "stalcraft": false
+    },
+    {
+      "path": "rs.class",
+      "bytes": 27910,
+      "sha256": "889d38ab05b2e5d03c8cc1011f43e5821582a28bb7481d214365a41503f900f9",
+      "stalcraft": false
+    },
+    {
+      "path": "ru/stalcraft/AnomalyDrop.class",
+      "bytes": 1516,
+      "sha256": "281951eec0fe0b04948bd5f97f4e85c0583981a644c412ea5f34f71272d623f2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/asm/MethodsHelper.class",
+      "bytes": 34289,
+      "sha256": "c694ab90e11b223ef1dc55751f5233b0c1879a90a2e1bb03565cde608dce8d54",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/asm/MicInputStream.class",
+      "bytes": 2275,
+      "sha256": "427a0630ff1a6f05ca746a043086c631cd93a80e0d1986b3ad1eea023264a603",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/asm/PathModifier.class",
+      "bytes": 974,
+      "sha256": "d0f8ed6fcd95b5c7543ab20ff18b17ef5b0f5b14959830ed57e6d7e79106f6e9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/asm/StalkerLoadingPlugin.class",
+      "bytes": 1488,
+      "sha256": "cb477460f69da17116264a69f7f8dda1d343480894c74d1d356975e3909b588b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/asm/StalkerTransformer.class",
+      "bytes": 42985,
+      "sha256": "86f2a3ac7f1fd7a19c2a1d5411ef49ff6c13ebc9e06ff8dba33af7f867c00644",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/BlockPos.class",
+      "bytes": 893,
+      "sha256": "bfd47ccda06e1c481263d488b0d1214de233de87b7deb24cc7fdf65efaeafad7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockAnomaly.class",
+      "bytes": 4211,
+      "sha256": "1ddefbd8fa673f480cd8619ca5414f0768aeeb7a209f5f8863a2c19e75afac1b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockAnomalyNeighbor.class",
+      "bytes": 2129,
+      "sha256": "27bf6d7a230235730ea62d1482e99da32139a4e058cd658ded600bdaf0cccae0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockCarousel.class",
+      "bytes": 1295,
+      "sha256": "2c54b4dd1bc8742e3d279ec0a567c3e12f17e7604b687f647f186b1b2d9251bf",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockCoach.class",
+      "bytes": 1223,
+      "sha256": "af4eb2a29cf3f2b89fce89673cf18e85bba35ab5a168878b3d7cb73877f7329b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockDebuff.class",
+      "bytes": 2411,
+      "sha256": "5747b4cbf1be71b1c286d5879c805fb1e608e524cc26463dd4d680901f7a47b8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockDecorative.class",
+      "bytes": 318,
+      "sha256": "dacedc84a4a721cf1fe3eb2f35f6296538f471364c04d9ca8fda892e527b2211",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockEjectionSave.class",
+      "bytes": 1815,
+      "sha256": "7eb2dcac88dfe054a48c75910322f64de50036d27e6bf8b7c1e43ea1fa41b2e3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockElectra.class",
+      "bytes": 1310,
+      "sha256": "a81d7fc3906c400da5013d28fbf982a3496a0c5e15b0590604406e3e8e8147ad",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockExtendedAnomaly.class",
+      "bytes": 1191,
+      "sha256": "8e3ae9769fcd0c330d90bbbe1dfa6f25ca87a50a45247df4a0b849f770480ac8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockFlag.class",
+      "bytes": 2400,
+      "sha256": "cf63433d8f5fb22940ead2460a5828cefc2bf65228836a1d3e1ea650d3acbece",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockFunnel.class",
+      "bytes": 1111,
+      "sha256": "a55fdbe197feb6cffdee42b5a413a678b1cb60b1be5f92235f9ec28c7c58abc2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockKisselFluid.class",
+      "bytes": 4567,
+      "sha256": "766add719bac4f32f4b42d656e3560dbf7bcf20e77d71b007c537e6e89ecb406",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockLighter.class",
+      "bytes": 1232,
+      "sha256": "1da5d2f8e90f47fdf645ea1edcf0b9a5d57d82d25ab693fd7203fb7ef3593006",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockMachineGun.class",
+      "bytes": 3248,
+      "sha256": "e464ec3dfe714a0f5edff9dc1cf16fe20bcb87e4061443acb82587aade2ca257",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockRespawn.class",
+      "bytes": 1913,
+      "sha256": "e7833c3ee7ad567f4df81f7bab28a533489bd62e1b08ef3919dbe361a3a06251",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockStalkerLadder.class",
+      "bytes": 341,
+      "sha256": "8477a72728351cf542f01963f205205bcbacd49b377bf67ad5c75b101fda57e8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockSteam.class",
+      "bytes": 1411,
+      "sha256": "a7ccc29a679d950ea215f68666f47ca19ca13acc2e50393358aca36103deb064",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/BlockTrampoline.class",
+      "bytes": 1697,
+      "sha256": "2d5846fc681ed72528610ca502c8256c257255e5b97118ff3f3329214667f29d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/MaterialFakeAir.class",
+      "bytes": 540,
+      "sha256": "7afa5f468d64a3755963375bdacdbe9ce726286268e15ab886c97c1164075c05",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/MaterialFlag.class",
+      "bytes": 395,
+      "sha256": "082f6533afdbf74de51c05502837a550e78219352094a3758bc95d7e50bf4d52",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/MaterialKissel.class",
+      "bytes": 407,
+      "sha256": "8d550c2f74102e2b2e632275246e060cda6b23d3f87c5a56a9faa930dfefc956",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/MaterialMachineGun.class",
+      "bytes": 405,
+      "sha256": "cc34fe4b362154b1a7d62bed38be876b0f529b1bc0d5d661db50f3e5c83d21a2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/StalkerBlockStairs.class",
+      "bytes": 391,
+      "sha256": "665183c11b63f10e56552a043284a3cb32240c2e194998f3000d8c90b6fceb48",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/StalkerChest.class",
+      "bytes": 1202,
+      "sha256": "2ad755d14ae9d1523c7ffa50b3fca47d6a0f9e84c952ddb473644bd926c452f5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/blocks/StalkerDoor.class",
+      "bytes": 1236,
+      "sha256": "217f8c5cc6db30d2fc751f31daa24f1b72694039d1cfca7010022591d76f4d62",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/ClanMember.class",
+      "bytes": 608,
+      "sha256": "c4c3b801b5e5320c85e3b040e4713eaf9fa7507a3b34c9468dfa078a31ae1288",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/ClanRank.class",
+      "bytes": 1193,
+      "sha256": "cd86ecdf74a16d2693951547f1d241d548217a772441787b3b562f3fa40c4312",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/IClan.class",
+      "bytes": 461,
+      "sha256": "227c170ba398d2dccdb2f092619a7c98a6dd12de3dbcabc79db6b097c4be71b5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/IClanManager.class",
+      "bytes": 199,
+      "sha256": "be0c192c78ffc11fe45b6851a281ebf3e777a7788d261fcf23b578da91f31a09",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/IFlag.class",
+      "bytes": 227,
+      "sha256": "9b77a9e7b1185f2272fae1e1b789ad85fb655970947204a4fa080307197e05f2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/IFlagManager.class",
+      "bytes": 496,
+      "sha256": "add55505821e971dfd40e8432c6642b9cbdfba0ab6f305a81a00690bee335ddd",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/IFlagsLand.class",
+      "bytes": 128,
+      "sha256": "9e72d5f9bb6c56c20415682ea8853fa54511031462438faea954c76115a9ec99",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/clans/ISpecialClan.class",
+      "bytes": 197,
+      "sha256": "9e722e211048f46749cb65fb9c377a03a7446a92bc36d9fd87f85bf1872c0165",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/ClientClanData$ClientClanLand.class",
+      "bytes": 1037,
+      "sha256": "55c71b3cf87433c985683393421e54e8ea8c8d6bfaad8011a32ea20bb0e71f51",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/ClientClanData$ClientClanMember.class",
+      "bytes": 937,
+      "sha256": "0ca53121223addc9e90465c244035df9b2e771b17f78279a80e4718909acede2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/ClientClanData$ClientOtherClan.class",
+      "bytes": 1029,
+      "sha256": "42661426f0439fb20737148b59bb354e26925deaa08eb818cb517997e1343002",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/ClientClanData$IListable.class",
+      "bytes": 310,
+      "sha256": "901a3f7ab7a35e5ce4a2325bdc5d30d550e95547c8966dfcadcaae9f83a0ca3c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/ClientClanData.class",
+      "bytes": 4404,
+      "sha256": "c8b73213f9e4e7bdbf8d38c1987a6d5dcb797048be2f5bd7564d9268a23d8127",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiClanCreate.class",
+      "bytes": 3436,
+      "sha256": "ff288a09dfa4c2b95ba8bb53f4d50b91606bf3abdba7fdb2d38a1ca620869566",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiClanInvite.class",
+      "bytes": 2212,
+      "sha256": "ff4460892d8837289a9a273c1d982234de3eed449fa6a56700a5deaae76b818a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiClans$NamelessClass1062016702.class",
+      "bytes": 1113,
+      "sha256": "e38af5c06c54e56090c384c84ec137cdcc5a1e8e7788b3976fd3839c24e4a1ba",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiClans.class",
+      "bytes": 5639,
+      "sha256": "ec26b8533d807b9dea484355aea83ee24262bd89a3f7382fab988a5ff0877246",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiClanTab.class",
+      "bytes": 1855,
+      "sha256": "b1d25ad9a65005f8ecddbed46867f0cadfadddc1a28dadfacdd5ae02162b38b7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElement.class",
+      "bytes": 1363,
+      "sha256": "f7bbf38a9a5c32de2c1b1250b27586e95e63dde2fe2873c23a9ac3daa37a9439",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElementScrollableContent.class",
+      "bytes": 4386,
+      "sha256": "75b6db450fb5afee8638e952c9f9f8e22991c27754d7339686a9c045f2b39cb6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElementScrollButton$ScrollButtonDirection.class",
+      "bytes": 1508,
+      "sha256": "0d10b0d4157c34d6a5c68c55e7b0581ae85f8838040ac6c16c0f019f7c2140fd",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElementScrollButton.class",
+      "bytes": 2439,
+      "sha256": "7a8c53986f3f5f0455afb551aeeb650b54a77045f3275ec40dc81d274c457f51",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElementSlider.class",
+      "bytes": 3372,
+      "sha256": "f6834e5f6e5e6ec5021006f080f3b5b0e1106993022274822ad7a74bc125f57a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiElementTextBox.class",
+      "bytes": 8204,
+      "sha256": "40447e4c48d8ab9de2b4f4939fd3d75608951753bf23e3cdb422a103605640ef",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiTabClanInfo.class",
+      "bytes": 6008,
+      "sha256": "957d195860faf5317bb6c178641cabbe224ad8a0403f2f3b1c591b8d39d891d9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiTabClanLands.class",
+      "bytes": 6372,
+      "sha256": "a850c6aad7e519ec1246c00a179e3b2feb7289862b7d7d49c5e0047bd651e09e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiTabClanMembers.class",
+      "bytes": 7184,
+      "sha256": "e81d74708511cabd8d0c36b013924560fe042be24a75c3b3927132ac75d167ac",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiTabClanRules.class",
+      "bytes": 5016,
+      "sha256": "7ad21c12eaed99a9c6cb4e05de37d57d87ff586f306abaf1dd81e0adab850da9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/GuiTabClansList.class",
+      "bytes": 6413,
+      "sha256": "5a521a67b700988a2b274086ce5cf8be4cd7dd0121ce6e4445f65b0f0201421e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/IScrollable.class",
+      "bytes": 218,
+      "sha256": "10c5d1d2f7d150b0abd5e8ccdfb7e268fe29ad8eb122e182d9109a0433695c6d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/TabType.class",
+      "bytes": 1347,
+      "sha256": "b15ee03d1f0784d2f2c96add1df0a17c03bb54e7ed52861464bbb5ced7aac733",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/clans/TagData.class",
+      "bytes": 510,
+      "sha256": "e281dc192850852c171a9351209ed93aa3713a444b535b46246d3d6135d06d93",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientBlockPos.class",
+      "bytes": 930,
+      "sha256": "4ddc8b4922401ccabb65cd2cea00015672e9a7499ff1c03b3053fd4f82380ddb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientContamination.class",
+      "bytes": 821,
+      "sha256": "b20f5dfa04bcf7faf13bc930d3fda0566cb3d73f528d9a0f76228e6d412fec6f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientController.class",
+      "bytes": 3739,
+      "sha256": "28bd9ef487651f8d6e4019c03df12694d5dbfb11030fbb35dca9afa950399d13",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientEvents.class",
+      "bytes": 15143,
+      "sha256": "fedf1553d16fd6199694db9390d600da7247ad89554c23ca7dc1a729df1be7f5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientProxy.class",
+      "bytes": 13031,
+      "sha256": "101f69ce5abdae99392741bf8d484653743d9bac877cf66f7caee4f024e67417",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientRenderTicker.class",
+      "bytes": 2610,
+      "sha256": "d1915ace2b2b53b6409ec8f6e3d3ca0a31a268701807d2c7fb2af81527e3824c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientTicker.class",
+      "bytes": 9218,
+      "sha256": "f3ffa9c14ce16791a00c8c06843154f5fe981c6cf3fdcd38f5e76fa0e276156d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ClientWeaponInfo.class",
+      "bytes": 6824,
+      "sha256": "f56733d1683d827cd882ef762c4765f85d5088f80f1abc398772aa0f494c92fc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/EffectsEngine.class",
+      "bytes": 8160,
+      "sha256": "6a7e058209d88c4860676b972725974a3691d2f35a01f64012e685bb369d5164",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/EffectsEvent.class",
+      "bytes": 1851,
+      "sha256": "b931b72b200d6957fcaacab75bf5220d78b94eec1af34074523a8078ccfef5f7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/EffectsTicker.class",
+      "bytes": 1349,
+      "sha256": "a225963faaa7397ce59414b19a28a38ae2783f7d0aefbe328b794981f15198bf",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/AlphaAttribute.class",
+      "bytes": 906,
+      "sha256": "3d4e55d93b8d499631794d46f37f9d92e616c3d7eab406fa1dde8bb66345c146",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/Attribute.class",
+      "bytes": 1206,
+      "sha256": "7ea92605db251d40cc40d1c1bb7418485954c75d86929c89a90cd487401ee082",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/BurnAttribute.class",
+      "bytes": 901,
+      "sha256": "3fc34579820c397c0a2878adc2806458c6b7fd4480f95dc97bf8bc3805d5d902",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/LightmaskCoordAttribute.class",
+      "bytes": 1405,
+      "sha256": "b1e91eb1b7fb4998c47996816bbf405ff23e820708237018befb0d807957f9f6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/PositionAttribute.class",
+      "bytes": 1134,
+      "sha256": "823bd5f50dc76528bcaa9e05d947999263091548593d3f5eda0aeb029de7aacf",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/RotationAttribute.class",
+      "bytes": 1019,
+      "sha256": "3a42e1680c21d923a913716ef025b59ee03348c8968c5c008d09154aa2ddf65a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/SizeAttribute.class",
+      "bytes": 922,
+      "sha256": "8cd010c6faa6671e157a18385411669d3ece77d4757365286d925fefa7592ceb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/attributes/TextureCoordsIdAttribute.class",
+      "bytes": 1061,
+      "sha256": "6cf66bcf9f78f5cdde1c3bfab5b8ff2ba0c7f81bb8d9ed271548cbdd64de2f29",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/Particle.class",
+      "bytes": 5533,
+      "sha256": "652009848ed30881413539a26a12a22ef06a02c1fd16c49da23e1e31a0be9ccc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/ParticleEmitter.class",
+      "bytes": 3431,
+      "sha256": "90b099c7252f7035ac0349261d4fdd28b9b54a1f25166859a13930b105fe3303",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/ParticleIcon.class",
+      "bytes": 4305,
+      "sha256": "a004615dba0d299bdaed069c38f0f023d55eec8d8e82aebcd29a956e7b2a504a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/ParticleItemEmitter.class",
+      "bytes": 654,
+      "sha256": "970123c0f4c24fe5007838683aefd9702ee56a5fd30aff391931961ecd0d5241",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/ParticlesRenderer.class",
+      "bytes": 12131,
+      "sha256": "67188e4cf7e542331c6d063ed8c8067562b1687c567f5d8797edf239bde36951",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/effects/particles/ParticlesTextureMap.class",
+      "bytes": 5816,
+      "sha256": "c0d88c80a89ec1360503717fd648d980b307d7b2958e5a770fec18667ac9f610",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ejection/ClientEjection.class",
+      "bytes": 3178,
+      "sha256": "9ac7786f85f03f5b728fdb2c1329c76593c6eb633e060101be7b0522205b4d0a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ejection/ClientEjectionManager.class",
+      "bytes": 2230,
+      "sha256": "deceb9dc78b2dd96426bc3eb1a9d622235643ad4162f911bda1048dd818bd0a4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/FlashlightLight.class",
+      "bytes": 695,
+      "sha256": "906528d6dc6b2f15a1367e38ad47c3e2fbb05079595d3c07b00ee88e49eff4de",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiGameOverStalker.class",
+      "bytes": 1691,
+      "sha256": "ca137d6bfe227c22932fb0c317c95e13a27ff3be0f9c27eccd5f9583622608a8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiHandcuffs.class",
+      "bytes": 2427,
+      "sha256": "03051cd29556da0d75ec2fe2cd7cb4d37078d5929f84ca4b5f09bf68fe1f1cf8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiIngameStalker.class",
+      "bytes": 21940,
+      "sha256": "7c559350849f082a4a4dedcf173e5b8321b557beed34e9a375d2a1001ad63838",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiInventoryStalker.class",
+      "bytes": 2647,
+      "sha256": "8018cdce17b5f2b21a26ae05bdf062541613741c7a4bf5c9c3b63cd938734885",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiMainMenuButton.class",
+      "bytes": 2389,
+      "sha256": "6bff35b4bd5ab1fdcba99a64d6caabd44122afa0d6a6665e57fc8451313eea20",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiOtherPlayerInventory.class",
+      "bytes": 2565,
+      "sha256": "c3361a8d8c4b374c7cab99720901dea0c3bec2f5071cdc767427c4c18d262c44",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiSettingsStalker.class",
+      "bytes": 5675,
+      "sha256": "c6db41054dba57199ba8e4da37e9b1cb7dad138a77617e06ca02d470cbf85c09",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiStalkerConnecting.class",
+      "bytes": 650,
+      "sha256": "eb537061a681d0c7fed9331349b9eff6c73c1e809c8d9f0f32b7c35defcbf369",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiStalkerMenu.class",
+      "bytes": 3584,
+      "sha256": "f6af7687720a82d6eb3991b3f58fd41e950ed74391d44addc9ace2e80b2ee49f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/gui/GuiWeaponUpgrade.class",
+      "bytes": 4253,
+      "sha256": "891d0b34331097483553b064ca1a8ba0408a09e7e298c080f550ae221388211a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/LighterLight.class",
+      "bytes": 683,
+      "sha256": "d8aaf388a508cb4c17fe8645ea995acf27f9add6f79bd22823939ac06f906f7a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/MultithreadLoadingTexture.class",
+      "bytes": 2142,
+      "sha256": "f86b5cafd21ceff3b0f5dd92c384d8ca9b94e3fdbb7cec99762e9287bd2c84ae",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/StalkerModelManager$ModelLoader.class",
+      "bytes": 1303,
+      "sha256": "4179eb699e6520854ab0de8b4d23e1d09a10f1b5e29b69bfcf6285fbffd272f5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/StalkerModelManager$TextureLoader.class",
+      "bytes": 1056,
+      "sha256": "19c937fcfd2d2230d2f1930aa2ade5a30542b8ab49b557dad13a7dae2f6d7975",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/StalkerModelManager.class",
+      "bytes": 4145,
+      "sha256": "ff8e5e854d4f89311c47a490afcadbc5cf5bb6e8a4b59b22a5b61f3faec59115",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/StalkerObjModelLoader.class",
+      "bytes": 1191,
+      "sha256": "61eacf92bf674b755c324b3e36539b8a6b5f2990447dcfb0a1fbc4b444713844",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/loaders/StalkerWavefrontObject.class",
+      "bytes": 13405,
+      "sha256": "ffcca8add8ccc4c5a14283254bacf3ab999e29e02a1b0218c8a7be290e3dd665",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/models/ModelBackpackBig.class",
+      "bytes": 3162,
+      "sha256": "c0ce6936f22df718636a8867b1e7528fe986c82bb3224106c27e5bfb43bc2aae",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/models/ModelBackpackMedium.class",
+      "bytes": 4541,
+      "sha256": "04e91eb930bffd2d3812e7f64046670f62349f59c086fc491726140e4006f5ba",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/models/ModelBackpackSmall.class",
+      "bytes": 3403,
+      "sha256": "1ab096d8c153fad8c0d2d1939988ac7ecc82c256fe1e41d67e51a85048938f3f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/models/ModelCorpse.class",
+      "bytes": 1489,
+      "sha256": "574affca2bd2d765b117171d6c8c968adf1d0ae9281de0ff6265ecd4640a2c8e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/models/ModelHand.class",
+      "bytes": 1401,
+      "sha256": "0dc222d66969c65263163469e653a759245117f7f880f943e5f29e692dd357d3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ClientPacketSender.class",
+      "bytes": 6962,
+      "sha256": "c4e80d812894eca71a452f4eaaf5be930d9d27fae8ab48182e0ff1b8795c883b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$1.class",
+      "bytes": 1615,
+      "sha256": "bfa34796dbcba4410ff4c9f44db15f598237b6de79f4385f28723ed12957e5c6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$10.class",
+      "bytes": 1899,
+      "sha256": "f1893a1f3344b00ff0eff5705df768b69405a5adbee8216bd5c7d9541e67628d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$11.class",
+      "bytes": 1950,
+      "sha256": "b8ca72ed5f9051d7b69b4132148f955be1cd178ce7d37057d03fcccd6693c48e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$12.class",
+      "bytes": 1752,
+      "sha256": "e16c450c560cee9ca082e737594d6186b86bc75c2b6bb5f25612f94b9ff1690c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$13.class",
+      "bytes": 1693,
+      "sha256": "21b7eac0f1c75f0d634b764bd21e50f7370934ceae8dad3cd92652a921a5990e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$14.class",
+      "bytes": 2003,
+      "sha256": "f6ab56edc0f4fb08ce6dc1c5e4ea60cc9ba67cb4a8da5ff55aa704d879f6b70c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$15.class",
+      "bytes": 1501,
+      "sha256": "2ffe1f2debadbab258056cb86e1fc23faba516e576c50e9401589a41f6f77655",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$16.class",
+      "bytes": 2004,
+      "sha256": "9a050ee29bb621e9c1ef7ecad2adbaa1d8a213a6e23f223498394db1dd890d89",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$17.class",
+      "bytes": 1242,
+      "sha256": "8d30079b3d5f807df5ccd3f4b4717df68aae2aa4cfe1befdd098404bef620ddb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$18.class",
+      "bytes": 2437,
+      "sha256": "2f6fef4360fcfe01be5c50c66908ca3cff436f78a5acabf370fab1694e236368",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$19.class",
+      "bytes": 1424,
+      "sha256": "ad99c3a0220b49e30a0c9379a6fec5ec7f64b63104cf2d392fcd68d3145b30f1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$2.class",
+      "bytes": 1425,
+      "sha256": "31d08b97dcaf6a62b3fc78e20a57b22f2627d8c0b08618a4f08f4aa92684330a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$20.class",
+      "bytes": 1449,
+      "sha256": "06b8bc47813b9a365bcacecc73008cfe326a6fc21045f7259bf2fc13d23882bc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$21.class",
+      "bytes": 1427,
+      "sha256": "5571f71ea827e1a05e25b80364216daac9364e5818bb6a6ac64fcc535987fa69",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$22.class",
+      "bytes": 1425,
+      "sha256": "0e86ff9122287cfc995ab0278c6778a739cfdae23361c1a1d62dee23e6678361",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$23.class",
+      "bytes": 1427,
+      "sha256": "e4dee5129f54796fed78e3908bbbe7b528402a6f97a7fa2f0b5dd659f01a4a68",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$24.class",
+      "bytes": 1318,
+      "sha256": "0a83d222b4e6d5f51e49541cc1e9637f26877932208c40b25e8b16c31e9c8674",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$25.class",
+      "bytes": 1420,
+      "sha256": "97482f6fe9e312edd4e0270ffffc1d35de1a56cdd0252d5a3f8d1a4360c31057",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$26.class",
+      "bytes": 1425,
+      "sha256": "e92e81f3b1fb1bfecc538371d6ba740fff5bfff04b693095496f0b2e9ba39d9d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$27.class",
+      "bytes": 1430,
+      "sha256": "8c7999f3a825e5ed5b9f15efa9e2e8c88ab13444fae905b07a9d2ca89f6fe6fb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$28.class",
+      "bytes": 1430,
+      "sha256": "2065ee6afd3c58728cd3bf469797e399ba442586ee7243d3422dd18ddcd5487e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$29.class",
+      "bytes": 1432,
+      "sha256": "917a980ecedd653d0f257f534d23bdd4d3dbade3fae83926ee1b3ac22409fb12",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$3.class",
+      "bytes": 1613,
+      "sha256": "69b8f00fcbfcc465fd6e8ecbf5adc6720b8f89f541a942c6708462366f29acc6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$30.class",
+      "bytes": 1432,
+      "sha256": "1ff1d1142e9ca7c561036fe2d269caa077affb4934a8c3399e5ef706ad5700d2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$31.class",
+      "bytes": 1430,
+      "sha256": "6515c67508e93a63209e7f988158c3e9279d328569c8d94962666f075ad89a7c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$32.class",
+      "bytes": 1430,
+      "sha256": "4bbe480dca533e2d1499bb79b5cfb5bb4ca7dd9d7b60fb28dd785d8e5fe95013",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$33.class",
+      "bytes": 1571,
+      "sha256": "b246f68bd29a646506da3c83edf29bbe087657613d15c41dc6f566089fdf99c2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$34.class",
+      "bytes": 1610,
+      "sha256": "a1efdd768ab944ce3928a8c171c61a48d0340f74246aaeaa448862dc929baee5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$35.class",
+      "bytes": 1540,
+      "sha256": "5df9a77ab86d1fe7ed0240f97d5e430cec1da9425a87d3c0d7020a8d4f3c2506",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$36.class",
+      "bytes": 1440,
+      "sha256": "af7f8a6a32c0342db048729577bf87a055bf6cb43f1e573981fed76a6344802e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$37.class",
+      "bytes": 1752,
+      "sha256": "c635d14a442b3d9822ade3b556b0ff1706340ee03d1f71a676ccde28f34b9010",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$38.class",
+      "bytes": 2464,
+      "sha256": "b8b0734b90761325a9791f0e29862eb8a812cc3489d2904a77b0477785fe14af",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$39.class",
+      "bytes": 1574,
+      "sha256": "c717daadd56c0bfcb54c38ea9a9244ff5d0c655b1b21ce1eda4bf0bedcadc3fa",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$4.class",
+      "bytes": 1571,
+      "sha256": "83674974ca8b140eceac9410bb86220c7a236cc184939b5dacdade26e801f97e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$40.class",
+      "bytes": 1562,
+      "sha256": "ac5fa307d5d9de103711d6f4810c3028c52f430dcfde122a621bec4cf7c1ee46",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$41.class",
+      "bytes": 1183,
+      "sha256": "40aee535aefffc1dd2c01db26cf3375d1a1298f8b1213651ffb4b4702cb2d359",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$5.class",
+      "bytes": 1552,
+      "sha256": "18273790396fe62cb6392ae5a2993246d1b63ebea830ce0eff18be73499e1d94",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$6.class",
+      "bytes": 1552,
+      "sha256": "68a74916bc5eb0af619a5491a17b9c7d4423c7b36060fe441aea3c8f37972a73",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$7.class",
+      "bytes": 1717,
+      "sha256": "99725156149794ecd8e018d5ca0ae213123e2b353b948bd37235aa89de42e579",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$8.class",
+      "bytes": 1855,
+      "sha256": "ed25aaf7ab54c624a806e9f1394e670b53437ad377aafc88b840cb77f0ede4c8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode$9.class",
+      "bytes": 2376,
+      "sha256": "1e57ec1a96f84d9b46a5478c787c002a35ea91a050f9363938b314814eb2635d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcode.class",
+      "bytes": 8864,
+      "sha256": "3786eb8ecd0227e9ab1bcdfea55b9d8ac2a635a395a7de821f96d84644d466b4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$1.class",
+      "bytes": 925,
+      "sha256": "539b72c64e92f34ee7ee0cfddef73ff9b76edd7d6fabb1c3505c67c975b385f0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$10.class",
+      "bytes": 984,
+      "sha256": "cb8bf9aac0ae650e3bcb781168a6f41d2053e7e4b88a63ce92ad4a3d907cce0e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$11.class",
+      "bytes": 984,
+      "sha256": "c691764dbf77d0481250064ed5f89319873a06d97b9560bb0b023618e69c9e33",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$12.class",
+      "bytes": 984,
+      "sha256": "da619f45b43bd54d821cd0591614f9a251751d7e24d5a3d5da06823c11529fb8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$13.class",
+      "bytes": 984,
+      "sha256": "458dc855e8038665a286989272d98fa6b97e8d30e048bc4f2ab96865da4b455c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$14.class",
+      "bytes": 984,
+      "sha256": "2683ff1ce3c94168feb1f931c6eb8c2e62d91d559513c2884605b95bfe04563b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$15.class",
+      "bytes": 984,
+      "sha256": "e61ff2ac046436baecb5656b027b6a5d55132060a25754131b757e4d809dab61",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$16.class",
+      "bytes": 984,
+      "sha256": "9cbbddc3b97d5ce1be7d444a4af58f85138fa2026befb5d354bac02538fa59fa",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$17.class",
+      "bytes": 984,
+      "sha256": "2e6e801c05649874e8f6324f4cd6b0c51934a52a1927c2850cf867a570a35280",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$18.class",
+      "bytes": 984,
+      "sha256": "99d3146daf2a51e5f9eab32a093dbdb5f9b4519128e6295cfa20bb02ea2502c3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$19.class",
+      "bytes": 984,
+      "sha256": "2f49e3cde22cc37b4eb1c291018057e3683261a8ed1dea49ff23c2a5260914c9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$2.class",
+      "bytes": 982,
+      "sha256": "1cde661016d2b13c9e9abfede62c24d05d0c1b7800a2531f758e6eeb9fc2d9fa",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$20.class",
+      "bytes": 984,
+      "sha256": "af0d98356f6ccafae77dc57cfe3d12c629dde4605c2677200bab89045ab3af5f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$21.class",
+      "bytes": 984,
+      "sha256": "8c3c40ae3971320f2ea3a65d29e6c6ee29f240c6bcde3bab77138c77eb19a63d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$22.class",
+      "bytes": 984,
+      "sha256": "470ea49cca656fdaf2fd122243b2f21a1a19042391952e40f82fe6526072f91f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$23.class",
+      "bytes": 984,
+      "sha256": "c63ea15d622a7790d4cca2d6cf18da216cba226cd68b2df5d26d4ada5ebdfb90",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$24.class",
+      "bytes": 984,
+      "sha256": "56bbe1e00fbb53e20b49a6db65966f9203b8c154f9ee260dcf9283be5a2d3068",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$25.class",
+      "bytes": 984,
+      "sha256": "85e75b3e61ff69009b72191a13d525ab4f5950bc7f4aa8a4be8aecdda38ce927",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$26.class",
+      "bytes": 984,
+      "sha256": "c46b5e6d18382133e45ebef4fdd4d0530aa5815c8ebf7a7ffcedda86af026558",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$27.class",
+      "bytes": 984,
+      "sha256": "a2251455a065aca049c4b85dfca0baf680facf0c471dbee7b2b98516ec08c47e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$28.class",
+      "bytes": 984,
+      "sha256": "7857d4696f9d5ae61b4a64374f2de1bd4ed728a8c96e8831716ba06fe256d492",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$29.class",
+      "bytes": 984,
+      "sha256": "d487175f7237fbdd2c2b8609f7fe2e12a8f01f2f984374551cf97914849e8d8d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$3.class",
+      "bytes": 982,
+      "sha256": "6cbd5005e81c6e65de4a60e3f649a3dc620240638105e79572fe74abfccb7187",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$30.class",
+      "bytes": 984,
+      "sha256": "808e749fef2fd84490ce87bd2fe91697bbafc31ad87c5846556a3b2f25ae173c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$31.class",
+      "bytes": 984,
+      "sha256": "32784581e53e2283cb9b50ecf969831ca876b3033c794ab79938201e13451496",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$32.class",
+      "bytes": 984,
+      "sha256": "ccb21e2edacf9429e81815e6cb49970e78de256ee48d24a63820c4be8ad8980d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$33.class",
+      "bytes": 984,
+      "sha256": "ce529b01e08088d551b7a5ea6896da3a96f733cc165330789da9f8304d8784ed",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$34.class",
+      "bytes": 984,
+      "sha256": "be441d168d959d4d5edb836cbed9f68a64a577c3c6a845bb58031ef45d8b6081",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$35.class",
+      "bytes": 984,
+      "sha256": "d3135e4e1e96df733e1828fb7b6f2680965140064632dc8d62873c32877b5482",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$4.class",
+      "bytes": 982,
+      "sha256": "f0dba7455599fd5122e7506a3ecb12e2d97732a203944542f6630668bbbbf9a3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$5.class",
+      "bytes": 982,
+      "sha256": "df914470e25384143ac3a756125d0ac79e2b3305071cc548bd35e9b3b8c6e9f5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$6.class",
+      "bytes": 982,
+      "sha256": "d6f2ae64121a7254c26120a111c495f0c64927e2221cd7bb9800f47d252167b3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$7.class",
+      "bytes": 982,
+      "sha256": "f87d7d9e9b09f792bfd6bf1ba77f44e8d2ebbd133db173f891ecfaf41306477e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$8.class",
+      "bytes": 982,
+      "sha256": "1fa89255d1a9b9c52b01d0ed426bf77bb5ba7a77fd138cb46e828308e23de634",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes$9.class",
+      "bytes": 982,
+      "sha256": "1d2464a5df4cfe9639510e953c4dcdaee90015eef58a7c256f942f0c895dd03c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/network/ServerOpcodes.class",
+      "bytes": 7955,
+      "sha256": "de61c18c629068133f0d185221f47d579d638186fb671162a39a3bd42a4f8206",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/CarouselParticle.class",
+      "bytes": 3657,
+      "sha256": "56a83af26516f80e06390aef257b2a6877bf7ace74b6de8a00b51554148dbe57",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/CarouselParticleEmitter.class",
+      "bytes": 4152,
+      "sha256": "b5966ff478226ebf8a8c70ec317c72a2fc46907404f3d2dbcabde7eebd16542c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/CarouselTornadoParticle.class",
+      "bytes": 2370,
+      "sha256": "c8497fd5f4a96d9f8cbd5787cba4e39452f477638c1122b769b4e8e02520ddd7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/FunnelEyeParticle.class",
+      "bytes": 2725,
+      "sha256": "91cf95bee901ca9f4c131443327124e5fea595407b45242850bd95553d55220e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/FunnelParticle.class",
+      "bytes": 3926,
+      "sha256": "e112f80b4650acac13b9c0b0a5444c10c9e6c6e3cd023ffe710c11c4894e2af7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/FunnelParticleEmitter.class",
+      "bytes": 4089,
+      "sha256": "4d13d2201fec5d4ef6a3f2e63daca14ed7babac0282e11cc40e31d686b937217",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/GraviSplashParticle.class",
+      "bytes": 1401,
+      "sha256": "022a6214c8eefa67726165e763805d2a86e22f850cf5b9f1270a32f7c2ba2550",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/KisselBubbleParticle.class",
+      "bytes": 1649,
+      "sha256": "cb53c528b44d56a0807bc5e59701526009d75d3c8c2a599e4484ab923d6249cc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/KisselParticleEmitter.class",
+      "bytes": 2562,
+      "sha256": "db434ce36ac108cd91dc67a930e8e2a990e184141b8ff5ad0a713631d51b9d86",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/LighterParticle.class",
+      "bytes": 2737,
+      "sha256": "3aac30a6bcfd8d6e91dce8f227e88d519ab3374e9d19175f6b2b8448abc79a7c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/LighterParticleEmitter.class",
+      "bytes": 2663,
+      "sha256": "30ea5886a63ffbface0b5d985db8a6caf69f5bc93b163303be3463defc2498a3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/LightSparkParticle.class",
+      "bytes": 2472,
+      "sha256": "fd66a66b1b377c12bcfbc76eea7274abfac93473a3b7687ae3cf7dc14a796873",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/ShotLightParticle.class",
+      "bytes": 1662,
+      "sha256": "368f11f0bc62e0264561ed3ee93ce17fab29eb1f8fcb4b42b8c6e291beddb63f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/ShotParticleEmitter.class",
+      "bytes": 5538,
+      "sha256": "8a1971e902cfb62ae7e14efe39ded29c397ae9a02d1a2c705a179f73e6e0f417",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/ShotSmokeParticle.class",
+      "bytes": 1658,
+      "sha256": "064f06958f6b17dc54dc00ea7dceaae36a79d2d2f7913077088a91f45e741949",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/SteamParticle.class",
+      "bytes": 2657,
+      "sha256": "a77e5f03ae45840d4a6e6c64e1d938153af2113f6a2714125680011404101dad",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/SteamParticleEmitter.class",
+      "bytes": 2231,
+      "sha256": "22f10569a63ebb912c0bca4105657684d1cd1d6454915d7f5c948c5ae8fc3d20",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/TrampolineDustParticle.class",
+      "bytes": 2620,
+      "sha256": "bd8d487fa455196640bd552e3404cfa294bb42020ca94c87e9c930ef49b565b1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/TrampolineParticleEmitter.class",
+      "bytes": 3454,
+      "sha256": "235e0f62c4e611864154434d219164b34abba6b87c0c8ffeb9c08166870ccb73",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/particles/TrampolineStoneParticle.class",
+      "bytes": 1804,
+      "sha256": "8eba31a0eb3f28d13522e0b838a94e1341e5535233972c3dd0bd6389e14472da",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/player/PlayerClientInfo.class",
+      "bytes": 4506,
+      "sha256": "62c7576ec23aba601820a3ee4cb933216c55cdff05bc72012e3efd017e8ca1cb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/player/PlayerClientTicker.class",
+      "bytes": 1127,
+      "sha256": "9840ab7cddccc221bd01e7d074c19c07e7c85479591e949d744d43aace101f9c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/Render2d.class",
+      "bytes": 2343,
+      "sha256": "dafa05cf5da845a1236600fb0e3a889808967978fdb283ab47cf20ff51f1fb9f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderBackpack.class",
+      "bytes": 2583,
+      "sha256": "1de7ff8ce9bfb57b9a5c5dda14645f72c80806fd532275a03a61a7f2af7dc564",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderBlockKissel.class",
+      "bytes": 883,
+      "sha256": "1109783a881caff23fcb7607e6044e12528f8e04abab75dcac862cd9fb3e4d66",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderBoxEjectionSave.class",
+      "bytes": 2183,
+      "sha256": "ad208366dc7f82331c4048322f6fbb4013f2dd60151d3d544124e6457afc95c6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderBullet.class",
+      "bytes": 1525,
+      "sha256": "049cff707bd95bd74ac382dfa3bdb4cac2c4a11dee12bf7b023a9f143cae710c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderCorpse.class",
+      "bytes": 6361,
+      "sha256": "2757339c1309f08be089259bf777190deebddcaf2045ffcb0a39dce4f4a61cfa",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderElectra.class",
+      "bytes": 741,
+      "sha256": "3bdf8c237fc5f5cce67ce4b1d3be09b48a5859c54466dbddee3521ccff013890",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderExplosive.class",
+      "bytes": 2261,
+      "sha256": "45472e0cb3bfba708e3ef00a30e6c0474df872351fe503fc67b95db3e6789cd8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderFlag.class",
+      "bytes": 1399,
+      "sha256": "eea5a11f86e0aec1e4fb36c41daa7e7625023de0f24b08f075536cbee1744689",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderFlashlight.class",
+      "bytes": 4277,
+      "sha256": "31d8d8be81650f55886168ddfdc4b9fc59c5ea4afc5277a0e61581d019da71de",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderGrenade.class",
+      "bytes": 2526,
+      "sha256": "08a7a9b5aa8c1fac6592ff4b15b4e755b0d2c6b8766a5c9b3981cddfe8ae1305",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderHandcuffs.class",
+      "bytes": 8021,
+      "sha256": "db53f83ca2233013db24ebf4d07a59a121e89d88132c6474cdec9098deab384d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderKnife.class",
+      "bytes": 2911,
+      "sha256": "c6aa589f572cf7c9cedb103f0b83733132746d0cdeac07fa25cdc5e77864e9b8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderMachineGun.class",
+      "bytes": 1838,
+      "sha256": "d8e2f51e8d3ded336596c87cd705f1eae43c0aa297cba2897246056e64cb0976",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderNull.class",
+      "bytes": 728,
+      "sha256": "6b85d244601b478606f7b87d6d9ce0169269530d137c0897e1c00155a38551d4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderShot.class",
+      "bytes": 3071,
+      "sha256": "2a77fd0c9d56b6391552454a84987b18610586801abbc21dafa01a1583a458c0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderSleeve.class",
+      "bytes": 2839,
+      "sha256": "fe6380a79e2c2e3d1baa2c22a4b7aa3925a8e51a8a4d25920fad280e108e85d4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderStalkerPlayer.class",
+      "bytes": 8672,
+      "sha256": "c5aea3273c20f405b8a03b7d586e60d323f50c7c69a6cce6754affa7cea1a772",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderTurrel.class",
+      "bytes": 2736,
+      "sha256": "4737a0f56b2e1b8a954aa73bf45700581b549e2c8b118c3e4c87d9a2387f60b4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderUtils.class",
+      "bytes": 568,
+      "sha256": "1e1c33f2faafc316d377c9c19c33bc198e57cf5d4171cdf112d668ddadad153c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderWeapon$RenderType.class",
+      "bytes": 1430,
+      "sha256": "7975773cab7abd4c6b9fdd88704d845727d7d04c680d43901fd75943dd60dbb0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderWeapon.class",
+      "bytes": 14917,
+      "sha256": "2993ae3d4f4bd6fb547492b8bdf6239bc7efca586d05c428eeb7efcf6324bfb5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/render/RenderZombieShooter.class",
+      "bytes": 1584,
+      "sha256": "b2b9f05ea33645727aa0960c46eb532b5645c3e7a4a5e431c69696c6b5016996",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/shop/ClientShopEvent.class",
+      "bytes": 790,
+      "sha256": "4750eb6ab8484710fcd89ef8e40cd103dd45a2a60cdcdc41c29074f8b7164cef",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/shop/GuiIngameCustomMenu.class",
+      "bytes": 3004,
+      "sha256": "b98a12c51c39d4880c8c3c3af14132e52680f473293f04ec3387970661191f33",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/shop/gui/GuiTabArmor.class",
+      "bytes": 4324,
+      "sha256": "f2774af649efa31084accb99e43bf147bd2f809e66b3711e6425fd214d6e558c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/shop/gui/GuiTabWeapon.class",
+      "bytes": 5356,
+      "sha256": "9ce4cf792a2c434e1bb977971ef88345e150da73140c3606d1250fa8e23df1b6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ShotLight.class",
+      "bytes": 665,
+      "sha256": "f74a5a2ea0b10825db99505a9b097e394259e9839e45bb2b2304d999b015c481",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/ShotLightManager.class",
+      "bytes": 2029,
+      "sha256": "7d4fe706a10cc24c3aeaabaa7ed03fe9075fd947d7b8629f0145af8176e09e95",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/client/SmartMovingHelper.class",
+      "bytes": 957,
+      "sha256": "b85116109f3c5b101375cf251708b287d6fb88bf3dfa584eb5d6bb332bea3c33",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/Config.class",
+      "bytes": 5540,
+      "sha256": "ceae586dcd754a07d9cf0648b58d408f819e3f5338ceef2b0b3906c3f368d1a1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/Contamination.class",
+      "bytes": 716,
+      "sha256": "1638d4eec97595dde43179415e3cd8d803691fe13c9ba7f0e542e9c495d08c8b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/ejection/Ejection.class",
+      "bytes": 519,
+      "sha256": "91e70cb487c3287c632405018f11c26872c04d0f2407efcc075e29e8faf33d37",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/ejection/IEjectionManager.class",
+      "bytes": 380,
+      "sha256": "c98315f2d8e0a727825eb93139aa5598d104de1df662c9be8bf56a11299dfe72",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/EntityDamageSourceBullet.class",
+      "bytes": 1009,
+      "sha256": "494bc69f390795033d404c5063f3b2b5a1c59ce0d9a8ae5d5d840f17d1b085a8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityAIClanGuardAgroTask.class",
+      "bytes": 4446,
+      "sha256": "c15d6f84318a88cab32db6a04dbf35c0d020e6349912fcde0a194e5f1ea4d50e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityAIMobAgroTask.class",
+      "bytes": 4159,
+      "sha256": "baca8f689a246d3ce838fba9c2cc63354f21bc4f899c9ac0c08c2e32dd87406e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityAIShellAttack.class",
+      "bytes": 2790,
+      "sha256": "7e30b2e5304af89e6abeb7af12c8122e7be43a78495441c34c5cd2824984593f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityBullet.class",
+      "bytes": 8370,
+      "sha256": "1906fbf1c521c1df8fa0a5fa0095dadbd91ff7820a453c079820e2a5cd2be474",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityCorpse.class",
+      "bytes": 10688,
+      "sha256": "6efb6ac9fede95fee32d6b362e45879b08dff081a7cbced48326449450136aa0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityExplosive.class",
+      "bytes": 3827,
+      "sha256": "d4621ff323fd4222309b456cdbcbbcbaeec93186a5d9598958ff18761cf213b2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityFlashlight.class",
+      "bytes": 2449,
+      "sha256": "85c166aaf533bc3135d359dedd188860fa860f63418e4463d5be48c8f3f80463",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityGrenade.class",
+      "bytes": 8736,
+      "sha256": "9cbf1877348734b8e2a8179c23824051538f745741322c92af82332a0a8e012d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityLighterLight.class",
+      "bytes": 1449,
+      "sha256": "b3384e96f0dc99d84baf1cee1cc25fc3307796f5e8165b1df74e7523c34fdf5c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityRail.class",
+      "bytes": 922,
+      "sha256": "cbbffc91a4b506f23f88ae681658a55343c5c8cf9ca698720bb0ba6bceb66b51",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityShot.class",
+      "bytes": 4043,
+      "sha256": "f7d354bec58f83c62f728e3a0ca727a6813908339b98f112a1f7806667e62290",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntitySleeve.class",
+      "bytes": 7742,
+      "sha256": "d2eae85164619ff0cb710f0f424a76ef4edf6d0ff0f680dad96e732b4906ab01",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityTurrel.class",
+      "bytes": 8651,
+      "sha256": "755f76b96b64aaff003c1ec28291e8025b5ef49492a49b914ce9147c59dc9d17",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityTurrel1.class",
+      "bytes": 1814,
+      "sha256": "f9568a2ad2e2f445cb0c02f6f4482f5f1975833bd0194703c222ecc34fc3252d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityTurrel2.class",
+      "bytes": 1513,
+      "sha256": "165f3af81f3bbae63b0de2a34d2e4c8026b3fec9d581cb3c1e487bc06498f509",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityTurrel3.class",
+      "bytes": 1527,
+      "sha256": "01ea9889a5eaebbf57f558ee2c7dbd064a08498f9e5b73f1761f273ab4f8f153",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/EntityZombieShooter.class",
+      "bytes": 6219,
+      "sha256": "04f4384c5cb63f05d39d57e975d867132a046ff9c8710de917c478344aac59cd",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/IEntityClanGuard.class",
+      "bytes": 244,
+      "sha256": "d4dc1fbedc08dda7c3eae43958cd7040d235c29f6168cb07460fecb922c22e8b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/IEntityFighter.class",
+      "bytes": 302,
+      "sha256": "48877c9470d306b72154ea7ca1ab6cc30e447f9fd0eca196910134465b732186",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/IEntityShooter.class",
+      "bytes": 217,
+      "sha256": "bccbdc9b37b11c17644e0348bc6d82ad90d64b83e2e18e1e454a1b0645de7b13",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/IEntityWalker.class",
+      "bytes": 171,
+      "sha256": "a8b4d0689adb89efbe7709c205f7382ea45ec0517c7f4c45b1793451ab9b683a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/LastDamage.class",
+      "bytes": 759,
+      "sha256": "1297e855a9d1b8f2a428488489c45cec253603e794de760aabaa8daf9a02e0c4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/PlayerJumpHelper.class",
+      "bytes": 808,
+      "sha256": "7e492a1825e3c04bbc4cbd86a5c3d1315822cf9872261300c393ac988079b9e3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/PlayerMoveHelper.class",
+      "bytes": 2361,
+      "sha256": "ddd8d94cf74b56ea80e6a5c636979121c1c830a6e8bda41f2a01033af958e5a9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/PlayerPathNavigator.class",
+      "bytes": 8373,
+      "sha256": "f756fb05701c0ef50b0dafadc9023b473efaf68976e052d16cdd95ffa99f6e32",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/TrampolineParticle.class",
+      "bytes": 1539,
+      "sha256": "11ac42db2ef0759eee661354ce0da364b0a4696bbe3bf842ffa8925c877ebcb9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/TurrelLookHelper.class",
+      "bytes": 2089,
+      "sha256": "a11231bc42eb6d9144f996edf821dee879d956a6d87d7359c1e403e837e5a66e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/entity/TurrelSenses.class",
+      "bytes": 1273,
+      "sha256": "bfe5153eae0421ebfb30d41d2610e6d8ce1d6afb1433f1af34f0250cac6bdef2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/ArmorTab.class",
+      "bytes": 672,
+      "sha256": "b0ef0b26ef15c9d68d3a269f30a085c56cd000487fe94f1ce309bf109025e86b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/ArtefaktSlot.class",
+      "bytes": 828,
+      "sha256": "9dd8976dfe9d14b1b841682194bb4a47594d900c2ed931ea9d236e4d44c58775",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/CorpseContainer.class",
+      "bytes": 5426,
+      "sha256": "c2b5aec0525cb302925d55ae04774c046269a65f81f946cff40778f2233be6fa",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/CorpseInventory.class",
+      "bytes": 7664,
+      "sha256": "76c9a297b4136118abc58003e9de42f64afb2a7e74469fb566670f7a3ad0de64",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/HandcuffsContainer.class",
+      "bytes": 5918,
+      "sha256": "b085437ff3202c617f38bc93160a6638807dce41cebae85c160ad71d5a96f222",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/ICustomContainer.class",
+      "bytes": 349,
+      "sha256": "9558b3ae51a8cc0fadc98d0ea127e6c14ed273b0bea7dbb3b57fdb5bdccc0f8c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/SlotArmor.class",
+      "bytes": 2231,
+      "sha256": "1a816df5f4f4b36cff46638ef0dde1085a3fc0b3103174ab103607881e852aec",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/SlotBackpack.class",
+      "bytes": 1046,
+      "sha256": "b4728e761b8e39fe17176b6707e07e4b0e282d4ead94be2b57fae1ed1b665ab6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/SlotDetector.class",
+      "bytes": 828,
+      "sha256": "cf0041c26d0e0afc8c46144bc940f3d3fde42dd964cb9d5ddcfa3039f2ef7fd1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/SlotMedicine.class",
+      "bytes": 764,
+      "sha256": "f587a30037a79b627137e17a910bee7439c044b47a9d5a2dece5152f794ce976",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/SlotWeaponUpgrade.class",
+      "bytes": 875,
+      "sha256": "01df775ac4f04f520728f7870b7fbf7ec27c3c8be2fcdda8c4925741eb710612",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/StalkerContainer.class",
+      "bytes": 7584,
+      "sha256": "2b8facf63062145ce226c58b8e6a6e17b70f50017fa633e139a73fad9a8317b4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/StalkerInventory.class",
+      "bytes": 7258,
+      "sha256": "d2b545636580e64e2fe4809a6405ab6e530a73f7fce7f57e00373860e16d2433",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/StalkerSlot.class",
+      "bytes": 852,
+      "sha256": "60e4df36f5b06024c86382a148c9f1cdd1acd3c91256d5b489e9fa13fe612374",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/StalkerTab.class",
+      "bytes": 680,
+      "sha256": "65c80ceba208f549cc8d91c0c9c9e7ad0b9905992407526665eacb46c4491d7f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/WeaponContainer.class",
+      "bytes": 7332,
+      "sha256": "17ddb314f98bbe428293a3213227469d90c6cb3e97111a64216f56ea0c8acf42",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/WeaponInventory.class",
+      "bytes": 1698,
+      "sha256": "66c38089de75173d3256085bd9e953ef1d9175e631b6ca9a7b5366ec26851831",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/inventory/WeaponTab.class",
+      "bytes": 676,
+      "sha256": "8fbd338b1e1712b4a9008b49138b7ba49101359f8ad0e3b1b814dce6c9ac5d06",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/ItemsConfig$ItemToAdd.class",
+      "bytes": 3754,
+      "sha256": "bc1b468f22cee9bb2bcd9b37bf2d4b7ac787373acb65679c383de90c5afd39e9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/ItemsConfig$ItemType.class",
+      "bytes": 1492,
+      "sha256": "d54b4c41a83f20491c35138b9bee45528709bb6e93338d03b6e624283bbafd0d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/ItemsConfig.class",
+      "bytes": 13985,
+      "sha256": "f41d0f43272c003407d0cc834c788cac3adf5b092a76d26ea820065cac61cc32",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/FireMode$1.class",
+      "bytes": 679,
+      "sha256": "7d74a69d33b3e8129c108579d1031e7aeaff97f4e30bad69b5248a0b372946c5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/FireMode.class",
+      "bytes": 1585,
+      "sha256": "1cc30d145e65ec7b9324bf967845e8a30699d97afb944292f61cc25046e85863",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/IArtefakt.class",
+      "bytes": 369,
+      "sha256": "01fbcde1aa1b1e1cea05b3d3ac3b22ef5a672ab740ebfb59d1b799171e8b02e0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/IFlashlight.class",
+      "bytes": 201,
+      "sha256": "d8fdadd28089d866613170faaa0b15c9c4d39106d2ada442fb96cc354852542e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ISpecialWeight.class",
+      "bytes": 166,
+      "sha256": "471ceed96b60bc7b76f12d0310cd60b8f3b84e47db615afc6ce851f752e2af52",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/IStalkerArmor.class",
+      "bytes": 205,
+      "sha256": "7d6680e6bdb7cfb2a1c8e4152b66d3103f58f5d8f661daea4ad150b57f50c705",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemArmorArtefakt.class",
+      "bytes": 6237,
+      "sha256": "38f04847241b353f6b16c3c32f4ed615fe9df0987b7a946d5e9e936044bc8ce5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemArtefakt.class",
+      "bytes": 3181,
+      "sha256": "99bbe2c9d03e1101fa1ac401cd2052752f81b437a150cc61de03ad1f3e59ff2f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemBackpack.class",
+      "bytes": 1292,
+      "sha256": "da1e483b58096fb5b26f72e9d2edf034f758cb9be45abed63541c63f8936532a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemBullet.class",
+      "bytes": 1734,
+      "sha256": "2cf7f51431933842904778e87c1d0f2561b38f83aaee73cca34072ddc569bc82",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemCrossbow.class",
+      "bytes": 2488,
+      "sha256": "df98b794616f2ef8bfa84450e595e2d04e82852da404670d3399af8ef05d4cbb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemDetector.class",
+      "bytes": 2570,
+      "sha256": "ea570cfeae0364e69a6dc964afa854031a21c5926832376a84969c82c534e66d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemEmptyBottle.class",
+      "bytes": 1098,
+      "sha256": "5ab659aa7de6269497f7bf55705f7519b3e2b40eb9ecbfa9fa55d251f8ad9175",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemEnergy.class",
+      "bytes": 790,
+      "sha256": "3cf92db33efd92ccd6ee408cc4d140018928f5299778b6d1d695402c756f27e6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemExplosive.class",
+      "bytes": 2315,
+      "sha256": "597a9c867e744a94822bb494dd318d13a54fbf9ade5cd38c01a4cf3d0bbe4753",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemFlag.class",
+      "bytes": 3083,
+      "sha256": "619f0436c3f87f0a1ea2c91d643038d7c1e46e7538d91d75ff6950339b547996",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemFlashlight.class",
+      "bytes": 1419,
+      "sha256": "70bb60b259ea3b9cae4d35e450aa96683b07f0bbae875882395c04ce4d35f4ab",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemGrenade.class",
+      "bytes": 3377,
+      "sha256": "8b93c7aff81808c935c7a121362106982454afb5fbf610501bfa5089cf757aae",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemHandcuffs.class",
+      "bytes": 1418,
+      "sha256": "2912f97e46c1496d57a02be36e014a2c44f856677a9b5ca926aee05a1b9bf107",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemKey.class",
+      "bytes": 2024,
+      "sha256": "86a25bc74ac04cdf1b9ead2cf9c2c6794f4d06e391ea37ba104aacc406540c75",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemLeader.class",
+      "bytes": 472,
+      "sha256": "76009cc994b6a873ce63735636254d33130d0bca1102342bdbc713fa2348f8f4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemMachineGun.class",
+      "bytes": 988,
+      "sha256": "290e24cc604534cfe85d338bdec6bf85290b29ccf9060706d324c7aca3b8d63d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemMedicine.class",
+      "bytes": 3182,
+      "sha256": "79ccdf218438ac79708aff13801fa7d1a9d9a7b12854bcdd69fc9baeb1fc2aba",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemRailgun.class",
+      "bytes": 3037,
+      "sha256": "7b180a25ebe743b78b6e9826adccee35aae6a9ec459cd73e203f3a5ef418008f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemRope.class",
+      "bytes": 1570,
+      "sha256": "741678b1f2ebd9f375cc0b5a8b383b5e378661c83fefd78e5ade70f6f94274cb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemSkin.class",
+      "bytes": 2270,
+      "sha256": "859aa489a548fa0ab012b034d34073d36c9bfa1bbf09a0c1df1539aef7c7a08d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemStalkerDoor.class",
+      "bytes": 1490,
+      "sha256": "2d2e3564d4857584d6dfdb1372f2b5b01c9c5cce34e0331471024fe7a85c2824",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemTurrel.class",
+      "bytes": 2317,
+      "sha256": "de93453657d2c5d43c14916752c4d3796463d2f0700cda58aa8eb680d7c24bec",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemTurrel1.class",
+      "bytes": 935,
+      "sha256": "2d7b144488ac5610801260421b61ae46f4e22e8a406993a32e9ace998cf1803a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemTurrel2.class",
+      "bytes": 937,
+      "sha256": "10fd42e1f8ac6c02d85a296781a155abbabd267e7145c79ae99a67edca0cfa34",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemTurrel3.class",
+      "bytes": 937,
+      "sha256": "6ae4df2df3bde39a8f636f98e990a698ac55bc51d5fea7d5a4535288b2794f30",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemVodka.class",
+      "bytes": 2046,
+      "sha256": "558a31586d4a327c157fcda287963fb76de2eb19ea00dcd55fa76485441c458e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/items/ItemWeapon.class",
+      "bytes": 12770,
+      "sha256": "b481f6ffb78a50f87f210000ff90850a0155bb9ebb0cad2b3c09284b501b7ca6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/Logger.class",
+      "bytes": 2254,
+      "sha256": "70dfeb7cf57c41c33824afa84cda753c354a2831a9e02552917d1ff13817aa5f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/ConnectionHandler.class",
+      "bytes": 1702,
+      "sha256": "5275bc7570b6e4b30f1661c03e876370aab10daf5f083d1ae5edaa29284752bc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/DebugGroup.class",
+      "bytes": 1578,
+      "sha256": "785b6358c098d72f19bf2810a4b34da93341c533393ec887b74ea0329a49e25a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/DebugPriority.class",
+      "bytes": 1234,
+      "sha256": "bf662f9df447fdb72ebfba32c890b6603c410fe512c7b0ffe7cdc597c0fe87a7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/GuiHandler.class",
+      "bytes": 2368,
+      "sha256": "02efaeabf4d070b61f3532209bd744d2a44e719c0636176f148003339b8a96d5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/IOpcode.class",
+      "bytes": 312,
+      "sha256": "414d460b1ae2920e05537dd7c05cdf4f2cb7c9f8acc3e63729b5876299e0a9ea",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/IOpcodeClient.class",
+      "bytes": 214,
+      "sha256": "487c316496fe79791db0c5410fc75ef9a8fecf3d4eafd063384d23669f8a5fd8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/IOpcodeServer.class",
+      "bytes": 218,
+      "sha256": "16bcfc694dbc83e6ac915ccbd1510d1393f134592765f83cddbbbb08763e9bcc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/network/PacketHandler.class",
+      "bytes": 5337,
+      "sha256": "5d6be2d13ae80ec7c772b435744e2e31cdbf4879ea200a3cda588760329c0a8b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/IAntiRelog.class",
+      "bytes": 266,
+      "sha256": "0a08f0b565b2713ed5677372794aab7ac6632853b4e16d716238d1c467d3b4b8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/IPlayerServerInfo.class",
+      "bytes": 480,
+      "sha256": "260ecf9085fe5239e24ea2b32ff534266f02ada8f5b120a17bc87bc1c3f8d709",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/PlayerInfo$Attribs.class",
+      "bytes": 523,
+      "sha256": "f75fd7a22702e511934cb007161848f7cc88481d6bcfab343ca1342bd73b96d3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/PlayerInfo.class",
+      "bytes": 4877,
+      "sha256": "f9b4193ce59d85ebbb44730907371579fea9cb5802fd00b4b8d60c91b7e8ea62",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/PlayerStalkerCapabilities.class",
+      "bytes": 701,
+      "sha256": "055dc7d1f7caad777c9967f3a4aaafc12c15abc7375b0e1a28b6db59a129327b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/player/PlayerUtils.class",
+      "bytes": 6040,
+      "sha256": "b0c9797ccd256cac3b58aa600032fea1a7a63da2b0c8847abbc349a315173155",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/proxy/IClientProxy.class",
+      "bytes": 199,
+      "sha256": "59c68626cb8a654268cc07cff88daf25e73ac30d5658dddd4c13b8dae01b7263",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/proxy/IProxy.class",
+      "bytes": 491,
+      "sha256": "69123c56dc18c74aaf3aba87ef469625162116e23f9400e60b6313a777c17417",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/proxy/IServerProxy.class",
+      "bytes": 429,
+      "sha256": "01179a4276ca34dc2239e72a5017aa6c4d9cb38a8c7d07bcbc3ca8e4753955e5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/proxy/ProxyInstance.class",
+      "bytes": 1387,
+      "sha256": "ce8bc0c8fddf471d8d5607d44971d6c5ff1013e6e2517b0ac631bb23c2489650",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/AntiRelog$ReloggingPlayer.class",
+      "bytes": 631,
+      "sha256": "e3ab5275c6827d7d331a2fa31230bb1b1397529e0ade7ce4555ac0121d128e4f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/AntiRelog.class",
+      "bytes": 3667,
+      "sha256": "94c5d3f8fc75f7380cc56da78cfc4db09e1b22e8b15f459e646c66dcde4dfd24",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/Clan.class",
+      "bytes": 9891,
+      "sha256": "59c4385503637556457cf5372f5f98cce9d5588d164d65e7f2dd48400d66c9ff",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/ClanManager.class",
+      "bytes": 14955,
+      "sha256": "bcb7fb97550318e26ca6f79f917b57593183c862690dd948dfeafb14fd954e9c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/ClanWarState.class",
+      "bytes": 1290,
+      "sha256": "b91fff31633631191fc0a1592d422382625b1dfabd2475c2d4a660cf1002d354",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/Flag.class",
+      "bytes": 4323,
+      "sha256": "a09c3882568b4c8627251506e2500712a0492826f4d9117b52b241f778a4875e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/FlagManager.class",
+      "bytes": 10164,
+      "sha256": "11b3a45596fd87a855a69e59003ff077902a1c098f3ec189ece1c55b3baeceea",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/FlagsLand.class",
+      "bytes": 957,
+      "sha256": "c17710e5e7fad7f44f17af31b0c55233f158806819f04eb16cfc530f25d5c6fe",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/SaveHandler.class",
+      "bytes": 2578,
+      "sha256": "777515880fcd2c7364c11d746dc08212f9da84c7a604fbec5c2945b12a7fe6a5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/SpecialClanFields.class",
+      "bytes": 1083,
+      "sha256": "975b75efa15f332d501570d992b83cce90fb4786673c976d4d3560b60153e151",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/clans/SpecialClansConfig.class",
+      "bytes": 3656,
+      "sha256": "863b17904472f6dda7779219dbd10915db23bcb70c12180f7a4356089509d139",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/CommandNoDrop.class",
+      "bytes": 3359,
+      "sha256": "7ae64f84c4fa112735945c70bf04d88e18769897433732988ba21b6db4892d84",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/CommandNoDropHelp.class",
+      "bytes": 1509,
+      "sha256": "b0dd470dc5945e497a901839267e5c1c9e50590774a5ac7117684967d9433f3d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/CommandSuicide.class",
+      "bytes": 935,
+      "sha256": "408ad8b147d805c1ea396d61effe83d6116d5d3e9f4e473f6b66108602b71f74",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/DeathTimerCommand.class",
+      "bytes": 2514,
+      "sha256": "bd05b5a3db3315bf3c123ced370cc3c9869ad09a7466992e81c0d6b9706d9a75",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/EjectionCommand.class",
+      "bytes": 2345,
+      "sha256": "bd9ab57d5f55a94597ea0432f19d68c97fb76886c23d86f0c02147b6daf94b30",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/LandrentCommand.class",
+      "bytes": 2189,
+      "sha256": "e0fc957b80922707f8906cc99507138f68b0816bd6b5bb52d3aa41ba49630a30",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/MoneyCommand.class",
+      "bytes": 2154,
+      "sha256": "0b0a937a49e36bd27eed49cc4d97b7c7d803367affa1da8a337276385e2dc1f6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/PacketCommand.class",
+      "bytes": 4746,
+      "sha256": "5c96a1344453bc2a7253e2916e37da1764e9ef8eeda8d7424e6aec2532fffe1f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/ReputationCommand.class",
+      "bytes": 2332,
+      "sha256": "52526bc464e801d419efc6c75d37073c3c645c62a16d1e0c086ff74801ca791a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/command/SyncCommand.class",
+      "bytes": 2189,
+      "sha256": "c6afec0b5872a0cadaa6820a0f34f83abe737f1c77f296b0f4ad8b471ff3f2f0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/CommonProxy.class",
+      "bytes": 5795,
+      "sha256": "4fd29d801783605cc7f2a5f35afbd1a40a0f90cbe90889d78dd8c620efe364a0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/ejection/ServerEjection.class",
+      "bytes": 2870,
+      "sha256": "0d11cf8b16709fd233d2e66eb2b069b2b5af65742745972e4e10950fbc89f306",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/ejection/ServerEjectionManager.class",
+      "bytes": 1936,
+      "sha256": "be5bc7aaa2d3d050862e3e38313771c01e243e93718ed02fe3af4627afc0b7fb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$1.class",
+      "bytes": 2080,
+      "sha256": "17b055e6bdd6d9a9d2cc47c81256bbce809b0eaa19756a1fea40b0f9f6640e19",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$10.class",
+      "bytes": 1316,
+      "sha256": "b63f9230ee30905299f92f09a70841321b9b36419d888c94f9b0e4eb8acee744",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$11.class",
+      "bytes": 1293,
+      "sha256": "18eaaea4b7f2faa6b66382f2df3b5ce899bd74d8ab1947dd1f95b9c32cb5d8e8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$12.class",
+      "bytes": 1313,
+      "sha256": "14f7a3245aa62225ce9bd6db0c3f9f4cf0b401e170725749ebd7413d3f6f4639",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$13.class",
+      "bytes": 1313,
+      "sha256": "902b1f1aa5660a1f16de337654ed028530e943294ff2afef39e392c19becfc5e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$14.class",
+      "bytes": 1314,
+      "sha256": "b58e2f9dfa9b629320270394760fc09b05477d7637de09e64ca3d8c3a80640a1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$15.class",
+      "bytes": 1312,
+      "sha256": "eafa9684286b3709357860d5e94923e6e6e668d359d0c27a031cd5a7dc22edc8",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$16.class",
+      "bytes": 1310,
+      "sha256": "9e97243d13d84b4b0a8d542e625862982c6f8405b768dca27fc76ac5d8bd0c3b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$17.class",
+      "bytes": 1234,
+      "sha256": "83a15ca23f675300caa12e30cba7a257d4ef213f7b2afc601ed5a0d981a16fe9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$18.class",
+      "bytes": 1292,
+      "sha256": "1ee1422a85b0e2d7ba7be52aa4a2548a60cdc4a1d8abe214877acafa5aa664b0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$19.class",
+      "bytes": 1428,
+      "sha256": "a361f84b6e0d9280afec4ec37428876e89e914dccbe7d4e993aa6847fcbad5bf",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$2.class",
+      "bytes": 1589,
+      "sha256": "f405795e52089c47103f1f047b8fa8171c2d0e9ba27a94b1e029e6663c8ee342",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$20.class",
+      "bytes": 1427,
+      "sha256": "76c8a592c30d18e85b63fbf8feccba03ac01a2c094bfab37f1d3c6094cb3c2b4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$21.class",
+      "bytes": 1320,
+      "sha256": "5fefc9f494c5018a6e907dfd5753797dbd2c2656bbd8816832dfe9150209935a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$22.class",
+      "bytes": 1293,
+      "sha256": "df310cada224ba613b5eb25f32eac3221a548d64e02dec425b6a1e2c62011284",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$23.class",
+      "bytes": 1312,
+      "sha256": "0c4690fadc5d7509548af455a69dcc22126076397eea53469c7772269cc99bcb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$24.class",
+      "bytes": 1312,
+      "sha256": "afe244a2a2b36004d8e60138c4ba263adab6d09690518a6ffb97149d0514b17c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$25.class",
+      "bytes": 1390,
+      "sha256": "72b6868e40c35b99d2fbd35d00cb6ce2af92abbb42a75ae1d9af0a1ef8e8a529",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$26.class",
+      "bytes": 1291,
+      "sha256": "13b39eba74afbee5b6eb6f120c4c44db269319280136606a87278afbaa6b3e91",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$27.class",
+      "bytes": 1297,
+      "sha256": "2ae5739a1cf8a6a7d3fef074ebd69f3c788795818b405a980ded083bb1408222",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$28.class",
+      "bytes": 2557,
+      "sha256": "45890b09711dc9a46230a4b88c889b11bfd16a40b7e1b70f112adc43adbcf403",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$29.class",
+      "bytes": 2046,
+      "sha256": "f6fecc276a66de1b8360353be915e403649ce915e6e78c069356c71769528757",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$3.class",
+      "bytes": 1571,
+      "sha256": "c750b43530d31a6bc7629b4aba8f4d9e83040796052a51ac20e979d2a78d7864",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$30.class",
+      "bytes": 1517,
+      "sha256": "9ed382dcb7b4782f947d1cc19683764ef1c1747f1f121bc0bda29fe6083c8e91",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$31.class",
+      "bytes": 2254,
+      "sha256": "25468c5fe529ae9bba6ee44ddbf9f4e1782e0687a172784550e433552203182a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$32.class",
+      "bytes": 1320,
+      "sha256": "1ddd262be77243bce8559970f4bed458ed812928f3025180225b6db8b7b6da32",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$33.class",
+      "bytes": 1697,
+      "sha256": "feb12028e15c53942a11b436f51adfa28aaaed419ef3e8429adc71150e64e1c6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$34.class",
+      "bytes": 1793,
+      "sha256": "a7470cc6cc34470db867c84774f530dc78a87c2a66b072cb0a3cb6ba11b8d3fe",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$35.class",
+      "bytes": 1460,
+      "sha256": "20d7b34ee2cf5770fdfc189cb6b5b06825e6cd050de58296e826ec7abb88b36b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$4.class",
+      "bytes": 1570,
+      "sha256": "3107a16fbfe0a47e08e0b23c1d1f5f18a48a0618c536b18555e037632d57146f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$5.class",
+      "bytes": 1257,
+      "sha256": "1ac86ef3ae2a3b037093defa99814c931d2d1f64edc4a0d29a18365357a2436a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$6.class",
+      "bytes": 1238,
+      "sha256": "c35f78c95b7ea08da8c11772c005a5021973c73ab6b0595457ca7e3f62ec12c4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$7.class",
+      "bytes": 1232,
+      "sha256": "f0c946858fd2cc457e5ddebab08d47997f73f64bd315914af8664a2b03ded9d6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$8.class",
+      "bytes": 1234,
+      "sha256": "114f4f428380dd922edaf47727250f0f2c404b87517b0cdf8b28803d629702bf",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode$9.class",
+      "bytes": 1272,
+      "sha256": "2ee9c368bc9c5ffac70cf03a13fed4dbde2faaebe1e93f9c6866e051c6e36301",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcode.class",
+      "bytes": 8175,
+      "sha256": "9fdd6303000cd56cab89039ccb4989046ced8edd000867020c9bc062804398e0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$1.class",
+      "bytes": 925,
+      "sha256": "d648af612a2e14f08451d5efdf67eddb24e38f3a9b9ba02666c6dc85b66de64f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$10.class",
+      "bytes": 984,
+      "sha256": "79eabeb0643d293e9937b27f4f5da1d1a1af2b462d3f2ca945c669b479cde9c0",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$11.class",
+      "bytes": 984,
+      "sha256": "50a5242794b52e27bba43dfc8d58f8f3711c451d9a97f2ec4bebd578a81716a3",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$12.class",
+      "bytes": 984,
+      "sha256": "4475319e2c04f5dfd6e2dbc278eb7b53c46746b422a06021f94c1fa0f1c5942a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$13.class",
+      "bytes": 984,
+      "sha256": "1bc857eba2c6178a57a418ecb70b0ad46b6e088752eda912f192fed0d7782621",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$14.class",
+      "bytes": 984,
+      "sha256": "912ff77cd0c53e4fd0ead48808c6e08ea5add4d8a4f10125665dca61355417c6",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$15.class",
+      "bytes": 984,
+      "sha256": "e4846d99e69299a84705c9fb2e3adbb35013072f200e0339d705401f1b928f6b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$16.class",
+      "bytes": 984,
+      "sha256": "d2b8bf0f11d5c0016fdf69fddde9b6ca1d1e2f5e9e6c98832a04c7d5807909e5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$17.class",
+      "bytes": 984,
+      "sha256": "261e7e789862d0e84b6e7294a0441ad8c5c191843d10bd5ff441e0006899de33",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$18.class",
+      "bytes": 984,
+      "sha256": "3927032b09db5c0a638902da253d1a49bc37ca9bbce1ced35b72f16709d3acfd",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$19.class",
+      "bytes": 984,
+      "sha256": "06b9095703d16bfd4a77e682ad305a425b337396abbf8d57a2489910be71f633",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$2.class",
+      "bytes": 982,
+      "sha256": "b4400b9c226c0d7d71e7bda2d2b39ba22e2972b68ec3997607185072d9d5450f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$20.class",
+      "bytes": 984,
+      "sha256": "729ff9c7068298c2c5ae71af0c896b33683708180d3beebbeed5f82cab7ac343",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$21.class",
+      "bytes": 984,
+      "sha256": "30b1d678167eff107ccd7571bc7e317188dac8ea9a8cf84fc7561b145b369193",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$22.class",
+      "bytes": 984,
+      "sha256": "95b55a11e87a17570c1731834acc05e5efb09d373aa910d3a95ceec1c232b74b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$23.class",
+      "bytes": 984,
+      "sha256": "a2f183aaf5dee5db54fb43e50ac392191b7fc60f8e54f20aa51632268333130c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$24.class",
+      "bytes": 984,
+      "sha256": "0234f7f9f179729053d23a7f48b7b57cc2c7bd3d52dd2f0db4375233a645ed50",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$25.class",
+      "bytes": 984,
+      "sha256": "ffcf78bb4fb64863b2c36819da109d5c60f8c94726985b0eceb9618d40c2319b",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$26.class",
+      "bytes": 984,
+      "sha256": "29ed0b7d47104beb5973041f68dc4f62b913d7ec1f91150e8dfd84eec7687b30",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$27.class",
+      "bytes": 984,
+      "sha256": "7eb1a8832188896368bb85b939b50c53182753d4faf065241d033107ac9d4ba5",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$28.class",
+      "bytes": 984,
+      "sha256": "dae350d4a28bf8d5c0c7fe9fc36c957884195ec48fa40bf1b35b8a2d9f777179",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$29.class",
+      "bytes": 984,
+      "sha256": "cf2b34374a797c6ecbaf02cef7f48789055ac9785d6fc4833816f8411baae544",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$3.class",
+      "bytes": 982,
+      "sha256": "d0bceaaf4831ad842f0a857cc4a4db6659ea80850da109e3af6d200f9bbd8d64",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$30.class",
+      "bytes": 984,
+      "sha256": "1578ae72dc683783b27d16a7cef5e30f578f8dfea3d05a57ede3af70f94fc28a",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$31.class",
+      "bytes": 984,
+      "sha256": "019457bdea2b2dc42aae9e45715a0163cd1b3ff38a2c6c58330de21b8cb88305",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$32.class",
+      "bytes": 984,
+      "sha256": "04dbf4eaad887c9109ab35fe92a8c317d10d67fbf59fe4c159ab7c37ff3b041d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$33.class",
+      "bytes": 984,
+      "sha256": "4b6f80b26585a98d599ab8379337a500f1c51fd8081ad0197c49629c3348e565",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$34.class",
+      "bytes": 984,
+      "sha256": "c4f17799b8449a124d15dea7567d560fa4f05799f8b2fad2931aeabd8904decc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$35.class",
+      "bytes": 984,
+      "sha256": "e9e62dc73cb549e0697c280ae57688f559a13c38782fbcfc60df6109c7d47403",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$36.class",
+      "bytes": 984,
+      "sha256": "1894b8fa8207d6c90699b41ff7d369dcc1ce388a257ef9f0ee5b4b6e7e8e5158",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$37.class",
+      "bytes": 984,
+      "sha256": "94a61599d164e30813441442ed072698dd07f0d736b4c479acbc515ffce620d2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$38.class",
+      "bytes": 984,
+      "sha256": "3fdf9992c0b62614f64119494cb904c971b72a2ef0983b5723e2f48da735fc75",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$39.class",
+      "bytes": 984,
+      "sha256": "d53b4dba7d46ab090c087ef4df3b71c2c4c9c18b02b266e9975210e627ac1f49",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$4.class",
+      "bytes": 982,
+      "sha256": "6ce6d935ea6c1ae67b07a0e317584a8cbadc2ee3c7e0452f7b70ad531d321325",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$40.class",
+      "bytes": 984,
+      "sha256": "5e2d920c979aa9ace25b2db5e4e404f14e042dac86de586ef12b447e09a259cc",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$5.class",
+      "bytes": 982,
+      "sha256": "5a0ce600d0db2fae343e8bb15fb4e1a902764661ad448b42123cd08c41132567",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$6.class",
+      "bytes": 982,
+      "sha256": "63935b021af9ebbcfc7daac7dd59a6ca2e489b919fc0b3aed18d5fb303d6e008",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$7.class",
+      "bytes": 982,
+      "sha256": "76cb4cf459d931cb6291af5ac45792c6a35a7213628647f1e5d24cf1bc416398",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$8.class",
+      "bytes": 982,
+      "sha256": "42d597ff8aff8679112a1eb89cab4d6d528e8755cdfb88a5e149e9318f6db598",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes$9.class",
+      "bytes": 982,
+      "sha256": "01ce954eb2a201a35f44290326f1cd9f6be61fae268855b3d7e395e50026a2eb",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ClientOpcodes.class",
+      "bytes": 8530,
+      "sha256": "741996c403b15e1b53b0e378a04a2070368cde875e54f0a0f1e142adf925ce6c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/network/ServerPacketSender.class",
+      "bytes": 20740,
+      "sha256": "0fe281b80d34327b8fee1ea0adfa43e9379bd233d764b6b5c0bef533aa632224",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/player/PlayerSavedDrop.class",
+      "bytes": 4347,
+      "sha256": "9daca1b5da0ae411eb25b1fd550b85fefea70e0031ab8814cc571e073b053f3c",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/player/PlayerServerInfo.class",
+      "bytes": 20038,
+      "sha256": "d39899abcc3c139193034e8e4842a2dc697d081347f46b3f04ba97cd5f68a039",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/player/PlayerTracker.class",
+      "bytes": 2924,
+      "sha256": "ce0ba47c81893e027ada05d41b0ac341adc5338793f051a2ab5d157d105abf64",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/ServerContamination.class",
+      "bytes": 3984,
+      "sha256": "2636b2f613b3c13783f1808ffb795f0911718b88590ed9a6b35dea3b100b647e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/ServerEvents.class",
+      "bytes": 10366,
+      "sha256": "8b7b00a69caa171a98086106e40e526e61dc8eb71b651622260437575e15afff",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/ServerTicker.class",
+      "bytes": 3925,
+      "sha256": "93d20f1a207ae7747bb408b57464f78555fde2125f42907e80f7b33b0a65962f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/WeaponServerInfo.class",
+      "bytes": 5004,
+      "sha256": "ba7425954e76a1ae0dd389bc68881c08e43d406759c599d5e0aa7abaa532689e",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/server/WeightMap.class",
+      "bytes": 2584,
+      "sha256": "eaff53dbe72525e50bd34fe13c6bf43722528eb22e09c7d73731b512f311576d",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/SmartMovingHelper.class",
+      "bytes": 2571,
+      "sha256": "03830813a4673e4c63ea1765a233d2ac3d520676b298c0c580d459453e4cc4ff",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/StalkerDamage.class",
+      "bytes": 2369,
+      "sha256": "bc54dcfd10c7c0996e3f04b29af4a88205e9bd09ca695650a3e7e2986afb3dae",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/StalkerMain.class",
+      "bytes": 20166,
+      "sha256": "3b96d70f0c111a03ab0afc98302ad54c228985cdbad9a794a1bf19b703f933d7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/Target.class",
+      "bytes": 595,
+      "sha256": "ca1c501792fa15b796488a24859c29f6ddb9a9d2cecf8dd9c234e3bf70e1dd5f",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/IParticleEmmiter.class",
+      "bytes": 228,
+      "sha256": "a5b09cfcd694077f43cd8177617944e068b2f15841b8666070761f161ad442a4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/IPlayerQuitListener.class",
+      "bytes": 174,
+      "sha256": "15ec9d276ef92189362c861cf51fec1ed7f72d3cebde48c0e2e551f943ff2245",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityAnomaly.class",
+      "bytes": 3684,
+      "sha256": "313025d055490f585937a70618a45b74be6724a9d4c37472f3654bc993711e01",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityCarousel.class",
+      "bytes": 4458,
+      "sha256": "ab98377c4dd9c7e6b032dd70c69496b0edc738444c25635b3837147ab3ec2693",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityCoach.class",
+      "bytes": 3582,
+      "sha256": "3e9b08d984935547bebb72ab629485c919a367105f3d659f27f6687c06a4e7f7",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityEjectionSave.class",
+      "bytes": 1578,
+      "sha256": "68de348195c32a07c4dd959c1a29267093b727d23a58d41615514e8e2b1e1513",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityElectra.class",
+      "bytes": 911,
+      "sha256": "7f8f4a2d3cbf221b9710af30eee7103ce27f1182990dfbdf771cda362ece16c2",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityExtendedAnomaly.class",
+      "bytes": 1638,
+      "sha256": "099c953657b785fdd5cfddd3197190c724ca8f4280d1c4718fd23425317a8cd1",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityFlag.class",
+      "bytes": 873,
+      "sha256": "23505fe223a2eb6515b5f141d7691d11a82e191eadb6b213e43e72154b16b937",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityFunnel.class",
+      "bytes": 6641,
+      "sha256": "8b5009c44254ec35011fd0ac08d879023940214bc516fb466c576dce37ca3446",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityKissel.class",
+      "bytes": 492,
+      "sha256": "f6fec4e7e882ed64357067dd0826607a47365711df98edad7959e980c0ada914",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityLighter.class",
+      "bytes": 3750,
+      "sha256": "f558b585d6d0f7098c1b33e07444cb5d1a2bd2cea09d2ab6793d9b29457226d9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityMachineGun.class",
+      "bytes": 6456,
+      "sha256": "ecfec52d8adb405b45349abb64a89c28ddbb5e58d7c04cd831945107862d0769",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntitySteam.class",
+      "bytes": 488,
+      "sha256": "fe8bf5f71083edd1d2891e433bf44109d40e55d0b279699aa30a87069397bdc4",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/tile/TileEntityTrampoline.class",
+      "bytes": 827,
+      "sha256": "efa1ab24c68f75b2c0c089535eb3059fb14b9cb3aadde71d486c49711b27c589",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/Util.class",
+      "bytes": 900,
+      "sha256": "6073ff99f29cf1b2230910f5a592b68f1d2b871780948cbaa458ed3f1af19ca9",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/WarningType.class",
+      "bytes": 1276,
+      "sha256": "46b071081d27c4463f594ac4b933ea4029e0d31866948ee0599319a0bc0e8b70",
+      "stalcraft": true
+    },
+    {
+      "path": "ru/stalcraft/WeaponInfo.class",
+      "bytes": 2047,
+      "sha256": "e48750f2078d49d8353663c47487474ca758e24ab52363433ae7f405b437413a",
+      "stalcraft": true
+    },
+    {
+      "path": "rx.class",
+      "bytes": 6765,
+      "sha256": "3e9383be23c89b49b2e651da71929c1ef9e2732b9854470cb070a93655bfbcf9",
+      "stalcraft": false
+    },
+    {
+      "path": "ry.class",
+      "bytes": 4652,
+      "sha256": "87fedf86e5c0d488c46271076613d6ee738b5892d72fc8579f0a0f0abef1f368",
+      "stalcraft": false
+    },
+    {
+      "path": "rz.class",
+      "bytes": 7520,
+      "sha256": "18d2f451a765c0e3f95889dff20fec6f6f1a129cb3ed9e4dd5345151958611cc",
+      "stalcraft": false
+    },
+    {
+      "path": "sb.class",
+      "bytes": 2920,
+      "sha256": "ea8784dc7a409b6f7722b386339fba18c59a2b4a0ce9c83e6905ebdff3824026",
+      "stalcraft": false
+    },
+    {
+      "path": "sc.class",
+      "bytes": 3536,
+      "sha256": "c574c3a3cc23f1296ba9f17aeed906342be7ee5a7536111dd7f58e0ea70f03f1",
+      "stalcraft": false
+    },
+    {
+      "path": "sd.class",
+      "bytes": 6437,
+      "sha256": "222ddd5f5d30d9d6678e2a50f1285964cbbc3dba3487ddf7c07232373ac8caf1",
+      "stalcraft": false
+    },
+    {
+      "path": "sf.class",
+      "bytes": 10080,
+      "sha256": "75f4b7422ed4c78e8fdfdd999699a9ce9e7d0c2a1b2abb3a0cc052441cd6966b",
+      "stalcraft": false
+    },
+    {
+      "path": "sk.class",
+      "bytes": 13165,
+      "sha256": "6deff7c2e32d96a8ba7ba1510e7f6ec03e16b6cfee62e29139152e8dd3b2d0b7",
+      "stalcraft": false
+    },
+    {
+      "path": "sm.class",
+      "bytes": 11364,
+      "sha256": "3764e1122aa84107c4a61a0fc411a68bf8b13ce8a2e8dfb00559b99181524520",
+      "stalcraft": false
+    },
+    {
+      "path": "sq.class",
+      "bytes": 9055,
+      "sha256": "8e66d5fec5ee0994eecf0098dfc336191d18d248f718457c4e0da06e159accab",
+      "stalcraft": false
+    },
+    {
+      "path": "ss.class",
+      "bytes": 8314,
+      "sha256": "91844dcffcc0505beb4bc106dee1cf64214e4f7d333105f4e04588b6c3b605d5",
+      "stalcraft": false
+    },
+    {
+      "path": "st.class",
+      "bytes": 21348,
+      "sha256": "bf249769aab341053fcdef39a58868115f1b33dda4c28e6f51660b3603049ee4",
+      "stalcraft": false
+    },
+    {
+      "path": "sx.class",
+      "bytes": 3481,
+      "sha256": "c0f1d1c39522d5d263987bacc629c4e2911d9a11d3d4499e93daee5b7bc58794",
+      "stalcraft": false
+    },
+    {
+      "path": "tc.class",
+      "bytes": 2489,
+      "sha256": "417aec67ffcb8665a515b9765fae1368f19c819b707e936e7cea2fd87896b917",
+      "stalcraft": false
+    },
+    {
+      "path": "td.class",
+      "bytes": 4379,
+      "sha256": "33862426c3827a57f6b2234ca230765bae080109aaa4f77b673b069b36c8c851",
+      "stalcraft": false
+    },
+    {
+      "path": "tf.class",
+      "bytes": 4583,
+      "sha256": "8ae421baf92ab1e9209b33dcf1a03cfb8f14c119cdc3ce383c7c232bc913d3bd",
+      "stalcraft": false
+    },
+    {
+      "path": "tj.class",
+      "bytes": 5724,
+      "sha256": "7846e783dc75b480315f830eee056906520459d17a1052c6e8fe5640480f10a7",
+      "stalcraft": false
+    },
+    {
+      "path": "tm.class",
+      "bytes": 3268,
+      "sha256": "016f043020a882a71a95adfb1e4aea63149560456ec0e2a78977965d42cacb8c",
+      "stalcraft": false
+    },
+    {
+      "path": "tp.class",
+      "bytes": 4277,
+      "sha256": "53e1fa445b367b8e0171f0842c38e6b55997ce68e2b4b13031ed9b88d8909b69",
+      "stalcraft": false
+    },
+    {
+      "path": "tr.class",
+      "bytes": 7459,
+      "sha256": "9e9366f38d723ee3ad68e2a3930771afcfa9e2ff9a782ad09d6dd90ae11ea2d6",
+      "stalcraft": false
+    },
+    {
+      "path": "ts.class",
+      "bytes": 6088,
+      "sha256": "944d2d4bc836e9b5e3a05cb6178fc92c015f581b14fdcb491e0ae6d6c9486fd4",
+      "stalcraft": false
+    },
+    {
+      "path": "tt.class",
+      "bytes": 4213,
+      "sha256": "ea8833c7b6f86020c52c22e4981902ed22a1cb4442e58e12172eccda956e8e3b",
+      "stalcraft": false
+    },
+    {
+      "path": "tv.class",
+      "bytes": 6057,
+      "sha256": "641edfade9248157eddce51215fe0dcee0d9c36fffad9456c92d1e8367ae8fd1",
+      "stalcraft": false
+    },
+    {
+      "path": "tw.class",
+      "bytes": 12430,
+      "sha256": "078988419b022d3bbc31a3b41f7ee1d87ad02e19bcf438d50a07581e01e07294",
+      "stalcraft": false
+    },
+    {
+      "path": "ub.class",
+      "bytes": 17386,
+      "sha256": "58559b65d9efaba2cb150602a1e8b3395680781372d7ce35a3e07d480cec5cdb",
+      "stalcraft": false
+    },
+    {
+      "path": "uf.class",
+      "bytes": 38284,
+      "sha256": "145b2c6e50475aaf21ba78812f3194776305f20aebfde01d4c326e2c8c6f6572",
+      "stalcraft": false
+    },
+    {
+      "path": "ug.class",
+      "bytes": 1100,
+      "sha256": "db54aa2e7969539cfa70f3a04fe488384e8f3ed6862cd99bc3ea4db7761b4bdb",
+      "stalcraft": false
+    },
+    {
+      "path": "uh.class",
+      "bytes": 11317,
+      "sha256": "809fa66b293498878485b7337f3d4a1c52b8b975f59a4248523959a1c25bd697",
+      "stalcraft": false
+    },
+    {
+      "path": "ui.class",
+      "bytes": 4248,
+      "sha256": "b0c434e804d261c3df9857a02c028ed62a7a7951e6aaa3342aff8d4c97fc1a71",
+      "stalcraft": false
+    },
+    {
+      "path": "uj.class",
+      "bytes": 6737,
+      "sha256": "202c6d969e9a4d85270402826edaac46a109402bba112beae21c4242cca83f6c",
+      "stalcraft": false
+    },
+    {
+      "path": "uk.class",
+      "bytes": 4352,
+      "sha256": "bda13c26987ac9c9d3495108a58141ee038983b8f730c6e503c6e91595af3099",
+      "stalcraft": false
+    },
+    {
+      "path": "ul.class",
+      "bytes": 9738,
+      "sha256": "7e55cb3829786904a7b329b2157ce1c88c70c70d4d1fea862d7523ec9ae53d28",
+      "stalcraft": false
+    },
+    {
+      "path": "uq.class",
+      "bytes": 7136,
+      "sha256": "feca6b3a9927d3c19acc9800729ac32269268194e20b0b37c97de499be207003",
+      "stalcraft": false
+    },
+    {
+      "path": "uu.class",
+      "bytes": 3959,
+      "sha256": "e338c2082f86781493caa1b8995f6020d483b791277d0bed8ad755fad8499d39",
+      "stalcraft": false
+    },
+    {
+      "path": "uy.class",
+      "bytes": 11285,
+      "sha256": "f3ad48364b4ee19e45733e91da91afa490263f1d10d83c911bb3d10b2ccc3619",
+      "stalcraft": false
+    },
+    {
+      "path": "v.class",
+      "bytes": 1922,
+      "sha256": "21c8ffd13b524315722c06d4ce1bd6a167d1055dda4216ec96f30173a29b899d",
+      "stalcraft": false
+    },
+    {
+      "path": "wi.class",
+      "bytes": 1521,
+      "sha256": "2fd16f3ebb232528c8720513a7d8fe493001a7af7cf3bd73fc2603b128fb776d",
+      "stalcraft": false
+    },
+    {
+      "path": "wj$1.class",
+      "bytes": 668,
+      "sha256": "aa3c891360e47f83d7bddb0ec5f37e74cd5597a542da6e2aa2fe6aab0c3df687",
+      "stalcraft": false
+    },
+    {
+      "path": "wj.class",
+      "bytes": 2073,
+      "sha256": "317293c82688dbdf1b1a5e87342f72c76666d902ff1c05e35dd4680f8261d11c",
+      "stalcraft": false
+    },
+    {
+      "path": "wm.class",
+      "bytes": 2936,
+      "sha256": "b100e8f3d8a89d31cba988b506b714cf08b485da4f466891bed9a4791e6518bb",
+      "stalcraft": false
+    },
+    {
+      "path": "ww.class",
+      "bytes": 5702,
+      "sha256": "033d1bc42b9ff41325f637fe330c37e3b226ab26e79a60731dd25375ea4bc9c5",
+      "stalcraft": false
+    },
+    {
+      "path": "x.class",
+      "bytes": 1141,
+      "sha256": "e8820ba663d4e208647a996a213ef383c296e51c942f61cc1d9ba85495d36229",
+      "stalcraft": false
+    },
+    {
+      "path": "xz.class",
+      "bytes": 1384,
+      "sha256": "fd038f62b33664c27bcc1e60676a9b187a6b0a88b4d0eda218355f5cd229dced",
+      "stalcraft": false
+    },
+    {
+      "path": "yc.class",
+      "bytes": 32042,
+      "sha256": "9b2914ce52e3cc27dae392932d54217a97bd9f287a9fe2ec3f774bcbe74654d2",
+      "stalcraft": false
+    },
+    {
+      "path": "yd$1.class",
+      "bytes": 666,
+      "sha256": "b8ccc4a93f55045865a756857f9e4ac44d71caba9e3de2988a8b3a9a7001ddc2",
+      "stalcraft": false
+    },
+    {
+      "path": "yd.class",
+      "bytes": 2216,
+      "sha256": "868251c66dd7e248e4215db28f12b0aa1b8d8c6ec4ccbe6958b0a92cea2f5d03",
+      "stalcraft": false
+    },
+    {
+      "path": "ye.class",
+      "bytes": 15901,
+      "sha256": "e6c4e9f1b461468dad6a9c6397608e29b7116960dda5fb368ec68a51ae8f35d6",
+      "stalcraft": false
+    },
+    {
+      "path": "yg.class",
+      "bytes": 1854,
+      "sha256": "28d2e1d0dbd27e2f3fdac63a4d2190fd1a518e8fb8f68eec4bf1bbe5f0b68589",
+      "stalcraft": false
+    },
+    {
+      "path": "yh.class",
+      "bytes": 6631,
+      "sha256": "33047da476987bd53ccffd3b2bd1200cb1edf741fb9be567a560872cf8afe188",
+      "stalcraft": false
+    },
+    {
+      "path": "yp.class",
+      "bytes": 10092,
+      "sha256": "5b9a6ba5a0eb15c720e13da5e2dc3ec5b876bd3d0b722aba448804280343bf30",
+      "stalcraft": false
+    },
+    {
+      "path": "yq.class",
+      "bytes": 1195,
+      "sha256": "6c1fce42263918eb7745da49d110b8b94a376cbb75bb4e98d85dfd2d7f8bd163",
+      "stalcraft": false
+    },
+    {
+      "path": "yx.class",
+      "bytes": 3567,
+      "sha256": "9ec62c755538e47c370c8fd839cf9eb89a350ba56ee110fdbac1bde6c34aafcc",
+      "stalcraft": false
+    },
+    {
+      "path": "z.class",
+      "bytes": 8274,
+      "sha256": "410fb36605616a1add54a2564b7fcf2a7fcdb855ec9998a507555bd1945602da",
+      "stalcraft": false
+    },
+    {
+      "path": "zh.class",
+      "bytes": 4096,
+      "sha256": "5ffe73fb6add886146bbca5808f47711ac103a578677e5082ac8a4431e524800",
+      "stalcraft": false
+    },
+    {
+      "path": "zj.class",
+      "bytes": 1000,
+      "sha256": "5d2b2a85a2a2bbf7d09a4d2eaf75ce9bbd4f9db4d1be8e07194d182573a0ba7b",
+      "stalcraft": false
+    },
+    {
+      "path": "zo.class",
+      "bytes": 2337,
+      "sha256": "03e73230b618c6ca2c1ad0a2a2c0929c785c3aa11258136bb23f974556f440d1",
+      "stalcraft": false
+    }
+  ]
+}
