@@ -130,13 +130,9 @@ saves=GAME/'saves';saves.mkdir(exist_ok=True)
 world=saves/'TheZone-test'
 if not world.exists(): shutil.copytree(ORIGINAL/'Карта'/'TheZone-45!',world)
 fixed=[]
-for path in world.rglob('*'):
-    if path.is_file() and path.suffix=='.mса':
-        target=path.with_suffix('.mca').resolve()
-        if not target.is_relative_to(world.resolve()): raise ValueError('Region target escapes copied world')
-        if target.exists(): raise FileExistsError(target)
-        path.rename(target);fixed.append(str(target.relative_to(world)))
-print('Copied world; repaired',len(fixed),'Cyrillic region extensions in the copy',flush=True)
+# StalkerTransformer deliberately uses Cyrillic .mса, and MethodsHelper
+# migrates vanilla .mca lazily. Preserve both original spellings.
+print('Copied world; preserved original region filenames',flush=True)
 packs=GAME/'resourcepacks';packs.mkdir(exist_ok=True)
 pack=packs/'STALCRAFT-original'
 if not pack.exists(): shutil.copytree(ORIGINAL/'Текстурпак'/'S.T.A.L.C.R.A.F.T',pack)
