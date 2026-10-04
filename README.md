@@ -4,17 +4,14 @@ Research and reconstruction of old STALCRAFT clients. This repository records re
 
 It is an independent research project. The recovered code is decompiler output, not the original developer source tree. Neither build has a complete source rebuild yet.
 
-## What's the point of this project RU/EN
-
-Я играл в эту игру с 10 лет, с ней связано гигантское количество воспоминаний, при этом в интернете нет проектов, возвращающих именно тот игровой опыт, который я помню. Я активно играл в 2016-2019 годах, игра постоянно улучшалась в лучшую сторону технически, но где-то по пути абсолютно растеряла все то, что меня в ней привлекало. Поэтому считаю своим обязательством попытку восстановления, некая дань уважения игре и ее сообществу. Не знаю насколько этот проект имеет смысл, но зато это весело.
-
-I've been playing this game since I was 10 and I have tons of great memories with it, but there's not a single community project that can give me the same experience I have such a clear memory of. I was actively playing in 2016-2019, the game was constantly evolving and getting better but it lost its soul and the very thing making it so valuable to me somewhere along the way. So I consider this restoration attempt my obligation and a tribute to the game and its community. I have no idea if this project makes sense but at least it's pretty fun.
+## What's the point of this project
+У меня ноль опыта работы с модификациями майнкрафт и самим stalcraft, но в процессе поиска билдов оказалось, что довольно много людей занимается работой со старыми сборками/клиентами, но их наработки выглядят не очень. Я попробую сделать что-нибудь интересное.
 
 ## Builds
 
 | Build | Dating and provenance | Current state |
 | --- | --- | --- |
-| [client212](builds/client212/) | **Личная оценка / personal assessment:** очень тяжело сказать, какого года эта сборка; по моим воспоминаниям, она выглядит старше версии, в которую я начал играть в 2016. Отсутствуют почти все знакомые мне локации, поэтому это может быть неполный билд. **Build and map dates are unknown.** Identified by `stalker_client212.jar`; the downloaded package name does not establish authorship or official origin. | 748 Java source files recovered. Local launch of the original client confirmed; full source rebuild pending. |
+| [client212](builds/client212/) | **Личная оценка / personal assessment:** очень тяжело сказать, какого года эта сборка, точно до 2016. **Build and map dates are unknown.** Identified by `stalker_client212.jar`; the downloaded package name does not establish authorship or official origin. | 748 Java source files recovered. Local launch of the original client confirmed; full source rebuild pending. |
 | [pre-2017](builds/pre-2017/) | Предзагрузка файлов ОФТ, опубликованная в официальной ВК группе STALCRAFT **3 ноября 2017 года**. OFT preload package published in the official STALCRAFT VK community on **3 November 2017**: [source post](https://vk.ru/wall-2677092_317761). Files carry timestamps from 29 October 2017; these are separate from the post publication date. | Protected class format and opcode mapping recovered. 10,047 Java source files produced. Full source rebuild and gameplay launch pending. |
 
 ### A note on client212 dating
