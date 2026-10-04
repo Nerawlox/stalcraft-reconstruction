@@ -2,6 +2,8 @@
 
 This is a separate working layer. The original CFR snapshot in `../decompiled-standard` remains unchanged. The named source tree is an analysis baseline, not a complete rebuild or a runnable client.
 
+The newer [static startup preparation](startup/README.md) restores 2,110 original resource entries alongside all 15,069 recovered application/dependency classes in a separate local classpath. It documents loader and native blockers; no game or Java verification has been performed.
+
 ## Current name recovery
 
 - 474 custom class names mapped to Minecraft SRG identities, plus 161 classes already carrying their SRG names.

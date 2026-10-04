@@ -32,6 +32,16 @@ The first CFR pass exhausted its 512 MiB heap after 2,326 files; its failure rep
 
 See [reconstruction/README.md](../builds/pre-2017/reconstruction/README.md). Mod-specific names, unresolved Minecraft classes, reflective/ASM string targets, dependencies, and a full source build still need work.
 
+## Static startup preparation — 4 October 2026
+
+The recovered normalized JARs were confirmed to contain only classes and no resources. An isolated, non-executed classpath now combines byte-identical copies of all 15,069 application/dependency classes with resource-only companion archives: 2,047 entries from the original main JAR and 63 from its libraries. All 2,110 resource hashes match the originals, including required Forge version/configuration files. Original names are retained for this startup layer; readable named bytecode remains separate.
+
+A static audit against 23,931 ordinary Java 8 runtime classes found 81 unresolved type names, many associated with optional/platform/server code. It distinguished 198 absent bootstrap member signatures from references in 70 application classes shadowed by the runtime; only two candidates have unshadowed callers, both in an old cryptography-provider helper. None of these counts is a demonstrated runtime failure. Four static regression tests passed.
+
+Recovered Code arrays confirm that LaunchClassLoader's addURL and registerTransformer bodies are no-ops and its resolving loadClass overload throws. Some startup and mod-list hooks are already integrated, so a stock transforming loader cannot be substituted without checking duplicate transformations. Protection's native tfb initialization remains another conditional blocker: no separately named provider was found in the package. No game/native Java execution, full compilation, or source snapshot modification occurred.
+
+See [startup preparation](../builds/pre-2017/reconstruction/startup/README.md) for scripts, hash manifests, bytecode evidence, and limits.
+
 ## Remaining work
 
 ### Source-date clarification
