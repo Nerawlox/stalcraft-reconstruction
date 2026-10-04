@@ -70,3 +70,4 @@ Existing Git commits preserve the earlier client212 work. Previously completed p
 Original client archives, executable binaries, runtime environments, memory dumps, downloaded tools, and complete worlds are kept outside Git. Their relevant hashes and analysis results are preserved in text reports. Some historical reports are in Russian and contain local file paths or links to artifacts that are not included here.
 
 This repository does not establish official authorship, a complete server implementation, or a working offline version of the 2017 client. Recovered third-party code retains its original ownership; no blanket license is applied to the recovered code.
+добавил кейсы
